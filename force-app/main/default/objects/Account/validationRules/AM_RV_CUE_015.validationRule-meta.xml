@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_CUE_015</fullName>
+    <active>false</active>
+    <description>Por favor diligencie la informacion de su conyugue</description>
+    <errorConditionFormula>AND
+(
+	
+            TEXT( AM_Estado_civil__pc) = &quot;Casado&quot;,
+OR (
+
+
+	ISBLANK (  AM_Primer_Nombre_Conyuge__pc  ),
+	ISBLANK(  AM_Primer_Apellido_Conyuge__pc ) ,
+        ISBLANK  ( AM_Segundo_Apellido_Conyuge__pc ),
+	ISBLANK ( TEXT ( AM_Ocupacion_Conyuge__pc  )),
+        ISBLANK ( TEXT( AM_En_cual_actividad_clasifica_Conyuge__pc )),
+        ISBLANK (  AM_Movil_Conyuge__pc ),
+        ISBLANK (  TEXT (AM_Posee_vehiculo_actualmente_Conyuge__pc ))
+
+))</errorConditionFormula>
+    <errorDisplayField>AM_Estado_civil__pc</errorDisplayField>
+    <errorMessage>Por favor diligencie la informacion de su conyugue</errorMessage>
+</ValidationRule>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_008</fullName>
+    <active>true</active>
+    <description>La cotización en estado PU no puede ser modificada.
+AM_RV_COT_008</description>
+    <errorConditionFormula>AND 
+(   $User.AO_BypassApex__c = false, 
+	RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,	
+        NOT(BEGINS($Profile.Name, &quot;Analistas&quot;)), 
+        NOT(BEGINS($Profile.Name, &quot;Administrador de mercadeo&quot;)),
+       
+	NOT(ISCHANGED(RM_By_Pass_PU_Validatio_Rule__c )),
+     
+	
+		AND 
+		( 
+			ISCHANGED(AM_Etapa__c),
+                        TEXT(PRIORVALUE(AM_Etapa__c)) = &quot;PU&quot; 
+		
+	) 
+)</errorConditionFormula>
+    <errorMessage>La cotización en estado PU no puede ser modificada.
+AM_RV_COT_008</errorMessage>
+</ValidationRule>

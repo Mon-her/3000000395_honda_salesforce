@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Red__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Red</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fanalca</fullName>
+                <default>false</default>
+                <label>Fanalca</label>
+            </value>
+            <value>
+                <fullName>Distribuidor</fullName>
+                <default>false</default>
+                <label>Distribuidor</label>
+            </value>
+            <value>
+                <fullName>Renting Total</fullName>
+                <default>false</default>
+                <label>Renting Total</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

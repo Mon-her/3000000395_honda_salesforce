@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Max number of following task allowed .</description>
+    <label>AO_FollowingTask</label>
+    <pluralLabel>AO_FollowingTasks</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

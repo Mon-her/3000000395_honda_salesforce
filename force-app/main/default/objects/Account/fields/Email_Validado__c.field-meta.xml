@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Validado__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Usado para indicar que el email fue validado por el web service</description>
+    <externalId>false</externalId>
+    <label>Email Validado</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Autos_Campanas</fullName>
+    <active>true</active>
+    <label>Autos Campañas</label>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Aplazada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Progreso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planificada</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Suspendida %28inactiva%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Campaña Propuesta de Valor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaña Transaccional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaña de Fidelización</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaña de Gerenciamiento de Clientes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaña de Posventa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaña de Producto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaña de Relacionamiento</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

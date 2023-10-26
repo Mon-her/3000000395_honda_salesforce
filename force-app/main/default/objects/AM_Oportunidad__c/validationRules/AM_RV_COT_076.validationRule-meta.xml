@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_076</fullName>
+    <active>true</active>
+    <description>Longitud del campo VIN cuando la cotización es Nuevo o Usado, la longitud es de 6 caracteres máximo, cuando es de tipo renting  la longitud puede ser hasta 60 caracteres</description>
+    <errorConditionFormula>AND( $User.AO_BypassApex__c = false, 
+  TEXT (AM_Tipo_de_cotizacion__c)   &lt;&gt; &quot;Renting&quot;,
+AND(
+  LEN( AM_Vin__c ) &gt; 6
+))</errorConditionFormula>
+    <errorDisplayField>AM_Vin__c</errorDisplayField>
+    <errorMessage>Longitud del campo VIN cuando la cotización es Nuevo o Usado, la longitud es de 6 caracteres máximo, cuando es de tipo renting  la longitud puede ser hasta 60 caracteres
+AM_RV_COT_076</errorMessage>
+</ValidationRule>

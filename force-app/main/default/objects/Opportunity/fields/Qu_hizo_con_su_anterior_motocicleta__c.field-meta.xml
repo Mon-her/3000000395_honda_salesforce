@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qu_hizo_con_su_anterior_motocicleta__c</fullName>
+    <externalId>false</externalId>
+    <label>¿Qué hizo con su anterior motocicleta?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Tipo_de_cliente__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Vendida/Regalada</fullName>
+                <default>false</default>
+                <label>Vendida/Regalada</label>
+            </value>
+            <value>
+                <fullName>La conserva y la utiliza</fullName>
+                <default>false</default>
+                <label>La conserva y la utiliza</label>
+            </value>
+            <value>
+                <fullName>La conserva y NO la utiliza</fullName>
+                <default>false</default>
+                <label>La conserva y NO la utiliza</label>
+            </value>
+            <value>
+                <fullName>Ninguna</fullName>
+                <default>false</default>
+                <label>Ninguna</label>
+            </value>
+            <value>
+                <fullName>La tiene un familiar</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>La tiene un familiar</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Cliente Honda</controllingFieldValue>
+            <controllingFieldValue>Cliente Otra Marca</controllingFieldValue>
+            <valueName>Vendida/Regalada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente Honda</controllingFieldValue>
+            <controllingFieldValue>Cliente Otra Marca</controllingFieldValue>
+            <valueName>La conserva y la utiliza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente Honda</controllingFieldValue>
+            <controllingFieldValue>Cliente Otra Marca</controllingFieldValue>
+            <valueName>Ninguna</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

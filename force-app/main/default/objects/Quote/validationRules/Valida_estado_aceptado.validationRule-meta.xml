@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_estado_aceptado</fullName>
+    <active>true</active>
+    <description>No se debe sincronizar una cotización que no ha sido aceptada.</description>
+    <errorConditionFormula>AND(TEXT( Status )&lt;&gt;&quot;Cotización aceptada&quot;, CONTAINS(RecordType.Name, &quot;Motos&quot;),  IsSyncing = TRUE, $User.LastName&lt;&gt;&quot;Integraciones&quot; )</errorConditionFormula>
+    <errorMessage>No se debe sincronizar una cotización que no ha sido aceptada.</errorMessage>
+</ValidationRule>

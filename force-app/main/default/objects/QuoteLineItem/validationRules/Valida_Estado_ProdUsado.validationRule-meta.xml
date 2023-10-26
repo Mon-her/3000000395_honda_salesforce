@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Estado_ProdUsado</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISNULL( Product2.Inventario_de_Usados__c )),TEXT(Product2.Inventario_de_Usados__r.Estado_Del_Vehiculo__c)&lt;&gt;&quot;DISPONIBLE&quot;, TEXT(Product2.Inventario_de_Usados__r.Estado_Del_Vehiculo__c)&lt;&gt;&quot;PENDIENTE POR INGRESAR&quot;, Quote.Opportunity.RecordType.Name =&quot;Oportunidad Autos&quot;, TEXT( Quote.Opportunity.Tipo_de_Oportunidad__c )=&quot;Usados&quot;)</errorConditionFormula>
+    <errorMessage>El producto usado que intenta ingresar no se encuentra disponible favor verifique y vuelva a intentar.</errorMessage>
+</ValidationRule>

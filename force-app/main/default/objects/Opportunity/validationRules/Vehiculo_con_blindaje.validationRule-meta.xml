@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehiculo_con_blindaje</fullName>
+    <active>true</active>
+    <description>Vehiculos con blindaje, al seleccionar SI, los campos Blindadora y Tipo de blindaje deben registrarse.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( Vehiculo_con_blindaje__c , &quot;SI&quot;) ,
+
+OR(
+ISBLANK(TEXT(Blindadora__c)),
+ISBLANK(TEXT( Tipo_de_Blindaje__c ))
+))</errorConditionFormula>
+    <errorDisplayField>Vehiculo_con_blindaje__c</errorDisplayField>
+    <errorMessage>Vehiculos con blindaje, al seleccionar SI, los campos Blindadora y Tipo de blindaje deben registrarse.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Forma_de_pago__c</fullName>
+    <externalId>false</externalId>
+    <label>Forma de pago</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contado</fullName>
+                <default>false</default>
+                <label>Contado</label>
+            </value>
+            <value>
+                <fullName>Credito / Leasing</fullName>
+                <default>false</default>
+                <label>Credito / Leasing</label>
+            </value>
+            <value>
+                <fullName>Renting</fullName>
+                <default>false</default>
+                <label>Renting</label>
+            </value>
+            <value>
+                <fullName>Contado + Retoma</fullName>
+                <default>false</default>
+                <label>Contado + Retoma</label>
+            </value>
+            <value>
+                <fullName>Crédito / Leasing + Contado</fullName>
+                <default>false</default>
+                <label>Crédito / Leasing + Contado</label>
+            </value>
+            <value>
+                <fullName>Crédito / Leasing + Retoma</fullName>
+                <default>false</default>
+                <label>Crédito / Leasing + Retoma</label>
+            </value>
+            <value>
+                <fullName>Contado + Crédito + Retoma</fullName>
+                <default>false</default>
+                <label>Contado + Crédito + Retoma</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

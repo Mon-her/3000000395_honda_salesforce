@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>saojeda@fanalca.com</contactEmail>
+    <contactPhone>+573148736613</contactPhone>
+    <label>SFDC1</label>
+    <samlConfig>
+        <acsUrl>https://login.microsoftonline.com/4e8ad5fd-3b35-462b-bf95-8eacd4641ce5/saml2</acsUrl>
+        <encryptionType>AES_128</encryptionType>
+        <entityUrl>https://hondaautos--test2.lightning.force.com</entityUrl>
+        <issuer>https://sts.windows.net/4e8ad5fd-3b35-462b-bf95-8eacd4641ce5/</issuer>
+        <samlNameIdFormat>Unspecified</samlNameIdFormat>
+        <samlSigningAlgoType>SHA1</samlSigningAlgoType>
+        <samlSubjectType>FederationId</samlSubjectType>
+    </samlConfig>
+    <startUrl>https://myapps.microsoft.com/signin/723f5a90-d205-4199-8320-81f56822ff9a?tenantId=4e8ad5fd-3b35-462b-bf95-8eacd4641ce5</startUrl>
+</ConnectedApp>

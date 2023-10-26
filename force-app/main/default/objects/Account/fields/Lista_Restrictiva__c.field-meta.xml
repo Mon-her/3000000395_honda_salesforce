@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lista_Restrictiva__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Campo que si está en true permite consumir el web service de Creación de Cliente en SAP</description>
+    <externalId>false</externalId>
+    <label>Sin coincidencias listas restrictivas</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

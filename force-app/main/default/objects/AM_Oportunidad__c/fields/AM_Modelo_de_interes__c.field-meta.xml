@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Modelo_de_interes__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Vehiculo</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>El modelo buscado no existe o no está activo.</errorMessage>
+        <filterItems>
+            <field>AM_Producto__c.AM_Activo__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>AM_Producto__c</referenceTo>
+    <relationshipLabel>Cotizaciones (Modelo de interés)</relationshipLabel>
+    <relationshipName>Oportunidades</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

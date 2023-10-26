@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Esta_suscrito_a_algun_periodico__c</fullName>
+    <externalId>false</externalId>
+    <label>¿Esta suscrito a algun periodico?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ninguno</fullName>
+                <default>false</default>
+                <label>Ninguno</label>
+            </value>
+            <value>
+                <fullName>El Pais</fullName>
+                <default>false</default>
+                <label>El Pais</label>
+            </value>
+            <value>
+                <fullName>El Tiempo</fullName>
+                <default>false</default>
+                <label>El Tiempo</label>
+            </value>
+            <value>
+                <fullName>El Espectador</fullName>
+                <default>false</default>
+                <label>El Espectador</label>
+            </value>
+            <value>
+                <fullName>El Nuevo Siglo</fullName>
+                <default>false</default>
+                <label>El Nuevo Siglo</label>
+            </value>
+            <value>
+                <fullName>Portafolio</fullName>
+                <default>false</default>
+                <label>Portafolio</label>
+            </value>
+            <value>
+                <fullName>La Republica</fullName>
+                <default>false</default>
+                <label>La Republica</label>
+            </value>
+            <value>
+                <fullName>El Colombiano</fullName>
+                <default>false</default>
+                <label>El Colombiano</label>
+            </value>
+            <value>
+                <fullName>El Mundo</fullName>
+                <default>false</default>
+                <label>El Mundo</label>
+            </value>
+            <value>
+                <fullName>El Heraldo</fullName>
+                <default>false</default>
+                <label>El Heraldo</label>
+            </value>
+            <value>
+                <fullName>Al Dia</fullName>
+                <default>false</default>
+                <label>Al Dia</label>
+            </value>
+            <value>
+                <fullName>El Universal</fullName>
+                <default>false</default>
+                <label>El Universal</label>
+            </value>
+            <value>
+                <fullName>Manangue hoy</fullName>
+                <default>false</default>
+                <label>Manangue hoy</label>
+            </value>
+            <value>
+                <fullName>La Patria</fullName>
+                <default>false</default>
+                <label>La Patria</label>
+            </value>
+            <value>
+                <fullName>El Nuevo Liberal</fullName>
+                <default>false</default>
+                <label>El Nuevo Liberal</label>
+            </value>
+            <value>
+                <fullName>El Pilon</fullName>
+                <default>false</default>
+                <label>El Pilon</label>
+            </value>
+            <value>
+                <fullName>El Meridiano de Cordoba</fullName>
+                <default>false</default>
+                <label>El Meridiano de Cordoba</label>
+            </value>
+            <value>
+                <fullName>La Nacion</fullName>
+                <default>false</default>
+                <label>La Nacion</label>
+            </value>
+            <value>
+                <fullName>Diario del Huila</fullName>
+                <default>false</default>
+                <label>Diario del Huila</label>
+            </value>
+            <value>
+                <fullName>La Guajira</fullName>
+                <default>false</default>
+                <label>La Guajira</label>
+            </value>
+            <value>
+                <fullName>El Informador</fullName>
+                <default>false</default>
+                <label>El Informador</label>
+            </value>
+            <value>
+                <fullName>La Opinion</fullName>
+                <default>false</default>
+                <label>La Opinion</label>
+            </value>
+            <value>
+                <fullName>La Crónica del Quindio</fullName>
+                <default>false</default>
+                <label>La Crónica del Quindio</label>
+            </value>
+            <value>
+                <fullName>El Frente</fullName>
+                <default>false</default>
+                <label>El Frente</label>
+            </value>
+            <value>
+                <fullName>Vanguardia Liberal</fullName>
+                <default>false</default>
+                <label>Vanguardia Liberal</label>
+            </value>
+            <value>
+                <fullName>Otro</fullName>
+                <default>false</default>
+                <label>Otro</label>
+            </value>
+            <value>
+                <fullName>La tarde</fullName>
+                <default>false</default>
+                <label>La tarde</label>
+            </value>
+            <value>
+                <fullName>El meridiano</fullName>
+                <default>false</default>
+                <label>El meridiano</label>
+            </value>
+            <value>
+                <fullName>Diario del sur</fullName>
+                <default>false</default>
+                <label>Diario del sur</label>
+            </value>
+            <value>
+                <fullName>El liberal</fullName>
+                <default>false</default>
+                <label>El liberal</label>
+            </value>
+            <value>
+                <fullName>ASOCRETO</fullName>
+                <default>false</default>
+                <label>ASOCRETO</label>
+            </value>
+            <value>
+                <fullName>NUEVO DIA</fullName>
+                <default>false</default>
+                <label>NUEVO DIA</label>
+            </value>
+            <value>
+                <fullName>DIARIO DEL OTUN</fullName>
+                <default>false</default>
+                <label>DIARIO DEL OTUN</label>
+            </value>
+            <value>
+                <fullName>LA PRENSA</fullName>
+                <default>false</default>
+                <label>LA PRENSA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

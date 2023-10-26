@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SO_RVC_001</fullName>
+    <active>true</active>
+    <description>Si selecciona SI , debe ingresar la direccion correctamente
+SO_RVC_001</description>
+    <errorConditionFormula>AND (
+  $User.AO_BypassApex__c = false, 
+RecordType.Name = &quot;Persona natural&quot;,
+TEXT(Creacion_cliente_para_facturacion__c) = &quot;SI&quot;,
+ MC_Direccion_completa__c  = &quot;NO&quot;
+)</errorConditionFormula>
+    <errorDisplayField>Creacion_cliente_para_facturacion__c</errorDisplayField>
+    <errorMessage>Si selecciona SI , debe ingresar la direccion correctamente
+SO_RVC_001</errorMessage>
+</ValidationRule>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_030</fullName>
+    <active>true</active>
+    <description>Analista debe diligenciar información en estado PU:
+Direccion del cliente
+Nivel socioeconomico
+Acticidad economica
+Estado civil
+Fecha de nacimiento
+Nivel de educaicon
+Tiene hijos
+Actividad que realiza
+Deporte que prefiere
+AM-RV-COT-030</description>
+    <errorConditionFormula>AND
+(
+       $User.AO_BypassApex__c = false, 
+IF(
+AND(        
+         RecordType.Name = &quot;Cotizacion Persona Natural&quot;,
+         $Profile.Name = &quot;Asesor de ventas&quot;,
+         $Profile.Name = &quot;Analista&quot;,
+
+         $Profile.Name = &quot;Administrador de mercadeo&quot;,
+         TEXT ( AM_Etapa__c ) =  &quot;PU&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;Vereda&quot;, 
+         MC_Registro_historico__c &lt;&gt; TRUE), 
+         OR
+         (
+         ISBLANK(TEXT(AM_Propietario_motocicleta__r.AM_Nivel_Socioeconomico__c )),
+         ISBLANK(TEXT(AM_Propietario_motocicleta__r.AM_Estado_civil__pc)),
+         ISBLANK(AM_Propietario_motocicleta__r.PersonBirthdate),
+         ISBLANK(TEXT(AM_Propietario_motocicleta__r.Tiene_hijos__pc)),
+         ISBLANK(AM_Propietario_motocicleta__r.Que_actividad_realiza_en_tiempo_libre__pc),
+         ISBLANK(AM_Propietario_motocicleta__r.AM_Deporte_que_prefiere__pc),
+         ISBLANK(TEXT(AM_Propietario_motocicleta__r.AM_Nivel_de_estudio__c))
+
+         ),
+         AND(
+         RecordType.Name = &quot;Cotizacion Persona Natural&quot;,
+         $Profile.Name = &quot;Asesor de ventas&quot;,
+         $Profile.Name = &quot;Analista&quot;,
+
+         $Profile.Name = &quot;Administrador de mercadeo&quot;,
+         TEXT ( AM_Etapa__c ) =  &quot;PU&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;Vereda&quot;, 
+         MC_Registro_historico__c = TRUE,
+         OR
+         (
+         ISBLANK(TEXT(AM_Estado1__c))
+)
+)
+)
+)</errorConditionFormula>
+    <errorMessage>Asesor debe diligenciar información en estado PU:
+Direccion del cliente
+Nivel socioeconomico
+Acticidad economica
+Estado civil
+Fecha de nacimiento
+Nivel de educaicon
+Tiene hijos
+Actividad que realiza
+Deporte que prefiere
+AM-RV-COT-030</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyAccounts</fullName>
+    <columns>AM_Estado__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>AM_Numero_de_documento__c</columns>
+    <columns>AM_Tipo_de_usuario__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <filterScope>Mine</filterScope>
+    <label>Mis Cuentas</label>
+</ListView>

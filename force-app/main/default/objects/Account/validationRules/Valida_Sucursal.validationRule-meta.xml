@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Sucursal</fullName>
+    <active>true</active>
+    <description>Se encarga de validar input de sucursal tomando como base que sean 3 caracteres y los mismos sean alfa numericos.</description>
+    <errorConditionFormula>AND( CONTAINS(RecordType.Name,&quot;Autos&quot;), LEN( Sucursal__c )&gt;3)</errorConditionFormula>
+    <errorDisplayField>Sucursal__c</errorDisplayField>
+    <errorMessage>El campo sucursal solo puede ser de 3 caracteres alfanuméricos.</errorMessage>
+</ValidationRule>

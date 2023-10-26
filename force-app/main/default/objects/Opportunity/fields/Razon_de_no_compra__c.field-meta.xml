@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Razon_de_no_compra__c</fullName>
+    <externalId>false</externalId>
+    <label>Razón de no compra</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mejor diseño otra marca</fullName>
+                <default>false</default>
+                <label>Mejor diseño otra marca</label>
+            </value>
+            <value>
+                <fullName>Mejor equipamento otra marca</fullName>
+                <default>false</default>
+                <label>Mejor equipamento otra marca</label>
+            </value>
+            <value>
+                <fullName>Mejores opciones de financiación otra marca</fullName>
+                <default>false</default>
+                <label>Mejores opciones de financiación otra marca</label>
+            </value>
+            <value>
+                <fullName>Mejor atención otra marca</fullName>
+                <default>false</default>
+                <label>Mejor atención otra marca</label>
+            </value>
+            <value>
+                <fullName>Mejor servicio postventa otra marca</fullName>
+                <default>false</default>
+                <label>Mejor servicio postventa otra marca</label>
+            </value>
+            <value>
+                <fullName>Precio de retoma</fullName>
+                <default>false</default>
+                <label>Precio de retoma</label>
+            </value>
+            <value>
+                <fullName>Mejor experiencia en Prueba de Manejo</fullName>
+                <default>false</default>
+                <label>Mejor experiencia en Prueba de Manejo</label>
+            </value>
+            <value>
+                <fullName>Mejor Garantía otra Marca</fullName>
+                <default>false</default>
+                <label>Mejor Garantía otra Marca</label>
+            </value>
+            <value>
+                <fullName>Mejores opciones de Póliza todo riesgo</fullName>
+                <default>false</default>
+                <label>Mejores opciones de Póliza todo riesgo</label>
+            </value>
+            <value>
+                <fullName>Amplio portafolio de Accesorios otra marca</fullName>
+                <default>false</default>
+                <label>Amplio portafolio de Accesorios otra marca</label>
+            </value>
+            <value>
+                <fullName>Mejores tiempos de entrega del vehículo</fullName>
+                <default>false</default>
+                <label>Mejores tiempos de entrega del vehículo</label>
+            </value>
+            <value>
+                <fullName>Capacidad de Pago</fullName>
+                <default>false</default>
+                <label>Capacidad de Pago</label>
+            </value>
+            <value>
+                <fullName>Realizó otra inversión</fullName>
+                <default>false</default>
+                <label>Realizó otra inversión</label>
+            </value>
+            <value>
+                <fullName>Cliente no es contactable</fullName>
+                <default>false</default>
+                <label>Cliente no es contactable</label>
+            </value>
+            <value>
+                <fullName>Cambio de ciudad o país de residencia</fullName>
+                <default>false</default>
+                <label>Cambio de ciudad o país de residencia</label>
+            </value>
+            <value>
+                <fullName>Año modelo otra marca</fullName>
+                <default>false</default>
+                <label>Año modelo otra marca</label>
+            </value>
+            <value>
+                <fullName>Disponibilidad de inventario</fullName>
+                <default>false</default>
+                <label>Disponibilidad de inventario</label>
+            </value>
+            <value>
+                <fullName>Disponibilidad de producto en exhibición</fullName>
+                <default>false</default>
+                <label>Disponibilidad de producto en exhibición</label>
+            </value>
+            <value>
+                <fullName>Disponibilidad de test drive</fullName>
+                <default>false</default>
+                <label>Disponibilidad de test drive</label>
+            </value>
+            <value>
+                <fullName>No desea seguir siendo contactado</fullName>
+                <default>false</default>
+                <label>No desea seguir siendo contactado</label>
+            </value>
+            <value>
+                <fullName>Compro Honda a un tercero</fullName>
+                <default>false</default>
+                <label>Compro Honda a un tercero</label>
+            </value>
+            <value>
+                <fullName>Cambio de forma de pago</fullName>
+                <default>false</default>
+                <label>Cambio de forma de pago</label>
+            </value>
+            <value>
+                <fullName>Compra a través de Renting Total</fullName>
+                <default>false</default>
+                <label>Compra a través de Renting Total</label>
+            </value>
+            <value>
+                <fullName>Falta de disponibilidad de inventario</fullName>
+                <default>false</default>
+                <label>Falta de disponibilidad de inventario</label>
+            </value>
+            <value>
+                <fullName>Falta de disponibilidad de producto en exhibición</fullName>
+                <default>false</default>
+                <label>Falta de disponibilidad de producto en exhibición</label>
+            </value>
+            <value>
+                <fullName>Menor precio otra marca</fullName>
+                <default>false</default>
+                <label>Menor precio otra marca</label>
+            </value>
+            <value>
+                <fullName>Mejor equipamiento - Seguridad - otra marca</fullName>
+                <default>false</default>
+                <label>Mejor equipamiento - Seguridad - otra marca</label>
+            </value>
+            <value>
+                <fullName>Mejor equipamento - Desempeño - otra marca</fullName>
+                <default>false</default>
+                <label>Mejor equipamento - Desempeño - otra marca</label>
+            </value>
+            <value>
+                <fullName>Mejor equipamiento - Conectividad - otra marca</fullName>
+                <default>false</default>
+                <label>Mejor equipamiento - Conectividad - otra marca</label>
+            </value>
+            <value>
+                <fullName>Mejor equipamiento - Comodidad - otra marca</fullName>
+                <default>false</default>
+                <label>Mejor equipamiento - Comodidad - otra marca</label>
+            </value>
+            <value>
+                <fullName>Incumplimiento de Cita o envío de cotización</fullName>
+                <default>false</default>
+                <label>Incumplimiento de Cita o envío de cotización</label>
+            </value>
+            <value>
+                <fullName>Demora en el peritaje</fullName>
+                <default>false</default>
+                <label>Demora en el peritaje</label>
+            </value>
+            <value>
+                <fullName>Compró por distribuidor Honda</fullName>
+                <default>false</default>
+                <label>Compró por distribuidor Honda</label>
+            </value>
+            <value>
+                <fullName>Cotización Errada</fullName>
+                <default>false</default>
+                <label>Cotización Errada</label>
+            </value>
+            <value>
+                <fullName>Política de reserva 10%</fullName>
+                <default>false</default>
+                <label>Política de reserva 10%</label>
+            </value>
+            <value>
+                <fullName>Inventario no disponible</fullName>
+                <default>false</default>
+                <label>Inventario no disponible</label>
+            </value>
+            <value>
+                <fullName>Compro Honda un tercero</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Compro Honda un tercero</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Mejor diseño otra marca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Mejor equipamento otra marca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Mejores opciones de financiación otra marca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Mejor atención otra marca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Mejor servicio postventa otra marca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <controllingFieldValue>PSI</controllingFieldValue>
+            <valueName>Precio de retoma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Mejor experiencia en Prueba de Manejo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Mejor Garantía otra Marca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Mejores opciones de Póliza todo riesgo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Amplio portafolio de Accesorios otra marca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Mejores tiempos de entrega del vehículo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <controllingFieldValue>PSP</controllingFieldValue>
+            <valueName>Capacidad de Pago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <controllingFieldValue>PSI</controllingFieldValue>
+            <valueName>Realizó otra inversión</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <controllingFieldValue>PSP</controllingFieldValue>
+            <valueName>Cliente no es contactable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <controllingFieldValue>PSP</controllingFieldValue>
+            <valueName>Cambio de ciudad o país de residencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Año modelo otra marca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Disponibilidad de inventario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Disponibilidad de producto en exhibición</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Disponibilidad de test drive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <controllingFieldValue>PSP</controllingFieldValue>
+            <controllingFieldValue>PSI</controllingFieldValue>
+            <valueName>No desea seguir siendo contactado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <controllingFieldValue>PSI</controllingFieldValue>
+            <valueName>Compro Honda a un tercero</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Cambio de forma de pago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <controllingFieldValue>PSI</controllingFieldValue>
+            <valueName>Compra a través de Renting Total</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Falta de disponibilidad de inventario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Falta de disponibilidad de producto en exhibición</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Menor precio otra marca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Mejor equipamiento - Seguridad - otra marca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Mejor equipamento - Desempeño - otra marca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Mejor equipamiento - Conectividad - otra marca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Mejor equipamiento - Comodidad - otra marca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <controllingFieldValue>PSP</controllingFieldValue>
+            <valueName>Incumplimiento de Cita o envío de cotización</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Demora en el peritaje</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Compró por distribuidor Honda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <controllingFieldValue>PSI</controllingFieldValue>
+            <valueName>Cotización Errada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <valueName>Política de reserva 10%</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PSI</controllingFieldValue>
+            <valueName>Inventario no disponible</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

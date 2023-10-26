@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>valida_Descuento_SinPrecio</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(   CONTAINS($Profile.Name, &quot;motos&quot;), Descuento_Valor__c  &gt; 0,  UnitPrice = 0 )</errorConditionFormula>
+    <errorDisplayField>Descuento_Valor__c</errorDisplayField>
+    <errorMessage>Favor solicitar descuentos y precios primero antes de indicar un descuento.</errorMessage>
+</ValidationRule>

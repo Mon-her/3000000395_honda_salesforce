@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_CUE_017</fullName>
+    <active>true</active>
+    <description>La fecha de nacimiento, debe ser mayor a 16 años y menor de 100 años 
+AM_RV_CUE_017</description>
+    <errorConditionFormula>AND
+(
+       $User.AO_BypassApex__c = false, 
+OR( 
+
+AM_Edad__c &lt;12, 
+AM_Edad__c &gt;100 
+)
+)</errorConditionFormula>
+    <errorDisplayField>PersonBirthdate</errorDisplayField>
+    <errorMessage>La fecha de nacimiento, debe ser mayor a 13 años y menor de 100 años 
+AM_RV_CUE_017</errorMessage>
+</ValidationRule>

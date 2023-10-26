@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Cuentas_Iguales</fullName>
+    <active>true</active>
+    <description>Impide que se relacione Principal y Relacionada usando la misma cuenta</description>
+    <errorConditionFormula>Cuenta_Principal__c ==  Cuenta_Relacionada__c</errorConditionFormula>
+    <errorMessage>No se puede relacionar una cuenta consigo misma.</errorMessage>
+</ValidationRule>

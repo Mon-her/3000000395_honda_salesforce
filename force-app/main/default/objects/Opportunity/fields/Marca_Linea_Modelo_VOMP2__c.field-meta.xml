@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marca_Linea_Modelo_VOMP2__c</fullName>
+    <description>Marca Línea Modelo del vehículo de otra marca que posee 2.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Marca Línea Modelo del vehículo de otra marca que posee 2.</inlineHelpText>
+    <label>Marca Linea Modelo VOMP2</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

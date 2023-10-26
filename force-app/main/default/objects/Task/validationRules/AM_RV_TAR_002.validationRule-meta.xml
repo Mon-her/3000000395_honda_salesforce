@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_TAR_002</fullName>
+    <active>false</active>
+    <description>La fecha de vencimiento no puede ser anterior a 30 dias ni Mayor a 90 dias.
+AM_RV_TAR_002</description>
+    <errorConditionFormula>OR
+( 
+  ActivityDate &lt; DATEVALUE( CreatedDate ) - 1 , 
+ ActivityDate  &gt; DATEVALUE( CreatedDate ) + 180 
+)</errorConditionFormula>
+    <errorDisplayField>ActivityDate</errorDisplayField>
+    <errorMessage>La fecha de vencimiento no puede ser anterior a 30 dias ni Mayor a 180 dias.
+AM_RV_TAR_002</errorMessage>
+</ValidationRule>

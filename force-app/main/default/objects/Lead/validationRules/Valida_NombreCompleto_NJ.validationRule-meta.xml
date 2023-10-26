@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_NombreCompleto_NJ</fullName>
+    <active>true</active>
+    <description>Se encarga de validar el nombre completo escrito en leads.</description>
+    <errorConditionFormula>AND(OR( RecordType.Name == &quot;Persona Juridica Autos&quot;,RecordType.Name == &quot;Persona Natural Autos&quot; ),OR( TEXT(Salutation) == null,  FirstName==null,  LastName ==null))</errorConditionFormula>
+    <errorMessage>Debe diligenciar el nombre completo incluyendo: Tratamiento, Nombre y Apellido.</errorMessage>
+</ValidationRule>

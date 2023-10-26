@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MC_Cantidad_vehiculos_inactivos__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(
+TEXT( AM_Estado1__c )=&quot;Inactivo&quot;,
+TEXT ( AM_Etapa__c )=&quot;PU&quot;),
+
+1,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Cantidad vehículos inactivos</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

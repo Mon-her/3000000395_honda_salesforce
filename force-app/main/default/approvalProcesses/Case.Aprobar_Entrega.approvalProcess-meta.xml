@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>CaseNumber</field>
+        <field>Owner</field>
+        <field>Subject</field>
+        <field>Description</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>Aprobada_entrega</name>
+                <type>FieldUpdate</type>
+            </action>
+            <action>
+                <name>Entrega_aprobada</name>
+                <type>Alert</type>
+            </action>
+            <action>
+                <name>ListoParaEntrega</name>
+                <type>FieldUpdate</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <name>Jefe_Administrativo__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Aprueba Entrega</label>
+        <name>Aprueba_Entrega</name>
+        <rejectionActions>
+            <action>
+                <name>Entrega_no_aprobada</name>
+                <type>Alert</type>
+            </action>
+        </rejectionActions>
+    </approvalStep>
+    <description>Este punto requiere un flujo de aprobación en donde sin la aprobación de la jefe administrativa para confirmar el pago del vehículo no se pueda pasar</description>
+    <emailTemplate>unfiled$public/solicitud_de_aprobacion</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Case.Reason</field>
+            <operation>equals</operation>
+            <value>Quiero un Auto - Tickets Internos</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subcategoria__c</field>
+            <operation>equals</operation>
+            <value>Actividades Prentrega del Vehículo</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordType</field>
+            <operation>equals</operation>
+            <value>&quot;Entrega Vehículo Nuevo, Usado y Renting&quot;</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Aprobar Entrega</label>
+    <processOrder>1</processOrder>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

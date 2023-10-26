@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parte__c</fullName>
+    <externalId>false</externalId>
+    <label>Parte</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AMORTIGUADOR TRASERO</fullName>
+                <default>false</default>
+                <label>AMORTIGUADOR TRASERO</label>
+            </value>
+            <value>
+                <fullName>ANILLOS</fullName>
+                <default>false</default>
+                <label>ANILLOS</label>
+            </value>
+            <value>
+                <fullName>ARBOL DE LEVAS</fullName>
+                <default>false</default>
+                <label>ARBOL DE LEVAS</label>
+            </value>
+            <value>
+                <fullName>AUTOMATICO MOTOR DE ARRANQUE</fullName>
+                <default>false</default>
+                <label>AUTOMATICO MOTOR DE ARRANQUE</label>
+            </value>
+            <value>
+                <fullName>BALANCIN</fullName>
+                <default>false</default>
+                <label>BALANCIN</label>
+            </value>
+            <value>
+                <fullName>BANDAS DE FRENO TRASERO</fullName>
+                <default>false</default>
+                <label>BANDAS DE FRENO TRASERO</label>
+            </value>
+            <value>
+                <fullName>BARRA TELESCOPICA</fullName>
+                <default>false</default>
+                <label>BARRA TELESCOPICA</label>
+            </value>
+            <value>
+                <fullName>BATERIA</fullName>
+                <default>false</default>
+                <label>BATERIA</label>
+            </value>
+            <value>
+                <fullName>BOBINA DE ENCENDIDO</fullName>
+                <default>false</default>
+                <label>BOBINA DE ENCENDIDO</label>
+            </value>
+            <value>
+                <fullName>BOBINA PULSORA</fullName>
+                <default>false</default>
+                <label>BOBINA PULSORA</label>
+            </value>
+            <value>
+                <fullName>BOCINA</fullName>
+                <default>false</default>
+                <label>BOCINA</label>
+            </value>
+            <value>
+                <fullName>BOMBA DE ACEITE</fullName>
+                <default>false</default>
+                <label>BOMBA DE ACEITE</label>
+            </value>
+            <value>
+                <fullName>BOMBA DE COMBUSTIBLE</fullName>
+                <default>false</default>
+                <label>BOMBA DE COMBUSTIBLE</label>
+            </value>
+            <value>
+                <fullName>BUJES DE LA TIJERA</fullName>
+                <default>false</default>
+                <label>BUJES DE LA TIJERA</label>
+            </value>
+            <value>
+                <fullName>CADENA DE ARRASTRE</fullName>
+                <default>false</default>
+                <label>CADENA DE ARRASTRE</label>
+            </value>
+            <value>
+                <fullName>CADENILLA DE LEVAS</fullName>
+                <default>false</default>
+                <label>CADENILLA DE LEVAS</label>
+            </value>
+            <value>
+                <fullName>CAJA DE HERRAMIENTAS</fullName>
+                <default>false</default>
+                <label>CAJA DE HERRAMIENTAS</label>
+            </value>
+            <value>
+                <fullName>CALAPIE DERECHO</fullName>
+                <default>false</default>
+                <label>CALAPIE DERECHO</label>
+            </value>
+            <value>
+                <fullName>CALCOMANIA</fullName>
+                <default>false</default>
+                <label>CALCOMANIA</label>
+            </value>
+            <value>
+                <fullName>CALIPER DE FRENO TRASERO</fullName>
+                <default>false</default>
+                <label>CALIPER DE FRENO TRASERO</label>
+            </value>
+            <value>
+                <fullName>CALIPER FRENO DELANTERO</fullName>
+                <default>false</default>
+                <label>CALIPER FRENO DELANTERO</label>
+            </value>
+            <value>
+                <fullName>CARBURADOR</fullName>
+                <default>false</default>
+                <label>CARBURADOR</label>
+            </value>
+            <value>
+                <fullName>CARTER</fullName>
+                <default>false</default>
+                <label>CARTER</label>
+            </value>
+            <value>
+                <fullName>CATALOGO</fullName>
+                <default>false</default>
+                <label>CATALOGO</label>
+            </value>
+            <value>
+                <fullName>CAUCHO ESTRIBO</fullName>
+                <default>false</default>
+                <label>CAUCHO ESTRIBO</label>
+            </value>
+            <value>
+                <fullName>CDI</fullName>
+                <default>false</default>
+                <label>CDI</label>
+            </value>
+            <value>
+                <fullName>CHASIS</fullName>
+                <default>false</default>
+                <label>CHASIS</label>
+            </value>
+            <value>
+                <fullName>CHICLER PRINCIPAL CB</fullName>
+                <default>false</default>
+                <label>CHICLER PRINCIPAL CB</label>
+            </value>
+            <value>
+                <fullName>CIGÜEÑAL</fullName>
+                <default>false</default>
+                <label>CIGÜEÑAL</label>
+            </value>
+            <value>
+                <fullName>CILINDRO FRENO</fullName>
+                <default>false</default>
+                <label>CILINDRO FRENO</label>
+            </value>
+            <value>
+                <fullName>CILINDRO MOTOR</fullName>
+                <default>false</default>
+                <label>CILINDRO MOTOR</label>
+            </value>
+            <value>
+                <fullName>COLA DE LUJO</fullName>
+                <default>false</default>
+                <label>COLA DE LUJO</label>
+            </value>
+            <value>
+                <fullName>COLLARIN ESPACIADOR ORQUILLA TIJERA</fullName>
+                <default>false</default>
+                <label>COLLARIN ESPACIADOR ORQUILLA TIJERA</label>
+            </value>
+            <value>
+                <fullName>HORQUILLA TIJERA</fullName>
+                <default>false</default>
+                <label>HORQUILLA TIJERA</label>
+            </value>
+            <value>
+                <fullName>CONJ INYETOR COMBUSTIBLE</fullName>
+                <default>false</default>
+                <label>CONJ INYETOR COMBUSTIBLE</label>
+            </value>
+            <value>
+                <fullName>CORREA DE TRANSMISION</fullName>
+                <default>false</default>
+                <label>CORREA DE TRANSMISION</label>
+            </value>
+            <value>
+                <fullName>CULATA</fullName>
+                <default>false</default>
+                <label>CULATA</label>
+            </value>
+            <value>
+                <fullName>CUNAS DE DIRECCION</fullName>
+                <default>false</default>
+                <label>CUNAS DE DIRECCION</label>
+            </value>
+            <value>
+                <fullName>DEFENSA</fullName>
+                <default>false</default>
+                <label>DEFENSA</label>
+            </value>
+            <value>
+                <fullName>DESLIZADOR DE CADENA DE ARRASTRE</fullName>
+                <default>false</default>
+                <label>DESLIZADOR DE CADENA DE ARRASTRE</label>
+            </value>
+            <value>
+                <fullName>DIRECCIONALES</fullName>
+                <default>false</default>
+                <label>DIRECCIONALES</label>
+            </value>
+            <value>
+                <fullName>DISCO DE EMBRAGUE</fullName>
+                <default>false</default>
+                <label>DISCO DE EMBRAGUE</label>
+            </value>
+            <value>
+                <fullName>DISCO DE FRENO</fullName>
+                <default>false</default>
+                <label>DISCO DE FRENO</label>
+            </value>
+            <value>
+                <fullName>ECM</fullName>
+                <default>false</default>
+                <label>ECM</label>
+            </value>
+            <value>
+                <fullName>EMPAQUES</fullName>
+                <default>false</default>
+                <label>EMPAQUES</label>
+            </value>
+            <value>
+                <fullName>ESCANER</fullName>
+                <default>false</default>
+                <label>ESCANER</label>
+            </value>
+            <value>
+                <fullName>ESPEJOS</fullName>
+                <default>false</default>
+                <label>ESPEJOS</label>
+            </value>
+            <value>
+                <fullName>ESPIGO DIRECCION</fullName>
+                <default>false</default>
+                <label>ESPIGO DIRECCION</label>
+            </value>
+            <value>
+                <fullName>ESTATOR</fullName>
+                <default>false</default>
+                <label>ESTATOR</label>
+            </value>
+            <value>
+                <fullName>ESTRIBOS</fullName>
+                <default>false</default>
+                <label>ESTRIBOS</label>
+            </value>
+            <value>
+                <fullName>EXHOSTO</fullName>
+                <default>false</default>
+                <label>EXHOSTO</label>
+            </value>
+            <value>
+                <fullName>FILTRO DE AIRE</fullName>
+                <default>false</default>
+                <label>FILTRO DE AIRE</label>
+            </value>
+            <value>
+                <fullName>FLOTADOR UNIDAD DE COMBUSTIBLE</fullName>
+                <default>false</default>
+                <label>FLOTADOR UNIDAD DE COMBUSTIBLE</label>
+            </value>
+            <value>
+                <fullName>FORRO SILLIN</fullName>
+                <default>false</default>
+                <label>FORRO SILLIN</label>
+            </value>
+            <value>
+                <fullName>GRIFO DE COMBUSTIBLE</fullName>
+                <default>false</default>
+                <label>GRIFO DE COMBUSTIBLE</label>
+            </value>
+            <value>
+                <fullName>GUARDAFANGOS</fullName>
+                <default>false</default>
+                <label>GUARDAFANGOS</label>
+            </value>
+            <value>
+                <fullName>GUAYAS</fullName>
+                <default>false</default>
+                <label>GUAYAS</label>
+            </value>
+            <value>
+                <fullName>GUIA VALVULA</fullName>
+                <default>false</default>
+                <label>GUIA VALVULA</label>
+            </value>
+            <value>
+                <fullName>INDICADOR DE LUZ ALTA</fullName>
+                <default>false</default>
+                <label>INDICADOR DE LUZ ALTA</label>
+            </value>
+            <value>
+                <fullName>INTERRUPTORES</fullName>
+                <default>false</default>
+                <label>INTERRUPTORES</label>
+            </value>
+            <value>
+                <fullName>INVENTARIO</fullName>
+                <default>false</default>
+                <label>INVENTARIO</label>
+            </value>
+            <value>
+                <fullName>INYECTOR</fullName>
+                <default>false</default>
+                <label>INYECTOR</label>
+            </value>
+            <value>
+                <fullName>J. SELLO o RETEN DE ACEITE TELESCOPICO</fullName>
+                <default>false</default>
+                <label>J. SELLO o RETEN DE ACEITE TELESCOPICO</label>
+            </value>
+            <value>
+                <fullName>BUJES</fullName>
+                <default>false</default>
+                <label>BUJES</label>
+            </value>
+            <value>
+                <fullName>CAUCHO DESLIZAMIENTO</fullName>
+                <default>false</default>
+                <label>CAUCHO DESLIZAMIENTO</label>
+            </value>
+            <value>
+                <fullName>KIT ACCESORIOS</fullName>
+                <default>false</default>
+                <label>KIT ACCESORIOS</label>
+            </value>
+            <value>
+                <fullName>LENTE VELOCIMETRO</fullName>
+                <default>false</default>
+                <label>LENTE VELOCIMETRO</label>
+            </value>
+            <value>
+                <fullName>LEVA DE FRENO TRASERO</fullName>
+                <default>false</default>
+                <label>LEVA DE FRENO TRASERO</label>
+            </value>
+            <value>
+                <fullName>LICITACION</fullName>
+                <default>false</default>
+                <label>LICITACION</label>
+            </value>
+            <value>
+                <fullName>LLANTA</fullName>
+                <default>false</default>
+                <label>LLANTA</label>
+            </value>
+            <value>
+                <fullName>MANUAL DE GARANTIA</fullName>
+                <default>false</default>
+                <label>MANUAL DE GARANTIA</label>
+            </value>
+            <value>
+                <fullName>MANZANA RUEDA TRASERA</fullName>
+                <default>false</default>
+                <label>MANZANA RUEDA TRASERA</label>
+            </value>
+            <value>
+                <fullName>MEDIDORES</fullName>
+                <default>false</default>
+                <label>MEDIDORES</label>
+            </value>
+            <value>
+                <fullName>MOTOR</fullName>
+                <default>false</default>
+                <label>MOTOR</label>
+            </value>
+            <value>
+                <fullName>MOTOR DE ARRANQUE</fullName>
+                <default>false</default>
+                <label>MOTOR DE ARRANQUE</label>
+            </value>
+            <value>
+                <fullName>NEUMATICO</fullName>
+                <default>false</default>
+                <label>NEUMATICO</label>
+            </value>
+            <value>
+                <fullName>PASTILLAS DE FRENO</fullName>
+                <default>false</default>
+                <label>PASTILLAS DE FRENO</label>
+            </value>
+            <value>
+                <fullName>PESAS DE EMBRAGUE</fullName>
+                <default>false</default>
+                <label>PESAS DE EMBRAGUE</label>
+            </value>
+            <value>
+                <fullName>PINTURA</fullName>
+                <default>false</default>
+                <label>PINTURA</label>
+            </value>
+            <value>
+                <fullName>PIÑONES</fullName>
+                <default>false</default>
+                <label>PIÑONES</label>
+            </value>
+            <value>
+                <fullName>PISTONES</fullName>
+                <default>false</default>
+                <label>PISTONES</label>
+            </value>
+            <value>
+                <fullName>PLATINA TENSOR DE CADENA</fullName>
+                <default>false</default>
+                <label>PLATINA TENSOR DE CADENA</label>
+            </value>
+            <value>
+                <fullName>PROTECTOR DE LAMPARA</fullName>
+                <default>false</default>
+                <label>PROTECTOR DE LAMPARA</label>
+            </value>
+            <value>
+                <fullName>REFERENCIA</fullName>
+                <default>false</default>
+                <label>REFERENCIA</label>
+            </value>
+            <value>
+                <fullName>REGULADORES</fullName>
+                <default>false</default>
+                <label>REGULADORES</label>
+            </value>
+            <value>
+                <fullName>RELE DE ENCENDIDO</fullName>
+                <default>false</default>
+                <label>RELE DE ENCENDIDO</label>
+            </value>
+            <value>
+                <fullName>RINES</fullName>
+                <default>false</default>
+                <label>RINES</label>
+            </value>
+            <value>
+                <fullName>RODAMIENTOS</fullName>
+                <default>false</default>
+                <label>RODAMIENTOS</label>
+            </value>
+            <value>
+                <fullName>SILLIN</fullName>
+                <default>false</default>
+                <label>SILLIN</label>
+            </value>
+            <value>
+                <fullName>SISTEMA SMART KEYS</fullName>
+                <default>false</default>
+                <label>SISTEMA SMART KEYS</label>
+            </value>
+            <value>
+                <fullName>SOPORTES</fullName>
+                <default>false</default>
+                <label>SOPORTES</label>
+            </value>
+            <value>
+                <fullName>STOP</fullName>
+                <default>false</default>
+                <label>STOP</label>
+            </value>
+            <value>
+                <fullName>SWITCH DE ENCENDIDO</fullName>
+                <default>false</default>
+                <label>SWITCH DE ENCENDIDO</label>
+            </value>
+            <value>
+                <fullName>TABLERO DE VELOCIMETRO</fullName>
+                <default>false</default>
+                <label>TABLERO DE VELOCIMETRO</label>
+            </value>
+            <value>
+                <fullName>TANQUE COMBUSTIBLE</fullName>
+                <default>false</default>
+                <label>TANQUE COMBUSTIBLE</label>
+            </value>
+            <value>
+                <fullName>TAPAS</fullName>
+                <default>false</default>
+                <label>TAPAS</label>
+            </value>
+            <value>
+                <fullName>TIJERA</fullName>
+                <default>false</default>
+                <label>TIJERA</label>
+            </value>
+            <value>
+                <fullName>TORNILLO DE VOLANTE</fullName>
+                <default>false</default>
+                <label>TORNILLO DE VOLANTE</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTADORA</fullName>
+                <default>false</default>
+                <label>TRANSPORTADORA</label>
+            </value>
+            <value>
+                <fullName>TUBO DE ACEITE</fullName>
+                <default>false</default>
+                <label>TUBO DE ACEITE</label>
+            </value>
+            <value>
+                <fullName>TUBO TELESCOPICO</fullName>
+                <default>false</default>
+                <label>TUBO TELESCOPICO</label>
+            </value>
+            <value>
+                <fullName>UNIDAD ECO</fullName>
+                <default>false</default>
+                <label>UNIDAD ECO</label>
+            </value>
+            <value>
+                <fullName>VALVULA ADMISION</fullName>
+                <default>false</default>
+                <label>VALVULA ADMISION</label>
+            </value>
+            <value>
+                <fullName>VALVULA DE ESCAPE</fullName>
+                <default>false</default>
+                <label>VALVULA DE ESCAPE</label>
+            </value>
+            <value>
+                <fullName>VARILLA DE FRENO</fullName>
+                <default>false</default>
+                <label>VARILLA DE FRENO</label>
+            </value>
+            <value>
+                <fullName>VELOCIMETRO COMPLETO</fullName>
+                <default>false</default>
+                <label>VELOCIMETRO COMPLETO</label>
+            </value>
+            <value>
+                <fullName>VENTILADOR</fullName>
+                <default>false</default>
+                <label>VENTILADOR</label>
+            </value>
+            <value>
+                <fullName>OTRO</fullName>
+                <default>false</default>
+                <label>OTRO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

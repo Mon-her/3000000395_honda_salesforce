@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Codigo_concesionario__c</columns>
+    <columns>Agencia__c</columns>
+    <columns>Tipo_de_Red__c</columns>
+    <columns>Codigo_de_agencia__c</columns>
+    <columns>Zona__c</columns>
+    <columns>Region__c</columns>
+    <columns>Departamento__c</columns>
+    <columns>Numero_de_Asesores__c</columns>
+    <columns>Cuota_por_Asesor__c</columns>
+    <columns>Acumulado_Cuota_Concesionario__c</columns>
+    <columns>Acumulado_Cuota_Asesor__c</columns>
+    <columns>Ciudad__c</columns>
+    <columns>OBJECT_ID</columns>
+    <filterScope>Everything</filterScope>
+    <label>Todos los Concesionarios</label>
+</ListView>

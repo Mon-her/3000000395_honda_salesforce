@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_Inv_Usado__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Origen__c , 
+       &quot;Renting&quot;, &quot;Propio&quot;, 
+       &quot;Retoma&quot;, &quot;Propio&quot;,
+       &quot;Consignación&quot;, &quot;Consignación&quot;,
+       &quot;Activo Fijo&quot;, &quot;Activo Fijo&quot;,
+       &quot;Pendiente por ingresar&quot;, &quot;Pendiente por ingresar&quot;,
+&quot;No Definido&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tipo Inv. Usado</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Distribuidor__c</fullName>
+    <externalId>false</externalId>
+    <label>Distribuidor</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agencia Autosaman</fullName>
+                <default>false</default>
+                <label>Agencia Autosaman</label>
+            </value>
+            <value>
+                <fullName>Dist. Armotor Armenia</fullName>
+                <default>false</default>
+                <label>Dist. Armotor Armenia</label>
+            </value>
+            <value>
+                <fullName>Dist Alcala Motor Bogotá</fullName>
+                <default>false</default>
+                <label>Dist Alcala Motor Bogotá</label>
+            </value>
+            <value>
+                <fullName>Dist Alcala Motor Tunja</fullName>
+                <default>false</default>
+                <label>Dist Alcala Motor Tunja</label>
+            </value>
+            <value>
+                <fullName>Dist Alcala Motor Villavicencio</fullName>
+                <default>false</default>
+                <label>Dist Alcala Motor Villavicencio</label>
+            </value>
+            <value>
+                <fullName>Dist Armotor Manizalez</fullName>
+                <default>false</default>
+                <label>Dist Armotor Manizalez</label>
+            </value>
+            <value>
+                <fullName>Dist Armotor Pereira</fullName>
+                <default>false</default>
+                <label>Dist Armotor Pereira</label>
+            </value>
+            <value>
+                <fullName>Dist Autoacacio Sta Marta</fullName>
+                <default>false</default>
+                <label>Dist Autoacacio Sta Marta</label>
+            </value>
+            <value>
+                <fullName>Dist Autoacacio Valledupar</fullName>
+                <default>false</default>
+                <label>Dist Autoacacio Valledupar</label>
+            </value>
+            <value>
+                <fullName>Dist Autoarrayan</fullName>
+                <default>false</default>
+                <label>Dist Autoarrayan</label>
+            </value>
+            <value>
+                <fullName>Dist Autocaobos</fullName>
+                <default>false</default>
+                <label>Dist Autocaobos</label>
+            </value>
+            <value>
+                <fullName>Dist Autocedro - Colwagen</fullName>
+                <default>false</default>
+                <label>Dist Autocedro - Colwagen</label>
+            </value>
+            <value>
+                <fullName>Dist Autochicala</fullName>
+                <default>false</default>
+                <label>Dist Autochicala</label>
+            </value>
+            <value>
+                <fullName>Dist Autosakura</fullName>
+                <default>false</default>
+                <label>Dist Autosakura</label>
+            </value>
+            <value>
+                <fullName>Dist Autosaman Ibagué</fullName>
+                <default>false</default>
+                <label>Dist Autosaman Ibagué</label>
+            </value>
+            <value>
+                <fullName>Dist Autosaman - Neiva</fullName>
+                <default>false</default>
+                <label>Dist Autosaman - Neiva</label>
+            </value>
+            <value>
+                <fullName>Ninguno</fullName>
+                <default>false</default>
+                <label>Ninguno</label>
+            </value>
+            <value>
+                <fullName>Dist Autosauce</fullName>
+                <default>false</default>
+                <label>Dist Autosauce</label>
+            </value>
+            <value>
+                <fullName>Dist Los coches</fullName>
+                <default>false</default>
+                <label>Dist Los coches</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

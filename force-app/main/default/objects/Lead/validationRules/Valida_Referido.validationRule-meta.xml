@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Referido</fullName>
+    <active>true</active>
+    <description>Se encarga de validar si el source es &quot;Referido&quot; que el campo Referidor cuenta o Referidor Lead sean distintos a Null</description>
+    <errorConditionFormula>OR(AND( TEXT(LeadSource)==&quot;Referidos&quot; , Referidor_Lead__c == null,  Referidor_Cuenta__c == null),AND( TEXT(LeadSource)&lt;&gt;&quot;Referidos&quot; , OR(Referidor_Lead__c &lt;&gt; null,  Referidor_Cuenta__c &lt;&gt; null)))</errorConditionFormula>
+    <errorDisplayField>LeadSource</errorDisplayField>
+    <errorMessage>Asegúrese de completar el campo de Referido en dependencia de si se escogió el valor Referido en el campo Fuente de Prospección .</errorMessage>
+</ValidationRule>

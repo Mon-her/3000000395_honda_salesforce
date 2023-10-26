@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_consulta_listas_restrictivas</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISBLANK( Numero_consulta_en_Iistas_restrictivas__c ) , Consultado_en_listas_restrictivas__c = true)</errorConditionFormula>
+    <errorMessage>Debe registrar el número de consulta en listas restrictivas para marcar el check del campo Consultado en listas restrictivas</errorMessage>
+</ValidationRule>

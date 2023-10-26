@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prolibu_Metrics_Today_s</fullName>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Error_Reasignacion__c</columns>
+    <columns>Body__c</columns>
+    <columns>Response__c</columns>
+    <columns>Web_Service__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>Web_Service__c</field>
+        <operation>equals</operation>
+        <value>ProlibuProposalMetricsBatch</value>
+    </filters>
+    <label>Prolibu Metrics - Today&apos;s</label>
+</ListView>

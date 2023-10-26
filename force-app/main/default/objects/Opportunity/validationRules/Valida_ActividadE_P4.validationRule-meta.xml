@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_ActividadE_P4</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( TEXT(StageName)=&quot;P4&quot;, ISBLANK( TEXT(Account.Actividad_economica__c ))  )</errorConditionFormula>
+    <errorMessage>La cuenta asociada a esta oportunidad no tiene diligenciado el campo Actividad Económica, favor verificar antes de continuar.</errorMessage>
+</ValidationRule>

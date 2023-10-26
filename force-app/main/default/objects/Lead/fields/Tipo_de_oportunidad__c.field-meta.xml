@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_oportunidad__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de oportunidad</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Nuevos</fullName>
+                <default>false</default>
+                <label>Nuevos</label>
+            </value>
+            <value>
+                <fullName>Usados</fullName>
+                <default>false</default>
+                <label>Usados</label>
+            </value>
+            <value>
+                <fullName>Renting</fullName>
+                <default>false</default>
+                <label>Renting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

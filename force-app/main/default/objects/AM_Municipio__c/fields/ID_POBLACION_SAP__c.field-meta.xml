@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ID_POBLACION_SAP__c</fullName>
+    <description>ID Poblacion SAP es el campo creado para la integracion donde esta el codigo de poblacion de SAP</description>
+    <externalId>false</externalId>
+    <label>ID POBLACION SAP</label>
+    <length>5</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Centera_Autos1_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Call Center Autos</label>
+    <queue>Call_Center_Autos</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

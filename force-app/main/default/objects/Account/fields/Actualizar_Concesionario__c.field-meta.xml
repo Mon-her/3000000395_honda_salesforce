@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actualizar_Concesionario__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Ocupado para que al marcarse se envíe a sap a actualizar la cuenta.</description>
+    <externalId>false</externalId>
+    <label>Actualizar Concesionario</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

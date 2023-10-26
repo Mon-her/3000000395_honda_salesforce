@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cotizaciones_creadas_P3</fullName>
+    <columns>NAME</columns>
+    <columns>AM_Etapa__c</columns>
+    <columns>AM_Usuario_motocicleta__c</columns>
+    <columns>AM_Modelo_de_interes__c</columns>
+    <columns>AM_Numero_de_documento_cliente__c</columns>
+    <columns>AM_Tipo_de_cotizacion__c</columns>
+    <columns>Forma_de_pago__c</columns>
+    <columns>AM_Fecha_de_creacion__c</columns>
+    <columns>AM_Fecha_de_cierre__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>AM_Prueba_SOLO_Fecha_Actividad__c</columns>
+    <columns>AM_Propietario_contacto_principal__c</columns>
+    <columns>AM_Estado1__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>AM_Etapa__c</field>
+        <operation>equals</operation>
+        <value>P0,P1,P2,P3,P4,P5,PU,PC,PSI,PSP</value>
+    </filters>
+    <filters>
+        <field>OWNER.LAST_NAME</field>
+        <operation>contains</operation>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>contains</operation>
+    </filters>
+    <filters>
+        <field>AM_Propietario_contacto_principal__c</field>
+        <operation>contains</operation>
+    </filters>
+    <label>Todas las cotizaciones</label>
+</ListView>

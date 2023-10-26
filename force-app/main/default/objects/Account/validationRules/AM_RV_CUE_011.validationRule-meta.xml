@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_CUE_011</fullName>
+    <active>false</active>
+    <description>Si tiene 2 hijo debe diligenciar la información de primer hijo y del segundo hijo.
+AM_RV_CUE_011</description>
+    <errorConditionFormula>AND
+(
+	TEXT(AM_Tipo_de_documento__c) = &quot;Cédula de ciudadanía&quot;,
+            TEXT(Tiene_hijos__pc )=&quot;2&quot;,
+OR (
+
+
+	ISBLANK ( AM_Primer_Nombre_Hijo_1__pc ),
+	ISBLANK( AM_Primer_Apellido_Hijo_1__pc) ,
+	ISBLANK ( TEXT (AM_Depende_economicamente_de_usted_Hijo1__pc )),
+        ISBLANK ( TEXT(AM_Genero_Hijo1__pc )),
+
+ISBLANK ( AM_Primer_Nombre_Hijo_2__pc ),
+	ISBLANK( AM_Primer_Apellido_Hijo_2__pc) ,
+	ISBLANK ( TEXT (AM_Depende_economicamente_de_usted_Hijo2__pc )),
+        ISBLANK ( TEXT(AM_Genero_Hijo2__pc ))
+))</errorConditionFormula>
+    <errorDisplayField>Tiene_hijos__pc</errorDisplayField>
+    <errorMessage>Si tiene 2 hijo debe diligenciar la información de primer hijo y del segundo hijo.
+AM_RV_CUE_011</errorMessage>
+</ValidationRule>

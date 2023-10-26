@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_valor_seguro_robo_S2__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( TEXT(AM_Desea_incluir_seguro_de_robo__c) = &quot;Si&quot;, AM_valor_total_S2__c  *AM_Porcentaje_seguro_robo__c,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Valor seguro robo sugerido 2</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

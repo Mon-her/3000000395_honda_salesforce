@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>M_Usted_ve_su_auto_como__c</fullName>
+    <externalId>false</externalId>
+    <label>Usted ve su automóvil como</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Un medio de transporte familiar</fullName>
+                <default>false</default>
+                <label>Un medio de transporte familiar</label>
+            </value>
+            <value>
+                <fullName>Un medio para movilizarse</fullName>
+                <default>false</default>
+                <label>Un medio para movilizarse</label>
+            </value>
+            <value>
+                <fullName>Un sello personal</fullName>
+                <default>false</default>
+                <label>Un sello personal</label>
+            </value>
+            <value>
+                <fullName>Algo que me acerca a vivir nuevas experiencias</fullName>
+                <default>false</default>
+                <label>Algo que me acerca a vivir nuevas experiencias</label>
+            </value>
+            <value>
+                <fullName>Algo que me facilita la vida y es necesario</fullName>
+                <default>false</default>
+                <label>Algo que me facilita la vida y es necesario</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

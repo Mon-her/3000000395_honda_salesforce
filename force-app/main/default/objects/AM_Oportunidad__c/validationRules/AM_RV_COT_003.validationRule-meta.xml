@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_003</fullName>
+    <active>true</active>
+    <description>Debe diligenciar el número la placa del vehiculo de retoma con el formato 3 letras y 3 numeros. Ejemplo ABC123
+AM_RV_COT_003</description>
+    <errorConditionFormula>AND 
+( 
+  $User.AO_BypassApex__c = false, 
+NOT(BEGINS($Profile.Name, &quot;Gerente de ventas&quot;)), 
+
+AND(
+ NOT(ISBLANK(AM_Otro_Placa__c )),
+ NOT(REGEX( AM_Otro_Placa__c  , &apos;[A-Z]{3}[0-9]{3}&apos;))
+
+
+))</errorConditionFormula>
+    <errorDisplayField>AM_Otro_Placa__c</errorDisplayField>
+    <errorMessage>Debe diligenciar el número la placa del vehiculo de retoma con el formato 3 letras y 3 numeros. Ejemplo ABC123
+AM_RV_COT_003</errorMessage>
+</ValidationRule>

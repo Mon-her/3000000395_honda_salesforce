@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SO_No_recibir_correo_electronico_Refer__c</fullName>
+    <externalId>false</externalId>
+    <formula>SO_Referidor_Cuenta__r.PersonHasOptedOutOfEmail</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>No recibir correos electrónicos</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

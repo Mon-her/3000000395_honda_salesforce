@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Busqueda_de_ciudad_y_agencia__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Busqueda de ciudad y agencia</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR (3 AND 4)</booleanFilter>
+        <errorMessage>El valor introducido no es válido</errorMessage>
+        <filterItems>
+            <field>$Source.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PQRSFS Autos, &quot;Entrega Vehículo Nuevo, Usado y Renting&quot;, Mesa de Ayuda, General Autos, Renta diario</value>
+        </filterItems>
+        <filterItems>
+            <field>Relaci_n_Municipio_Consesionario__c.Autos__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PQRSFS Motos, Habeas Data, Recall, Consulta Técnica, General Motos, Garantía Motos</value>
+        </filterItems>
+        <filterItems>
+            <field>Relaci_n_Municipio_Consesionario__c.Motos__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <infoMessage>Utilice este buscador para encontrar la agencia y la ciudad dependientes solicitadas en este caso</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Relaci_n_Municipio_Consesionario__c</referenceTo>
+    <relationshipLabel>Cases</relationshipLabel>
+    <relationshipName>Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>precio_de_venta_menor_a_precio_de_lista</fullName>
+    <active>true</active>
+    <description>El precio de venta no debe ser menor al precio de lista</description>
+    <errorConditionFormula>UnitPrice &lt; PricebookEntry.UnitPrice</errorConditionFormula>
+    <errorDisplayField>ListPrice</errorDisplayField>
+    <errorMessage>El precio de venta no debe ser menor al precio de lista</errorMessage>
+</ValidationRule>

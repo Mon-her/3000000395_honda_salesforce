@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_048</fullName>
+    <active>false</active>
+    <description>AM_RV_COT_048 : El valor de la cuota inicial no puede estar vacio.</description>
+    <errorConditionFormula>ISBLANK( AM_Valor_cuota_inicial__c )</errorConditionFormula>
+    <errorDisplayField>AM_Valor_cuota_inicial__c</errorDisplayField>
+    <errorMessage>AM_RV_COT_048 : El valor de la cuota inicial no puede estar vacio.</errorMessage>
+</ValidationRule>

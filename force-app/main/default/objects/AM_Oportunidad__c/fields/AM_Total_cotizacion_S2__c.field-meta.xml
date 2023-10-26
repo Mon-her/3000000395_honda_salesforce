@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Total_cotizacion_S2__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(RecordType.Name = &quot;Contado&quot;, AM_valor_total_S2__c + AM_valor_matricula_S2__c + AM_valor_SOAT_S2__c + AM_valor_seguro_robo_S2__c, 0 )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total cotización sugerido 2</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

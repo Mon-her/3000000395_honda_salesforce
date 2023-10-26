@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Cierre_Rentadiario</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( RecordType.Name =&quot;Renta diario&quot;,  TEXT(Status)=&quot;Cerrado&quot; ,OR(              ISBLANK(Linea__c), ISBLANK(Version__c),  ISBLANK(Ano_modelo__c),  ISBLANK(Color__c),  ISBLANK(Placa_del_vehiculo__c),  Vehiculo_rentadiario_entregado__c=false      ))</errorConditionFormula>
+    <errorMessage>No se puede cerrar un caso renta diario si falta algún campo de la sección información del vehículo.</errorMessage>
+</ValidationRule>

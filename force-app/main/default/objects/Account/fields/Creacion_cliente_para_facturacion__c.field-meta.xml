@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Creacion_cliente_para_facturacion__c</fullName>
+    <description>Se debe seleccionar SI cuando se requiere que el cliente sea creado en el sistema facturación.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Se debe seleccionar SI cuando se requiere que el cliente sea creado en el sistema facturación.</inlineHelpText>
+    <label>Creación cliente para facturación</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SI</fullName>
+                <default>false</default>
+                <label>SI</label>
+            </value>
+            <value>
+                <fullName>NO</fullName>
+                <default>true</default>
+                <label>NO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

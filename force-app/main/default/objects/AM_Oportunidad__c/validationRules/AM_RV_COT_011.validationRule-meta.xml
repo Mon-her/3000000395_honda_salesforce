@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_011</fullName>
+    <active>true</active>
+    <description>El descuento no puede ser mayor a $15.000.000.
+AM_RV_COT_011</description>
+    <errorConditionFormula>AND
+(
+  $User.AO_BypassApex__c = false, 
+	AM_Precio_de_lista__c &gt; 0,
+	RecordType.Name &lt;&gt; &quot;Presupuesto&quot;, 
+	AM_Valor_descuento__c &gt; 15000000
+)</errorConditionFormula>
+    <errorDisplayField>AM_Valor_descuento__c</errorDisplayField>
+    <errorMessage>El descuento no puede ser mayor a $15.000.000.
+AM_RV_COT_011</errorMessage>
+</ValidationRule>

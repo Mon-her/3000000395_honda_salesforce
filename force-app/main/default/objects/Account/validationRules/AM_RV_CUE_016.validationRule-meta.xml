@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_CUE_016</fullName>
+    <active>true</active>
+    <description>Cuenta persona natural, la cotización debe ser de la misma naturaleza. 
+AM_RV_CUE_015</description>
+    <errorConditionFormula>AND
+(
+   $User.AO_BypassApex__c = false, 
+ $ObjectType.AM_Oportunidad__c.Fields.Prueba__c  = &quot;Persona natural&quot;,
+
+ RecordType.Name = &quot;AM_CUE_Persona_natural&quot;
+
+)</errorConditionFormula>
+    <errorMessage>Cuenta persona natural, la cotización debe ser de la misma naturaleza. 
+AM_RV_CUE_015</errorMessage>
+</ValidationRule>

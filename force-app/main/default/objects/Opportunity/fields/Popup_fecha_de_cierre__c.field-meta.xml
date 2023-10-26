@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Popup_fecha_de_cierre__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(
+ TEXT(StageName )  &lt;&gt;  &quot;Vendida&quot; || TEXT(StageName )  &lt;&gt;  &quot;Perdida&quot;,
+ RecordType_Name__c  =  &quot;Oportunidad Motos&quot;,
+ Fecha_cierre_atrasada__c  &lt; 1
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Popup fecha de cierre</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

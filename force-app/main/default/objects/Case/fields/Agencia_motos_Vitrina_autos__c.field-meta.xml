@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agencia_motos_Vitrina_autos__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Agencia motos/ Vitrina autos</label>
+    <referenceTo>Concesionario__c</referenceTo>
+    <relationshipLabel>Casos (Concesionario / Vitrina)</relationshipLabel>
+    <relationshipName>CasosPrincipal</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

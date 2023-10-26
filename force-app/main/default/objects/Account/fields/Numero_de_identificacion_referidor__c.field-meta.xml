@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Numero_de_identificacion_referidor__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Referidor_Cuenta__c &lt;&gt; null, Referidor_Cuenta__r.AM_Numero_de_documento__c , IF( Referidor_Lead__c &lt;&gt; null, Referidor_Lead__r.Nmero_de_documento__c , &quot;No ha seleccionado Referidor&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Número de identificación referidor</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

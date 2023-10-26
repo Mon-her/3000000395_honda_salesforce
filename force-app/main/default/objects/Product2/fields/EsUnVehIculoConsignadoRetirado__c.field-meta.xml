@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EsUnVehIculoConsignadoRetirado__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(  ISPICKVAL(Inventario_de_Usados__r.Estado_Del_Vehiculo__c ,  &apos;CONSIG. RETIRADO&apos; ), RecordType.Name == &apos;Autos&apos;  ) , true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>¿Es un vehículo  consignado retirado?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

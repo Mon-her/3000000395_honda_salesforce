@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>prueba_de_digito__c</fullName>
+    <externalId>false</externalId>
+    <formula>VALUE (MID (LPAD ( AM_Numero_de_documento__c ,15,&apos;0&apos;),15,1))*3
++
+VALUE (MID (LPAD ( AM_Numero_de_documento__c ,15,&apos;0&apos;),14,1))*7
++
+VALUE (MID (LPAD ( AM_Numero_de_documento__c ,15,&apos;0&apos;),13,1))*13
++
+VALUE (MID (LPAD ( AM_Numero_de_documento__c ,15,&apos;0&apos;),12,1))*17
++
+VALUE (MID (LPAD ( AM_Numero_de_documento__c ,15,&apos;0&apos;),11,1))*19
++
+VALUE (MID (LPAD ( AM_Numero_de_documento__c ,15,&apos;0&apos;),10,1))*23
++
+VALUE (MID (LPAD ( AM_Numero_de_documento__c ,15,&apos;0&apos;),9,1))*29
++
+VALUE (MID (LPAD ( AM_Numero_de_documento__c ,15,&apos;0&apos;),8,1))*37
++
+VALUE (MID (LPAD ( AM_Numero_de_documento__c ,15,&apos;0&apos;),7,1))*41
++
+VALUE (MID (LPAD ( AM_Numero_de_documento__c ,15,&apos;0&apos;),6,1))*43
++
+VALUE (MID (LPAD ( AM_Numero_de_documento__c ,15,&apos;0&apos;),5,1))*47
++
+VALUE (MID (LPAD ( AM_Numero_de_documento__c ,15,&apos;0&apos;),4,1))*53
++
+VALUE (MID (LPAD ( AM_Numero_de_documento__c ,15,&apos;0&apos;),3,1))*59
++
+VALUE (MID (LPAD ( AM_Numero_de_documento__c ,15,&apos;0&apos;),2,1))*67
++
+VALUE (MID (LPAD ( AM_Numero_de_documento__c ,15,&apos;0&apos;),1,1))*71</formula>
+    <label>prueba de digito</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

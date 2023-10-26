@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Estado_civil__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Recuerda registrar la informacion del parentesco en sección relación familiar</inlineHelpText>
+    <label>Estado civil</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Casado</fullName>
+                <default>false</default>
+                <label>Casado</label>
+            </value>
+            <value>
+                <fullName>Unión libre</fullName>
+                <default>false</default>
+                <label>Unión libre</label>
+            </value>
+            <value>
+                <fullName>Soltero</fullName>
+                <default>false</default>
+                <label>Soltero</label>
+            </value>
+            <value>
+                <fullName>Divorciado/Separado</fullName>
+                <default>false</default>
+                <label>Divorciado/Separado</label>
+            </value>
+            <value>
+                <fullName>Viudo</fullName>
+                <default>false</default>
+                <label>Viudo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Propietario_motocicleta__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Es la persona propietaria de la motocicleta en caso que el usuario de la motocicleta no sea el propietario.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Es la persona propietaria de la motocicleta en caso que el usuario de la motocicleta no sea el propietario.</inlineHelpText>
+    <label>Propietario vehiculo</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Cotizaciones (Propietario vehiculo)</relationshipLabel>
+    <relationshipName>Oportunidades</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

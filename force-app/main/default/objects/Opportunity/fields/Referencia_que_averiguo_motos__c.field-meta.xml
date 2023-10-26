@@ -1,0 +1,2856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referencia_que_averiguo_motos__c</fullName>
+    <externalId>false</externalId>
+    <label>Referencia que averiguó</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Cu_l_marca_averigu_durante_la_compra__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AK 110 SPECIAL</fullName>
+                <default>false</default>
+                <label>AK 110 SPECIAL</label>
+            </value>
+            <value>
+                <fullName>AK 125 FLEX</fullName>
+                <default>false</default>
+                <label>AK 125 FLEX</label>
+            </value>
+            <value>
+                <fullName>AK 125 FLEX EIII</fullName>
+                <default>false</default>
+                <label>AK 125 FLEX EIII</label>
+            </value>
+            <value>
+                <fullName>AK 125 NKD</fullName>
+                <default>false</default>
+                <label>AK 125 NKD</label>
+            </value>
+            <value>
+                <fullName>AK 125 TT</fullName>
+                <default>false</default>
+                <label>AK 125 TT</label>
+            </value>
+            <value>
+                <fullName>AK 180 XM</fullName>
+                <default>false</default>
+                <label>AK 180 XM</label>
+            </value>
+            <value>
+                <fullName>AK 200 SM</fullName>
+                <default>false</default>
+                <label>AK 200 SM</label>
+            </value>
+            <value>
+                <fullName>AK 250 TT ADVENTOUR</fullName>
+                <default>false</default>
+                <label>AK 250 TT ADVENTOUR</label>
+            </value>
+            <value>
+                <fullName>AK E3000W</fullName>
+                <default>false</default>
+                <label>AK E3000W</label>
+            </value>
+            <value>
+                <fullName>AK125NKD EIII</fullName>
+                <default>false</default>
+                <label>AK125NKD EIII</label>
+            </value>
+            <value>
+                <fullName>AK125TTR EIII</fullName>
+                <default>false</default>
+                <label>AK125TTR EIII</label>
+            </value>
+            <value>
+                <fullName>AK150 EVO</fullName>
+                <default>false</default>
+                <label>AK150 EVO</label>
+            </value>
+            <value>
+                <fullName>AK150AC EIII</fullName>
+                <default>false</default>
+                <label>AK150AC EIII</label>
+            </value>
+            <value>
+                <fullName>AK150T28</fullName>
+                <default>false</default>
+                <label>AK150T28</label>
+            </value>
+            <value>
+                <fullName>AK169SC-R</fullName>
+                <default>false</default>
+                <label>AK169SC-R</label>
+            </value>
+            <value>
+                <fullName>AK180TTX</fullName>
+                <default>false</default>
+                <label>AK180TTX</label>
+            </value>
+            <value>
+                <fullName>AK200TTR</fullName>
+                <default>false</default>
+                <label>AK200TTR</label>
+            </value>
+            <value>
+                <fullName>AK200TTR EIII</fullName>
+                <default>false</default>
+                <label>AK200TTR EIII</label>
+            </value>
+            <value>
+                <fullName>AK200TTX</fullName>
+                <default>false</default>
+                <label>AK200TTX</label>
+            </value>
+            <value>
+                <fullName>AK300AC6</fullName>
+                <default>false</default>
+                <label>AK300AC6</label>
+            </value>
+            <value>
+                <fullName>AK300DS6</fullName>
+                <default>false</default>
+                <label>AK300DS6</label>
+            </value>
+            <value>
+                <fullName>AK300LX EFI</fullName>
+                <default>false</default>
+                <label>AK300LX EFI</label>
+            </value>
+            <value>
+                <fullName>AK500DS7</fullName>
+                <default>false</default>
+                <label>AK500DS7</label>
+            </value>
+            <value>
+                <fullName>AK650DS8</fullName>
+                <default>false</default>
+                <label>AK650DS8</label>
+            </value>
+            <value>
+                <fullName>CR3 200</fullName>
+                <default>false</default>
+                <label>CR3 200</label>
+            </value>
+            <value>
+                <fullName>CR4 125 UNISHOCK</fullName>
+                <default>false</default>
+                <label>CR4 125 UNISHOCK</label>
+            </value>
+            <value>
+                <fullName>CR4 162 UNISHOCK</fullName>
+                <default>false</default>
+                <label>CR4 162 UNISHOCK</label>
+            </value>
+            <value>
+                <fullName>CR5 180</fullName>
+                <default>false</default>
+                <label>CR5 180</label>
+            </value>
+            <value>
+                <fullName>CR5 200</fullName>
+                <default>false</default>
+                <label>CR5 200</label>
+            </value>
+            <value>
+                <fullName>DYNAMIC PRO</fullName>
+                <default>false</default>
+                <label>DYNAMIC PRO</label>
+            </value>
+            <value>
+                <fullName>DYNAMIC PRO EIII</fullName>
+                <default>false</default>
+                <label>DYNAMIC PRO EIII</label>
+            </value>
+            <value>
+                <fullName>DYNAMIC R</fullName>
+                <default>false</default>
+                <label>DYNAMIC R</label>
+            </value>
+            <value>
+                <fullName>ER10</fullName>
+                <default>false</default>
+                <label>ER10</label>
+            </value>
+            <value>
+                <fullName>EVO R3 125</fullName>
+                <default>false</default>
+                <label>EVO R3 125</label>
+            </value>
+            <value>
+                <fullName>KOMFORT</fullName>
+                <default>false</default>
+                <label>KOMFORT</label>
+            </value>
+            <value>
+                <fullName>TT DS 200</fullName>
+                <default>false</default>
+                <label>TT DS 200</label>
+            </value>
+            <value>
+                <fullName>AVENGER 220</fullName>
+                <default>false</default>
+                <label>AVENGER 220</label>
+            </value>
+            <value>
+                <fullName>BOXER CARGO CT 100</fullName>
+                <default>false</default>
+                <label>BOXER CARGO CT 100</label>
+            </value>
+            <value>
+                <fullName>BOXER CARGO CT 100 ES</fullName>
+                <default>false</default>
+                <label>BOXER CARGO CT 100 ES</label>
+            </value>
+            <value>
+                <fullName>BOXER CLASSIC</fullName>
+                <default>false</default>
+                <label>BOXER CLASSIC</label>
+            </value>
+            <value>
+                <fullName>BOXER CT 100</fullName>
+                <default>false</default>
+                <label>BOXER CT 100</label>
+            </value>
+            <value>
+                <fullName>BOXER CT 100 ES</fullName>
+                <default>false</default>
+                <label>BOXER CT 100 ES</label>
+            </value>
+            <value>
+                <fullName>BOXER CT 100 ES TITANNIUM</fullName>
+                <default>false</default>
+                <label>BOXER CT 100 ES TITANNIUM</label>
+            </value>
+            <value>
+                <fullName>BOXER CT 100 KS</fullName>
+                <default>false</default>
+                <label>BOXER CT 100 KS</label>
+            </value>
+            <value>
+                <fullName>BOXER CT 100 TITANNIUM</fullName>
+                <default>false</default>
+                <label>BOXER CT 100 TITANNIUM</label>
+            </value>
+            <value>
+                <fullName>BOXER CT 125 ES</fullName>
+                <default>false</default>
+                <label>BOXER CT 125 ES</label>
+            </value>
+            <value>
+                <fullName>BOXER S</fullName>
+                <default>false</default>
+                <label>BOXER S</label>
+            </value>
+            <value>
+                <fullName>DISCOVER 100</fullName>
+                <default>false</default>
+                <label>DISCOVER 100</label>
+            </value>
+            <value>
+                <fullName>DISCOVER 100 SPORT</fullName>
+                <default>false</default>
+                <label>DISCOVER 100 SPORT</label>
+            </value>
+            <value>
+                <fullName>DISCOVER 110</fullName>
+                <default>false</default>
+                <label>DISCOVER 110</label>
+            </value>
+            <value>
+                <fullName>DISCOVER 125 SPORT</fullName>
+                <default>false</default>
+                <label>DISCOVER 125 SPORT</label>
+            </value>
+            <value>
+                <fullName>DISCOVER 125 ST</fullName>
+                <default>false</default>
+                <label>DISCOVER 125 ST</label>
+            </value>
+            <value>
+                <fullName>DISCOVER 125 ST-R</fullName>
+                <default>false</default>
+                <label>DISCOVER 125 ST-R</label>
+            </value>
+            <value>
+                <fullName>DISCOVER 125 ST-R PRO</fullName>
+                <default>false</default>
+                <label>DISCOVER 125 ST-R PRO</label>
+            </value>
+            <value>
+                <fullName>DISCOVER 125 UG</fullName>
+                <default>false</default>
+                <label>DISCOVER 125 UG</label>
+            </value>
+            <value>
+                <fullName>DISCOVER 125 UG CBS</fullName>
+                <default>false</default>
+                <label>DISCOVER 125 UG CBS</label>
+            </value>
+            <value>
+                <fullName>DISCOVER 135</fullName>
+                <default>false</default>
+                <label>DISCOVER 135</label>
+            </value>
+            <value>
+                <fullName>DISCOVER 150 F</fullName>
+                <default>false</default>
+                <label>DISCOVER 150 F</label>
+            </value>
+            <value>
+                <fullName>DISCOVER 150 ST</fullName>
+                <default>false</default>
+                <label>DISCOVER 150 ST</label>
+            </value>
+            <value>
+                <fullName>DISCOVER 150 ST COMPETIZIONE</fullName>
+                <default>false</default>
+                <label>DISCOVER 150 ST COMPETIZIONE</label>
+            </value>
+            <value>
+                <fullName>DOMINAR 400</fullName>
+                <default>false</default>
+                <label>DOMINAR 400</label>
+            </value>
+            <value>
+                <fullName>DOMINAR 400 UG</fullName>
+                <default>false</default>
+                <label>DOMINAR 400 UG</label>
+            </value>
+            <value>
+                <fullName>PLATINO 100</fullName>
+                <default>false</default>
+                <label>PLATINO 100</label>
+            </value>
+            <value>
+                <fullName>PLATINO 110</fullName>
+                <default>false</default>
+                <label>PLATINO 110</label>
+            </value>
+            <value>
+                <fullName>PLATINO 125</fullName>
+                <default>false</default>
+                <label>PLATINO 125</label>
+            </value>
+            <value>
+                <fullName>PLATINO 125 DRL</fullName>
+                <default>false</default>
+                <label>PLATINO 125 DRL</label>
+            </value>
+            <value>
+                <fullName>PULSAR 135</fullName>
+                <default>false</default>
+                <label>PULSAR 135</label>
+            </value>
+            <value>
+                <fullName>PULSAR 150 R</fullName>
+                <default>false</default>
+                <label>PULSAR 150 R</label>
+            </value>
+            <value>
+                <fullName>PULSAR 160 NS FI TWIN DISC</fullName>
+                <default>false</default>
+                <label>PULSAR 160 NS FI TWIN DISC</label>
+            </value>
+            <value>
+                <fullName>PULSAR 180</fullName>
+                <default>false</default>
+                <label>PULSAR 180</label>
+            </value>
+            <value>
+                <fullName>PULSAR 180 GT</fullName>
+                <default>false</default>
+                <label>PULSAR 180 GT</label>
+            </value>
+            <value>
+                <fullName>PULSAR 180 GT PRO</fullName>
+                <default>false</default>
+                <label>PULSAR 180 GT PRO</label>
+            </value>
+            <value>
+                <fullName>PULSAR 180 NEON</fullName>
+                <default>false</default>
+                <label>PULSAR 180 NEON</label>
+            </value>
+            <value>
+                <fullName>PULSAR 180 NEON PRO</fullName>
+                <default>false</default>
+                <label>PULSAR 180 NEON PRO</label>
+            </value>
+            <value>
+                <fullName>PULSAR 200 NS PULSARMANIA</fullName>
+                <default>false</default>
+                <label>PULSAR 200 NS PULSARMANIA</label>
+            </value>
+            <value>
+                <fullName>PULSAR AS 150</fullName>
+                <default>false</default>
+                <label>PULSAR AS 150</label>
+            </value>
+            <value>
+                <fullName>PULSAR AS 200</fullName>
+                <default>false</default>
+                <label>PULSAR AS 200</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 125</fullName>
+                <default>false</default>
+                <label>PULSAR NS 125</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 150</fullName>
+                <default>false</default>
+                <label>PULSAR NS 150</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 160</fullName>
+                <default>false</default>
+                <label>PULSAR NS 160</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 160 FI STD</fullName>
+                <default>false</default>
+                <label>PULSAR NS 160 FI STD</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 160 PRO</fullName>
+                <default>false</default>
+                <label>PULSAR NS 160 PRO</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 160 PRO 10M</fullName>
+                <default>false</default>
+                <label>PULSAR NS 160 PRO 10M</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 160 PULSARMANIA</fullName>
+                <default>false</default>
+                <label>PULSAR NS 160 PULSARMANIA</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 200</fullName>
+                <default>false</default>
+                <label>PULSAR NS 200</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 200 ED COPA</fullName>
+                <default>false</default>
+                <label>PULSAR NS 200 ED COPA</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 200 FI</fullName>
+                <default>false</default>
+                <label>PULSAR NS 200 FI</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 200 FI PRO 10M</fullName>
+                <default>false</default>
+                <label>PULSAR NS 200 FI PRO 10M</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 200 FI PULSARMANIA</fullName>
+                <default>false</default>
+                <label>PULSAR NS 200 FI PULSARMANIA</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 200 FI STD</fullName>
+                <default>false</default>
+                <label>PULSAR NS 200 FI STD</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 200 PRO</fullName>
+                <default>false</default>
+                <label>PULSAR NS 200 PRO</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 200 PRO 10M</fullName>
+                <default>false</default>
+                <label>PULSAR NS 200 PRO 10M</label>
+            </value>
+            <value>
+                <fullName>PULSAR NS 200 PULSARMANIA</fullName>
+                <default>false</default>
+                <label>PULSAR NS 200 PULSARMANIA</label>
+            </value>
+            <value>
+                <fullName>PULSAR RS 200</fullName>
+                <default>false</default>
+                <label>PULSAR RS 200</label>
+            </value>
+            <value>
+                <fullName>PULSAR SPEED</fullName>
+                <default>false</default>
+                <label>PULSAR SPEED</label>
+            </value>
+            <value>
+                <fullName>PULSAR SPEED ED COPA</fullName>
+                <default>false</default>
+                <label>PULSAR SPEED ED COPA</label>
+            </value>
+            <value>
+                <fullName>RE 4S (RE 205)</fullName>
+                <default>false</default>
+                <label>RE 4S (RE 205)</label>
+            </value>
+            <value>
+                <fullName>RE 4S (RE 205) CE</fullName>
+                <default>false</default>
+                <label>RE 4S (RE 205) CE</label>
+            </value>
+            <value>
+                <fullName>RE 4S (RE 205D)</fullName>
+                <default>false</default>
+                <label>RE 4S (RE 205D)</label>
+            </value>
+            <value>
+                <fullName>RE MAXIMA C PETROL</fullName>
+                <default>false</default>
+                <label>RE MAXIMA C PETROL</label>
+            </value>
+            <value>
+                <fullName>RE4S PETROL</fullName>
+                <default>false</default>
+                <label>RE4S PETROL</label>
+            </value>
+            <value>
+                <fullName>V12</fullName>
+                <default>false</default>
+                <label>V12</label>
+            </value>
+            <value>
+                <fullName>DASH</fullName>
+                <default>false</default>
+                <label>DASH</label>
+            </value>
+            <value>
+                <fullName>DASH 125</fullName>
+                <default>false</default>
+                <label>DASH 125</label>
+            </value>
+            <value>
+                <fullName>DASH 125 FI</fullName>
+                <default>false</default>
+                <label>DASH 125 FI</label>
+            </value>
+            <value>
+                <fullName>ECO 100</fullName>
+                <default>false</default>
+                <label>ECO 100</label>
+            </value>
+            <value>
+                <fullName>ECO DELUXE</fullName>
+                <default>false</default>
+                <label>ECO DELUXE</label>
+            </value>
+            <value>
+                <fullName>ECO DELUXE I3S</fullName>
+                <default>false</default>
+                <label>ECO DELUXE I3S</label>
+            </value>
+            <value>
+                <fullName>GLAMOUR</fullName>
+                <default>false</default>
+                <label>GLAMOUR</label>
+            </value>
+            <value>
+                <fullName>HUNK 160R</fullName>
+                <default>false</default>
+                <label>HUNK 160R</label>
+            </value>
+            <value>
+                <fullName>HUNK 190 FI</fullName>
+                <default>false</default>
+                <label>HUNK 190 FI</label>
+            </value>
+            <value>
+                <fullName>IGNITOR</fullName>
+                <default>false</default>
+                <label>IGNITOR</label>
+            </value>
+            <value>
+                <fullName>IGNITOR SS</fullName>
+                <default>false</default>
+                <label>IGNITOR SS</label>
+            </value>
+            <value>
+                <fullName>SPLENDOR ISMART</fullName>
+                <default>false</default>
+                <label>SPLENDOR ISMART</label>
+            </value>
+            <value>
+                <fullName>SPLENDOR ISMART 110</fullName>
+                <default>false</default>
+                <label>SPLENDOR ISMART 110</label>
+            </value>
+            <value>
+                <fullName>SUPER SPLENDOR</fullName>
+                <default>false</default>
+                <label>SUPER SPLENDOR</label>
+            </value>
+            <value>
+                <fullName>THRILLER</fullName>
+                <default>false</default>
+                <label>THRILLER</label>
+            </value>
+            <value>
+                <fullName>THRILLER 200R</fullName>
+                <default>false</default>
+                <label>THRILLER 200R</label>
+            </value>
+            <value>
+                <fullName>THRILLER I3S</fullName>
+                <default>false</default>
+                <label>THRILLER I3S</label>
+            </value>
+            <value>
+                <fullName>THRILLER PRO</fullName>
+                <default>false</default>
+                <label>THRILLER PRO</label>
+            </value>
+            <value>
+                <fullName>XPULSE 200</fullName>
+                <default>false</default>
+                <label>XPULSE 200</label>
+            </value>
+            <value>
+                <fullName>XPULSE 200 FI</fullName>
+                <default>false</default>
+                <label>XPULSE 200 FI</label>
+            </value>
+            <value>
+                <fullName>XPULSE 200T</fullName>
+                <default>false</default>
+                <label>XPULSE 200T</label>
+            </value>
+            <value>
+                <fullName>ER300</fullName>
+                <default>false</default>
+                <label>ER300</label>
+            </value>
+            <value>
+                <fullName>ER400</fullName>
+                <default>false</default>
+                <label>ER400</label>
+            </value>
+            <value>
+                <fullName>EX300</fullName>
+                <default>false</default>
+                <label>EX300</label>
+            </value>
+            <value>
+                <fullName>EX400</fullName>
+                <default>false</default>
+                <label>EX400</label>
+            </value>
+            <value>
+                <fullName>KAF620RLS</fullName>
+                <default>false</default>
+                <label>KAF620RLS</label>
+            </value>
+            <value>
+                <fullName>KAF820BLF</fullName>
+                <default>false</default>
+                <label>KAF820BLF</label>
+            </value>
+            <value>
+                <fullName>KLX 150</fullName>
+                <default>false</default>
+                <label>KLX 150</label>
+            </value>
+            <value>
+                <fullName>KLX250S</fullName>
+                <default>false</default>
+                <label>KLX250S</label>
+            </value>
+            <value>
+                <fullName>KLZ1000CLF</fullName>
+                <default>false</default>
+                <label>KLZ1000CLF</label>
+            </value>
+            <value>
+                <fullName>KRF1000ALF</fullName>
+                <default>false</default>
+                <label>KRF1000ALF</label>
+            </value>
+            <value>
+                <fullName>KRT800GLFA</fullName>
+                <default>false</default>
+                <label>KRT800GLFA</label>
+            </value>
+            <value>
+                <fullName>KRT800HLF</fullName>
+                <default>false</default>
+                <label>KRT800HLF</label>
+            </value>
+            <value>
+                <fullName>LE300</fullName>
+                <default>false</default>
+                <label>LE300</label>
+            </value>
+            <value>
+                <fullName>LE300C</fullName>
+                <default>false</default>
+                <label>LE300C</label>
+            </value>
+            <value>
+                <fullName>LE650F</fullName>
+                <default>false</default>
+                <label>LE650F</label>
+            </value>
+            <value>
+                <fullName>TERYX LE</fullName>
+                <default>false</default>
+                <label>TERYX LE</label>
+            </value>
+            <value>
+                <fullName>VERSYS 1000</fullName>
+                <default>false</default>
+                <label>VERSYS 1000</label>
+            </value>
+            <value>
+                <fullName>VN900BLF</fullName>
+                <default>false</default>
+                <label>VN900BLF</label>
+            </value>
+            <value>
+                <fullName>ZR1000KLF</fullName>
+                <default>false</default>
+                <label>ZR1000KLF</label>
+            </value>
+            <value>
+                <fullName>ZR1000KLFA</fullName>
+                <default>false</default>
+                <label>ZR1000KLFA</label>
+            </value>
+            <value>
+                <fullName>ZR1000KLFB</fullName>
+                <default>false</default>
+                <label>ZR1000KLFB</label>
+            </value>
+            <value>
+                <fullName>ZR900CKFB</fullName>
+                <default>false</default>
+                <label>ZR900CKFB</label>
+            </value>
+            <value>
+                <fullName>ZR900CLF</fullName>
+                <default>false</default>
+                <label>ZR900CLF</label>
+            </value>
+            <value>
+                <fullName>ZR900CLFA</fullName>
+                <default>false</default>
+                <label>ZR900CLFA</label>
+            </value>
+            <value>
+                <fullName>ZR900CLFB</fullName>
+                <default>false</default>
+                <label>ZR900CLFB</label>
+            </value>
+            <value>
+                <fullName>ZR900EKF</fullName>
+                <default>false</default>
+                <label>ZR900EKF</label>
+            </value>
+            <value>
+                <fullName>ZR900FLF</fullName>
+                <default>false</default>
+                <label>ZR900FLF</label>
+            </value>
+            <value>
+                <fullName>ZX1002EKF/L</fullName>
+                <default>false</default>
+                <label>ZX1002EKF/L</label>
+            </value>
+            <value>
+                <fullName>ZX1002EKFA/L</fullName>
+                <default>false</default>
+                <label>ZX1002EKFA/L</label>
+            </value>
+            <value>
+                <fullName>ZX1002ELF</fullName>
+                <default>false</default>
+                <label>ZX1002ELF</label>
+            </value>
+            <value>
+                <fullName>ZX1002ELFA</fullName>
+                <default>false</default>
+                <label>ZX1002ELFA</label>
+            </value>
+            <value>
+                <fullName>ZX636GLFA</fullName>
+                <default>false</default>
+                <label>ZX636GLFA</label>
+            </value>
+            <value>
+                <fullName>ZX-6R ABS</fullName>
+                <default>false</default>
+                <label>ZX-6R ABS</label>
+            </value>
+            <value>
+                <fullName>ACTIV 110</fullName>
+                <default>false</default>
+                <label>ACTIV 110</label>
+            </value>
+            <value>
+                <fullName>AGILITY 125</fullName>
+                <default>false</default>
+                <label>AGILITY 125</label>
+            </value>
+            <value>
+                <fullName>AGILITY 125 RS NAKED</fullName>
+                <default>false</default>
+                <label>AGILITY 125 RS NAKED</label>
+            </value>
+            <value>
+                <fullName>AGILITY 150</fullName>
+                <default>false</default>
+                <label>AGILITY 150</label>
+            </value>
+            <value>
+                <fullName>AGILITY ALL NEW</fullName>
+                <default>false</default>
+                <label>AGILITY ALL NEW</label>
+            </value>
+            <value>
+                <fullName>AGILITY ALL NEW PRO</fullName>
+                <default>false</default>
+                <label>AGILITY ALL NEW PRO</label>
+            </value>
+            <value>
+                <fullName>AGILITY DIGITAL 125</fullName>
+                <default>false</default>
+                <label>AGILITY DIGITAL 125</label>
+            </value>
+            <value>
+                <fullName>AGILITY DIGITAL 125 2.0</fullName>
+                <default>false</default>
+                <label>AGILITY DIGITAL 125 2.0</label>
+            </value>
+            <value>
+                <fullName>AGILITY DIGITAL 125 3.0</fullName>
+                <default>false</default>
+                <label>AGILITY DIGITAL 125 3.0</label>
+            </value>
+            <value>
+                <fullName>AGILITY DIGITAL 125 3.0 PRO</fullName>
+                <default>false</default>
+                <label>AGILITY DIGITAL 125 3.0 PRO</label>
+            </value>
+            <value>
+                <fullName>AGILITY DIGITAL 3.0 NEON</fullName>
+                <default>false</default>
+                <label>AGILITY DIGITAL 3.0 NEON</label>
+            </value>
+            <value>
+                <fullName>AGILITY DIGITAL 3.0 SKYBLUE</fullName>
+                <default>false</default>
+                <label>AGILITY DIGITAL 3.0 SKYBLUE</label>
+            </value>
+            <value>
+                <fullName>AGILITY GO</fullName>
+                <default>false</default>
+                <label>AGILITY GO</label>
+            </value>
+            <value>
+                <fullName>AGILITY GO NEON</fullName>
+                <default>false</default>
+                <label>AGILITY GO NEON</label>
+            </value>
+            <value>
+                <fullName>AGILITY XTREME 125</fullName>
+                <default>false</default>
+                <label>AGILITY XTREME 125</label>
+            </value>
+            <value>
+                <fullName>DOWNTOWN 300i</fullName>
+                <default>false</default>
+                <label>DOWNTOWN 300i</label>
+            </value>
+            <value>
+                <fullName>FLY 125</fullName>
+                <default>false</default>
+                <label>FLY 125</label>
+            </value>
+            <value>
+                <fullName>FLY 150</fullName>
+                <default>false</default>
+                <label>FLY 150</label>
+            </value>
+            <value>
+                <fullName>JETIX 125</fullName>
+                <default>false</default>
+                <label>JETIX 125</label>
+            </value>
+            <value>
+                <fullName>KYMCO TRACK</fullName>
+                <default>false</default>
+                <label>KYMCO TRACK</label>
+            </value>
+            <value>
+                <fullName>LIKE 125</fullName>
+                <default>false</default>
+                <label>LIKE 125</label>
+            </value>
+            <value>
+                <fullName>ROCKET 125</fullName>
+                <default>false</default>
+                <label>ROCKET 125</label>
+            </value>
+            <value>
+                <fullName>TWIST</fullName>
+                <default>false</default>
+                <label>TWIST</label>
+            </value>
+            <value>
+                <fullName>TWIST CITY</fullName>
+                <default>false</default>
+                <label>TWIST CITY</label>
+            </value>
+            <value>
+                <fullName>UNI-K 110</fullName>
+                <default>false</default>
+                <label>UNI-K 110</label>
+            </value>
+            <value>
+                <fullName>URBAN S</fullName>
+                <default>false</default>
+                <label>URBAN S</label>
+            </value>
+            <value>
+                <fullName>URBAN S NEON</fullName>
+                <default>false</default>
+                <label>URBAN S NEON</label>
+            </value>
+            <value>
+                <fullName>X-TOWN 300</fullName>
+                <default>false</default>
+                <label>X-TOWN 300</label>
+            </value>
+            <value>
+                <fullName>BULLET CLASSIC 500 EFI</fullName>
+                <default>false</default>
+                <label>BULLET CLASSIC 500 EFI</label>
+            </value>
+            <value>
+                <fullName>CLASSIC 350 EFI</fullName>
+                <default>false</default>
+                <label>CLASSIC 350 EFI</label>
+            </value>
+            <value>
+                <fullName>CLASSIC350</fullName>
+                <default>false</default>
+                <label>CLASSIC350</label>
+            </value>
+            <value>
+                <fullName>CLASSIC500</fullName>
+                <default>false</default>
+                <label>CLASSIC500</label>
+            </value>
+            <value>
+                <fullName>CONTINENTAL GT</fullName>
+                <default>false</default>
+                <label>CONTINENTAL GT</label>
+            </value>
+            <value>
+                <fullName>CONTINENTAL GT 650</fullName>
+                <default>false</default>
+                <label>CONTINENTAL GT 650</label>
+            </value>
+            <value>
+                <fullName>HIMALAYAN</fullName>
+                <default>false</default>
+                <label>HIMALAYAN</label>
+            </value>
+            <value>
+                <fullName>INTERCEPTOR INT 650</fullName>
+                <default>false</default>
+                <label>INTERCEPTOR INT 650</label>
+            </value>
+            <value>
+                <fullName>TB-X 350</fullName>
+                <default>false</default>
+                <label>TB-X 350</label>
+            </value>
+            <value>
+                <fullName>CLOUD 110</fullName>
+                <default>false</default>
+                <label>CLOUD 110</label>
+            </value>
+            <value>
+                <fullName>GPS 180</fullName>
+                <default>false</default>
+                <label>GPS 180</label>
+            </value>
+            <value>
+                <fullName>SE150</fullName>
+                <default>false</default>
+                <label>SE150</label>
+            </value>
+            <value>
+                <fullName>SG 100T</fullName>
+                <default>false</default>
+                <label>SG 100T</label>
+            </value>
+            <value>
+                <fullName>SG 150</fullName>
+                <default>false</default>
+                <label>SG 150</label>
+            </value>
+            <value>
+                <fullName>SG150-ZH</fullName>
+                <default>false</default>
+                <label>SG150-ZH</label>
+            </value>
+            <value>
+                <fullName>ACCESS 125 FI</fullName>
+                <default>false</default>
+                <label>ACCESS 125 FI</label>
+            </value>
+            <value>
+                <fullName>ADDRESS FI</fullName>
+                <default>false</default>
+                <label>ADDRESS FI</label>
+            </value>
+            <value>
+                <fullName>AN100T</fullName>
+                <default>false</default>
+                <label>AN100T</label>
+            </value>
+            <value>
+                <fullName>AX 4</fullName>
+                <default>false</default>
+                <label>AX 4</label>
+            </value>
+            <value>
+                <fullName>AX4 EVOLUTION</fullName>
+                <default>false</default>
+                <label>AX4 EVOLUTION</label>
+            </value>
+            <value>
+                <fullName>BEST 125</fullName>
+                <default>false</default>
+                <label>BEST 125</label>
+            </value>
+            <value>
+                <fullName>BURGMAN 125</fullName>
+                <default>false</default>
+                <label>BURGMAN 125</label>
+            </value>
+            <value>
+                <fullName>DL650XT</fullName>
+                <default>false</default>
+                <label>DL650XT</label>
+            </value>
+            <value>
+                <fullName>DR 150</fullName>
+                <default>false</default>
+                <label>DR 150</label>
+            </value>
+            <value>
+                <fullName>DR 650</fullName>
+                <default>false</default>
+                <label>DR 650</label>
+            </value>
+            <value>
+                <fullName>DR X</fullName>
+                <default>false</default>
+                <label>DR X</label>
+            </value>
+            <value>
+                <fullName>FX 110</fullName>
+                <default>false</default>
+                <label>FX 110</label>
+            </value>
+            <value>
+                <fullName>GIXXER 150</fullName>
+                <default>false</default>
+                <label>GIXXER 150</label>
+            </value>
+            <value>
+                <fullName>GIXXER 150 DOBLE FRENO</fullName>
+                <default>false</default>
+                <label>GIXXER 150 DOBLE FRENO</label>
+            </value>
+            <value>
+                <fullName>GIXXER 250</fullName>
+                <default>false</default>
+                <label>GIXXER 250</label>
+            </value>
+            <value>
+                <fullName>GIXXER SF</fullName>
+                <default>false</default>
+                <label>GIXXER SF</label>
+            </value>
+            <value>
+                <fullName>GIXXER SF 250</fullName>
+                <default>false</default>
+                <label>GIXXER SF 250</label>
+            </value>
+            <value>
+                <fullName>GIXXER SF FI</fullName>
+                <default>false</default>
+                <label>GIXXER SF FI</label>
+            </value>
+            <value>
+                <fullName>GN 125</fullName>
+                <default>false</default>
+                <label>GN 125</label>
+            </value>
+            <value>
+                <fullName>GS 125</fullName>
+                <default>false</default>
+                <label>GS 125</label>
+            </value>
+            <value>
+                <fullName>GS 150 R</fullName>
+                <default>false</default>
+                <label>GS 150 R</label>
+            </value>
+            <value>
+                <fullName>GSX 125</fullName>
+                <default>false</default>
+                <label>GSX 125</label>
+            </value>
+            <value>
+                <fullName>GSX-R1000R</fullName>
+                <default>false</default>
+                <label>GSX-R1000R</label>
+            </value>
+            <value>
+                <fullName>GSX-R1000RA</fullName>
+                <default>false</default>
+                <label>GSX-R1000RA</label>
+            </value>
+            <value>
+                <fullName>GSX-R1000RZA</fullName>
+                <default>false</default>
+                <label>GSX-R1000RZA</label>
+            </value>
+            <value>
+                <fullName>GSX-R150</fullName>
+                <default>false</default>
+                <label>GSX-R150</label>
+            </value>
+            <value>
+                <fullName>GSX-S1000A</fullName>
+                <default>false</default>
+                <label>GSX-S1000A</label>
+            </value>
+            <value>
+                <fullName>GSX-S1000ZA</fullName>
+                <default>false</default>
+                <label>GSX-S1000ZA</label>
+            </value>
+            <value>
+                <fullName>GSX-S150</fullName>
+                <default>false</default>
+                <label>GSX-S150</label>
+            </value>
+            <value>
+                <fullName>GZ 150</fullName>
+                <default>false</default>
+                <label>GZ 150</label>
+            </value>
+            <value>
+                <fullName>HAYATE</fullName>
+                <default>false</default>
+                <label>HAYATE</label>
+            </value>
+            <value>
+                <fullName>INTRUDER</fullName>
+                <default>false</default>
+                <label>INTRUDER</label>
+            </value>
+            <value>
+                <fullName>LETS</fullName>
+                <default>false</default>
+                <label>LETS</label>
+            </value>
+            <value>
+                <fullName>UK ADDRESS 110</fullName>
+                <default>false</default>
+                <label>UK ADDRESS 110</label>
+            </value>
+            <value>
+                <fullName>VIVA R 115</fullName>
+                <default>false</default>
+                <label>VIVA R 115</label>
+            </value>
+            <value>
+                <fullName>VIVA R 115 COOL</fullName>
+                <default>false</default>
+                <label>VIVA R 115 COOL</label>
+            </value>
+            <value>
+                <fullName>VIVA R 115 STYLE</fullName>
+                <default>false</default>
+                <label>VIVA R 115 STYLE</label>
+            </value>
+            <value>
+                <fullName>VIVAX 115</fullName>
+                <default>false</default>
+                <label>VIVAX 115</label>
+            </value>
+            <value>
+                <fullName>V-STROM</fullName>
+                <default>false</default>
+                <label>V-STROM</label>
+            </value>
+            <value>
+                <fullName>VSTROM 650</fullName>
+                <default>false</default>
+                <label>VSTROM 650</label>
+            </value>
+            <value>
+                <fullName>Citycom S 300i</fullName>
+                <default>false</default>
+                <label>Citycom S 300i</label>
+            </value>
+            <value>
+                <fullName>CROX R 125</fullName>
+                <default>false</default>
+                <label>CROX R 125</label>
+            </value>
+            <value>
+                <fullName>CROX R 180i</fullName>
+                <default>false</default>
+                <label>CROX R 180i</label>
+            </value>
+            <value>
+                <fullName>FRIDDLE III</fullName>
+                <default>false</default>
+                <label>FRIDDLE III</label>
+            </value>
+            <value>
+                <fullName>JET 14</fullName>
+                <default>false</default>
+                <label>JET 14</label>
+            </value>
+            <value>
+                <fullName>MF12B</fullName>
+                <default>false</default>
+                <label>MF12B</label>
+            </value>
+            <value>
+                <fullName>NHX 170</fullName>
+                <default>false</default>
+                <label>NHX 170</label>
+            </value>
+            <value>
+                <fullName>NHX 190i</fullName>
+                <default>false</default>
+                <label>NHX 190i</label>
+            </value>
+            <value>
+                <fullName>Orbit 125+</fullName>
+                <default>false</default>
+                <label>Orbit 125+</label>
+            </value>
+            <value>
+                <fullName>Sport Bonus SR</fullName>
+                <default>false</default>
+                <label>Sport Bonus SR</label>
+            </value>
+            <value>
+                <fullName>Symphony SR 125</fullName>
+                <default>false</default>
+                <label>Symphony SR 125</label>
+            </value>
+            <value>
+                <fullName>APACHE RTR 200</fullName>
+                <default>false</default>
+                <label>APACHE RTR 200</label>
+            </value>
+            <value>
+                <fullName>SPORT 100</fullName>
+                <default>false</default>
+                <label>SPORT 100</label>
+            </value>
+            <value>
+                <fullName>SPORT 100 ELS</fullName>
+                <default>false</default>
+                <label>SPORT 100 ELS</label>
+            </value>
+            <value>
+                <fullName>STRYKER</fullName>
+                <default>false</default>
+                <label>STRYKER</label>
+            </value>
+            <value>
+                <fullName>TVS APACHE  RR 310</fullName>
+                <default>false</default>
+                <label>TVS APACHE  RR 310</label>
+            </value>
+            <value>
+                <fullName>TVS APACHE 180</fullName>
+                <default>false</default>
+                <label>TVS APACHE 180</label>
+            </value>
+            <value>
+                <fullName>TVS APACHE RTR 160</fullName>
+                <default>false</default>
+                <label>TVS APACHE RTR 160</label>
+            </value>
+            <value>
+                <fullName>TVS APACHE RTR 160 4V</fullName>
+                <default>false</default>
+                <label>TVS APACHE RTR 160 4V</label>
+            </value>
+            <value>
+                <fullName>TVS KING GS +</fullName>
+                <default>false</default>
+                <label>TVS KING GS +</label>
+            </value>
+            <value>
+                <fullName>TVS ROCKZ</fullName>
+                <default>false</default>
+                <label>TVS ROCKZ</label>
+            </value>
+            <value>
+                <fullName>ADVANCE 110</fullName>
+                <default>false</default>
+                <label>ADVANCE 110</label>
+            </value>
+            <value>
+                <fullName>ADVANCE R</fullName>
+                <default>false</default>
+                <label>ADVANCE R</label>
+            </value>
+            <value>
+                <fullName>ADVANCE R 125</fullName>
+                <default>false</default>
+                <label>ADVANCE R 125</label>
+            </value>
+            <value>
+                <fullName>BOMBER 150</fullName>
+                <default>false</default>
+                <label>BOMBER 150</label>
+            </value>
+            <value>
+                <fullName>FLOW 125</fullName>
+                <default>false</default>
+                <label>FLOW 125</label>
+            </value>
+            <value>
+                <fullName>LIFE 125</fullName>
+                <default>false</default>
+                <label>LIFE 125</label>
+            </value>
+            <value>
+                <fullName>MACH 110</fullName>
+                <default>false</default>
+                <label>MACH 110</label>
+            </value>
+            <value>
+                <fullName>MRX 125</fullName>
+                <default>false</default>
+                <label>MRX 125</label>
+            </value>
+            <value>
+                <fullName>MRX 150</fullName>
+                <default>false</default>
+                <label>MRX 150</label>
+            </value>
+            <value>
+                <fullName>NITRO 125</fullName>
+                <default>false</default>
+                <label>NITRO 125</label>
+            </value>
+            <value>
+                <fullName>NITRO 151 R</fullName>
+                <default>false</default>
+                <label>NITRO 151 R</label>
+            </value>
+            <value>
+                <fullName>ONE ST 100</fullName>
+                <default>false</default>
+                <label>ONE ST 100</label>
+            </value>
+            <value>
+                <fullName>ONE ST 100 SILVER</fullName>
+                <default>false</default>
+                <label>ONE ST 100 SILVER</label>
+            </value>
+            <value>
+                <fullName>ONE ST 110 SILVER</fullName>
+                <default>false</default>
+                <label>ONE ST 110 SILVER</label>
+            </value>
+            <value>
+                <fullName>SWITCH 150</fullName>
+                <default>false</default>
+                <label>SWITCH 150</label>
+            </value>
+            <value>
+                <fullName>VICTORY BLACK</fullName>
+                <default>false</default>
+                <label>VICTORY BLACK</label>
+            </value>
+            <value>
+                <fullName>VICTORY ONE</fullName>
+                <default>false</default>
+                <label>VICTORY ONE</label>
+            </value>
+            <value>
+                <fullName>ZS 125</fullName>
+                <default>false</default>
+                <label>ZS 125</label>
+            </value>
+            <value>
+                <fullName>BWS 125</fullName>
+                <default>false</default>
+                <label>BWS 125</label>
+            </value>
+            <value>
+                <fullName>BWS 125 FI</fullName>
+                <default>false</default>
+                <label>BWS 125 FI</label>
+            </value>
+            <value>
+                <fullName>BWS 125 X</fullName>
+                <default>false</default>
+                <label>BWS 125 X</label>
+            </value>
+            <value>
+                <fullName>CRYPTON T110</fullName>
+                <default>false</default>
+                <label>CRYPTON T110</label>
+            </value>
+            <value>
+                <fullName>CRYPTON T115</fullName>
+                <default>false</default>
+                <label>CRYPTON T115</label>
+            </value>
+            <value>
+                <fullName>CRYPTON T115 FI</fullName>
+                <default>false</default>
+                <label>CRYPTON T115 FI</label>
+            </value>
+            <value>
+                <fullName>FAZER 16</fullName>
+                <default>false</default>
+                <label>FAZER 16</label>
+            </value>
+            <value>
+                <fullName>Fino 115</fullName>
+                <default>false</default>
+                <label>Fino 115</label>
+            </value>
+            <value>
+                <fullName>FZ 2.0</fullName>
+                <default>false</default>
+                <label>FZ 2.0</label>
+            </value>
+            <value>
+                <fullName>FZ-25</fullName>
+                <default>false</default>
+                <label>FZ-25</label>
+            </value>
+            <value>
+                <fullName>FZN250-A</fullName>
+                <default>false</default>
+                <label>FZN250-A</label>
+            </value>
+            <value>
+                <fullName>LIBERO</fullName>
+                <default>false</default>
+                <label>LIBERO</label>
+            </value>
+            <value>
+                <fullName>LIBERO 125</fullName>
+                <default>false</default>
+                <label>LIBERO 125</label>
+            </value>
+            <value>
+                <fullName>MT-03</fullName>
+                <default>false</default>
+                <label>MT-03</label>
+            </value>
+            <value>
+                <fullName>MT09</fullName>
+                <default>false</default>
+                <label>MT09</label>
+            </value>
+            <value>
+                <fullName>MT-09</fullName>
+                <default>false</default>
+                <label>MT-09</label>
+            </value>
+            <value>
+                <fullName>MT09SP</fullName>
+                <default>false</default>
+                <label>MT09SP</label>
+            </value>
+            <value>
+                <fullName>MTT850D (MT09TRAGT)</fullName>
+                <default>false</default>
+                <label>MTT850D (MT09TRAGT)</label>
+            </value>
+            <value>
+                <fullName>MW125 TRICITY</fullName>
+                <default>false</default>
+                <label>MW125 TRICITY</label>
+            </value>
+            <value>
+                <fullName>MXT850 (NIKEN)</fullName>
+                <default>false</default>
+                <label>MXT850 (NIKEN)</label>
+            </value>
+            <value>
+                <fullName>NMAX</fullName>
+                <default>false</default>
+                <label>NMAX</label>
+            </value>
+            <value>
+                <fullName>NMAX-A</fullName>
+                <default>false</default>
+                <label>NMAX-A</label>
+            </value>
+            <value>
+                <fullName>SZRR</fullName>
+                <default>false</default>
+                <label>SZRR</label>
+            </value>
+            <value>
+                <fullName>XMAX 300</fullName>
+                <default>false</default>
+                <label>XMAX 300</label>
+            </value>
+            <value>
+                <fullName>XT 660 R</fullName>
+                <default>false</default>
+                <label>XT 660 R</label>
+            </value>
+            <value>
+                <fullName>XTZ125</fullName>
+                <default>false</default>
+                <label>XTZ125</label>
+            </value>
+            <value>
+                <fullName>XTZ150</fullName>
+                <default>false</default>
+                <label>XTZ150</label>
+            </value>
+            <value>
+                <fullName>XTZ250</fullName>
+                <default>false</default>
+                <label>XTZ250</label>
+            </value>
+            <value>
+                <fullName>YB125ZR</fullName>
+                <default>false</default>
+                <label>YB125ZR</label>
+            </value>
+            <value>
+                <fullName>YBR-125</fullName>
+                <default>false</default>
+                <label>YBR-125</label>
+            </value>
+            <value>
+                <fullName>YC-Z</fullName>
+                <default>false</default>
+                <label>YC-Z</label>
+            </value>
+            <value>
+                <fullName>YFM700P</fullName>
+                <default>false</default>
+                <label>YFM700P</label>
+            </value>
+            <value>
+                <fullName>YFM90R</fullName>
+                <default>false</default>
+                <label>YFM90R</label>
+            </value>
+            <value>
+                <fullName>YZ65</fullName>
+                <default>false</default>
+                <label>YZ65</label>
+            </value>
+            <value>
+                <fullName>YZF-R15</fullName>
+                <default>false</default>
+                <label>YZF-R15</label>
+            </value>
+            <value>
+                <fullName>OTRAS</fullName>
+                <default>false</default>
+                <label>OTRAS</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>ADVANCE 110</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>ADVANCE R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>ADVANCE R 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>BOMBER 150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>FLOW 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>LIFE 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>MACH 110</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>MRX 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>MRX 150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>NITRO 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>NITRO 151 R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>ONE ST 100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>ONE ST 100 SILVER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>ONE ST 110 SILVER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>SWITCH 150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>VICTORY BLACK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>VICTORY ONE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <valueName>ZS 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victory</controllingFieldValue>
+            <controllingFieldValue>Royal Enfield</controllingFieldValue>
+            <controllingFieldValue>Otras Marcas</controllingFieldValue>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <controllingFieldValue>TVS</controllingFieldValue>
+            <controllingFieldValue>Sym</controllingFieldValue>
+            <controllingFieldValue>Sigma</controllingFieldValue>
+            <valueName>OTRAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Enfield</controllingFieldValue>
+            <valueName>BULLET CLASSIC 500 EFI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Enfield</controllingFieldValue>
+            <valueName>CLASSIC 350 EFI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Enfield</controllingFieldValue>
+            <valueName>CLASSIC350</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Enfield</controllingFieldValue>
+            <valueName>CLASSIC500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Enfield</controllingFieldValue>
+            <valueName>CONTINENTAL GT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Enfield</controllingFieldValue>
+            <valueName>CONTINENTAL GT 650</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Enfield</controllingFieldValue>
+            <valueName>HIMALAYAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Enfield</controllingFieldValue>
+            <valueName>INTERCEPTOR INT 650</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Enfield</controllingFieldValue>
+            <valueName>TB-X 350</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>DASH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>DASH 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>DASH 125 FI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>ECO 100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>ECO DELUXE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>ECO DELUXE I3S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>GLAMOUR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>HUNK 160R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>HUNK 190 FI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>IGNITOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>IGNITOR SS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>SPLENDOR ISMART</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>SPLENDOR ISMART 110</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>SUPER SPLENDOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>THRILLER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>THRILLER 200R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>THRILLER I3S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>THRILLER PRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>XPULSE 200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>XPULSE 200 FI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hero</controllingFieldValue>
+            <valueName>XPULSE 200T</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK 110 SPECIAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK 125 FLEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK 125 FLEX EIII</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK 125 NKD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK 125 TT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK 180 XM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK 200 SM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK 250 TT ADVENTOUR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK E3000W</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK125NKD EIII</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK125TTR EIII</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK150 EVO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK150AC EIII</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK150T28</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK169SC-R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK180TTX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK200TTR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK200TTR EIII</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK200TTX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK300AC6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK300DS6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK300LX EFI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK500DS7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>AK650DS8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>CR3 200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>CR4 125 UNISHOCK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>CR4 162 UNISHOCK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>CR5 180</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>CR5 200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>DYNAMIC PRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>DYNAMIC PRO EIII</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>DYNAMIC R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>ER10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>EVO R3 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>KOMFORT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AKT</controllingFieldValue>
+            <valueName>TT DS 200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>AVENGER 220</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>BOXER CARGO CT 100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>BOXER CARGO CT 100 ES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>BOXER CLASSIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>BOXER CT 100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>BOXER CT 100 ES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>BOXER CT 100 ES TITANNIUM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>BOXER CT 100 KS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>BOXER CT 100 TITANNIUM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>BOXER CT 125 ES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>BOXER S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>DISCOVER 100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>DISCOVER 100 SPORT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>DISCOVER 110</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>DISCOVER 125 SPORT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>DISCOVER 125 ST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>DISCOVER 125 ST-R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>DISCOVER 125 ST-R PRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>DISCOVER 125 UG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>DISCOVER 125 UG CBS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>DISCOVER 135</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>DISCOVER 150 F</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>DISCOVER 150 ST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>DISCOVER 150 ST COMPETIZIONE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>DOMINAR 400</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>DOMINAR 400 UG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PLATINO 100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PLATINO 110</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PLATINO 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PLATINO 125 DRL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR 135</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR 150 R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR 160 NS FI TWIN DISC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR 180</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR 180 GT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR 180 GT PRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR 180 NEON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR 180 NEON PRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR 200 NS PULSARMANIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR AS 150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR AS 200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 160</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 160 FI STD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 160 PRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 160 PRO 10M</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 160 PULSARMANIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 200 ED COPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 200 FI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 200 FI PRO 10M</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 200 FI PULSARMANIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 200 FI STD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 200 PRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 200 PRO 10M</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR NS 200 PULSARMANIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR RS 200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR SPEED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>PULSAR SPEED ED COPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>RE 4S (RE 205)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>RE 4S (RE 205) CE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>RE 4S (RE 205D)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>RE MAXIMA C PETROL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>RE4S PETROL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bajaj</controllingFieldValue>
+            <valueName>V12</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ER300</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ER400</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>EX300</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>EX400</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>KAF620RLS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>KAF820BLF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>KLX 150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>KLX250S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>KLZ1000CLF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>KRF1000ALF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>KRT800GLFA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>KRT800HLF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>LE300</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>LE300C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>LE650F</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>TERYX LE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>VERSYS 1000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>VN900BLF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ZR1000KLF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ZR1000KLFA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ZR1000KLFB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ZR900CKFB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ZR900CLF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ZR900CLFA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ZR900CLFB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ZR900EKF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ZR900FLF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ZX1002EKF/L</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ZX1002EKFA/L</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ZX1002ELF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ZX1002ELFA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ZX636GLFA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kawasaki</controllingFieldValue>
+            <valueName>ZX-6R ABS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>ACTIV 110</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>AGILITY 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>AGILITY 125 RS NAKED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>AGILITY 150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>AGILITY ALL NEW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>AGILITY ALL NEW PRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>AGILITY DIGITAL 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>AGILITY DIGITAL 125 2.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>AGILITY DIGITAL 125 3.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>AGILITY DIGITAL 125 3.0 PRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>AGILITY DIGITAL 3.0 NEON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>AGILITY DIGITAL 3.0 SKYBLUE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>AGILITY GO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>AGILITY GO NEON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>AGILITY XTREME 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>DOWNTOWN 300i</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>FLY 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>FLY 150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>JETIX 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>KYMCO TRACK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>LIKE 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>ROCKET 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>TWIST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>TWIST CITY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>UNI-K 110</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>URBAN S</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>URBAN S NEON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kymco</controllingFieldValue>
+            <valueName>X-TOWN 300</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>ACCESS 125 FI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>ADDRESS FI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>AN100T</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>AX 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>AX4 EVOLUTION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>BEST 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>BURGMAN 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>DL650XT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>DR 150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>DR 650</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>DR X</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>FX 110</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GIXXER 150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GIXXER 150 DOBLE FRENO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GIXXER 250</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GIXXER SF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GIXXER SF 250</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GIXXER SF FI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GN 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GS 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GS 150 R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GSX 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GSX-R1000R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GSX-R1000RA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GSX-R1000RZA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GSX-R150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GSX-S1000A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GSX-S1000ZA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GSX-S150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>GZ 150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>HAYATE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>INTRUDER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>LETS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>UK ADDRESS 110</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>VIVA R 115</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>VIVA R 115 COOL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>VIVA R 115 STYLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>VIVAX 115</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>V-STROM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Suzuki</controllingFieldValue>
+            <valueName>VSTROM 650</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>BWS 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>BWS 125 FI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>BWS 125 X</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>CRYPTON T110</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>CRYPTON T115</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>CRYPTON T115 FI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>FAZER 16</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>Fino 115</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>FZ 2.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>FZ-25</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>FZN250-A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>LIBERO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>LIBERO 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>MT-03</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>MT09</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>MT-09</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>MT09SP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>MTT850D (MT09TRAGT)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>MW125 TRICITY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>MXT850 (NIKEN)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>NMAX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>NMAX-A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>SZRR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>XMAX 300</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>XT 660 R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>XTZ125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>XTZ150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>XTZ250</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>YB125ZR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>YBR-125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>YC-Z</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>YFM700P</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>YFM90R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>YZ65</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yamaha</controllingFieldValue>
+            <valueName>YZF-R15</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TVS</controllingFieldValue>
+            <valueName>APACHE RTR 200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TVS</controllingFieldValue>
+            <valueName>SPORT 100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TVS</controllingFieldValue>
+            <valueName>SPORT 100 ELS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TVS</controllingFieldValue>
+            <valueName>STRYKER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TVS</controllingFieldValue>
+            <valueName>TVS APACHE  RR 310</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TVS</controllingFieldValue>
+            <valueName>TVS APACHE 180</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TVS</controllingFieldValue>
+            <valueName>TVS APACHE RTR 160</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TVS</controllingFieldValue>
+            <valueName>TVS APACHE RTR 160 4V</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TVS</controllingFieldValue>
+            <valueName>TVS KING GS +</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TVS</controllingFieldValue>
+            <valueName>TVS ROCKZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sym</controllingFieldValue>
+            <valueName>Citycom S 300i</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sym</controllingFieldValue>
+            <valueName>CROX R 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sym</controllingFieldValue>
+            <valueName>CROX R 180i</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sym</controllingFieldValue>
+            <valueName>FRIDDLE III</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sym</controllingFieldValue>
+            <valueName>JET 14</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sym</controllingFieldValue>
+            <valueName>MF12B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sym</controllingFieldValue>
+            <valueName>NHX 170</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sym</controllingFieldValue>
+            <valueName>NHX 190i</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sym</controllingFieldValue>
+            <valueName>Orbit 125+</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sym</controllingFieldValue>
+            <valueName>Sport Bonus SR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sym</controllingFieldValue>
+            <valueName>Symphony SR 125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sigma</controllingFieldValue>
+            <valueName>CLOUD 110</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sigma</controllingFieldValue>
+            <valueName>GPS 180</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sigma</controllingFieldValue>
+            <valueName>SE150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sigma</controllingFieldValue>
+            <valueName>SG 100T</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sigma</controllingFieldValue>
+            <valueName>SG 150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sigma</controllingFieldValue>
+            <valueName>SG150-ZH</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

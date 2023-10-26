@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Honda CR-V</label>
+    <protected>false</protected>
+    <values>
+        <field>AFOG_Garantia__c</field>
+        <value xsi:type="xsd:string">Está orientada en satisfacer tus necesidades y las de tú vehículo durante 2 años sin límite de kilometraje, generando un ahorro del 100% en los costos de mantenimiento preventivo y repuestos.  Su cobertura inicia a partir de la fecha de factura del vehículo. La garantía incluye: Mano de obra, filtros, lubricantes, fluidos, pastillas de frenos, diagnóstico (mantenimiento preventivo, correctivo y predictivo), partes eléctricas como: Bombillería, batería, bujías fusibles, computadores de abordo, motores eléctricos, arneses, alternador y motor de arranque. Esta garantía es adicional a la garantía de fábrica, la cual aplica para todas las referencias Honda y cubre el mantenimiento realizado de acuerdo a las instrucciones dadas por el fabricante, por 3 años o 100.000 KM, lo primero que ocurra. La cobertura se encuentra especificada en el manual de garantía del vehículo. Inicia a partir de la fecha de entrega del vehículo. No incluye piezas de desgaste.
+
+Lo anterior no aplica cuando el daño del vehículo sea ocasionado por: Colisión, desastres naturales, fenómenos de la naturaleza, accidentes, uso del vehículo en actividades deportivas y/o peligrosas, el uso indebido del vehículo y no haber asistido regularmente a las revisiones que la garantía exige.</value>
+    </values>
+</CustomMetadata>

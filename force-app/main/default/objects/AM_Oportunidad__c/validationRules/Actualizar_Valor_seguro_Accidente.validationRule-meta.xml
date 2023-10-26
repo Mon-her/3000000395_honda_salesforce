@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actualizar_Valor_seguro_Accidente</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(AND( RecordType.Name = &quot;Crédito&quot;, NOT( AM_Plan_de_financiacion__r.AM_Valor_seguro_accidente__c  = AM_Valor_seguro_accidente__c),IF(PRIORVALUE(AM_Valor_seguro_accidente__c)  = AM_Plan_de_financiacion__r.AM_Valor_seguro_accidente__c, true, false )),true,false)</errorConditionFormula>
+    <errorDisplayField>AM_Valor_seguro_accidente__c</errorDisplayField>
+    <errorMessage>Este campo No se puede actualizar por que viene del Plan de Financiamiento!</errorMessage>
+</ValidationRule>

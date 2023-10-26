@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_061</fullName>
+    <active>true</active>
+    <description>Debe diligenciar la información del conyugue en la cuenta
+AM_RV_COT_061</description>
+    <errorConditionFormula>AND
+(
+	  $User.AO_BypassApex__c = false, 
+            TEXT(  AM_Usuario_motocicleta__r.PersonContact.AM_Estado_civil__c ) = &quot;Casado&quot;,
+ TEXT(AM_Etapa__c) = &quot;Facturación&quot;,
+OR (
+
+
+	ISBLANK (   AM_Usuario_motocicleta__r.PersonContact.AM_Primer_Apellido_Conyuge__c  ),
+	ISBLANK(  AM_Usuario_motocicleta__r.PersonContact.AM_Primer_Nombre_Conyuge__c  ) ,
+        ISBLANK  ( AM_Usuario_motocicleta__r.PersonContact.AM_Segundo_Apellido_Conyuge__c ),
+	ISBLANK ( TEXT (  AM_Usuario_motocicleta__r.PersonContact.AM_Ocupacion_Conyuge__c  )),
+        ISBLANK ( TEXT(  AM_Usuario_motocicleta__r.PersonContact.AM_En_cual_actividad_clasifica_Conyuge__c  )),
+        ISBLANK (   AM_Usuario_motocicleta__r.PersonContact.AM_Movil_Conyuge__c ),
+        ISBLANK (  TEXT ( AM_Usuario_motocicleta__r.PersonContact.AM_Posee_vehiculo_actualmente_Conyuge__c  ))
+
+))</errorConditionFormula>
+    <errorMessage>AM_RV_COT_061: Debe diligenciar la información del conyugue en la cuenta</errorMessage>
+</ValidationRule>

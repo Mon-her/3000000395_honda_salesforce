@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_CUE_0030</fullName>
+    <active>true</active>
+    <description>El número de telefono no puede ser igual al numero de documento.
+AM_RV_CUE_0030</description>
+    <errorConditionFormula>AND(
+$User.AO_BypassApex__c = false, 
+OR(AM_Numero_de_documento__c   = Phone, AM_Numero_de_documento__c   =  PersonMobilePhone ), AM_Numero_de_documento__c&lt;&gt;null )</errorConditionFormula>
+    <errorDisplayField>AM_Numero_de_documento__c</errorDisplayField>
+    <errorMessage>El número de telefono no puede ser igual al numero de documento.
+AM_RV_CUE_0030</errorMessage>
+</ValidationRule>

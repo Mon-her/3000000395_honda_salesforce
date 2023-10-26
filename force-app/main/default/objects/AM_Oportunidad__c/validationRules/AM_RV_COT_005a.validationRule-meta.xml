@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_005a</fullName>
+    <active>true</active>
+    <description>Debe registrar el recibo de caja ejemplo HAC-R1-0024356, o la palabra CARTA100%.
+AM_RV_COT_005a</description>
+    <errorConditionFormula>AND
+(
+  $User.AO_BypassApex__c = false, 
+	RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+        TEXT(AM_Tipo_de_cotizacion__c )&lt;&gt; &quot;Renting&quot;,
+        TEXT(AM_Etapa__c)=&quot;P4&quot;, 
+        ISBLANK(AM_Otro_Placa__c ),
+AND(
+	
+NOT(REGEX( AM_Recibo_de_caja__c  , &apos;[A-Z]{3}-[A-Z]{1}[0-9]{1}-[0-9]{8}&apos;)),
+AM_Recibo_de_caja__c   &lt;&gt;  &quot;CARTA100%&quot;
+
+))</errorConditionFormula>
+    <errorDisplayField>AM_Recibo_de_caja__c</errorDisplayField>
+    <errorMessage>Debe registrar el recibo de caja ejemplo HAC-R1-0024356, o la palabra CARTA100%.
+AM_RV_COT_005a</errorMessage>
+</ValidationRule>

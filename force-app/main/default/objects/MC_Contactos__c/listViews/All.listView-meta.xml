@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>MC_numero_de_documento_prospecto__c</columns>
+    <columns>NAME</columns>
+    <columns>MC_apellidos_prospecto__c</columns>
+    <columns>MC_estado_prospecto__c</columns>
+    <columns>MC_nivel_de_interes_prospecto__c</columns>
+    <columns>MC_celular_prospecto__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>Rafael</value>
+    </filters>
+    <label>Todos</label>
+</ListView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Descuento_Autos</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Descuento_Valor__c  &gt;  Maximo_descuento_asesor__c,   DescuentoApro__c = FALSE,  IsSyncing = TRUE)</errorConditionFormula>
+    <errorMessage>No se puede sincronizar una cotización con un descuento no aprobado, favor de ejecutar el proceso de aprobación a través del botón enviar para aprobación.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Color__c</fullName>
+    <externalId>false</externalId>
+    <label>Color opc 1</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACERO MODERNO</fullName>
+                <default>false</default>
+                <label>ACERO MODERNO</label>
+            </value>
+            <value>
+                <fullName>AMATISTA METÁLICO</fullName>
+                <default>false</default>
+                <label>AMATISTA METÁLICO</label>
+            </value>
+            <value>
+                <fullName>AZUL</fullName>
+                <default>false</default>
+                <label>AZUL</label>
+            </value>
+            <value>
+                <fullName>AZUL BRILLANTE</fullName>
+                <default>false</default>
+                <label>AZUL BRILLANTE</label>
+            </value>
+            <value>
+                <fullName>AZUL OBSIDIAN</fullName>
+                <default>false</default>
+                <label>AZUL OBSIDIAN</label>
+            </value>
+            <value>
+                <fullName>AZUL SPORT</fullName>
+                <default>false</default>
+                <label>AZUL SPORT</label>
+            </value>
+            <value>
+                <fullName>BLANCO</fullName>
+                <default>false</default>
+                <label>BLANCO</label>
+            </value>
+            <value>
+                <fullName>BLANCO DIAMANTE</fullName>
+                <default>false</default>
+                <label>BLANCO DIAMANTE</label>
+            </value>
+            <value>
+                <fullName>BLANCO ORQUÍDEA</fullName>
+                <default>false</default>
+                <label>BLANCO ORQUÍDEA</label>
+            </value>
+            <value>
+                <fullName>BLANCO PERLA ANDES</fullName>
+                <default>false</default>
+                <label>BLANCO PERLA ANDES</label>
+            </value>
+            <value>
+                <fullName>BLANCO PLATINO</fullName>
+                <default>false</default>
+                <label>BLANCO PLATINO</label>
+            </value>
+            <value>
+                <fullName>CHAMPAÑA</fullName>
+                <default>false</default>
+                <label>CHAMPAÑA</label>
+            </value>
+            <value>
+                <fullName>GRIS</fullName>
+                <default>false</default>
+                <label>GRIS</label>
+            </value>
+            <value>
+                <fullName>GRIS METÁLICO</fullName>
+                <default>false</default>
+                <label>GRIS METÁLICO</label>
+            </value>
+            <value>
+                <fullName>NEGRO</fullName>
+                <default>false</default>
+                <label>NEGRO</label>
+            </value>
+            <value>
+                <fullName>NEGRO CRISTAL</fullName>
+                <default>false</default>
+                <label>NEGRO CRISTAL</label>
+            </value>
+            <value>
+                <fullName>NEGRO CRISTAL.</fullName>
+                <default>false</default>
+                <label>NEGRO CRISTAL.</label>
+            </value>
+            <value>
+                <fullName>PLATA ALABASTER</fullName>
+                <default>false</default>
+                <label>PLATA ALABASTER</label>
+            </value>
+            <value>
+                <fullName>PLATA LUNAR</fullName>
+                <default>false</default>
+                <label>PLATA LUNAR</label>
+            </value>
+            <value>
+                <fullName>PLATEADO</fullName>
+                <default>false</default>
+                <label>PLATEADO</label>
+            </value>
+            <value>
+                <fullName>ROJO</fullName>
+                <default>false</default>
+                <label>ROJO</label>
+            </value>
+            <value>
+                <fullName>ROJO DÍNAMO</fullName>
+                <default>false</default>
+                <label>ROJO DÍNAMO</label>
+            </value>
+            <value>
+                <fullName>ROJO MILANO</fullName>
+                <default>false</default>
+                <label>ROJO MILANO</label>
+            </value>
+            <value>
+                <fullName>ROJO PASIÓN</fullName>
+                <default>false</default>
+                <label>ROJO PASIÓN</label>
+            </value>
+            <value>
+                <fullName>ROJO RALLYE</fullName>
+                <default>false</default>
+                <label>ROJO RALLYE</label>
+            </value>
+            <value>
+                <fullName>SHORELINA</fullName>
+                <default>false</default>
+                <label>SHORELINA</label>
+            </value>
+            <value>
+                <fullName>TITANIO METALICO</fullName>
+                <default>false</default>
+                <label>TITANIO METALICO</label>
+            </value>
+            <value>
+                <fullName>ROJO INTENSO</fullName>
+                <default>false</default>
+                <label>ROJO INTENSO</label>
+            </value>
+            <value>
+                <fullName>BLANCO TAFFETA</fullName>
+                <default>false</default>
+                <label>BLANCO TAFFETA</label>
+            </value>
+            <value>
+                <fullName>ROJO RADIANTE</fullName>
+                <default>false</default>
+                <label>ROJO RADIANTE</label>
+            </value>
+            <value>
+                <fullName>AZUL COSMICO</fullName>
+                <default>false</default>
+                <label>AZUL COSMICO</label>
+            </value>
+            <value>
+                <fullName>AZUL MODERNO</fullName>
+                <default>false</default>
+                <label>AZUL MODERNO</label>
+            </value>
+            <value>
+                <fullName>AMARILLO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AMARILLO</label>
+            </value>
+            <value>
+                <fullName>ARENA MIST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ARENA MIST</label>
+            </value>
+            <value>
+                <fullName>ARENA MIST-METALIZADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ARENA MIST-METALIZADA</label>
+            </value>
+            <value>
+                <fullName>ARENA MISTICA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ARENA MISTICA</label>
+            </value>
+            <value>
+                <fullName>ARENA ROCK</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ARENA ROCK</label>
+            </value>
+            <value>
+                <fullName>ARENA ROCK-METALIZADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ARENA ROCK-METALIZADA</label>
+            </value>
+            <value>
+                <fullName>AZUL ACERO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL ACERO</label>
+            </value>
+            <value>
+                <fullName>AZUL ACERO-METALIZADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL ACERO-METALIZADA</label>
+            </value>
+            <value>
+                <fullName>AZUL ADRIATIC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL ADRIATIC</label>
+            </value>
+            <value>
+                <fullName>AZUL BALI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL BALI</label>
+            </value>
+            <value>
+                <fullName>AZUL BUCKINGHAM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL BUCKINGHAM</label>
+            </value>
+            <value>
+                <fullName>AZUL CAPTIVA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL CAPTIVA</label>
+            </value>
+            <value>
+                <fullName>AZUL CELESTE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL CELESTE</label>
+            </value>
+            <value>
+                <fullName>AZUL CYCLONE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL CYCLONE</label>
+            </value>
+            <value>
+                <fullName>AZUL DYNO PERLA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL DYNO PERLA</label>
+            </value>
+            <value>
+                <fullName>AZUL ETERNO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL ETERNO</label>
+            </value>
+            <value>
+                <fullName>AZUL FIJI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL FIJI</label>
+            </value>
+            <value>
+                <fullName>AZUL FRESCO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL FRESCO</label>
+            </value>
+            <value>
+                <fullName>AZUL HARVARD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL HARVARD</label>
+            </value>
+            <value>
+                <fullName>AZUL HIELO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL HIELO</label>
+            </value>
+            <value>
+                <fullName>AZUL ICEBERG</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL ICEBERG</label>
+            </value>
+            <value>
+                <fullName>AZUL MIDNIGHT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL MIDNIGHT</label>
+            </value>
+            <value>
+                <fullName>AZUL MYSTIC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL MYSTIC</label>
+            </value>
+            <value>
+                <fullName>AZUL OCEANO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL OCEANO</label>
+            </value>
+            <value>
+                <fullName>AZUL OCEANO-METALIZADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL OCEANO-METALIZADA</label>
+            </value>
+            <value>
+                <fullName>AZUL PACIFICO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL PACIFICO</label>
+            </value>
+            <value>
+                <fullName>AZUL PERLA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL PERLA</label>
+            </value>
+            <value>
+                <fullName>AZUL PLATA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL PLATA</label>
+            </value>
+            <value>
+                <fullName>AZUL PLATA METALICO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL PLATA METALICO</label>
+            </value>
+            <value>
+                <fullName>AZUL PLATA METALICO-PERLADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL PLATA METALICO-PERLADA</label>
+            </value>
+            <value>
+                <fullName>AZUL PROTON PERLA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL PROTON PERLA</label>
+            </value>
+            <value>
+                <fullName>AZUL PROTON PERLA-PERLADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL PROTON PERLA-PERLADA</label>
+            </value>
+            <value>
+                <fullName>AZUL SIRIUS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL SIRIUS</label>
+            </value>
+            <value>
+                <fullName>AZUL SIRIUS-PERLADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL SIRIUS-PERLADA</label>
+            </value>
+            <value>
+                <fullName>AZUL SPORT BRILLANTE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL SPORT BRILLANTE</label>
+            </value>
+            <value>
+                <fullName>AZUL SUPER MARINE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL SUPER MARINE</label>
+            </value>
+            <value>
+                <fullName>AZUL SUPERSONIC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL SUPERSONIC</label>
+            </value>
+            <value>
+                <fullName>AZUL VELVET</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL VELVET</label>
+            </value>
+            <value>
+                <fullName>AZUL ZAFIRO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL ZAFIRO</label>
+            </value>
+            <value>
+                <fullName>AZUL ZIRCON</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL ZIRCON</label>
+            </value>
+            <value>
+                <fullName>AZUL/GRIS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL/GRIS</label>
+            </value>
+            <value>
+                <fullName>AZUL/PLATA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AZUL/PLATA</label>
+            </value>
+            <value>
+                <fullName>BEIGE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BEIGE</label>
+            </value>
+            <value>
+                <fullName>BEIGE INTENSO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BEIGE INTENSO</label>
+            </value>
+            <value>
+                <fullName>BEIGE OPAL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BEIGE OPAL</label>
+            </value>
+            <value>
+                <fullName>BEIGE OPAL-METALIZADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BEIGE OPAL-METALIZADA</label>
+            </value>
+            <value>
+                <fullName>BEIGE-METALICA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BEIGE-METALICA</label>
+            </value>
+            <value>
+                <fullName>BLANCO ORQUIDEA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BLANCO ORQUIDEA</label>
+            </value>
+            <value>
+                <fullName>BLANCO PREMIUM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BLANCO PREMIUM</label>
+            </value>
+            <value>
+                <fullName>BLANCO PREMIUM-PERLADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BLANCO PREMIUM-PERLADA</label>
+            </value>
+            <value>
+                <fullName>BLANCO TAFFETA-PLANA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BLANCO TAFFETA-PLANA</label>
+            </value>
+            <value>
+                <fullName>CAFE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CAFE</label>
+            </value>
+            <value>
+                <fullName>CAFE COBRE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CAFE COBRE</label>
+            </value>
+            <value>
+                <fullName>CAFÃ AMBAR OSCURO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CAFÃ AMBAR OSCURO</label>
+            </value>
+            <value>
+                <fullName>CEREZA OSCURO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CEREZA OSCURO</label>
+            </value>
+            <value>
+                <fullName>CHAMPAGNE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CHAMPAGNE</label>
+            </value>
+            <value>
+                <fullName>CLOVER GREEN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CLOVER GREEN</label>
+            </value>
+            <value>
+                <fullName>GRAFITO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRAFITO</label>
+            </value>
+            <value>
+                <fullName>GRAFITO ANTARTICO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRAFITO ANTARTICO</label>
+            </value>
+            <value>
+                <fullName>GRAFITO ANTARTICO-METALIZADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRAFITO ANTARTICO-METALIZADA</label>
+            </value>
+            <value>
+                <fullName>GRIS COSMOS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRIS COSMOS</label>
+            </value>
+            <value>
+                <fullName>GRIS COSMOS-METALIZADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRIS COSMOS-METALIZADA</label>
+            </value>
+            <value>
+                <fullName>GRIS GALAXIA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRIS GALAXIA</label>
+            </value>
+            <value>
+                <fullName>GRIS GALAXIA-METALIZADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRIS GALAXIA-METALIZADA</label>
+            </value>
+            <value>
+                <fullName>GRIS METALICO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRIS METALICO</label>
+            </value>
+            <value>
+                <fullName>GRIS NIMBUS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRIS NIMBUS</label>
+            </value>
+            <value>
+                <fullName>GRIS NIMBUS-METALICA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRIS NIMBUS-METALICA</label>
+            </value>
+            <value>
+                <fullName>GRIS NOCHE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRIS NOCHE</label>
+            </value>
+            <value>
+                <fullName>GRIS PERLA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRIS PERLA</label>
+            </value>
+            <value>
+                <fullName>GRIS PHANTOM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRIS PHANTOM</label>
+            </value>
+            <value>
+                <fullName>GRIS STERLING</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRIS STERLING</label>
+            </value>
+            <value>
+                <fullName>GRIS TRUENO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRIS TRUENO</label>
+            </value>
+            <value>
+                <fullName>GRIS/PLATA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GRIS/PLATA</label>
+            </value>
+            <value>
+                <fullName>MAGNESIO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MAGNESIO</label>
+            </value>
+            <value>
+                <fullName>MAGNESIO-METALIZADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MAGNESIO-METALIZADA</label>
+            </value>
+            <value>
+                <fullName>METALICO RADIANTE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>METALICO RADIANTE</label>
+            </value>
+            <value>
+                <fullName>MOCCA METALICO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MOCCA METALICO</label>
+            </value>
+            <value>
+                <fullName>MOJAVE MIST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MOJAVE MIST</label>
+            </value>
+            <value>
+                <fullName>MOJAVE MIST-METALIZADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MOJAVE MIST-METALIZADA</label>
+            </value>
+            <value>
+                <fullName>NAPLES GOLD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NAPLES GOLD</label>
+            </value>
+            <value>
+                <fullName>NARANJA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NARANJA</label>
+            </value>
+            <value>
+                <fullName>NEGRO FLINT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NEGRO FLINT</label>
+            </value>
+            <value>
+                <fullName>NEGRO NOCHE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NEGRO NOCHE</label>
+            </value>
+            <value>
+                <fullName>NEGRO NOCHE-PLANA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NEGRO NOCHE-PLANA</label>
+            </value>
+            <value>
+                <fullName>NEGRO/AZUL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NEGRO/AZUL</label>
+            </value>
+            <value>
+                <fullName>NEGRO/GRIS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NEGRO/GRIS</label>
+            </value>
+            <value>
+                <fullName>NEGRO/PANTERA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NEGRO/PANTERA</label>
+            </value>
+            <value>
+                <fullName>NEGRO/PURPURA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NEGRO/PURPURA</label>
+            </value>
+            <value>
+                <fullName>NUEVO PLATA VOGUE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NUEVO PLATA VOGUE</label>
+            </value>
+            <value>
+                <fullName>PLATA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA</label>
+            </value>
+            <value>
+                <fullName>PLATA ALABASTER-PERLADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA ALABASTER-PERLADA</label>
+            </value>
+            <value>
+                <fullName>PLATA BILLET</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA BILLET</label>
+            </value>
+            <value>
+                <fullName>PLATA BILLET-METALIZADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA BILLET-METALIZADA</label>
+            </value>
+            <value>
+                <fullName>PLATA BREZO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA BREZO</label>
+            </value>
+            <value>
+                <fullName>PLATA CASIMIR</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA CASIMIR</label>
+            </value>
+            <value>
+                <fullName>PLATA METEORO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA METEORO</label>
+            </value>
+            <value>
+                <fullName>PLATA REGENT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA REGENT</label>
+            </value>
+            <value>
+                <fullName>PLATA SANDSTONE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA SANDSTONE</label>
+            </value>
+            <value>
+                <fullName>PLATA SANDSTONE-METALIZADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA SANDSTONE-METALIZADA</label>
+            </value>
+            <value>
+                <fullName>PLATA SATIN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA SATIN</label>
+            </value>
+            <value>
+                <fullName>PLATA SEBRING</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA SEBRING</label>
+            </value>
+            <value>
+                <fullName>PLATA SIGNET</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA SIGNET</label>
+            </value>
+            <value>
+                <fullName>PLATA SIRVER-METALICA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA SIRVER-METALICA</label>
+            </value>
+            <value>
+                <fullName>PLATA STARLIGHT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA STARLIGHT</label>
+            </value>
+            <value>
+                <fullName>PLATA STARLIGHT-METALIZADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA STARLIGHT-METALIZADA</label>
+            </value>
+            <value>
+                <fullName>PLATA TITANIUM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA TITANIUM</label>
+            </value>
+            <value>
+                <fullName>PLATA TOPAZ</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA TOPAZ</label>
+            </value>
+            <value>
+                <fullName>PLATA VOGUE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA VOGUE</label>
+            </value>
+            <value>
+                <fullName>PLATA-METALICA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLATA-METALICA</label>
+            </value>
+            <value>
+                <fullName>PURPURA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PURPURA</label>
+            </value>
+            <value>
+                <fullName>ROJO BORDEAUX</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO BORDEAUX</label>
+            </value>
+            <value>
+                <fullName>ROJO CEDRO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO CEDRO</label>
+            </value>
+            <value>
+                <fullName>ROJO CHIANTI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO CHIANTI</label>
+            </value>
+            <value>
+                <fullName>ROJO CORAL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO CORAL</label>
+            </value>
+            <value>
+                <fullName>ROJO FUEGO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO FUEGO</label>
+            </value>
+            <value>
+                <fullName>ROJO HABANERO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO HABANERO</label>
+            </value>
+            <value>
+                <fullName>ROJO HABANERO-METALIZADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO HABANERO-METALIZADA</label>
+            </value>
+            <value>
+                <fullName>ROJO INZA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO INZA</label>
+            </value>
+            <value>
+                <fullName>ROJO MILANO-PLANA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO MILANO-PLANA</label>
+            </value>
+            <value>
+                <fullName>ROJO PASION</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO PASION</label>
+            </value>
+            <value>
+                <fullName>ROJO REDROCK</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO REDROCK</label>
+            </value>
+            <value>
+                <fullName>ROJO RIO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO RIO</label>
+            </value>
+            <value>
+                <fullName>ROJO RUBY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO RUBY</label>
+            </value>
+            <value>
+                <fullName>ROJO RUBY-METALICA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO RUBY-METALICA</label>
+            </value>
+            <value>
+                <fullName>ROJO SAN MARINO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO SAN MARINO</label>
+            </value>
+            <value>
+                <fullName>ROJO TORINO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO TORINO</label>
+            </value>
+            <value>
+                <fullName>ROJO/ARDIENTE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO/ARDIENTE</label>
+            </value>
+            <value>
+                <fullName>ROJO/GRIS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO/GRIS</label>
+            </value>
+            <value>
+                <fullName>ROJO/PLATA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO/PLATA</label>
+            </value>
+            <value>
+                <fullName>ROJO/ROJO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ROJO/ROJO</label>
+            </value>
+            <value>
+                <fullName>SHORELINE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SHORELINE</label>
+            </value>
+            <value>
+                <fullName>SHORELINE MIST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SHORELINE MIST</label>
+            </value>
+            <value>
+                <fullName>SHORELINE-METALIZADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SHORELINE-METALIZADA</label>
+            </value>
+            <value>
+                <fullName>SMOKY TOPAZ</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SMOKY TOPAZ</label>
+            </value>
+            <value>
+                <fullName>SOLAR PLATA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SOLAR PLATA</label>
+            </value>
+            <value>
+                <fullName>VERDE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE</label>
+            </value>
+            <value>
+                <fullName>VERDE AZUL BRITANICO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE AZUL BRITANICO</label>
+            </value>
+            <value>
+                <fullName>VERDE CLOVER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE CLOVER</label>
+            </value>
+            <value>
+                <fullName>VERDE CYPRESS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE CYPRESS</label>
+            </value>
+            <value>
+                <fullName>VERDE CYPRESS-PERLADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE CYPRESS-PERLADA</label>
+            </value>
+            <value>
+                <fullName>VERDE ESMERALDA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE ESMERALDA</label>
+            </value>
+            <value>
+                <fullName>VERDE EUCALIPTO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE EUCALIPTO</label>
+            </value>
+            <value>
+                <fullName>VERDE GALAPAGOS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE GALAPAGOS</label>
+            </value>
+            <value>
+                <fullName>VERDE LAUSANNE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE LAUSANNE</label>
+            </value>
+            <value>
+                <fullName>VERDE MALAQUITA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE MALAQUITA</label>
+            </value>
+            <value>
+                <fullName>VERDE MISTICO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE MISTICO</label>
+            </value>
+            <value>
+                <fullName>VERDE NOBLE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE NOBLE</label>
+            </value>
+            <value>
+                <fullName>VERDE PROFUNDO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE PROFUNDO</label>
+            </value>
+            <value>
+                <fullName>VERDE SAGE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE SAGE</label>
+            </value>
+            <value>
+                <fullName>VERDE SAGE-PERLADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE SAGE-PERLADA</label>
+            </value>
+            <value>
+                <fullName>VERDE SAMBA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE SAMBA</label>
+            </value>
+            <value>
+                <fullName>VERDE SHERWOOD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE SHERWOOD</label>
+            </value>
+            <value>
+                <fullName>VERDE VERMONT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE VERMONT</label>
+            </value>
+            <value>
+                <fullName>VERDE/GRIS/ROJO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE/GRIS/ROJO</label>
+            </value>
+            <value>
+                <fullName>VERDE/MARINO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE/MARINO</label>
+            </value>
+            <value>
+                <fullName>VERDE/PLATA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VERDE/PLATA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

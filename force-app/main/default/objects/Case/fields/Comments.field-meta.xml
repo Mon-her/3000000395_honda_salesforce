@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comments</fullName>
+    <inlineHelpText>Para ver los comentarios ve a noticias en tiempo real</inlineHelpText>
+    <trackTrending>false</trackTrending>
+</CustomField>

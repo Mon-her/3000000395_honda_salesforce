@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Nota_Otros_Descuentos__c</fullName>
+    <description>En este campo se deben registrar los descuentos corporativos como por ejemplo: Dcto Adeinco, Dcto HMCL.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>En este campo se deben registrar los descuentos corporativos como por ejemplo: Dcto Adeinco, Dcto HMCL. Se debe colocar unicamente el nombre del descuento y valor.</inlineHelpText>
+    <label>Nota Otros Descuentos</label>
+    <length>80</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>es</language>
+    <masterLabel>Gris_Footer_opc_1</masterLabel>
+    <originNetwork>Honda Motos</originNetwork>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>Gris Footer - opc 1.png</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

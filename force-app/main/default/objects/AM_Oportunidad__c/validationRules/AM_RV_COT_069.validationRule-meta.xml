@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_069</fullName>
+    <active>false</active>
+    <description>El vehiculo es obligatorio como tambien el color.
+AM_RV_COT_069</description>
+    <errorConditionFormula>AND 
+( 
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+NOT(BEGINS($Profile.Name, &quot;Administrador de mercadeo&quot;)),
+NOT(BEGINS($Profile.Name, &quot;Administrador del sistema&quot;)),
+NOT(BEGINS($Profile.Name, &quot;Analista&quot;)), 
+TEXT(AM_Tipo_de_cotizacion__c)  &lt;&gt; &quot;Usados&quot;, 
+OR( 
+ISBLANK(AM_Modelo_de_interes__c ), 
+ISBLANK(TEXT( AM_Color__c ))
+
+))</errorConditionFormula>
+    <errorDisplayField>AM_Modelo_de_interes__c</errorDisplayField>
+    <errorMessage>El vehiculo es obligatorio como tambien el color.
+AM_RV_COT_069</errorMessage>
+</ValidationRule>

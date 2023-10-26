@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Dimensiones__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Dimensiones en Largo x Ancho x Alto</inlineHelpText>
+    <label>Dimensiones (L x An x AI)</label>
+    <length>125</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

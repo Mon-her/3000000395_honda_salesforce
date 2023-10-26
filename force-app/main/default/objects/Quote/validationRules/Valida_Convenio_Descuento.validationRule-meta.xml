@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Convenio_Descuento</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISBLANK( TEXT(Opportunity.Convenio__c) ), Discount &gt;0)</errorConditionFormula>
+    <errorMessage>No puede dar un descuento sin indicar qué tipo de convenio usa la oportunidad.</errorMessage>
+</ValidationRule>

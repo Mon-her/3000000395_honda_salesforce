@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Forma_de_pago__c</fullName>
+    <externalId>false</externalId>
+    <label>Forma de pago</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>AM_Tipo_de_cotizacion__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contado</fullName>
+                <default>false</default>
+                <label>Contado</label>
+            </value>
+            <value>
+                <fullName>Credito / Leasing</fullName>
+                <default>false</default>
+                <label>Credito / Leasing</label>
+            </value>
+            <value>
+                <fullName>Contado + Retoma</fullName>
+                <default>false</default>
+                <label>Contado + Retoma</label>
+            </value>
+            <value>
+                <fullName>Credito / Leasing + Contado</fullName>
+                <default>false</default>
+                <label>Credito / Leasing + Contado</label>
+            </value>
+            <value>
+                <fullName>Credito / Leasing + Retoma</fullName>
+                <default>false</default>
+                <label>Credito / Leasing + Retoma</label>
+            </value>
+            <value>
+                <fullName>Renting</fullName>
+                <default>false</default>
+                <label>Renting</label>
+            </value>
+            <value>
+                <fullName>Contado + Credito + Retoma</fullName>
+                <default>false</default>
+                <label>Contado + Credito + Retoma</label>
+            </value>
+            <value>
+                <fullName>Credito</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Credito</label>
+            </value>
+            <value>
+                <fullName>Credito + Contado</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Credito + Contado</label>
+            </value>
+            <value>
+                <fullName>Recompra</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Recompra</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Nuevos</controllingFieldValue>
+            <controllingFieldValue>Usados</controllingFieldValue>
+            <valueName>Contado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nuevos</controllingFieldValue>
+            <controllingFieldValue>Usados</controllingFieldValue>
+            <valueName>Credito / Leasing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nuevos</controllingFieldValue>
+            <controllingFieldValue>Usados</controllingFieldValue>
+            <valueName>Contado + Retoma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nuevos</controllingFieldValue>
+            <controllingFieldValue>Usados</controllingFieldValue>
+            <valueName>Credito / Leasing + Contado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nuevos</controllingFieldValue>
+            <controllingFieldValue>Usados</controllingFieldValue>
+            <valueName>Credito / Leasing + Retoma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nuevos</controllingFieldValue>
+            <controllingFieldValue>Usados</controllingFieldValue>
+            <valueName>Contado + Credito + Retoma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Renting</controllingFieldValue>
+            <valueName>Renting</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

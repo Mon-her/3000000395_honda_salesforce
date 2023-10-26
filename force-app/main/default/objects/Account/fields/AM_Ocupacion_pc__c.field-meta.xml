@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Ocupacion_pc__c</fullName>
+    <externalId>false</externalId>
+    <label>Ocupacion</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Empleado</fullName>
+                <default>false</default>
+                <label>Empleado</label>
+            </value>
+            <value>
+                <fullName>Miembro de fuerzas armadas</fullName>
+                <default>false</default>
+                <label>Miembro de fuerzas armadas</label>
+            </value>
+            <value>
+                <fullName>Independiente</fullName>
+                <default>false</default>
+                <label>Independiente</label>
+            </value>
+            <value>
+                <fullName>Jubilado/Pensionado</fullName>
+                <default>false</default>
+                <label>Jubilado/Pensionado</label>
+            </value>
+            <value>
+                <fullName>Estudiante</fullName>
+                <default>false</default>
+                <label>Estudiante</label>
+            </value>
+            <value>
+                <fullName>Dueño de empresa</fullName>
+                <default>false</default>
+                <label>Dueño de empresa</label>
+            </value>
+            <value>
+                <fullName>Ama de casa</fullName>
+                <default>false</default>
+                <label>Ama de casa</label>
+            </value>
+            <value>
+                <fullName>Rentista de capital</fullName>
+                <default>false</default>
+                <label>Rentista de capital</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

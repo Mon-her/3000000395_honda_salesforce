@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Anulacion_Perdido</fullName>
+    <active>true</active>
+    <description>Al establecer una oportunidad en PERDIDA de manera manual en el sistema se requiere el numero de devolucion</description>
+    <errorConditionFormula>AND( $Profile.Name   =  &quot;Gerente de ventas (Motos)&quot;,
+TEXT(StageName)=&quot;Perdida&quot;,
+AND(
+ISBLANK( N_mero_de_anulaci_n__c ),
+NOT(ISBLANK( N_mero_de_factura__c ))
+
+))</errorConditionFormula>
+    <errorMessage>Al establecer una oportunidad en PERDIDA de manera manual en el sistema se requiere el numero de Devolucion</errorMessage>
+</ValidationRule>

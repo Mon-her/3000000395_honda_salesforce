@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Blindaje__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Blindaje</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Vehiculo_con_blindaje__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Antiatraco / Antivandalismo</fullName>
+                <default>false</default>
+                <label>Antiatraco / Antivandalismo</label>
+            </value>
+            <value>
+                <fullName>Nivel 2</fullName>
+                <default>false</default>
+                <label>Nivel 2</label>
+            </value>
+            <value>
+                <fullName>Nivel 2 Plus</fullName>
+                <default>false</default>
+                <label>Nivel 2 Plus</label>
+            </value>
+            <value>
+                <fullName>Nivel 3</fullName>
+                <default>false</default>
+                <label>Nivel 3</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Antiatraco / Antivandalismo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Nivel 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Nivel 2 Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Nivel 3</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

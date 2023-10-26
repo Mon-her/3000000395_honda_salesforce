@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plazo_Real__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF 
+( ISPICKVAL( AM_Plan_de_financiacion__r.AM_Plan_financiacion__c , &quot;Gracia&quot;) , 
+AM_Plazo__c - 1, 
+AM_Plazo__c 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Plazo (Real)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

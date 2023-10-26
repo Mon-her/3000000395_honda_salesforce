@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_012</fullName>
+    <active>false</active>
+    <description>La fecha de cierre debe ser máximo 12 meses después de la fecha de creación de la oportunidad.
+AM_RV_COT_012</description>
+    <errorConditionFormula>AND
+(
+	RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+       AND(
+ $User.Email &lt;&gt; &quot;edwardjames_u@hotmail.com&quot;,
+and(
+ $Profile.Name &lt;&gt; &quot;Analistas&quot; ,
+ $Profile.Name &lt;&gt; &quot;Administrador del sistema&quot; ,
+ $Profile.Name &lt;&gt; &quot;Administrador de mercadeo&quot; ,
+
+
+
+	OR
+	(
+		AM_Fecha_de_cierre__c &lt; DATEVALUE(CreatedDate) - 120 , 
+		AM_Fecha_de_cierre__c &gt; DATEVALUE(CreatedDate) + 560
+	)
+)
+)
+)</errorConditionFormula>
+    <errorDisplayField>AM_Fecha_de_cierre__c</errorDisplayField>
+    <errorMessage>AM_RV_COT_012: La fecha de cierre debe ser máximo 12 meses después de la fecha de creación de la oportunidad.</errorMessage>
+</ValidationRule>

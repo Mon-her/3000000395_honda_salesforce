@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Etapa__c</fullName>
+    <description>Etapa de la oportunidad de cierre del Negocio</description>
+    <externalId>false</externalId>
+    <inlineHelpText>P0--&gt;6   a  12   meses
+P1--&gt;2   a   6    meses
+P2--&gt;1   a   2    meses
+P3--&gt;1   mes
+PU--&gt; Ganado
+PC--&gt; Perdido
+PSI--&gt; Mas de 1 año</inlineHelpText>
+    <label>Categoria Oportunidad Negocio</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>P0</fullName>
+                <default>true</default>
+                <label>P0</label>
+            </value>
+            <value>
+                <fullName>P1</fullName>
+                <default>false</default>
+                <label>P1</label>
+            </value>
+            <value>
+                <fullName>P2</fullName>
+                <default>false</default>
+                <label>P2</label>
+            </value>
+            <value>
+                <fullName>P3</fullName>
+                <default>false</default>
+                <label>P3</label>
+            </value>
+            <value>
+                <fullName>P4</fullName>
+                <default>false</default>
+                <label>P4</label>
+            </value>
+            <value>
+                <fullName>P5</fullName>
+                <default>false</default>
+                <label>P5</label>
+            </value>
+            <value>
+                <fullName>PU</fullName>
+                <default>false</default>
+                <label>PU</label>
+            </value>
+            <value>
+                <fullName>PC</fullName>
+                <default>false</default>
+                <label>PC</label>
+            </value>
+            <value>
+                <fullName>PSI</fullName>
+                <default>false</default>
+                <label>PSI</label>
+            </value>
+            <value>
+                <fullName>PSP</fullName>
+                <default>false</default>
+                <label>PSP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

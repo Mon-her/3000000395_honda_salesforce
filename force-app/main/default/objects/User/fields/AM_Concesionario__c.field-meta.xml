@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Concesionario__c</fullName>
+    <description>Nombre del concesionario en el que trabaja el usuario.</description>
+    <externalId>false</externalId>
+    <label>Agencia</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AGENCIA AUTOCIPRES</fullName>
+                <default>false</default>
+                <label>AGENCIA AUTOCIPRES</label>
+            </value>
+            <value>
+                <fullName>AGENCIA AUTOALMENDRO</fullName>
+                <default>false</default>
+                <label>AGENCIA AUTOALMENDRO</label>
+            </value>
+            <value>
+                <fullName>AGENCIA AUTOCORAL</fullName>
+                <default>false</default>
+                <label>AGENCIA AUTOCORAL</label>
+            </value>
+            <value>
+                <fullName>AGENCIA AUTOPALMA</fullName>
+                <default>false</default>
+                <label>AGENCIA AUTOPALMA</label>
+            </value>
+            <value>
+                <fullName>AGENCIA AUTOCEIBA</fullName>
+                <default>false</default>
+                <label>AGENCIA AUTOCEIBA</label>
+            </value>
+            <value>
+                <fullName>AGENCIA AUTOLAUREL</fullName>
+                <default>false</default>
+                <label>AGENCIA AUTOLAUREL</label>
+            </value>
+            <value>
+                <fullName>AGENCIA AUTOGUAYACAN</fullName>
+                <default>false</default>
+                <label>AGENCIA AUTOGUAYACAN</label>
+            </value>
+            <value>
+                <fullName>RENTING TOTAL</fullName>
+                <default>false</default>
+                <label>RENTING TOTAL</label>
+            </value>
+            <value>
+                <fullName>FANALCA</fullName>
+                <default>false</default>
+                <label>FANALCA</label>
+            </value>
+            <value>
+                <fullName>DISTRIBUIDOR</fullName>
+                <default>false</default>
+                <label>DISTRIBUIDOR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

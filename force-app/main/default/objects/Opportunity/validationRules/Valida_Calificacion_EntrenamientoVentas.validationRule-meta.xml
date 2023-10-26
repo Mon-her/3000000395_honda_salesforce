@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Calificacion_EntrenamientoVentas</fullName>
+    <active>true</active>
+    <description>Valida que no hayam más de un campo con la misma calificación en los campos de la sección Entrenamiento de ventas.</description>
+    <errorConditionFormula>IF((IF(NOT(ISBLANK(TEXT(Proteccin_y_seguridad__c)))  &amp;&amp; TEXT(Proteccin_y_seguridad__c)=TEXT(Ecolgica__c),1,0)+
+     IF(NOT(ISBLANK(TEXT(Proteccin_y_seguridad__c)))  &amp;&amp; 
+TEXT(Proteccin_y_seguridad__c)=TEXT(Calidad_y_durabilidad__c),1,0)+
+IF(NOT(ISBLANK(TEXT(Proteccin_y_seguridad__c)))  &amp;&amp; TEXT(Proteccin_y_seguridad__c)=TEXT(Comodidad_y_conveniencia__c),1,0)+
+IF(NOT(ISBLANK(TEXT(Proteccin_y_seguridad__c)))  &amp;&amp; 
+TEXT(Proteccin_y_seguridad__c)=TEXT(Desempeo_e_ingeniera__c),1,0)+
+IF(NOT(ISBLANK(TEXT(Proteccin_y_seguridad__c)))  &amp;&amp; TEXT(Proteccin_y_seguridad__c)=TEXT(Marca__c),1,0)+
+IF(NOT(ISBLANK(TEXT(Ecolgica__c)))  &amp;&amp; 
+ TEXT(Ecolgica__c)=TEXT(Calidad_y_durabilidad__c),1,0)+
+IF(NOT(ISBLANK(TEXT(Ecolgica__c))) &amp;&amp; TEXT(Ecolgica__c)=TEXT(Comodidad_y_conveniencia__c),1,0)+
+IF(NOT(ISBLANK(TEXT(Ecolgica__c))) &amp;&amp; TEXT(Ecolgica__c)=TEXT(Desempeo_e_ingeniera__c),1,0)+
+IF(NOT(ISBLANK(TEXT(Ecolgica__c))) &amp;&amp; TEXT(Ecolgica__c)=TEXT(Marca__c),1,0)+
+IF(NOT(ISBLANK(TEXT(Calidad_y_durabilidad__c))) &amp;&amp; TEXT(Calidad_y_durabilidad__c)=TEXT(Comodidad_y_conveniencia__c),1,0)+
+IF(NOT(ISBLANK(TEXT(Calidad_y_durabilidad__c))) &amp;&amp; TEXT(Calidad_y_durabilidad__c)=TEXT(Desempeo_e_ingeniera__c),1,0)+
+IF(NOT(ISBLANK(TEXT(Calidad_y_durabilidad__c))) &amp;&amp; TEXT(Calidad_y_durabilidad__c)=TEXT(Marca__c),1,0)+
+IF(NOT(ISBLANK(TEXT(Comodidad_y_conveniencia__c))) &amp;&amp; TEXT(Comodidad_y_conveniencia__c)=TEXT(Desempeo_e_ingeniera__c),1,0)+
+IF(NOT(ISBLANK(TEXT(Comodidad_y_conveniencia__c))) &amp;&amp; TEXT(Comodidad_y_conveniencia__c)=TEXT(Marca__c),1,0)+
+IF(NOT(ISBLANK(TEXT(Desempeo_e_ingeniera__c))) &amp;&amp; TEXT(Desempeo_e_ingeniera__c)=TEXT(Marca__c),1,0))&gt;0,true,false)</errorConditionFormula>
+    <errorMessage>Verificar que no se repita la calificación en las preguntas de la sección &quot;Según entrenamiento en ventas indique razones de compra de 1 a 6 (1 +Importante)&quot;.</errorMessage>
+</ValidationRule>

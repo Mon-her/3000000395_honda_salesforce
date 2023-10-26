@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Cambio_Propietario</fullName>
+    <active>false</active>
+    <description>Valida si se desea cambiar propietario pero no se ha solicitado aprobación.</description>
+    <errorConditionFormula>IF( $Profile.Name != &apos;Contact Center autos&apos; &amp;&amp; $Profile.Name != &apos;Administrador del sistema&apos;,
+AND(ISCHANGED( OwnerId )==True,  Aprobado_para_reasignacion__c == False),false)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>Debe solicitar aprobación antes de cambiar el propietario de este registro.</errorMessage>
+</ValidationRule>

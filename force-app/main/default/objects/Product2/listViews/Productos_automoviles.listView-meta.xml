@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Productos_automoviles</fullName>
+    <columns>PRODUCT2.CREATED_DATE</columns>
+    <columns>IdProductoUNOEE__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Referencia_comercial__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Linea__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>EsUnVehIculoConsignadoRetirado__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Productos automoviles</label>
+</ListView>

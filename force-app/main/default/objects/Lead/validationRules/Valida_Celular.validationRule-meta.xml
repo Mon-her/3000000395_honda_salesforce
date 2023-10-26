@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Celular</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+$User.AO_BypassApex__c = false,
+NOT(ISBLANK(MobilePhone)),
+IF(
+AND(
+TEXT( Tipo_de_documento__c  ) &lt;&gt; &quot;Cédula de extranjería&quot;,
+NOT(ISBLANK(MobilePhone)), 
+DoNotCall  = FALSE),
+OR(
+REGEX(MobilePhone, &quot;^[0]{10}$*&quot;),
+REGEX(MobilePhone, &quot;^[1]{10}$*&quot;),
+REGEX(MobilePhone, &quot;^[2]{10}$*&quot;),
+REGEX(MobilePhone, &quot;^[3]{10}$*&quot;),
+REGEX(MobilePhone, &quot;^[4]{10}$*&quot;),
+REGEX(MobilePhone, &quot;^[5]{10}$*&quot;),
+REGEX(MobilePhone, &quot;^[6]{10}$*&quot;),
+REGEX(MobilePhone, &quot;^[7]{10}$*&quot;),
+REGEX(MobilePhone, &quot;^[8]{10}$*&quot;),
+REGEX(MobilePhone, &quot;^[9]{10}$*&quot;),
+NOT(REGEX( MobilePhone , &quot;[0-9]{10}&quot;)),
+NOT(BEGINS( MobilePhone, &quot;3&quot;)),
+REGEX(MobilePhone, &quot;.*(\\d)\\1{6}.*&quot;),
+MobilePhone =  Nmero_de_documento__c ,
+MobilePhone = &quot;3123456789&quot;,
+MobilePhone = &quot;3987654321&quot;,
+MobilePhone = &quot;3012345678&quot;),
+AND(
+
+TEXT(Tipo_de_documento__c ) &lt;&gt; &quot;Cédula de extranjería&quot;,
+OR(
+ DoNotCall  &lt;&gt; TRUE)
+
+)
+))</errorConditionFormula>
+    <errorDisplayField>MobilePhone</errorDisplayField>
+    <errorMessage>Únicamente 10 números como teléfono, debe comenzar en 3 y no ser consecutivo</errorMessage>
+</ValidationRule>

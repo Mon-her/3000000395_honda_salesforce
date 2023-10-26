@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NoSePuedeMoverDueDateAPosterior</fullName>
+    <active>true</active>
+    <description>No se puede mover la fecha de due date a una fecha posterior.</description>
+    <errorConditionFormula>AND( NOT(ISCHANGED( Status )),ISCHANGED(ActivityDate),  ActivityDate &gt; PRIORVALUE(ActivityDate))</errorConditionFormula>
+    <errorDisplayField>ActivityDate</errorDisplayField>
+    <errorMessage>La fecha de vencimiento no puede ser superior a la establecida anteriormente.</errorMessage>
+</ValidationRule>

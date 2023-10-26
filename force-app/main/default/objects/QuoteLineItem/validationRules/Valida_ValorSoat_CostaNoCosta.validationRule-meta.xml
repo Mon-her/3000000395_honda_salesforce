@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_ValorSoat_CostaNoCosta</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(AND(CONTAINS(TEXT(Tarifa_soat__c),&quot;Costa&quot;), Quote.Concesionario__r.Es_de_Costa__c =FALSE),
+AND(NOT(CONTAINS(TEXT(Tarifa_soat__c),&quot;Costa&quot;)), Quote.Concesionario__r.Es_de_Costa__c =TRUE))</errorConditionFormula>
+    <errorDisplayField>Tarifa_soat__c</errorDisplayField>
+    <errorMessage>Favor verificar que la tarifa de SOAT sea correspondiente a su concesionario.
+Si es de Costa, seleccionar solo valores de costa.
+Si no es de costa, seleccionar valores que no incluyan Costa.</errorMessage>
+</ValidationRule>

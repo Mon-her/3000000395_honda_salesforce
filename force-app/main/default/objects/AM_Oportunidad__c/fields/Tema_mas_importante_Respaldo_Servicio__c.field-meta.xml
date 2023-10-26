@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tema_mas_importante_Respaldo_Servicio__c</fullName>
+    <externalId>false</externalId>
+    <label>Tema mas importante Respaldo/Servicio</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Servicio de taller</fullName>
+                <default>false</default>
+                <label>Servicio de taller</label>
+            </value>
+            <value>
+                <fullName>Garantía Total Honda</fullName>
+                <default>false</default>
+                <label>Garantía Total Honda</label>
+            </value>
+            <value>
+                <fullName>Póliza Honda</fullName>
+                <default>false</default>
+                <label>Póliza Honda</label>
+            </value>
+            <value>
+                <fullName>Servicio del asesor</fullName>
+                <default>false</default>
+                <label>Servicio del asesor</label>
+            </value>
+            <value>
+                <fullName>Recibimos su usado</fullName>
+                <default>false</default>
+                <label>Recibimos su usado</label>
+            </value>
+            <value>
+                <fullName>Servicio de concesionario</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Servicio de concesionario</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

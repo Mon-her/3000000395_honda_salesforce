@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_cambios_sincronizada</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(   RecordType.Name =&quot;Cotizaciones Motos&quot; , NOT(ISNEW()),  IsSyncing = TRUE, PRIORVALUE(IsSyncing),  $User.LastName&lt;&gt;&quot;Integraciones&quot; )</errorConditionFormula>
+    <errorMessage>No puede alterar la cotización mientras esté sincronizada, por favor des-sincronice la cotización y vuelva a intentar.</errorMessage>
+</ValidationRule>

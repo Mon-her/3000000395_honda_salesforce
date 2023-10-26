@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Formato_compacto_tarea</fullName>
+    <fields>OwnerId</fields>
+    <fields>Subject</fields>
+    <fields>Categoria_Oportunidad_NegocioL__c</fields>
+    <fields>AM_Contacto_traer_telefono_Lighting__c</fields>
+    <fields>Email</fields>
+    <fields>CreatedById</fields>
+    <fields>AM_Busqueda_cuenta__c</fields>
+    <fields>Status</fields>
+    <fields>Contacto_Gerenciamiento_Clientes__c</fields>
+    <label>Formato compacto tarea</label>
+</CompactLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_081</fullName>
+    <active>true</active>
+    <description>Revise el campo ESTADO en la parte inferior, debe diligencialo.  Revise la direccion, por favor diligenciar. Si el cliente no posee nomenclatura por favor seleccione &quot;Vereda&quot;,&quot;Lote&quot;, &quot;Manzana&quot;, etc. y adicione el complemento para continuar.AM-RV-COT-081</description>
+    <errorConditionFormula>AND
+(
+       $User.AO_BypassApex__c = false, 
+IF(
+AND
+(        RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+         $Profile.Name = &quot;Analistas&quot;,
+         TEXT ( AM_Etapa__c ) =  &quot;PU&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;VRD&quot;, 
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;Corregimiento&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;MZ&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;KM&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;VTE&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;LT&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;AV&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;PCN&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;ZN&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;URB&quot;,
+         MC_Registro_historico__c &lt;&gt; TRUE),
+         OR
+         (
+
+         ISBLANK(TEXT(AM_Propietario_motocicleta__r.AM_Via_principal__c)),
+         ISBLANK(TEXT(AM_Propietario_motocicleta__r.AM_Numero_via_principal__c )),  
+         ISBLANK(TEXT(AM_Propietario_motocicleta__r.AM_Numero_via_secundaria__c )), 
+         ISBLANK(AM_Propietario_motocicleta__r.AM_ID_cuadra__c  )
+         ),
+         AND(
+         RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+         $Profile.Name = &quot;Analistas&quot;,
+         TEXT ( AM_Etapa__c ) =  &quot;PU&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;VRD&quot;, 
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;Corregimiento&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;MZ&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;KM&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;VTE&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;LT&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;AV&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;PCN&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;ZN&quot;,
+         TEXT (AM_Propietario_motocicleta__r.AM_Via_principal__c) &lt;&gt; &quot;URB&quot;,
+         MC_Registro_historico__c = TRUE,
+         OR(
+         ISBLANK(TEXT(AM_Estado1__c)
+)
+)
+)
+)
+)</errorConditionFormula>
+    <errorMessage>Revise el campo ESTADO en la parte inferior, debe diligencialo.  Revise la direccion, por favor diligenciar. Si el cliente no posee nomenclatura por favor seleccione &quot;Vereda&quot;,&quot;Lote&quot;, &quot;Manzana&quot;, etc. y adicione el complemento para continuar.AM-RV-COT-081</errorMessage>
+</ValidationRule>

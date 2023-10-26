@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Empresa_de_Convenio__c</fullName>
+    <externalId>false</externalId>
+    <label>Empresa de Convenio</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Convenio__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACIN - ASOCIACIÓN DE CABILDOS</fullName>
+                <default>false</default>
+                <label>ACIN - ASOCIACIÓN DE CABILDOS</label>
+            </value>
+            <value>
+                <fullName>BAT BRITISH AMERICA TOBACCO</fullName>
+                <default>false</default>
+                <label>BAT BRITISH AMERICA TOBACCO</label>
+            </value>
+            <value>
+                <fullName>CABILDO INDIGENA - CORINTO</fullName>
+                <default>false</default>
+                <label>CABILDO INDIGENA - CORINTO</label>
+            </value>
+            <value>
+                <fullName>CABILDO INDIGENA LAS DELICICIAS BUENOS AIRES</fullName>
+                <default>false</default>
+                <label>CABILDO INDIGENA LAS DELICICIAS BUENOS AIRES</label>
+            </value>
+            <value>
+                <fullName>CABILDO INDIGENA - RESGUARDO DE JAMBALO</fullName>
+                <default>false</default>
+                <label>CABILDO INDIGENA - RESGUARDO DE JAMBALO</label>
+            </value>
+            <value>
+                <fullName>CABILDO INDIGENA - SAN FRANCISCO</fullName>
+                <default>false</default>
+                <label>CABILDO INDIGENA - SAN FRANCISCO</label>
+            </value>
+            <value>
+                <fullName>CABILDO INDIGENA - TACUEYO</fullName>
+                <default>false</default>
+                <label>CABILDO INDIGENA - TACUEYO</label>
+            </value>
+            <value>
+                <fullName>CABILDO INDIGENA - TORIBIO</fullName>
+                <default>false</default>
+                <label>CABILDO INDIGENA - TORIBIO</label>
+            </value>
+            <value>
+                <fullName>CABILDO MUNCHIQUE LOS TRIGRES</fullName>
+                <default>false</default>
+                <label>CABILDO MUNCHIQUE LOS TRIGRES</label>
+            </value>
+            <value>
+                <fullName>COMFACAUCA</fullName>
+                <default>false</default>
+                <label>COMFACAUCA</label>
+            </value>
+            <value>
+                <fullName>FONDO EMPLEADOS EMTEL</fullName>
+                <default>false</default>
+                <label>FONDO EMPLEADOS EMTEL</label>
+            </value>
+            <value>
+                <fullName>FONDO EMPLEADOS ESTANCIA</fullName>
+                <default>false</default>
+                <label>FONDO EMPLEADOS ESTANCIA</label>
+            </value>
+            <value>
+                <fullName>FONREY - FONDO DE EMPLEADOS DE CONDIMENTOS EL REY</fullName>
+                <default>false</default>
+                <label>FONREY - FONDO DE EMPLEADOS DE CONDIMENTOS EL REY</label>
+            </value>
+            <value>
+                <fullName>ULTRAHICA</fullName>
+                <default>false</default>
+                <label>ULTRAHICA</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Empresarial</controllingFieldValue>
+            <valueName>ACIN - ASOCIACIÓN DE CABILDOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empresarial</controllingFieldValue>
+            <valueName>BAT BRITISH AMERICA TOBACCO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empresarial</controllingFieldValue>
+            <valueName>CABILDO INDIGENA - CORINTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empresarial</controllingFieldValue>
+            <valueName>CABILDO INDIGENA LAS DELICICIAS BUENOS AIRES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empresarial</controllingFieldValue>
+            <valueName>CABILDO INDIGENA - RESGUARDO DE JAMBALO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empresarial</controllingFieldValue>
+            <valueName>CABILDO INDIGENA - SAN FRANCISCO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empresarial</controllingFieldValue>
+            <valueName>CABILDO INDIGENA - TACUEYO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empresarial</controllingFieldValue>
+            <valueName>CABILDO INDIGENA - TORIBIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empresarial</controllingFieldValue>
+            <valueName>CABILDO MUNCHIQUE LOS TRIGRES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empresarial</controllingFieldValue>
+            <valueName>COMFACAUCA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empresarial</controllingFieldValue>
+            <valueName>FONDO EMPLEADOS EMTEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empresarial</controllingFieldValue>
+            <valueName>FONDO EMPLEADOS ESTANCIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empresarial</controllingFieldValue>
+            <valueName>FONREY - FONDO DE EMPLEADOS DE CONDIMENTOS EL REY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empresarial</controllingFieldValue>
+            <valueName>ULTRAHICA</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

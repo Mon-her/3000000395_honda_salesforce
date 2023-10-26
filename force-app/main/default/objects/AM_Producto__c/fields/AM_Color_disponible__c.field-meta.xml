@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Color_disponible__c</fullName>
+    <externalId>false</externalId>
+    <label>Color disponible</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACERO MODERNO</fullName>
+                <default>false</default>
+                <label>ACERO MODERNO</label>
+            </value>
+            <value>
+                <fullName>AZUL</fullName>
+                <default>false</default>
+                <label>AZUL</label>
+            </value>
+            <value>
+                <fullName>AZUL BRILLANTE</fullName>
+                <default>false</default>
+                <label>AZUL BRILLANTE</label>
+            </value>
+            <value>
+                <fullName>AZUL OBSIDIAN</fullName>
+                <default>false</default>
+                <label>AZUL OBSIDIAN</label>
+            </value>
+            <value>
+                <fullName>AZUL OCEANO</fullName>
+                <default>false</default>
+                <label>AZUL OCEANO</label>
+            </value>
+            <value>
+                <fullName>AZUL PLATA</fullName>
+                <default>false</default>
+                <label>AZUL PLATA</label>
+            </value>
+            <value>
+                <fullName>AZUL SPORT</fullName>
+                <default>false</default>
+                <label>AZUL SPORT</label>
+            </value>
+            <value>
+                <fullName>BLANCO</fullName>
+                <default>false</default>
+                <label>BLANCO</label>
+            </value>
+            <value>
+                <fullName>BLANCO DIAMANTE</fullName>
+                <default>false</default>
+                <label>BLANCO DIAMANTE</label>
+            </value>
+            <value>
+                <fullName>BLANCO ORQUIDEA</fullName>
+                <default>false</default>
+                <label>BLANCO ORQUIDEA</label>
+            </value>
+            <value>
+                <fullName>BLANCO ORQUÍDEA</fullName>
+                <default>false</default>
+                <label>BLANCO ORQUÍDEA</label>
+            </value>
+            <value>
+                <fullName>BLANCO PERLA ANDES</fullName>
+                <default>false</default>
+                <label>BLANCO PERLA ANDES</label>
+            </value>
+            <value>
+                <fullName>BLANCO PLATINO</fullName>
+                <default>false</default>
+                <label>BLANCO PLATINO</label>
+            </value>
+            <value>
+                <fullName>BLANCO TAFFETA</fullName>
+                <default>false</default>
+                <label>BLANCO TAFFETA</label>
+            </value>
+            <value>
+                <fullName>GRIS METÁLICO</fullName>
+                <default>false</default>
+                <label>GRIS METÁLICO</label>
+            </value>
+            <value>
+                <fullName>METALICO RADIANTE</fullName>
+                <default>false</default>
+                <label>METALICO RADIANTE</label>
+            </value>
+            <value>
+                <fullName>MOCCA</fullName>
+                <default>false</default>
+                <label>MOCCA</label>
+            </value>
+            <value>
+                <fullName>NEGRO</fullName>
+                <default>false</default>
+                <label>NEGRO</label>
+            </value>
+            <value>
+                <fullName>NEGRO CRISTAL</fullName>
+                <default>false</default>
+                <label>NEGRO CRISTAL</label>
+            </value>
+            <value>
+                <fullName>PLATA ALABASTER</fullName>
+                <default>false</default>
+                <label>PLATA ALABASTER</label>
+            </value>
+            <value>
+                <fullName>PLATA LUNAR</fullName>
+                <default>false</default>
+                <label>PLATA LUNAR</label>
+            </value>
+            <value>
+                <fullName>PLATEADO</fullName>
+                <default>false</default>
+                <label>PLATEADO</label>
+            </value>
+            <value>
+                <fullName>ROJO</fullName>
+                <default>false</default>
+                <label>ROJO</label>
+            </value>
+            <value>
+                <fullName>ROJO DÍNAMO</fullName>
+                <default>false</default>
+                <label>ROJO DÍNAMO</label>
+            </value>
+            <value>
+                <fullName>ROJO INTENSO</fullName>
+                <default>false</default>
+                <label>ROJO INTENSO</label>
+            </value>
+            <value>
+                <fullName>ROJO MILANO</fullName>
+                <default>false</default>
+                <label>ROJO MILANO</label>
+            </value>
+            <value>
+                <fullName>ROJO PASION</fullName>
+                <default>false</default>
+                <label>ROJO PASION</label>
+            </value>
+            <value>
+                <fullName>ROJO PASIÓN</fullName>
+                <default>false</default>
+                <label>ROJO PASIÓN</label>
+            </value>
+            <value>
+                <fullName>ROJO RUBI</fullName>
+                <default>false</default>
+                <label>ROJO RUBI</label>
+            </value>
+            <value>
+                <fullName>SHORELINA</fullName>
+                <default>false</default>
+                <label>SHORELINA</label>
+            </value>
+            <value>
+                <fullName>TITANIO METALICO</fullName>
+                <default>false</default>
+                <label>TITANIO METALICO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

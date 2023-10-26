@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NoEnviarEmailSinRecipiente</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK( ToAddress )</errorConditionFormula>
+    <errorDisplayField>ToAddress</errorDisplayField>
+    <errorMessage>El correo debe tener un destinatario</errorMessage>
+</ValidationRule>

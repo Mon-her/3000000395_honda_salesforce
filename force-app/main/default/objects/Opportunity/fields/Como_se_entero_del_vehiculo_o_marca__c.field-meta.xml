@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Como_se_entero_del_vehiculo_o_marca__c</fullName>
+    <externalId>false</externalId>
+    <label>Fuente de prospección</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Actividades comerciales</fullName>
+                <default>false</default>
+                <label>Actividades comerciales</label>
+            </value>
+            <value>
+                <fullName>Cliente de taller</fullName>
+                <default>false</default>
+                <label>Cliente de taller</label>
+            </value>
+            <value>
+                <fullName>Medios digitales</fullName>
+                <default>false</default>
+                <label>Medios digitales</label>
+            </value>
+            <value>
+                <fullName>Referido</fullName>
+                <default>false</default>
+                <label>Referidos</label>
+            </value>
+            <value>
+                <fullName>Visita corporativa</fullName>
+                <default>false</default>
+                <label>Visita corporativa</label>
+            </value>
+            <value>
+                <fullName>Medios tradicionales</fullName>
+                <default>false</default>
+                <label>Medios tradicionales</label>
+            </value>
+            <value>
+                <fullName>Bases de Datos de Aliados</fullName>
+                <default>false</default>
+                <label>Bases de Datos de Aliados</label>
+            </value>
+            <value>
+                <fullName>Publicidad de vitrina</fullName>
+                <default>false</default>
+                <label>Publicidad en vitrina</label>
+            </value>
+            <value>
+                <fullName>Vehículo rodando en la calle</fullName>
+                <default>false</default>
+                <label>Vehículo rodando en la calle</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

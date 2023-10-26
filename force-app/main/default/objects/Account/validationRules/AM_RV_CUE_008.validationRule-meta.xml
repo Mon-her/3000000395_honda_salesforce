@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_CUE_008</fullName>
+    <active>true</active>
+    <description>El literal de la vía principal sólo admite letras. 
+AM_RV_CUE_008</description>
+    <errorConditionFormula>AND
+(
+       $User.AO_BypassApex__c = false, 
+NOT
+(
+	REGEX(AM_Literal_via_principal__c, &quot;[a-zA-Z]*&quot;)
+)
+)</errorConditionFormula>
+    <errorDisplayField>AM_Literal_via_principal__c</errorDisplayField>
+    <errorMessage>El literal de la vía principal sólo admite letras. 
+AM_RV_CUE_008</errorMessage>
+</ValidationRule>

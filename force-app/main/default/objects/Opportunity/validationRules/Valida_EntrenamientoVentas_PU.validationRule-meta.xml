@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_EntrenamientoVentas_PU</fullName>
+    <active>true</active>
+    <description>Valida los campos de la sección Entrenamiento de ventas.</description>
+    <errorConditionFormula>AND( TEXT(StageName)=&quot;PU&quot;,OR(
+ISBLANK(TEXT(Proteccin_y_seguridad__c)),
+ISBLANK(TEXT(Ecolgica__c)),
+ISBLANK(TEXT(Calidad_y_durabilidad__c)),
+ISBLANK(TEXT(Comodidad_y_conveniencia__c)),
+ISBLANK(TEXT(Desempeo_e_ingeniera__c)),
+ISBLANK(TEXT(Marca__c)),
+ISBLANK(TEXT(Cmo_es_su_comportamiento_DISC__c))       
+), Registro_Migrado__c == false
+)</errorConditionFormula>
+    <errorMessage>Verificar los campos de la sección &quot;Según entrenamiento en ventas indique razones de compra de 1 a 6 (1 +Importante)&quot; antes de pasar a PU, todos deben estar completos.</errorMessage>
+</ValidationRule>

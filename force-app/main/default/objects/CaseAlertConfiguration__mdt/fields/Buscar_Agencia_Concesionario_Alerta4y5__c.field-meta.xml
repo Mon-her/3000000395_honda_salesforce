@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buscar_Agencia_Concesionario_Alerta4y5__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indica si se debe buscar el rol de las alertas 4 y 5 en la tabla de miembros de concesionario para la agencia/concesionario del caso</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Buscar Agencia/Concesionario Alerta4y5</label>
+    <type>Checkbox</type>
+</CustomField>

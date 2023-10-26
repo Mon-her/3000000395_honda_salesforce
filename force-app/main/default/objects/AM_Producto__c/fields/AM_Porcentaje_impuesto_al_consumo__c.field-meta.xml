@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Porcentaje_impuesto_al_consumo__c</fullName>
+    <description>Impuesto al consumo que se aplica a motos con cilindraje mayor a 250cc.</description>
+    <externalId>false</externalId>
+    <label>% Impuesto al consumo</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

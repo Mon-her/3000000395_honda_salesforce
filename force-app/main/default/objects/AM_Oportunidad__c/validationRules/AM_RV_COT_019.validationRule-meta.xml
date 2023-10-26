@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_019</fullName>
+    <active>false</active>
+    <description>AM_RV_COT_019: La cotizacion debe tener el Canal de atencion.</description>
+    <errorConditionFormula>AND ( 
+	RecordType.Name &lt;&gt; &quot;Presupuesto&quot;, 
+	TEXT(AM_Etapa__c) = &quot;Cotización&quot;, 
+        
+
+	OR 
+	( 
+		ISBLANK( TEXT(AM_Canal_de_atencion__c)
+ )))</errorConditionFormula>
+    <errorMessage>AM_RV_COT_019: La cotizacion debe tener el Canal de atencion.</errorMessage>
+</ValidationRule>

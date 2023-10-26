@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_a_Pagar__c</fullName>
+    <externalId>false</externalId>
+    <formula>Precio_con_impuesto__c+ Value(Text(Valor_soat__c))+ Casco__c+ Accesorios__c+ Valor_matrcula__c+ Valor_seguro_robo__c+ Descuento_aplicado_antes_de_impuesto__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total a Pagar</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

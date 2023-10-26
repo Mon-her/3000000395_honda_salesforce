@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validar_Usuario_Autos_Permitidos</fullName>
+    <active>true</active>
+    <description>Valida que solo los usuarios de los perfiles Gerencia General Auto, Analista... y los usuarios Manager del owner, el propio propietario son los que pueden modificar este contacto cuando el contacto le pertenece a un usuario de autos.</description>
+    <errorConditionFormula>CONTAINS( UPPER( Owner.Profile.Name ), &apos;AUTO&apos;) &amp;&amp; 
+OwnerId !=  $User.Id &amp;&amp; 
+Owner.Manager.Id !=  $User.Id &amp;&amp;
+UPPER($Profile.Name) != &apos;ASESORES AUTOS RENTING&apos; &amp;&amp;
+UPPER($Profile.Name) != &apos;GERENCIA GENERAL AUTO&apos; &amp;&amp;
+UPPER($Profile.Name) != &apos;ANALISTA MERCADEO AUTOS&apos; &amp;&amp;
+UPPER($Profile.Name) != &apos;ADMINISTRADOR MERCADEO AUTOS&apos; &amp;&amp;
+UPPER($Profile.Name) != &apos;INTEGRACIONES&apos; &amp;&amp;
+UPPER($Profile.Name) != &apos;ADMINISTRADOR DEL SISTEMA&apos;</errorConditionFormula>
+    <errorMessage>Usted no tiene permitido modificar este contacto.</errorMessage>
+</ValidationRule>

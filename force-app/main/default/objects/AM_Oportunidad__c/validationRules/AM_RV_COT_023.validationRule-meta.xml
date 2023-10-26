@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_023</fullName>
+    <active>false</active>
+    <description>Las etapas diferentes a &quot;No compra&quot;, no deben usar el campo &quot;PC&quot; o PSI.
+AM_RV_COT_023</description>
+    <errorConditionFormula>AND
+(
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+TEXT(AM_Razon_para_no_comprar__c)&lt;&gt; null,
+CASE( AM_Etapa__c ,&quot;PC&quot;,1,&quot;PSI&quot;,1,&quot;PSP&quot;,1,0)=0
+
+
+)</errorConditionFormula>
+    <errorMessage>AM-RV-COT-023: El campo &quot;Rázon para no comprar&quot; solo se debe utilizar en etapa de &quot;PC&quot; o &quot;PSI&quot;.</errorMessage>
+</ValidationRule>

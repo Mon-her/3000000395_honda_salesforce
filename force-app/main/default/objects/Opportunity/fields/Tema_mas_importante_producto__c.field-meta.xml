@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tema_mas_importante_producto__c</fullName>
+    <externalId>false</externalId>
+    <label>Tema más importante producto</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Diseño / Estilo interior</fullName>
+                <default>false</default>
+                <label>Diseño / Estilo interior</label>
+            </value>
+            <value>
+                <fullName>Potencia / Caballaje</fullName>
+                <default>false</default>
+                <label>Potencia / Caballaje</label>
+            </value>
+            <value>
+                <fullName>Diseño / Estilo Exterior</fullName>
+                <default>false</default>
+                <label>Diseño / Estilo Exterior</label>
+            </value>
+            <value>
+                <fullName>Espacio Interior</fullName>
+                <default>false</default>
+                <label>Espacio Interior</label>
+            </value>
+            <value>
+                <fullName>Conectividad</fullName>
+                <default>false</default>
+                <label>Conectividad</label>
+            </value>
+            <value>
+                <fullName>Seguridad</fullName>
+                <default>false</default>
+                <label>Seguridad</label>
+            </value>
+            <value>
+                <fullName>Comodidad</fullName>
+                <default>false</default>
+                <label>Comodidad</label>
+            </value>
+            <value>
+                <fullName>Economía de combustible</fullName>
+                <default>false</default>
+                <label>Economía de combustible</label>
+            </value>
+            <value>
+                <fullName>Maniobrabilidad</fullName>
+                <default>false</default>
+                <label>Maniobrabilidad</label>
+            </value>
+            <value>
+                <fullName>Precio</fullName>
+                <default>false</default>
+                <label>Precio</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

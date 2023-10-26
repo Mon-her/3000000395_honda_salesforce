@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MC_RV_COT_083</fullName>
+    <active>true</active>
+    <description>Debe diligenciar la sección de Cierre de negocio, para fijar la cotización como PU.
+MC_RV_COT_083</description>
+    <errorConditionFormula>AND
+(
+       $User.AO_BypassApex__c = false, 
+IF(
+AND
+(
+NOT(BEGINS($Profile.Name, &quot;Analista&quot;)),
+NOT(BEGINS($Profile.Name, &quot;Administrador de mercadeo&quot;)),
+NOT(BEGINS($Profile.Name, &quot;Administrador del sistema&quot;)),
+NOT(BEGINS($Profile.Name, &quot;Asesor de ventas&quot;)),
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+TEXT( AM_Tipo_de_cotizacion__c )=&quot;Usados&quot;,
+TEXT(AM_Etapa__c) = &quot;PU&quot;,
+MC_Marca_Honda__c = FALSE),
+
+OR(
+ISBLANK(AM_Numero_de_factura__c),
+ISBLANK(AM_Placa__c),
+ISBLANK (AM_Vin__c ),
+ISBLANK(AM_Fecha_de_factura__c ),
+ISBLANK(TEXT(AM_N_Propietario__c )),
+ISBLANK(TEXT(AM_Fecha_de_entrega_vehiculo__c ))
+),
+
+AND(
+NOT(BEGINS($Profile.Name, &quot;Administrador del sistema&quot;)),
+NOT(BEGINS($Profile.Name, &quot;Analista&quot;)),
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+TEXT( AM_Tipo_de_cotizacion__c )=&quot;Usados&quot;,
+TEXT(AM_Etapa__c) = &quot;PU&quot;,
+MC_Marca_Honda__c &lt;&gt; FALSE,
+OR(
+ISBLANK(AM_Numero_de_factura__c),
+ISBLANK(AM_Placa__c),
+ISBLANK(AM_Fecha_de_factura__c ),
+ISBLANK(TEXT(AM_N_Propietario__c )),
+ISBLANK(TEXT(AM_Fecha_de_entrega_vehiculo__c ))
+))
+)
+)</errorConditionFormula>
+    <errorMessage>Debe diligenciar la sección de Cierre de negocio, para fijar la cotización como PU.
+MC_RV_COT_083</errorMessage>
+</ValidationRule>

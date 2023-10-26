@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SO_Referidor_Cuenta__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Este campo es para asociar el REFERIDOR si la fuente de prospeccion es Referido</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Este campo es para asociar el REFERIDOR si la fuente de prospeccion es Referido</inlineHelpText>
+    <label>Referidor</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Cuentas (Referidor)</relationshipLabel>
+    <relationshipName>Cuentas1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

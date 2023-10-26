@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_CUE_023</fullName>
+    <active>false</active>
+    <description>Debe diligenciar el campo Correo electrónico o marque la casilla No recibir correos electrónicos para continuar.
+AM_RV_CUE_023</description>
+    <errorConditionFormula>AND
+($User.AO_BypassApex__c = false, 
+ RecordType.Name = &quot;Persona Juridica&quot;,
+ NOT(BEGINS($Profile.Name, &quot;Gerente de ventas&quot;)),
+NOT(REGEX( MC_Correo_electronico_Empresa__c ,&apos;([a-zA-Z0-9_\\-\\.]+){2,40}@((\\[a-z]{1,3}\\.[a-z]{1,3}\\.[a-z]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})&apos;)),
+MC_No_recibir_correos_electronicos__c = False
+)</errorConditionFormula>
+    <errorMessage>Debe diligenciar el campo Correo electrónico o marque la casilla No recibir correos electrónicos para continuar.
+AM_RV_CUE_023</errorMessage>
+</ValidationRule>

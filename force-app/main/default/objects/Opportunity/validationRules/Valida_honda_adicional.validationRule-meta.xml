@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_honda_adicional</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.Name = &quot;Oportunidad Autos&quot;,  TEXT( Es_un_HONDA_adicional__c )=&quot;SI&quot;, ISBLANK( Linea_Modelo__c ))</errorConditionFormula>
+    <errorDisplayField>Linea_Modelo__c</errorDisplayField>
+    <errorMessage>Debe completar este campo si seleccionó SÍ en la pregunta es un honda adicional.</errorMessage>
+</ValidationRule>

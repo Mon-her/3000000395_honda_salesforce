@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_utilidad_tenga_tipo_utilidad</fullName>
+    <active>true</active>
+    <description>Recuerde que si selecciona el campo Valor utilidad, debe diligenciar  Tipo Impo. Utilidad</description>
+    <errorConditionFormula>AND( 
+RecordType.Name ==&quot;Oportunidad Autos&quot;, 
+$Profile.Name &lt;&gt; &quot;Administrador del sistemar&quot;, $Profile.Name &lt;&gt; &quot;Integraciones&quot; ,
+
+AND(
+TEXT( Tipo_Impo_Utilidad__c )       &lt;&gt;  &quot;73282&quot; ,
+TEXT( Tipo_Impo_Utilidad__c )       &lt;&gt;   &quot;151645&quot; ,
+NOT(ISBLANK( Valor_Utilidad__c ))
+))</errorConditionFormula>
+    <errorMessage>Recuerde que si selecciona el campo Valor utilidad, debe diligenciar  Tipo Impo. Utilidad</errorMessage>
+</ValidationRule>

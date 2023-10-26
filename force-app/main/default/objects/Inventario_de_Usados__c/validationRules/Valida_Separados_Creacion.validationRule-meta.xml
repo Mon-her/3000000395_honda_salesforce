@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Separados_Creacion</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISNEW(), TEXT(Estado_Del_Vehiculo__c)=&quot;SEPARADO&quot;,  Oportunidad__c =null )</errorConditionFormula>
+    <errorMessage>No se puede crear un auto usado separado sin la oportunidad que lo separó.</errorMessage>
+</ValidationRule>

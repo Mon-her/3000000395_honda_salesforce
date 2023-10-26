@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Foto_modelo_interes__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE
+(
+	IF
+	(
+		NOT
+		(
+			ISBLANK(AM_Modelo_de_interes__r.AM_Codigo_de_producto__c)
+		),
+		AM_Modelo_de_interes__r.AM_URL_foto__c,
+		&quot;https://c.na15.content.force.com/servlet/servlet.ImageServer?id=015o0000000hzS9&amp;oid=00Do0000000aReC&amp;lastMod=1383010138000&quot;
+	),
+	&quot;Imagen no disponible&quot;,
+	149,
+	270
+)</formula>
+    <label>Foto modelo interés</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

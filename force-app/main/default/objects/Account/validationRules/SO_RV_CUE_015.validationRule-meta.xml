@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SO_RV_CUE_015</fullName>
+    <active>false</active>
+    <description>como telefóno, deben ser 7 numeros</description>
+    <errorConditionFormula>AND(
+RecordType.Name &lt;&gt; &quot;Persona Jurídica&quot;,
+NOT(ISBLANK(Phone)),
+
+OR(
+REGEX(Phone, &quot;^[0]{7}$*&quot;),
+REGEX(Phone, &quot;^[1]{7}$*&quot;),
+REGEX(Phone, &quot;^[2]{7}$*&quot;),
+REGEX(Phone, &quot;^[3]{7}$*&quot;),
+REGEX(Phone, &quot;^[4]{7}$*&quot;),
+REGEX(Phone, &quot;^[5]{7}$*&quot;),
+REGEX(Phone, &quot;^[6]{7}$*&quot;),
+REGEX(Phone, &quot;^[7]{7}$*&quot;),
+REGEX(Phone, &quot;^[8]{7}$*&quot;),
+REGEX(Phone, &quot;^[9]{7}$*&quot;),
+NOT(REGEX(Phone , &quot;[0-9]{7}&quot;)),
+Phone = &quot;1111111&quot;,
+Phone = &quot;2222222&quot;,
+Phone = &quot;3333333&quot;,
+Phone = &quot;4444444&quot;,
+Phone = &quot;5555555&quot;,
+Phone = &quot;6666666&quot;,
+Phone = &quot;7777777&quot;,
+Phone = &quot;8888888&quot;,
+Phone = &quot;9999999&quot;,
+Phone = &quot;1234567&quot;,
+Phone = &quot;7654321&quot;,
+BEGINS(Phone,&quot;0&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>El número registrado para  Teléfono no es válido, deben ser 7 dígitos no consecutivos ni repetidos.</errorMessage>
+</ValidationRule>

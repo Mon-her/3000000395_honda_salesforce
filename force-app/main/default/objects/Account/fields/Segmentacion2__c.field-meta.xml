@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segmentacion2__c</fullName>
+    <defaultValue>&quot;Prospecto&quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>Anterior Segmentación</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prospecto</fullName>
+                <default>true</default>
+                <label>Prospecto</label>
+            </value>
+            <value>
+                <fullName>Cliente en Garantía</fullName>
+                <default>false</default>
+                <label>Cliente en Garantía</label>
+            </value>
+            <value>
+                <fullName>Cliente en Garantía (Extendida)</fullName>
+                <default>false</default>
+                <label>Cliente en Garantía (Extendida)</label>
+            </value>
+            <value>
+                <fullName>Cliente Potencial</fullName>
+                <default>false</default>
+                <label>Cliente Potencial</label>
+            </value>
+            <value>
+                <fullName>Cliente Antiguo</fullName>
+                <default>false</default>
+                <label>Cliente Antiguo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

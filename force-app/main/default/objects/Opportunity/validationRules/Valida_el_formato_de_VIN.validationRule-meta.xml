@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_el_formato_de_VIN</fullName>
+    <active>true</active>
+    <description>El vin debe tener este formato VH-##### Ejemplo VH-00123</description>
+    <errorConditionFormula>AND(
+ Fecha_de_creacion__c  &gt; DATE(2022,01,01) ,
+NOT(ISBLANK(VIN__c)),
+RecordType_Name__c =&quot;Oportunidad Autos&quot;,
+NOT(REGEX( VIN__c ,&apos;[A-Z]{2}-[0-9]{5}&apos;))
+)</errorConditionFormula>
+    <errorMessage>El vin debe tener este formato VH-##### Ejemplo VH-00123</errorMessage>
+</ValidationRule>

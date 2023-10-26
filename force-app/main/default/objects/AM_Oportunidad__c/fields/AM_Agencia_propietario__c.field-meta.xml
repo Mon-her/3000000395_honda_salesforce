@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Agencia_propietario__c</fullName>
+    <description>Agencia del propietario de la oportunidad.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(TEXT(Owner:User.AM_Agencia__c)), TEXT(AM_Vitrina_2_Renting__c), TEXT(Owner:User.AM_Agencia__c)
+)</formula>
+    <label>Vitrina</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

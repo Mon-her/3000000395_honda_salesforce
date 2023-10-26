@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_078</fullName>
+    <active>true</active>
+    <description>El formato del vin debe ser 5 numeros
+AM_RV_COT_078</description>
+    <errorConditionFormula>AND(   $User.AO_BypassApex__c = false, 
+TEXT(AM_Tipo_de_cotizacion__c)   &lt;&gt;  &quot;Renting&quot;,
+ NOT(BEGINS($Profile.Name, &quot;Administrador del sistema&quot;)),
+AND(
+NOT(ISBLANK(AM_Vin__c )),
+NOT(REGEX( AM_Vin__c , &apos;[0-9]{5}&apos;))
+))</errorConditionFormula>
+    <errorDisplayField>AM_Vin__c</errorDisplayField>
+    <errorMessage>El formato del vin debe ser 5 numeros
+AM_RV_COT_078</errorMessage>
+</ValidationRule>

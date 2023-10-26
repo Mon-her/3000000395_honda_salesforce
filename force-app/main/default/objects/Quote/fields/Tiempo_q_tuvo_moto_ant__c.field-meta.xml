@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tiempo_q_tuvo_moto_ant__c</fullName>
+    <externalId>false</externalId>
+    <label>Tiempo que tuvo la motocicleta anterior</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&lt; 1 año</fullName>
+                <default>false</default>
+                <label>&lt; 1 año</label>
+            </value>
+            <value>
+                <fullName>1-2 años</fullName>
+                <default>false</default>
+                <label>1-2 años</label>
+            </value>
+            <value>
+                <fullName>2-5 años</fullName>
+                <default>false</default>
+                <label>2-5 años</label>
+            </value>
+            <value>
+                <fullName>&gt; 5 años</fullName>
+                <default>false</default>
+                <label>&gt; 5 años</label>
+            </value>
+            <value>
+                <fullName>Ninguna</fullName>
+                <default>false</default>
+                <label>Ninguna</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_TAR_007</fullName>
+    <active>false</active>
+    <description>Para fijar como completada por favor coloque la fecha de hoy.
+AM_RV_TAR_007</description>
+    <errorConditionFormula>AND(
+ TEXT(Status) = &quot;Completed&quot;,
+ ActivityDate  &lt;&gt;  TODAY()
+)</errorConditionFormula>
+    <errorDisplayField>ActivityDate</errorDisplayField>
+    <errorMessage>Para fijar como completada por favor coloque la fecha de hoy.
+AM_RV_TAR_007</errorMessage>
+</ValidationRule>

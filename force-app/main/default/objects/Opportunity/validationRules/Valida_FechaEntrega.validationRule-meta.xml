@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_FechaEntrega</fullName>
+    <active>true</active>
+    <description>Valida que la fecha de entrega sea igual o mayor a la fecha de facturación menor igual a la fecha de hoy.</description>
+    <errorConditionFormula>AND( AM_Fecha_de_entrega_vehiculo__c &lt;  Fecha_de_factura__c  , AM_Fecha_de_entrega_vehiculo__c &gt; TODAY())</errorConditionFormula>
+    <errorMessage>La fecha de entrega no puede ser mayor a hoy ni menor a fecha de factura.</errorMessage>
+</ValidationRule>

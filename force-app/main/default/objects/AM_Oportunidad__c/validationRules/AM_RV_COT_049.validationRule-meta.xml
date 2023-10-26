@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_049</fullName>
+    <active>false</active>
+    <description>AM_RV_COT_021: La cuenta debe tener diligenciado la &quot;Direccion&quot;. Debe ir a la cuenta y diligenciarlo.Prospectacion</description>
+    <errorConditionFormula>AND 
+( 
+
+AM_Usuario_motocicleta__r.RecordType.Name = &quot;Cuenta empresarial&quot;,  
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;, 
+$Profile.Name &lt;&gt; &quot;Administrador del sistema&quot;,
+TEXT(AM_Etapa__c) = &quot;Prospectación&quot;, 
+
+ 
+IF 
+( 
+TEXT(AM_Usuario_motocicleta__r.AM_Via_principal__c ) = &quot;Vereda&quot;, 
+false, 
+OR 
+( 
+ISBLANK(TEXT(AM_Usuario_motocicleta__r.AM_Numero_via_principal__c )), 
+ISBLANK(TEXT(AM_Usuario_motocicleta__r.AM_Numero_via_secundaria__c )), 
+ISBLANK (AM_Usuario_motocicleta__r.AM_Ciudad__c ), 
+ISBLANK(AM_Usuario_motocicleta__r.AM_ID_cuadra__c ) 
+)))</errorConditionFormula>
+    <errorMessage>AM_RV_COT_021: La cuenta debe tener diligenciado el campo &quot;Direccion&quot;. Debe ir a la cuenta y diligenciarlo.Prospectacion</errorMessage>
+</ValidationRule>

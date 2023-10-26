@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_mo_se_enter_de_la_motocicleta__c</fullName>
+    <externalId>false</externalId>
+    <label>¿Cómo se enteró de la motocicleta?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Fuente__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Radio</fullName>
+                <default>false</default>
+                <label>Radio</label>
+            </value>
+            <value>
+                <fullName>Televisión</fullName>
+                <default>false</default>
+                <label>Televisión</label>
+            </value>
+            <value>
+                <fullName>Publicidad Exterior</fullName>
+                <default>false</default>
+                <label>Publicidad Exterior</label>
+            </value>
+            <value>
+                <fullName>Publicidad Impresa</fullName>
+                <default>false</default>
+                <label>Publicidad Impresa</label>
+            </value>
+            <value>
+                <fullName>Teléfono Concesionario</fullName>
+                <default>false</default>
+                <label>Teléfono Concesionario</label>
+            </value>
+            <value>
+                <fullName>Formulario Motos Sitio web Honda</fullName>
+                <default>false</default>
+                <label>Formulario Motos Sitio web Honda</label>
+            </value>
+            <value>
+                <fullName>Formulario Facebook Honda</fullName>
+                <default>false</default>
+                <label>Formulario Facebook Honda</label>
+            </value>
+            <value>
+                <fullName>Formulario Financiación Honda</fullName>
+                <default>false</default>
+                <label>Formulario Financiación Honda</label>
+            </value>
+            <value>
+                <fullName>Agendamiento Posventa</fullName>
+                <default>false</default>
+                <label>Agendamiento Posventa</label>
+            </value>
+            <value>
+                <fullName>Cliente Posventa</fullName>
+                <default>false</default>
+                <label>Cliente Posventa</label>
+            </value>
+            <value>
+                <fullName>Cliente Cancelado</fullName>
+                <default>false</default>
+                <label>Cliente Cancelado</label>
+            </value>
+            <value>
+                <fullName>Formulario Facebook Progreser</fullName>
+                <default>false</default>
+                <label>Formulario Facebook Progreser</label>
+            </value>
+            <value>
+                <fullName>Amigo/Familiar</fullName>
+                <default>false</default>
+                <label>Amigo/Familiar</label>
+            </value>
+            <value>
+                <fullName>Playa de Ventas</fullName>
+                <default>false</default>
+                <label>Playa de Ventas</label>
+            </value>
+            <value>
+                <fullName>Exhibición Centro Comercial</fullName>
+                <default>false</default>
+                <label>Exhibición Centro Comercial</label>
+            </value>
+            <value>
+                <fullName>Feria Local</fullName>
+                <default>false</default>
+                <label>Feria Local</label>
+            </value>
+            <value>
+                <fullName>BTL Fanalca</fullName>
+                <default>false</default>
+                <label>BTL Fanalca</label>
+            </value>
+            <value>
+                <fullName>Toma Empresarial</fullName>
+                <default>false</default>
+                <label>Toma Empresarial</label>
+            </value>
+            <value>
+                <fullName>Comunicación Empresarial</fullName>
+                <default>false</default>
+                <label>Comunicación Empresarial</label>
+            </value>
+            <value>
+                <fullName>Inbox Facebook</fullName>
+                <default>false</default>
+                <label>Inbox Facebook</label>
+            </value>
+            <value>
+                <fullName>Vitrina Virtual Mercado Libre</fullName>
+                <default>false</default>
+                <label>Vitrina Virtual Mercado Libre</label>
+            </value>
+            <value>
+                <fullName>Línea SAC Honda</fullName>
+                <default>false</default>
+                <label>Línea SAC Honda</label>
+            </value>
+            <value>
+                <fullName>Ecommerce</fullName>
+                <default>false</default>
+                <label>Ecommerce</label>
+            </value>
+            <value>
+                <fullName>Chat/ WhatsApp</fullName>
+                <default>false</default>
+                <label>Chat/ WhatsApp</label>
+            </value>
+            <value>
+                <fullName>Formulario Financiación Progreser</fullName>
+                <default>false</default>
+                <label>Formulario Financiación Progreser</label>
+            </value>
+            <value>
+                <fullName>Formulario Motos Sitio Web Inbound Honda</fullName>
+                <default>false</default>
+                <label>Formulario Motos Sitio Web Inbound Honda</label>
+            </value>
+            <value>
+                <fullName>Formulario Reweb Honda</fullName>
+                <default>false</default>
+                <label>Formulario Reweb Honda</label>
+            </value>
+            <value>
+                <fullName>Formulario Reweb Financiación Progreser</fullName>
+                <default>false</default>
+                <label>Formulario Reweb Financiación Progreser</label>
+            </value>
+            <value>
+                <fullName>Formulario Reweb Facebook Honda</fullName>
+                <default>false</default>
+                <label>Formulario Reweb Facebook Honda</label>
+            </value>
+            <value>
+                <fullName>Formulario Reweb Teléfono Honda</fullName>
+                <default>false</default>
+                <label>Formulario Reweb Teléfono Honda</label>
+            </value>
+            <value>
+                <fullName>Cliente Buena Paga</fullName>
+                <default>false</default>
+                <label>Cliente Buena Paga</label>
+            </value>
+            <value>
+                <fullName>Formulario Reweb Whatsapp Progreser</fullName>
+                <default>false</default>
+                <label>Formulario Reweb Whatsapp Progreser</label>
+            </value>
+            <value>
+                <fullName>Formulario Reweb Facebook Progreser</fullName>
+                <default>false</default>
+                <label>Formulario Reweb Facebook Progreser</label>
+            </value>
+            <value>
+                <fullName>Formulario Reweb Teléfono Progreser</fullName>
+                <default>false</default>
+                <label>Formulario Reweb Teléfono Progreser</label>
+            </value>
+            <value>
+                <fullName>Inbox Facebook Progreser</fullName>
+                <default>false</default>
+                <label>Inbox Facebook Progreser</label>
+            </value>
+            <value>
+                <fullName>Línea telefónica Progreser</fullName>
+                <default>false</default>
+                <label>Línea telefónica Progreser</label>
+            </value>
+            <value>
+                <fullName>Referido</fullName>
+                <default>false</default>
+                <label>Referido</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Sala de Ventas</controllingFieldValue>
+            <valueName>Radio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sala de Ventas</controllingFieldValue>
+            <valueName>Televisión</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sala de Ventas</controllingFieldValue>
+            <valueName>Publicidad Exterior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sala de Ventas</controllingFieldValue>
+            <valueName>Publicidad Impresa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sala de Ventas</controllingFieldValue>
+            <controllingFieldValue>Canal Empresarial</controllingFieldValue>
+            <valueName>Teléfono Concesionario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sala de Ventas</controllingFieldValue>
+            <valueName>Referido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital</controllingFieldValue>
+            <valueName>Formulario Motos Sitio web Honda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital</controllingFieldValue>
+            <valueName>Formulario Facebook Honda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital</controllingFieldValue>
+            <valueName>Formulario Financiación Honda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital</controllingFieldValue>
+            <valueName>Inbox Facebook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital</controllingFieldValue>
+            <valueName>Vitrina Virtual Mercado Libre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital</controllingFieldValue>
+            <valueName>Línea SAC Honda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital</controllingFieldValue>
+            <valueName>Ecommerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital</controllingFieldValue>
+            <valueName>Chat/ WhatsApp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTL</controllingFieldValue>
+            <controllingFieldValue>Canal Empresarial</controllingFieldValue>
+            <valueName>Playa de Ventas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTL</controllingFieldValue>
+            <valueName>Exhibición Centro Comercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTL</controllingFieldValue>
+            <valueName>Feria Local</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTL</controllingFieldValue>
+            <valueName>BTL Fanalca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTL</controllingFieldValue>
+            <controllingFieldValue>Canal Empresarial</controllingFieldValue>
+            <valueName>Toma Empresarial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Posventa</controllingFieldValue>
+            <valueName>Agendamiento Posventa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Posventa</controllingFieldValue>
+            <valueName>Cliente Posventa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Progreser</controllingFieldValue>
+            <valueName>Cliente Cancelado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Progreser</controllingFieldValue>
+            <valueName>Formulario Facebook Progreser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Progreser</controllingFieldValue>
+            <valueName>Formulario Financiación Progreser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canal Empresarial</controllingFieldValue>
+            <valueName>Comunicación Empresarial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Referidos</controllingFieldValue>
+            <valueName>Amigo/Familiar</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

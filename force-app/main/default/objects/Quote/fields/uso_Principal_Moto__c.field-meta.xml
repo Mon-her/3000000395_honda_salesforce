@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>uso_Principal_Moto__c</fullName>
+    <externalId>false</externalId>
+    <label>¿Qué uso principal planea dar a la moto?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Trabajo (Generación de ingresos)</fullName>
+                <default>false</default>
+                <label>Trabajo (Generación de ingresos)</label>
+            </value>
+            <value>
+                <fullName>Recreación</fullName>
+                <default>false</default>
+                <label>Recreación</label>
+            </value>
+            <value>
+                <fullName>Transporte Personal</fullName>
+                <default>false</default>
+                <label>Transporte Personal</label>
+            </value>
+            <value>
+                <fullName>Transporte</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Transporte</label>
+            </value>
+            <value>
+                <fullName>Transporte Familiar</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Transporte Familiar</label>
+            </value>
+            <value>
+                <fullName>Transporte Pasajeros</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Transporte Pasajeros</label>
+            </value>
+            <value>
+                <fullName>Transporte de Carga</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Transporte de Carga</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

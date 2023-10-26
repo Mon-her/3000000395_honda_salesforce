@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area_involucrada__c</fullName>
+    <externalId>false</externalId>
+    <label>Area involucrada</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Distribuidores</fullName>
+                <default>false</default>
+                <label>Distribuidores</label>
+            </value>
+            <value>
+                <fullName>Mesa de ayuda</fullName>
+                <default>false</default>
+                <label>Mesa de ayuda</label>
+            </value>
+            <value>
+                <fullName>Taller</fullName>
+                <default>false</default>
+                <label>Taller</label>
+            </value>
+            <value>
+                <fullName>Ventas</fullName>
+                <default>false</default>
+                <label>Ventas</label>
+            </value>
+            <value>
+                <fullName>Calidad</fullName>
+                <default>false</default>
+                <label>Calidad</label>
+            </value>
+            <value>
+                <fullName>Entidades</fullName>
+                <default>false</default>
+                <label>Entidades</label>
+            </value>
+            <value>
+                <fullName>Varios</fullName>
+                <default>false</default>
+                <label>Varios</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

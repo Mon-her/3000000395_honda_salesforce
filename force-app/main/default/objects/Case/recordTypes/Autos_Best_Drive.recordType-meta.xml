@@ -1,0 +1,2388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Autos_Best_Drive</fullName>
+    <active>false</active>
+    <businessProcess>Best Drive</businessProcess>
+    <description>Solicitudes de los clientes de Best Drive</description>
+    <label>Best Drive</label>
+    <picklistValues>
+        <picklist>Agencia_motos_Vitrina_autos_mas_cercana__c</picklist>
+        <values>
+            <fullName>Autoacacio Santa Marta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autoacacio Valledupar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autoalamo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autoarrayán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autocaobos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autoceiba Chipichape</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autoceiba Norte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autoceiba Sur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autochicalá</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autociprés 101</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autociprés Usaquén</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autocoral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autoguayacan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autolaurel Circunvalar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autolaurel Principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autopalma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autosakura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autosaman Neiva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autosamán Ibagué</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autosauce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Alcala Tunja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Alcala Villavicencio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Armotor Armenia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Armotor Manizales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Armotor Pereira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autoacacio Santa Marta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autoacacio Valledupar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autoalamo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autoarrayán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autocaobos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autoceiba Norte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autoceiba Sur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autochicalá</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autocipres Santa Sofia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autocipres Toberin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autociprés 101</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autocoral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autoguayacan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autolaurel Circunvalar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autolaurel Principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autopalma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autosakura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autosaman Neiva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autosamán Ibagué</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punto de Servicio Autosauce</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Area_involucrada__c</picklist>
+        <values>
+            <fullName>Distribuidores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mesa de ayuda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ventas</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Autoriza_tratamiento_de_datos_personales__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Autos_RecordTypeDE__c</picklist>
+        <values>
+            <fullName>PQRSFS Autos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ciudad__c</picklist>
+        <values>
+            <fullName>ACACIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACEVEDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGUACHICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGUAZAUL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGUSTIN CODAZZI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ANDES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ANSERMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>APARTADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARAUCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARAUQUITA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARJONA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARMENIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AYAPEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BARBOSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BARRANCABERMEJA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BARRANQUILLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BELLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOGOTÁ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSCONIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BUCARAMANGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BUENAVENTURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BUGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CALDAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CALDONO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CALI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CALOTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAREPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARMEN DE BOLIVAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARTAGENA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARTAGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAUCASIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CERETE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CERRITO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHACHAGUI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHAPARRAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHIGORODO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHINÚ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHIRIGUANÁ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHIVOLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHÍA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIENAGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIMITARRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIUDAD BOLIVAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COPACABANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CORINTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COROZAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CUMBAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CURUMANÍ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CÚCUTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DONCELLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DOSQUEBRADAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EL BAGRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EL BANCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EL BORDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EL COPEY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EL DIFICIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EL PLATEADO CORREGIMIENTO DE ARGELIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EL TAMBO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENVIGADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESPINAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FACATATIVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLORENCIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLORIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLORIDABLANCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUNDACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUNZA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUSAGASUGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GARZON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GIRARDOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GIRÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GRANADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GUACHUCAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GUAMAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GUAMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GUARANDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HATONUEVO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HONDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HORMIGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBAGUÉ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INIRIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IPIALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISTMINA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JAMUNDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA CEJA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA DORADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA JAGUA DE IBIRICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA LOMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA MESA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA PLATA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA UNIÓN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEBRIJA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LETICIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIBANO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LÓRICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAGANGUÉ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAJAGUAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MANIZALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARIQUITA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEDELLÍN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MELGAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOCOA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOMPOX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MONTELIBANO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MONTERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MORALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEIVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OCAÑA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ORITO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAILITAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PALMIRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAZ DE ARIPORO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PELAYA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PEREIRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PIE DE CUESTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PIENDAMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PITALITO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PIVIJAY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLANADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLANETA RICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLATO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POPAYAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRADERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUEBLO NUEVO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUERTO ASÍS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUERTO BERRIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUERTO BOYACÁ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUERTO GUZMAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUERTO LIBERTADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUERTO TEJADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUERTO WILCHES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PURIFICACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUIBDÓ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUIMBAYA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESTREPO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RIO NEGRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RIOHACHA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RIONEGRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RIOSUCIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROLDANILLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SABANA DE TORRES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SABANALARGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAHAGÚN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAMANIEGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN ANDRÉS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN GIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN JOSE DEL GUAVIARE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN JUAN DEL CESAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN MARCOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN PABLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN ROQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN VICENTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SANTA ANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SANTA CRUZ DE LORICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SANTA FÉ DE ANTIOQUIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SANTA MARTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SANTA ROSA DE CABAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SANTA ROSA DE OSOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SANTA ROSA DEL SUR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SANTANDER DE QUILICHAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SANTO TOMAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SARAVENA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEGOVIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIBUNDOY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SINCELEJO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOACHA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOCORRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOGAMOSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOLEDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SONSON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUPIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAURAMENA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TIERRALTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TIMBÍO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TULUÁ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TUMACO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TUNJA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TUQUERRES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TURBACO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TURBO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>URRAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALENCIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLEDUPAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VELEZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLANUEVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLAVICENCIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLETA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YARUMAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YOPAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YUMBO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZARAGOZA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZARZAL</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Estado_cita_recall__c</picklist>
+        <values>
+            <fullName>Asistió</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No asistió</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Garantia_motos_aprobada__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Grupo_de_Parte__c</picklist>
+        <values>
+            <fullName>CARBURADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHASIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELECTRICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOTOR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Modelo_de_interes__c</picklist>
+        <values>
+            <fullName>ACCORD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIVIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIVIC SI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIVIC TYPE R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR-V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HR-V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ODYSSEY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PILOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WR-V</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motos_RecordTypeDE__c</picklist>
+        <values>
+            <fullName>Habeas Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PQRSFS Motos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recall</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Caso Interno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente en vitrina %2F taller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correo electrónico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Linea %23470</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Línea SAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Redes sociales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teléfono</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WhatsApp Honda</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Parte__c</picklist>
+        <values>
+            <fullName>AMORTIGUADOR TRASERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ANILLOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARBOL DE LEVAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUTOMATICO MOTOR DE ARRANQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BALANCIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANDAS DE FRENO TRASERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BARRA TELESCOPICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BATERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOBINA DE ENCENDIDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOBINA PULSORA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOCINA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOMBA DE ACEITE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOMBA DE COMBUSTIBLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BUJES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BUJES DE LA TIJERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CADENA DE ARRASTRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CADENILLA DE LEVAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAJA DE HERRAMIENTAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CALAPIE DERECHO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CALCOMANIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CALIPER DE FRENO TRASERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CALIPER FRENO DELANTERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARBURADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CATALOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAUCHO DESLIZAMIENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAUCHO ESTRIBO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHASIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHICLER PRINCIPAL CB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIGÜEÑAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CILINDRO FRENO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CILINDRO MOTOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COLA DE LUJO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COLLARIN ESPACIADOR ORQUILLA TIJERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONJ INYETOR COMBUSTIBLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CORREA DE TRANSMISION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CULATA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CUNAS DE DIRECCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEFENSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DESLIZADOR DE CADENA DE ARRASTRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIRECCIONALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCO DE EMBRAGUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCO DE FRENO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMPAQUES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESCANER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESPEJOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESPIGO DIRECCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTATOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTRIBOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXHOSTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FILTRO DE AIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLOTADOR UNIDAD DE COMBUSTIBLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FORRO SILLIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GRIFO DE COMBUSTIBLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GUARDAFANGOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GUAYAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GUIA VALVULA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HORQUILLA TIJERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDICADOR DE LUZ ALTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTERRUPTORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVENTARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INYECTOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>J%2E SELLO o RETEN DE ACEITE TELESCOPICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KIT ACCESORIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LENTE VELOCIMETRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEVA DE FRENO TRASERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LICITACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LLANTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MANUAL DE GARANTIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MANZANA RUEDA TRASERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEDIDORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOTOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOTOR DE ARRANQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEUMATICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASTILLAS DE FRENO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PESAS DE EMBRAGUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PINTURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PISTONES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PIÑONES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLATINA TENSOR DE CADENA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROTECTOR DE LAMPARA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REFERENCIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REGULADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RELE DE ENCENDIDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RINES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RODAMIENTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SILLIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SISTEMA SMART KEYS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOPORTES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STOP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SWITCH DE ENCENDIDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TABLERO DE VELOCIMETRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TANQUE COMBUSTIBLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAPAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TIJERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TORNILLO DE VOLANTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRANSPORTADORA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TUBO DE ACEITE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TUBO TELESCOPICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNIDAD ECO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALVULA ADMISION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALVULA DE ESCAPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VARILLA DE FRENO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VELOCIMETRO COMPLETO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VENTILADOR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Alta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Producto__c</picklist>
+        <values>
+            <fullName>BIZ C 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIZ C 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BROSS 125 ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BROSS 125 KS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C 70</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C 90</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 125 E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 125 E POWER SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160 DLX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160 STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 250 TWISTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB125 F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB125F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB190R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBF 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBF 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBF GP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBF PREMIUM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBF SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBF300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBR 250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBZ 160</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CD 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CD 101</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CD DELUXE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLICK 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRF 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRF 110FJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRF 150F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRF 50FH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRF250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIO110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DREAM NEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECO 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECO DELUXE EURO II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECO100 %2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELITE %2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELITE 125 ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HERO HONDA MOTORS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVICTA CB 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVICTA CB 150 II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MB 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAVI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASSION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASSION %2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCX 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPLENDOR %2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPLENDOR FT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPLENDOR NXG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPLENDOR NXG ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPLENDOR NXG EURO II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STORM 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TITAN CG 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TITAN CG 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TORNADO XR 250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TWISTER CBX 250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAVE 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAVE C 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAVE II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XBLADE%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XL 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XL 185</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XL 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XLR 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XR 125 L</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XR 125L BRIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XR 150 L</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XR 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XR650L</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE 190</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE 300</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Quiero un Auto - Tickets Internos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radicar Consultas - Tickets Internos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radicar PQRSF - Ticket Externos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radicar PQRSF - Tickets Internos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicio Posventa - Tickets Externos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subcategoria_2__c</picklist>
+        <values>
+            <fullName>Accesorios %28Radio%2C Start Stop%2C otros%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Actualización de Precios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baterías</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bloqueo de la página</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comunicación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta Fecha de llegada Repuesto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta Referencia Sustituta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta de Manual de Partes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consultas%2C Información o Documentación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotización de Repuesto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creación de Referencias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creación de usuarios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creación y Desbloqueo Usuario Honda IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Códigos para desbloquear radios originales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Códigos programación o cambio de computadoras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desbloqueo de Referencias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diagnóstico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diferente a Baterías</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diferente al Interactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disponibilidad de Repuestos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eliminación o Modificación de usuario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garantía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garantía Total</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garantía de Fábrica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Habeas Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inconveniente con Accesorios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inconveniente con la entrega del vehículo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inconveniente con producto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nota Crédito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reparación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIHON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin subcategoría 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitar Best Drive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud Desarme de Vehículo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trámites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ubicación del Repuesto</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subcategoria_3__c</picklist>
+        <values>
+            <fullName>Distribuidores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proveedor Externo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red Propia</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subcategoria__c</picklist>
+        <values>
+            <fullName>Actividades Prentrega del Vehículo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agendamiento de taller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agendar Cita de Taller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atencion de recall en taller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certificacion de importacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cobro del servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta de datos de contactabilidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta entrega de moto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta entrega de repuesto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta normal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta sobre pagos y creditos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copia de factura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotizacion de accesorio %28Casco%2C chaqueta%2C etc%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotizacion de repuesto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotizacion de servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotizar un Repuesto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotizar un Servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demanda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demora entrega motocicleta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demora entrega motocicleta tienda virtual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Devolucion de dinero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exclusión de Habeas Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla tecnica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Felicitacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Felicitaciones Ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garantia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garantia del concesionario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garantías</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incumplimiento de acuerdos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informacion tienda virtual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Levantamiento prenda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mala calidad reparación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PQR Documentada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Peticiones Ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procedimiento no autorizado por el cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procedimiento taller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Queja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Queja por agendamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Queja por cobro de servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Queja por servicio al cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Queja publicidad e informacion engañosa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quejas y Reclamos Ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quiero ser distribuidor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quiero ser distribuidor%2Falmacen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quiero ser taller autorizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recepcion de urgencia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazo de garantia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rentadiario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repuestos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitar Best Drive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud mal resuelta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud o procedimiento mal resuelto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sugerencias Ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabaje con Nosotros</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_documento__c</picklist>
+        <values>
+            <fullName>Carné Diplomático</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certificado para sucesiones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cédula de ciudadanía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cédula de extranjería</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Código de NIT de extranjería</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dcto Ident Extranjero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Identificación de Extranjeros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pasaporte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin identificación del exterior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sociedad extranjera sin NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarjeta de extranjeria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarjeta de identidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tipo de Dcto sucesión ilíquida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tipo de documento extranjero</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

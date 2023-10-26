@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Desincronizacion_PU_UNOEE</fullName>
+    <active>true</active>
+    <description>Valida que no se pueda desincronizar una cotización cuando se envió el pedido a UNOEE o ya la oppty está en PU</description>
+    <errorConditionFormula>AND( IsSyncing =false,  PRIORVALUE(IsSyncing)=true ,OR( Opportunity.Se_creo_pedido_en_UNOEE__c = true, TEXT( Opportunity.StageName )=&quot;PU&quot;))</errorConditionFormula>
+    <errorMessage>No se puede desincronizar una cotización cuando se envió el pedido a UNOEE o ya la oportunidad está en PU</errorMessage>
+</ValidationRule>

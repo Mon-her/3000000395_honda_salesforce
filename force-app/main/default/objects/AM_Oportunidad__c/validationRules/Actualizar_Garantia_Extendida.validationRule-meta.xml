@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actualizar_Garantia_Extendida</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND( RecordType.Name = &quot;Crédito&quot;,  AM_Plan_de_financiacion__r.AM_Aplica_garantia_Extendida__c = true, PRIORVALUE( AM_Porcentaje_garantia_extendida__c ) =  AM_Plan_de_financiacion__r.AM_Porcentaje_garantia_extendida__c, ISCHANGED(AM_Porcentaje_garantia_extendida__c)    )</errorConditionFormula>
+    <errorDisplayField>AM_Porcentaje_garantia_extendida__c</errorDisplayField>
+    <errorMessage>No se puede actualizar el valor, el mismo viene del plan de financiamiento</errorMessage>
+</ValidationRule>

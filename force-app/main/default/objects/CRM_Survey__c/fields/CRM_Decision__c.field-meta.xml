@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRM_Decision__c</fullName>
+    <externalId>false</externalId>
+    <label>¿Qué hace falta para tomar su decisión d</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Presupuesto/Aprobación de crédito</fullName>
+                <default>false</default>
+                <label>Presupuesto/Aprobación de crédito</label>
+            </value>
+            <value>
+                <fullName>Procesos de retoma</fullName>
+                <default>false</default>
+                <label>Procesos de retoma</label>
+            </value>
+            <value>
+                <fullName>Aprobación/Consulta con un familiar</fullName>
+                <default>false</default>
+                <label>Aprobación/Consulta con un familiar</label>
+            </value>
+            <value>
+                <fullName>Explorar otros vehículos o marcas</fullName>
+                <default>false</default>
+                <label>Explorar otros vehículos o marcas</label>
+            </value>
+            <value>
+                <fullName>Otras</fullName>
+                <default>false</default>
+                <label>Otras</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_TAR_009</fullName>
+    <active>false</active>
+    <description>No puede crear llamadas de seguimiento si usted no es el propietario de la cotización 
+AM_RV_TAR_009</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(Propietario_de_la_cotizacion__c)),
+NOT(BEGINS($Profile.Name, &quot;Administrador del sistema&quot;)),
+NOT(BEGINS($Profile.Name, &quot;Administrador de mercadeo&quot;)),
+NOT(BEGINS($Profile.Name, &quot;Analistas&quot;)),
+AND(
+Owner:User.Username &lt;&gt; Propietario_de_la_cotizacion__c
+)
+)</errorConditionFormula>
+    <errorMessage>No puede crear llamadas de seguimiento si usted no es el propietario de la cotización 
+AM_RV_TAR_009</errorMessage>
+</ValidationRule>

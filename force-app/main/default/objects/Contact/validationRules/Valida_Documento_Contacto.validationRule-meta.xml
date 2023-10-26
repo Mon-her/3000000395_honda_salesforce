@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Documento_Contacto</fullName>
+    <active>true</active>
+    <description>El formato del número de documento depende del tipo.
+-Cédula ciudadanía:6,7,8,9,10 digitos
+-NIT: 9 digitos
+-NUIP: 10 digitos
+-Pasaporte:Alfanumerico longitud maxima12
+-Tarjeta de identidad: 11 digitos
+-Cédula y TS extranjería: alfanuméricos
+CUE001</description>
+    <errorConditionFormula>AND
+( $User.AO_BypassApex__c =false,
+
+NOT(ISBLANK( AM_Numero_de_documento_contacto__c )),
+OR
+(
+AND
+(
+TEXT(AM_Tipo_de_documento_Contacto__c) = &quot;Cédula de ciudadanía&quot;,
+NOT(REGEX(AM_Numero_de_documento_contacto__c , &quot;[0-9]{6}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c , &quot;[0-9]{7}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c , &quot;[0-9]{8}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c , &quot;[0-9]{9}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c , &quot;[0-9]{10}&quot;))
+
+),
+AND
+(
+TEXT(AM_Tipo_de_documento_Contacto__c) = &quot;NIT&quot;,
+NOT(REGEX(AM_Numero_de_documento_contacto__c , &quot;[0-9]{6}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c , &quot;[0-9]{7}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c , &quot;[0-9]{8}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c , &quot;[0-9]{9}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c , &quot;[0-9]{10}&quot;))
+),
+AND
+(
+TEXT(AM_Tipo_de_documento_Contacto__c) = &quot;NUIP&quot;,
+NOT(REGEX(AM_Numero_de_documento_contacto__c , &quot;[0-9]{10}&quot;))
+),
+AND
+(
+TEXT(AM_Tipo_de_documento_Contacto__c) = &quot;Tarjeta de Identidad&quot;,
+NOT(REGEX(AM_Numero_de_documento_contacto__c , &quot;[0-9]{11}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c , &quot;[0-9]{10}&quot;))
+
+
+),
+AND
+(
+
+TEXT(AM_Tipo_de_documento_Contacto__c) = &quot;Cédula de extranjería&quot;,
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{6}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{7}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{8}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{9}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{10}&quot;))
+),
+AND
+(
+TEXT(AM_Tipo_de_documento_Contacto__c) = &quot;Tarjeta extranjeria&quot;,
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{3}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{4}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{5}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{6}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{7}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{8}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{9}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{10}&quot;))
+
+
+
+),
+AND
+(
+TEXT(AM_Tipo_de_documento_Contacto__c) = &quot;Pasaporte&quot;,
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{2}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{3}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{4}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{5}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{6}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{7}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{8}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{9}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{10}&quot;)),
+NOT(REGEX(AM_Numero_de_documento_contacto__c,&quot;[a-z A-Z 0-9]{11}&quot;))
+
+)
+)
+)</errorConditionFormula>
+    <errorMessage>El formato del número de documento depende del tipo.
+-Cédula ciudadanía:6,7,8,9,10 digitos
+-NIT: 9 digitos
+-NUIP: 10 digitos
+-Pasaporte:Alfanumerico longitud maxima12
+-Tarjeta de identidad: 11 dígitos
+-Cédula y TS extranjería: alfanuméricos
+CUE001</errorMessage>
+</ValidationRule>

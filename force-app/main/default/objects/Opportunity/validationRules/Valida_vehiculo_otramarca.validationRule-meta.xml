@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_vehiculo_otramarca</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.Name = &quot;Oportunidad Autos&quot;,  TEXT(Posee_vehiculo_de_otra_marca__c)=&quot;SI&quot;, ISBLANK(MarcaLineaModelo__c),  ISBLANK( MarcaLineaModelo1__c )  )</errorConditionFormula>
+    <errorMessage>Debe completar al menos 1 de los campos Marca/Línea/Modelo de otra marca</errorMessage>
+</ValidationRule>

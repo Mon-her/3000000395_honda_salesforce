@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_062</fullName>
+    <active>true</active>
+    <description>Si la cotizacion esta en PU, no se puede modificar
+AM_RV_COT_062</description>
+    <errorConditionFormula>AND 
+( 
+  $User.AO_BypassApex__c = false, 
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;, 
+NOT(BEGINS($Profile.Name, &quot;Asesor de ventas&quot;)),
+NOT(BEGINS($Profile.Name, &quot;Administrador del sistema&quot;)),
+NOT(BEGINS($Profile.Name, &quot;Analistas&quot;)),
+
+NOT(BEGINS($Profile.Name, &quot;Administrador de mercadeo&quot;)),
+TEXT (AM_Etapa__c ) = &quot;PU&quot;,
+OR(
+ ISCHANGED(  AM_Canal_de_atencion__c  ) ,
+ ISCHANGED(  AM_Modelo_de_interes__c ),
+ ISCHANGED ( AM_Propietario_motocicleta__c ),
+ ISCHANGED ( AM_Usuario_motocicleta__c ),
+ ISCHANGED ( AM_Tipo_de_cotizacion__c  ),
+ ISCHANGED (  Forma_de_pago__c ),
+ ISCHANGED (  AM_Recibo_de_caja__c  ),
+ ISCHANGED (  AM_Numero_de_factura__c  ),
+  ISCHANGED ( AM_Fecha_de_factura__c  ),
+  ISCHANGED (  AM_Vin__c  ),
+  ISCHANGED (  AM_Placa__c   ),
+  ISCHANGED (  AM_Fecha_de_entrega_vehiculo__c  ),
+  ISCHANGED (  AM_Agencia_de_entrega__c  ),
+  ISCHANGED ( AM_Fecha_de_factura__c  )
+))</errorConditionFormula>
+    <errorDisplayField>AM_Etapa__c</errorDisplayField>
+    <errorMessage>Si la cotizacion esta en PU, no se puede modificar
+AM_RV_COT_062</errorMessage>
+</ValidationRule>

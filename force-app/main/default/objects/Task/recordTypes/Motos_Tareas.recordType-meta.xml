@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motos_Tareas</fullName>
+    <active>true</active>
+    <description>Record Type Motos Tareas</description>
+    <label>Tareas Motos</label>
+    <picklistValues>
+        <picklist>Contacto_Gerenciamiento_Clientes__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Producto_de_Interes__c</picklist>
+        <values>
+            <fullName>CB 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 125F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F DLX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F DLX MAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F DLX SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F STD MAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F STD SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 190R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 190R RACING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 190R REPSOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 250 TWISTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB125F MAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIO DLX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIO STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DREAM NEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DREAM NEO ACTIVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAVI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAVI ADVENTURE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAVI ADVENTURE BLANCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAVI MIX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCX 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAVE 110S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAVE 110S RACING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAVE 110S SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XR 150L</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE 190 DLX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE 300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE 300 RALLY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE190 STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE300 ABS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Completada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Programada</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Seguimiento a Oportunidad</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cita Virtual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

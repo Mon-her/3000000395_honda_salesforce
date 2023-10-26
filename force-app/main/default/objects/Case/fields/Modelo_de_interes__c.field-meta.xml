@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Modelo_de_interes__c</fullName>
+    <externalId>false</externalId>
+    <label>Modelo de interés</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACCORD</fullName>
+                <default>false</default>
+                <label>ACCORD</label>
+            </value>
+            <value>
+                <fullName>CITY</fullName>
+                <default>false</default>
+                <label>CITY</label>
+            </value>
+            <value>
+                <fullName>CIVIC</fullName>
+                <default>false</default>
+                <label>CIVIC</label>
+            </value>
+            <value>
+                <fullName>CIVIC SI</fullName>
+                <default>false</default>
+                <label>CIVIC SI</label>
+            </value>
+            <value>
+                <fullName>CIVIC TYPE R</fullName>
+                <default>false</default>
+                <label>CIVIC TYPE R</label>
+            </value>
+            <value>
+                <fullName>CR-V</fullName>
+                <default>false</default>
+                <label>CR-V</label>
+            </value>
+            <value>
+                <fullName>FIT</fullName>
+                <default>false</default>
+                <label>FIT</label>
+            </value>
+            <value>
+                <fullName>HR-V</fullName>
+                <default>false</default>
+                <label>HR-V</label>
+            </value>
+            <value>
+                <fullName>ODYSSEY</fullName>
+                <default>false</default>
+                <label>ODYSSEY</label>
+            </value>
+            <value>
+                <fullName>PILOT</fullName>
+                <default>false</default>
+                <label>PILOT</label>
+            </value>
+            <value>
+                <fullName>WR-V</fullName>
+                <default>false</default>
+                <label>WR-V</label>
+            </value>
+            <value>
+                <fullName>USADOS</fullName>
+                <default>false</default>
+                <label>USADOS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

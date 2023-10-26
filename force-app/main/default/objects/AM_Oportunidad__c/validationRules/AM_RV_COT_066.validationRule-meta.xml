@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_066</fullName>
+    <active>true</active>
+    <description>Debe diligenciar una razon de no compra.
+AM_RV_COT_066</description>
+    <errorConditionFormula>AND 
+( 
+  $User.AO_BypassApex__c = false, 
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;, 
+TEXT(AM_Etapa__c) = &quot;PSI&quot;, 
+ISBLANK(TEXT(AM_Razon_para_no_comprar__c)) 
+)</errorConditionFormula>
+    <errorMessage>Debe diligenciar una razon de no compra.
+AM_RV_COT_066</errorMessage>
+</ValidationRule>

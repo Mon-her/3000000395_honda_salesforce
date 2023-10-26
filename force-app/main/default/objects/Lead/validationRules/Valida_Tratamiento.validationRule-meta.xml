@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Tratamiento</fullName>
+    <active>true</active>
+    <description>Valida que el campo tratamiento sea diligenciado</description>
+    <errorConditionFormula>TEXT(Salutation)==null</errorConditionFormula>
+    <errorDisplayField>Salutation</errorDisplayField>
+    <errorMessage>Debe diligenciar este campo con un valor.</errorMessage>
+</ValidationRule>

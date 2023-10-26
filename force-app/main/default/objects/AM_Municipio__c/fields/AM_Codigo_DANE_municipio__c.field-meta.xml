@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Codigo_DANE_municipio__c</fullName>
+    <description>Req. ID AM-006. Código del municipio</description>
+    <externalId>false</externalId>
+    <label>Código DANE municipio</label>
+    <length>10</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

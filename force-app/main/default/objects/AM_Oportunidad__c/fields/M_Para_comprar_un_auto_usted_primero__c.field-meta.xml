@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>M_Para_comprar_un_auto_usted_primero__c</fullName>
+    <externalId>false</externalId>
+    <label>Para comprar un automóvil, usted primero</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pide la opinión de familiares</fullName>
+                <default>false</default>
+                <label>Pide la opinión de familiares</label>
+            </value>
+            <value>
+                <fullName>Busca en internet</fullName>
+                <default>false</default>
+                <label>Busca en internet</label>
+            </value>
+            <value>
+                <fullName>Pide la opinión de sus amigos o compañeros de trabajo</fullName>
+                <default>false</default>
+                <label>Pide la opinión de sus amigos o compañeros de trabajo</label>
+            </value>
+            <value>
+                <fullName>Pide la opinión de un experto</fullName>
+                <default>false</default>
+                <label>Pide la opinión de un experto</label>
+            </value>
+            <value>
+                <fullName>Se dirige al concesionario</fullName>
+                <default>false</default>
+                <label>Se dirige al concesionario</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_TelefonoFijo</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISBLANK(Phone)),OR(
+REGEX(Phone, &quot;^[0]{7}$*&quot;),
+REGEX(Phone, &quot;^[1]{7}$*&quot;),
+REGEX(Phone, &quot;^[2]{7}$*&quot;),
+REGEX(Phone, &quot;^[3]{7}$*&quot;),
+REGEX(Phone, &quot;^[4]{7}$*&quot;),
+REGEX(Phone, &quot;^[5]{7}$*&quot;),
+REGEX(Phone, &quot;^[6]{7}$*&quot;),
+REGEX(Phone, &quot;^[7]{7}$*&quot;),
+REGEX(Phone, &quot;^[8]{7}$*&quot;),
+REGEX(Phone, &quot;^[9]{7}$*&quot;),
+/*REGEX(Phone, &quot;^\\d*(?=\\d{6}(\\d*)$)0?1?2?3?4?5?6?7?8?9?8?7?6?5?4?3?2?1?0?\\1$&quot;),
+REGEX(Phone, &quot;.*(\\d)\\1{3}.*&quot;),*/
+NOT(REGEX(Phone , &quot;[0-9]{7}&quot;)),
+Phone = &quot;1111111&quot;,
+Phone = &quot;2222222&quot;,
+Phone = &quot;3333333&quot;,
+Phone = &quot;4444444&quot;,
+Phone = &quot;5555555&quot;,
+Phone = &quot;6666666&quot;,
+Phone = &quot;7777777&quot;,
+Phone = &quot;8888888&quot;,
+Phone = &quot;9999999&quot;,
+Phone = &quot;1234567&quot;,
+Phone = &quot;7654321&quot;,
+BEGINS(Phone,&quot;0&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>Únicamente 7 números como teléfono fijo, no debe ser consecutivo.</errorMessage>
+</ValidationRule>

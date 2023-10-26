@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nueva_Segmentacion__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISNULL(Fecha_real_de_entrega__c), &apos;Prospecto&apos;,
+IF(TODAY()&lt;= IF(
+  AND(
+    MONTH( Fecha_real_de_entrega__c) = 2,
+    DAY( Fecha_real_de_entrega__c) = 29,
+    NOT( 
+      OR( 
+        MOD( YEAR( Fecha_real_de_entrega__c) + 2, 400 ) = 0, 
+        AND( 
+          MOD( YEAR( Fecha_real_de_entrega__c) + 2, 4 ) = 0,
+          MOD( YEAR( Fecha_real_de_entrega__c) + 2, 100 ) != 0
+        )
+      )
+    ) 
+  ),
+  DATE( YEAR( Fecha_real_de_entrega__c) + 2, 3, 1),
+  DATE( YEAR( Fecha_real_de_entrega__c) + 2, MONTH( Fecha_real_de_entrega__c), DAY( Fecha_real_de_entrega__c) )
+),&apos;Comprador entre 0 y 2 años&apos;,
+IF(TODAY()&lt;= IF(
+  AND(
+    MONTH( Fecha_real_de_entrega__c) = 2,
+    DAY( Fecha_real_de_entrega__c) = 29,
+    NOT( 
+      OR( 
+        MOD( YEAR( Fecha_real_de_entrega__c) + 7, 400 ) = 0, 
+        AND( 
+          MOD( YEAR( Fecha_real_de_entrega__c) + 7, 4 ) = 0,
+          MOD( YEAR( Fecha_real_de_entrega__c) + 7, 100 ) != 0
+        )
+      )
+    ) 
+  ),
+  DATE( YEAR( Fecha_real_de_entrega__c) + 7, 3, 1),
+  DATE( YEAR( Fecha_real_de_entrega__c) + 7, MONTH( Fecha_real_de_entrega__c), DAY( Fecha_real_de_entrega__c) )
+),&apos;Cliente potencial&apos;,&apos;Cliente antiguo&apos;)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Segmentación</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

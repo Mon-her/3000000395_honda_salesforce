@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_007</fullName>
+    <active>false</active>
+    <description>El asesor de ventas no puede crear o modificar presupuestos.
+AM_RV_COT_007</description>
+    <errorConditionFormula>AND
+(
+	RecordType.Name = &quot;Presupuesto&quot;,
+	$Profile.Name = &quot;Asesor de ventas&quot;
+)</errorConditionFormula>
+    <errorMessage>AM-RV-COT-007: El asesor de ventas no puede crear o modificar presupuestos.</errorMessage>
+</ValidationRule>

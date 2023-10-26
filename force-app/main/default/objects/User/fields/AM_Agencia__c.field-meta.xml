@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Agencia__c</fullName>
+    <externalId>false</externalId>
+    <label>Vitrina</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AUTOCIPRES USAQUEN</fullName>
+                <default>false</default>
+                <label>AUTOCIPRES USAQUEN</label>
+            </value>
+            <value>
+                <fullName>AUTOCIPRES 101</fullName>
+                <default>false</default>
+                <label>AUTOCIPRES 101</label>
+            </value>
+            <value>
+                <fullName>AUTOCEIBA SUR</fullName>
+                <default>false</default>
+                <label>AUTOCEIBA SUR</label>
+            </value>
+            <value>
+                <fullName>AUTOCEIBA NORTE</fullName>
+                <default>false</default>
+                <label>AUTOCEIBA NORTE</label>
+            </value>
+            <value>
+                <fullName>AUTOCEIBA CHIPICHAPE</fullName>
+                <default>false</default>
+                <label>AUTOCEIBA CHIPICHAPE</label>
+            </value>
+            <value>
+                <fullName>AUTOCEIBA</fullName>
+                <default>false</default>
+                <label>AUTOCEIBA</label>
+            </value>
+            <value>
+                <fullName>AUTOCORAL</fullName>
+                <default>false</default>
+                <label>AUTOCORAL</label>
+            </value>
+            <value>
+                <fullName>AUTOPALMA</fullName>
+                <default>false</default>
+                <label>AUTOPALMA</label>
+            </value>
+            <value>
+                <fullName>AUTOGUAYACAN</fullName>
+                <default>false</default>
+                <label>AUTOGUAYACAN</label>
+            </value>
+            <value>
+                <fullName>AUTOLAUREL CIRCUNVALAR</fullName>
+                <default>false</default>
+                <label>AUTOLAUREL CIRCUNVALAR</label>
+            </value>
+            <value>
+                <fullName>AUTOLAUREL</fullName>
+                <default>false</default>
+                <label>AUTOLAUREL</label>
+            </value>
+            <value>
+                <fullName>AUTOALMENDRO</fullName>
+                <default>false</default>
+                <label>AUTOALMENDRO</label>
+            </value>
+            <value>
+                <fullName>RENTING</fullName>
+                <default>false</default>
+                <label>RENTING</label>
+            </value>
+            <value>
+                <fullName>DISTRIBUIDOR</fullName>
+                <default>false</default>
+                <label>DISTRIBUIDOR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

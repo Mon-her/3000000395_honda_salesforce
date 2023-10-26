@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_074</fullName>
+    <active>true</active>
+    <description>Analista debe diligenciar información en estado PU:
+Razones de compra
+Seccion historica
+AM_RV_COT_074</description>
+    <errorConditionFormula>AND
+(
+       $User.AO_BypassApex__c = false, 
+IF(
+AND
+(        
+         RecordType.Name   = &quot;Cotizacion Persona Natural&quot;,
+         $Profile.Name = &quot;Analistas&quot;,
+$Profile.Name = &quot;Asesor de ventas&quot;,
+         $Profile.Name = &quot;Administrador de mercadeo&quot;,
+         TEXT( AM_Etapa__c ) =  &quot;PU&quot;,
+         MC_Registro_historico__c &lt;&gt; TRUE), 
+         OR
+         (
+
+        ISBLANK(  Primera_razon__c ),  
+        ISBLANK(  Segunda_razon__c ), 
+        ISBLANK(  Tercera_razon__c  ),
+        ISBLANK(  TEXT( Tema_mas_importante_producto__c  )),  
+        ISBLANK(  TEXT (Tema_mas_importante_Marca__c  )), 
+        ISBLANK(  TEXT(Tema_mas_importante_Respaldo_Servicio__c )),
+        ISBLANK(  AM_Marca_Linea_Modelo_Vehiculo_anterior__c  ),  
+        ISBLANK(  TEXT(AM_Posee_vehiculo_de_otra_marca__c  )), 
+        ISBLANK(  TEXT( AM_Es_un_HONDA_adicional__c )),
+        ISBLANK(  AM_Que_otras_marcas_considero__c ),
+        ISBLANK(  TEXT( AM_Cual_es_el_estilo_de_vida__c   )),
+        ISBLANK(  TEXT( AM_Como_es_su_comportamiento__c ))
+
+),
+AND(
+       RecordType.Name   = &quot;Cotizacion Persona Natural&quot;,
+       $Profile.Name = &quot;Analistas&quot;,
+       $Profile.Name = &quot;Administrador de mercadeo&quot;,
+       TEXT( AM_Etapa__c ) =  &quot;PU&quot;,
+       MC_Registro_historico__c = TRUE,
+      OR(
+      ISBLANK(TEXT(AM_Estado1__c))
+)
+)
+)
+)</errorConditionFormula>
+    <errorMessage>Analista debe diligenciar información en estado PU:
+Razones de compra
+Seccion historica
+AM_RV_COT_074</errorMessage>
+</ValidationRule>

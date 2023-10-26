@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SO_RV_COT_089</fullName>
+    <active>true</active>
+    <description>Para cotizacion de  USADO, debe diligenciar los campos de la seccion COTIZACION VEHICULO USADO Marca Usado, Linea Usado, Version Usado.
+SO_RV_COT_089</description>
+    <errorConditionFormula>AND
+($User.AO_BypassApex__c = false, 
+        RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+NOT(BEGINS($Profile.Name, &quot;Administrador del sistema&quot;)),
+ MC_Registro_historico__c = FALSE,
+	TEXT( AM_Tipo_de_cotizacion__c ) = &quot;Usados&quot;,
+
+
+OR ( 	
+        ISBLANK (TEXT(Marca_usado__c)),
+        ISBLANK (Linea_usado__c),
+        ISBLANK (Version_usado__c)
+      
+
+))</errorConditionFormula>
+    <errorDisplayField>AM_Modelo_de_interes__c</errorDisplayField>
+    <errorMessage>Para cotizacion de  USADO, debe diligenciar los campos de la seccion COTIZACION VEHICULO USADO Marca Usado, Linea Usado, Version Usado.
+SO_RV_COT_089</errorMessage>
+</ValidationRule>

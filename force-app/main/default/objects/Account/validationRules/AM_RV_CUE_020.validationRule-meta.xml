@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_CUE_020</fullName>
+    <active>true</active>
+    <description>Tarjeta extranjeria debe tener entre 3 y 10 digitos
+Pasaporte debe tener entre 2 y 12 digitos
+Cedula de extranjeria debe tener entre 6 y 10 digitos
+AM_RV_CUE_020</description>
+    <errorConditionFormula>AND
+(
+       $User.AO_BypassApex__c = false, 
+OR(
+AND(
+
+
+
+            TEXT(AM_Tipo_de_documento__c)   =   &quot;Tarjeta extranjeria&quot;,
+          OR (
+            LEN(AM_Numero_de_documento__c ) &gt;  10,
+            LEN(AM_Numero_de_documento__c ) &lt;  3 
+   )),
+AND(
+            TEXT(AM_Tipo_de_documento__c) = &quot;Pasaporte&quot;,
+          OR (
+            LEN(AM_Numero_de_documento__c ) &gt;  12,
+            LEN(AM_Numero_de_documento__c ) &lt;  2  
+
+)),
+AND(
+TEXT(AM_Tipo_de_documento__c) = &quot;Cédula de extranjería&quot;, 
+OR (
+      LEN(AM_Numero_de_documento__c ) &gt;  10,
+      LEN(AM_Numero_de_documento__c ) &lt;  5
+)
+)
+)
+)</errorConditionFormula>
+    <errorDisplayField>AM_Numero_de_documento__c</errorDisplayField>
+    <errorMessage>Tarjeta extranjeria debe tener entre 3 y 10 digitos
+Pasaporte debe tener entre 2 y 12 digitos
+Cedula de extranjeria debe tener entre 6 y 10 digitos
+AM_RV_CUE_020</errorMessage>
+</ValidationRule>

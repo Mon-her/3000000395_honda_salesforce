@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_044</fullName>
+    <active>false</active>
+    <description>AM_RV_COT_044: Para el plan Corto Plazo la cuota inicial debe ser minimo del 50% del valor de la Motocicleta</description>
+    <errorConditionFormula>IF( 
+ISPICKVAL ( AM_Plan_de_financiacion__r.AM_Plan_financiacion__c ,&quot;Corto Plazo&quot;), 
+(  AM_Valor_cuota_inicial_sugerido_1__c  &lt;  AM_Modelo_sugerido_1__r.AM_Precio_de_lista__c  * 0.50), 
+AM_Valor_cuota_inicial_sugerido_1__c &lt; 0 
+)</errorConditionFormula>
+    <errorDisplayField>AM_Valor_cuota_inicial_sugerido_1__c</errorDisplayField>
+    <errorMessage>AM_RV_COT_044: Para el plan Corto Plazo la cuota inicial debe ser minimo del 50% del valor de la Motocicleta</errorMessage>
+</ValidationRule>

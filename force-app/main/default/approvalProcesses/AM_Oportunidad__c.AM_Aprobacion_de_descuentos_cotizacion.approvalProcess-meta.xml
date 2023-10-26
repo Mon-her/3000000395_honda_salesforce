@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>AM_Fecha_de_cierre__c</field>
+        <field>RecordType</field>
+        <field>Owner</field>
+        <field>AM_Etapa__c</field>
+        <field>AM_Usuario_motocicleta__c</field>
+        <field>AM_Propietario_motocicleta__c</field>
+        <field>AM_Modelo_de_interes__c</field>
+        <field>AM_Precio_de_lista__c</field>
+        <field>AM_Valor_descuento__c</field>
+        <field>AM_IVA_valor__c</field>
+        <field>AM_Valor_impuesto_al_consumo__c</field>
+        <field>AM_Valor_total__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>AM_Descuento_aprobado</name>
+                <type>FieldUpdate</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <type>userHierarchyField</type>
+            </approver>
+        </assignedApprover>
+        <entryCriteria>
+            <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+            <criteriaItems>
+                <field>User.UserRole</field>
+                <operation>startsWith</operation>
+                <value>Jefe ventas</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>User.UserRole</field>
+                <operation>startsWith</operation>
+                <value>Gerente agencia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>User.UserRole</field>
+                <operation>startsWith</operation>
+                <value>Asesor comercial</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>User.UserRole</field>
+                <operation>startsWith</operation>
+                <value>Administrador agencia</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>ApproveRecord</ifCriteriaNotMet>
+        <label>Verificar valor descuento</label>
+        <name>AM_Verificar_valor_descuento</name>
+        <rejectionActions>
+            <action>
+                <name>AM_Descuento_rechazado</name>
+                <type>FieldUpdate</type>
+            </action>
+        </rejectionActions>
+    </approvalStep>
+    <description>El proceso de aprobación de descuentos para cotización fue solicitado por el equipo base del proyecto en la reunión de seguimiento del 1-Noviembre-2013. El proceso es sencillo porque los descuentos, que deben ser registrados como valores, serán aprobados por el gerente del concesionario.</description>
+    <emailTemplate>AM_Plantillas_de_correo_del_sistema/AM_PC_Solicitud_aprobacion_descuento</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>AM_Oportunidad__c.AM_Valor_descuento__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AM_Oportunidad__c.AM_Descuento_aprobado__c</field>
+            <operation>equals</operation>
+            <value>Falso</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>AM_Descuento_aprobado</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>AM_Descuento_rechazado</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>AM_Descuento_rechazado</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>Aprobación de descuentos cotización</label>
+    <nextAutomatedApprover>
+        <useApproverFieldOfRecordOwner>false</useApproverFieldOfRecordOwner>
+        <userHierarchyField>Manager</userHierarchyField>
+    </nextAutomatedApprover>
+    <processOrder>1</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_037</fullName>
+    <active>false</active>
+    <description>AM_RV_COT_037: La cotizacion debe pasar en orden por las etapas respectivas
+1.Etapa Cotizacion 
+2 Etapa Negociacion
+3 Etapa Prospectacion
+4 Etapa Facturacion
+O puede pasar de
+Etapa de Negociacion a No Compra
+Etapa de Prospectacion a No Compra.</description>
+    <errorConditionFormula>AND
+(
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;, 
+$Profile.Name  =  &quot;Asesor de ventas&quot;,
+ISCHANGED(AM_Etapa__c) ,
+          OR(
+AND(ISPICKVAL( PRIORVALUE(  AM_Etapa__c  ), &quot;Cotización&quot;), NOT(ISPICKVAL(AM_Etapa__c , &quot;Negociacion&quot;))),
+AND(ISPICKVAL( PRIORVALUE(  AM_Etapa__c  ), &quot;Negociacion&quot;), AND ( NOT(ISPICKVAL(AM_Etapa__c, &quot;Prospectación&quot;)), NOT(ISPICKVAL(AM_Etapa__c, &quot;No Compra&quot;)))),
+
+AND(ISPICKVAL( PRIORVALUE( AM_Etapa__c ), &quot;Prospectación&quot;), (ISPICKVAL(AM_Etapa__c, &quot;Cotización&quot;))),
+AND(ISPICKVAL( PRIORVALUE( AM_Etapa__c ), &quot;Prospectación&quot;), (ISPICKVAL(AM_Etapa__c, &quot;Negociacion&quot;))),
+
+
+AND(ISPICKVAL( PRIORVALUE( AM_Etapa__c ), &quot;Facturación&quot;), NOT(ISPICKVAL(AM_Etapa__c, &quot;No Compra&quot;))),
+AND(ISPICKVAL( PRIORVALUE( AM_Etapa__c ), &quot;No Compra&quot;), NOT(ISPICKVAL(AM_Etapa__c, &quot;No Compra&quot;)))
+
+))</errorConditionFormula>
+    <errorDisplayField>AM_Etapa__c</errorDisplayField>
+    <errorMessage>AM_RV_COT_037: La cotizacion debe pasar en orden por las etapas respectivas
+1.Etapa Cotizacion 
+2 Etapa Negociacion
+3 Etapa Prospectacion
+4 Etapa Facturacion
+O puede pasar de
+Etapa de Negociacion a No Compra , o
+Etapa de Prospectacion a No Compra.</errorMessage>
+</ValidationRule>

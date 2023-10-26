@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contacto_persona_Jur_dica</fullName>
+    <active>true</active>
+    <label>Contacto persona Jurídica</label>
+    <picklistValues>
+        <picklist>MC_Autoriza_tratadedatos_personales__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MC_Categoria__c</picklist>
+        <values>
+            <fullName>--Ninguno--</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colegios%2FUniversidades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comercial de T%2EV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correo directo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuña radio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Directorio telefónico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financiero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inserto prensa o revista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Línea %23470</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuevos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Playa de ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Página web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Redes Sociales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relacionamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sector económico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sitios externos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Usados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volantes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MC_Tipo_de_cotizacion_contactos__c</picklist>
+        <values>
+            <fullName>Nuevos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Usados</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MC_estado_prospecto__c</picklist>
+        <values>
+            <fullName>Convertido a cuenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En seguimiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin interes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MC_fuente_prospecto__c</picklist>
+        <values>
+            <fullName>Actividades comerciales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente de taller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Página Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referidos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visita corporativa</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MC_motivo_de_rechazo_prospecto__c</picklist>
+        <values>
+            <fullName>No contactable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No interesado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No interesado por capacidad de pago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No interesado por diseño</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No interesado por marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No interesado por precio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No interesado por servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Número equivocado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MC_nivel_de_interes_prospecto__c</picklist>
+        <values>
+            <fullName>Alto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bajo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MC_tipo_de_documento_prospecto__c</picklist>
+        <values>
+            <fullName>Cédula de ciudadanía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cédula de extranjería</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NUIP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pasaporte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarjeta de extranjería</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarjeta de identidad</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MC_tipo_de_pago_lead_prospecto__c</picklist>
+        <values>
+            <fullName>Contado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crédito</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MC_tratamiento_prospecto__c</picklist>
+        <values>
+            <fullName>No especificado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sra%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

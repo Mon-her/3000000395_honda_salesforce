@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MC_estado_prospecto__c</fullName>
+    <defaultValue>&quot;En seguimiento&quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>Estado</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>En seguimiento</fullName>
+                <default>false</default>
+                <label>En seguimiento</label>
+            </value>
+            <value>
+                <fullName>Convertido a cuenta</fullName>
+                <default>false</default>
+                <label>Cuenta ya existe</label>
+            </value>
+            <value>
+                <fullName>Sin interes</fullName>
+                <default>false</default>
+                <label>Sin interes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

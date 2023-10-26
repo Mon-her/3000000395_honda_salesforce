@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Raz_n_de_compra_de_la_moto__c</fullName>
+    <externalId>false</externalId>
+    <label>Razón de compra de la moto</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Diseño</fullName>
+                <default>false</default>
+                <label>Diseño</label>
+            </value>
+            <value>
+                <fullName>Respaldo/Trayectoria/Confianza de la marca</fullName>
+                <default>false</default>
+                <label>Respaldo/Trayectoria/Confianza de la marca</label>
+            </value>
+            <value>
+                <fullName>Características técnicas</fullName>
+                <default>false</default>
+                <label>Características técnicas</label>
+            </value>
+            <value>
+                <fullName>Precios/Costos</fullName>
+                <default>false</default>
+                <label>Precios/Costos</label>
+            </value>
+            <value>
+                <fullName>Otras</fullName>
+                <default>false</default>
+                <label>Otras</label>
+            </value>
+            <value>
+                <fullName>Economía en combustible</fullName>
+                <default>false</default>
+                <label>Economía en combustible</label>
+            </value>
+            <value>
+                <fullName>Cómoda</fullName>
+                <default>false</default>
+                <label>Cómoda</label>
+            </value>
+            <value>
+                <fullName>Crédito asequible</fullName>
+                <default>false</default>
+                <label>Crédito asequible</label>
+            </value>
+            <value>
+                <fullName>Facilidad de pago (Cuota de crédito)</fullName>
+                <default>false</default>
+                <label>Facilidad de pago (Cuota de crédito)</label>
+            </value>
+            <value>
+                <fullName>Fácil manejo</fullName>
+                <default>false</default>
+                <label>Fácil manejo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

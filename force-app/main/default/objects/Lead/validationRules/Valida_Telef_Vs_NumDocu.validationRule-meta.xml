@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Telef_Vs_NumDocu</fullName>
+    <active>true</active>
+    <description>Impide que el número de teléfono sea igual al número de documento.</description>
+    <errorConditionFormula>AND(
+$User.AO_BypassApex__c = false,
+OR(Nmero_de_documento__c = Phone, Nmero_de_documento__c = MobilePhone ),  Nmero_de_documento__c &lt;&gt; null )</errorConditionFormula>
+    <errorMessage>El número de documento no puede ser igual a los teléfonos registrados.</errorMessage>
+</ValidationRule>

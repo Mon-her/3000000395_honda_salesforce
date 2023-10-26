@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_RazonesDeCompra_PU</fullName>
+    <active>true</active>
+    <description>Se encarga de validar que no falten campos en la sección de Razones de compra.</description>
+    <errorConditionFormula>AND( TEXT(StageName)=&quot;PU&quot;,OR(
+ISBLANK(Mas_resalta_de_su_vehiculo__c),
+ISBLANK(TEXT(Tema_mas_importante_marca__c)),
+ISBLANK(TEXT(Tema_mas_importante_producto__c)),
+ISBLANK(TEXT(Tema_mas_importante_RespaldoServicio__c))    
+), Registro_Migrado__c == false
+)</errorConditionFormula>
+    <errorMessage>Verifique los campos de la sección razones de compra, todos deben contener datos antes de pasar a PU.</errorMessage>
+</ValidationRule>

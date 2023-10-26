@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Convenio_Empresarial_2</fullName>
+    <active>true</active>
+    <description>Válida descuentos entre 2 y 15 unidades.</description>
+    <errorConditionFormula>AND( TEXT(Opportunity.Convenio__c)=&quot;Empresarial&quot;, 
+IF( AND(Unidades__c &gt; 1, Unidades__c &lt; 6, Discount &gt; 0.02),True,
+IF( AND(Unidades__c &gt; 5, Unidades__c &lt; 11, Discount &gt; 0.025),True,
+IF( AND(Unidades__c &gt; 10, Unidades__c &lt; 16, Discount &gt; 0.03),True,
+False)
+)
+)
+)</errorConditionFormula>
+    <errorMessage>Descuento máximo permitido excedido: 
+Entre 2 y 5 unds: 2%
+Entre 6 y 10 unds: 2,5%
+Entre 11 y 15 unds: 3%
+Mayor a 15 unds: descuento aprobado por VP</errorMessage>
+</ValidationRule>

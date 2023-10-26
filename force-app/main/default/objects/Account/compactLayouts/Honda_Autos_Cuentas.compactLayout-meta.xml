@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Honda_Autos_Cuentas</fullName>
+    <fields>Name</fields>
+    <fields>AM_Tipo_de_documento__c</fields>
+    <fields>AM_Numero_de_documento__c</fields>
+    <fields>MC_Correo_electronico_Empresa__c</fields>
+    <fields>AM_Telefono_representante__c</fields>
+    <label>Honda Autos Cuentas</label>
+</CompactLayout>

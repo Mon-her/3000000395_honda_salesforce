@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPage>Hoja_de_Vida_de_la_Moto</flexiPage>
+    <label>Hoja de Vida Motocicleta</label>
+    <motif>Custom80: Motorcycle</motif>
+</CustomTab>

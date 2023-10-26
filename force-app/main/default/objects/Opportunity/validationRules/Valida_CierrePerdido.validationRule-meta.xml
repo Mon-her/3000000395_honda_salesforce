@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_CierrePerdido</fullName>
+    <active>true</active>
+    <errorConditionFormula>Text(StageName)==&apos;Perdida&apos; &amp;&amp; !isBlank(N_mero_de_factura__c) &amp;&amp; $User.LastName != &apos;Integraciones&apos; &amp;&amp; $Profile.Name &lt;&gt;  &quot;Gerente de ventas (Motos)&quot;
+&amp;&amp; $User.Username&lt;&gt;&quot;saojeda@fanalca.com&quot;</errorConditionFormula>
+    <errorMessage>Cuando existe una factura solo el sistema puede marcar perdida la oportunidad.</errorMessage>
+</ValidationRule>

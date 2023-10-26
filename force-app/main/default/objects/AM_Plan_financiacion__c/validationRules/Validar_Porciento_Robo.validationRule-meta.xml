@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validar_Porciento_Robo</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR( AM_Porcentage_de_robo__c  &gt; 100, AM_Porcentage_de_robo__c &lt; 0)</errorConditionFormula>
+    <errorDisplayField>AM_Porcentage_de_robo__c</errorDisplayField>
+    <errorMessage>No se aceptan valores menores de 0 ni mayores de 100</errorMessage>
+</ValidationRule>

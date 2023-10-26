@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Contacto_Juridico_HabeasData</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Opportunity.Contacto__c &lt;&gt; null,    ISBLANK(Opportunity.Contacto__r.Datos_Autorizacion_Web__c) )</errorConditionFormula>
+    <errorMessage>Al contacto de la oportunidad le hace falta la autorización de Habeas Data.</errorMessage>
+</ValidationRule>

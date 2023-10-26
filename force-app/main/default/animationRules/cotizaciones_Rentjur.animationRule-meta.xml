@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>always</animationFrequency>
+    <developerName>cotizaciones_Rentjur</developerName>
+    <isActive>true</isActive>
+    <masterLabel>cotizaciones Rentjur</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>Cotizacion_P_Juridica_Renting</recordTypeName>
+    <sobjectType>AM_Oportunidad__c</sobjectType>
+    <targetField>AM_Etapa__c</targetField>
+    <targetFieldChangeToValues>P4,P5,PU</targetFieldChangeToValues>
+</AnimationRule>

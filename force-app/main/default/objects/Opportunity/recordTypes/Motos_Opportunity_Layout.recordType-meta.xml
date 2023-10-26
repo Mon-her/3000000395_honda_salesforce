@@ -1,0 +1,5949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motos_Opportunity_Layout</fullName>
+    <active>true</active>
+    <businessProcess>Motos Proceso de Ventas</businessProcess>
+    <label>Oportunidad Motos</label>
+    <picklistValues>
+        <picklist>AM_Agencia_de_entrega__c</picklist>
+        <values>
+            <fullName>Autoalmendro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autoceiba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autocipres 101</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autocipres Usaquen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autocoral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autoguayacan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autolaurel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autolaurel Circunvalar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autopalma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST AUTOSAKURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST AUTOSAUCE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST LOS COCHES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST%2E ALCALA MOTOR BOGOTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST%2E ALCALA MOTOR TUNJA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST%2E ALCALA MOTOR VILLAVICENCIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST%2E ARMOTOR ARMENIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST%2E ARMOTOR MANIZALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST%2E ARMOTOR PEREIRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST%2E AUTOACACIO STA%2E MARTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST%2E AUTOACACIO VALLEDUPAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST%2E AUTOARRAYAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST%2E AUTOCAOBOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST%2E AUTOCEDRO - COLWAGEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST%2E AUTOCHICALA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST%2E AUTOSAMAN - NEIVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST%2E AUTOSAMAN IBAGUÉ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIST%2E AUTOSAMAN NEIVA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AM_Cantidad_de_vehiculos__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AM_N_Propietario__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AM_Plazo_Renting1__c</picklist>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>24</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>48</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AM_Plazo_Renting2__c</picklist>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>24</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>48</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AM_Plazo_Renting3__c</picklist>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>24</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>48</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AM_Servicios_adicionales__c</picklist>
+        <values>
+            <fullName>Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impermeabilización</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kit de seguridad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sustituto</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AM_Tipo_Renting__c</picklist>
+        <values>
+            <fullName>Rent Back Básico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rent Back Total</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renting Básico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renting Total</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renting Total sin llantas</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Actividades_a_realizar_en_tiempo_libre__c</picklist>
+        <values>
+            <fullName>Soltero y practico</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Averigu_sobre_otras_marcas__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Blindadora__c</picklist>
+        <values>
+            <fullName>ARMOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BLINDEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOKS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otros</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Bodega_Usados__c</picklist>
+        <values>
+            <fullName>40001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>41001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>43001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>45001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>47001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>48001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>49001</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>C_mo_se_enter_de_la_motocicleta__c</picklist>
+        <values>
+            <fullName>Agendamiento Posventa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amigo%2FFamiliar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BTL Fanalca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chat%2F WhatsApp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente Buena Paga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente Cancelado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente Posventa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comunicación Empresarial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecommerce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exhibición Centro Comercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feria Local</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Facebook Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Facebook Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Financiación Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Financiación Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Motos Sitio Web Inbound Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Motos Sitio web Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Reweb Facebook Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Reweb Facebook Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Reweb Financiación Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Reweb Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Reweb Teléfono Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Reweb Teléfono Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Reweb Whatsapp Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbox Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbox Facebook Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Línea SAC Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Línea telefónica Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Playa de Ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Publicidad Exterior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Publicidad Impresa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Televisión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teléfono Concesionario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toma Empresarial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vitrina Virtual Mercado Libre</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Calidad_y_durabilidad__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cambio_de_Pedido__c</picklist>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cambio de cliente en la factura - ERP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cambio de condición de pago - ERP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cambio de vehículo - ERP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error en condición de pago ERP Cambio de fecha de factura - ERP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error en código del asesor - ERP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error en descuento - ERP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error en el color - ERP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error en referencia - ERP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error toma de pedido - ERP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incidente técnico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inconsistencia en manifiesto - ERP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incumple política de recaudo ERP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multa tránsito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vehículo inhabilitado - ERP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cmo_es_su_comportamiento_DISC__c</picklist>
+        <values>
+            <fullName>Cauteloso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dominante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interactivo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguro</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Como_se_entero_del_vehiculo_o_marca__c</picklist>
+        <values>
+            <fullName>Publicidad de vitrina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vehículo rodando en la calle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Comodidad_y_conveniencia__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convenio__c</picklist>
+        <values>
+            <fullName>Empresarial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin Convenio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cu_l_marca_averigu_durante_la_compra__c</picklist>
+        <values>
+            <fullName>AKT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bajaj</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kawasaki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kymco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otras Marcas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Royal Enfield</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sigma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suzuki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sym</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Victory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yamaha</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Desempeo_e_ingeniera__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Distribuidor__c</picklist>
+        <values>
+            <fullName>Dist Alcala Motor Bogotá</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist Alcala Motor Tunja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist Alcala Motor Villavicencio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist Armotor Manizalez</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist Armotor Pereira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist Autoacacio Sta Marta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist Autoacacio Valledupar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist Autoarrayan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist Autocaobos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist Autocedro - Colwagen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist Autochicala</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist Autosakura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist Autosaman - Neiva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist Autosaman Ibagué</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist Autosauce - Tuluá</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist%2E Armotor Armenia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dist%2E Autosaman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ninguno</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ecolgica__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Empresa_de_Convenio__c</picklist>
+        <values>
+            <fullName>ACIN - ASOCIACIÓN DE CABILDOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAT BRITISH AMERICA TOBACCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CABILDO INDIGENA - CORINTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CABILDO INDIGENA - RESGUARDO DE JAMBALO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CABILDO INDIGENA - SAN FRANCISCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CABILDO INDIGENA - TACUEYO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CABILDO INDIGENA - TORIBIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CABILDO INDIGENA LAS DELICICIAS BUENOS AIRES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CABILDO MUNCHIQUE LOS TRIGRES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMFACAUCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FONDO EMPLEADOS EMTEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FONDO EMPLEADOS ESTANCIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FONREY - FONDO DE EMPLEADOS DE CONDIMENTOS EL REY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ULTRAHICA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Entidad_Financiera__c</picklist>
+        <values>
+            <fullName>Banco AV Villas S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Agrario de Colombia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco BBVA Colombia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Bancamia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Bancolombia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Caja Social BCSC S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Citibank Colombia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Colpatria S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Compartir S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Coomeva S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Cooperativo Coopcentral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco CorpBanca Colombia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Davivienda S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Falabella S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Finandina S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco GNB Sudameris S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Multibank S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Mundo Mujer S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Pichincha S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Popular S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco ProCredit Colombia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Santander de Negocios Colombia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco WWB S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco de Bogotá S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco de Occidente S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brilla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Codensa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coofinacrecito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crediorbe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fenalco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finamiga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fondo nacional del ahorro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inversiones AMG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sistecredito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soluciones Integrales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sufi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supremotos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tu Cuota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venfi</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Es_un_HONDA_adicional__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reemplazo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Estado_V__c</picklist>
+        <values>
+            <fullName>Activo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactivo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Forma_de_pago__c</picklist>
+        <values>
+            <fullName>101 - Contado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>102 - Crédito Progreser %28FORMATO TIPO CREDITO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>103 - Cartera Propia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>104 - Negocios Especiales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>105 - Otras Financieras %28FORMATO TIPO CRÉDITO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>107 - E-commerce%22</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Frase_con_que_se_identifica_mas__c</picklist>
+        <values>
+            <fullName>%22Ahora si sabrás quién soy yo%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%22Donde caben 2%2C caben 3%2C4%2C5%2E%2E%2E%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%22No le busca la quinta pata al gato%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%22Soy lo que compro%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%22Una cosa no sacrifica a la otra%22</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fuente__c</picklist>
+        <values>
+            <fullName>BTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal Empresarial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Posventa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referidos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sala de Ventas</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Referidos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Linea_competencia__c</picklist>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>206</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>208</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>302</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>308</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>316i</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>320</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>323</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>380</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 RUNNER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>508</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALTIMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMAROK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARONA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATECA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AVEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BALENO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BLAZER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C280</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAPTIVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAPTUR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAPTUS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARENS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CELERIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CERATO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHEROKEE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLA200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLASE E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMPASS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COOPER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COROLLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COROLLA HIBRIDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COUPER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRETA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CROSS FOX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRUZE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CX-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CX-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CX-30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CX-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CX-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CX-9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIMAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVERY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DURANGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DUSTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECOSPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EQUINOX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ERTIGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESCAPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EX3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXPLORER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FIESTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOCUS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FORESTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FORTUNER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOX XTREME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRONTIER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUSION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL450</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL500</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GLA200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GLA250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GLK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GOLF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GRAND VITARA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIBRIDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HILUX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I LOFT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I35</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IX 35</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JETTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JIMNY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JOURNEY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KICKS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KODIAQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KOLEOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KWID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LANCER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LC200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOGAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARCH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ML</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MONTERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MONTERO SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MURANO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEW SPORTAGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO RELACIONA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ONIX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OPTRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OUTBACK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OUTLANDER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PATHFINDER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PICANTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QASHQAI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RANGER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RAV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RENEGADE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REVOLUTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REXTON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RUSH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S-CROSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S60</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SANDERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SANTAFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEDONA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SENTRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SONATA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SONIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SORENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOUL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPACE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPARK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPORTAGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPORTERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STEPWAY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SWIFT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T-CROSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TIGUAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TIHIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TITANIUM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TIVOLI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TONIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRACKER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRAVERSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TSI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TUCSON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VERACRUZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VERSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIRTUS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VITARA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VOYAGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WRANGLER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X-TRAIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XC20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XC40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XC50</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XC60</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XC90</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XV</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loss_Reason__c</picklist>
+        <values>
+            <fullName>Lost to Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Budget %2F Lost Funding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Decision %2F Non-Responsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Marca__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Marca_competencia__c</picklist>
+        <values>
+            <fullName>AUDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BMW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHEVROLET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITROEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DODGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FORD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOTON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HYUNDAI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JEEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAND ROVER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAZDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MERCEDES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MINICOOPER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MITSUBISHI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NISSAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PEUGEOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RENAULT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SKODA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSANGYONG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUBARU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUZUKI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOYOTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VOLKSWAGEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VOLVO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Marca_de_moto__c</picklist>
+        <values>
+            <fullName>AKT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bajaj</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jialing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KTM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kawasaki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kymco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ninguna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pulsar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suzuki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yamaha</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Marca_de_motocicleta_anterior__c</picklist>
+        <values>
+            <fullName>AKT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bajaj</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HONDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kawasaki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kymco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otras Marcas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Royal Enfield</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sigma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suzuki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sym</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Victory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yamaha</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo_de_Oportunidad_Vendida__c</picklist>
+        <values>
+            <fullName>Características técnicas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crédito asequible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cómoda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diseño</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economía en combustible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facilidad de pago %28Cuota de crédito%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fácil manejo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precios%2FCostos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Respaldo%2FTrayectoria%2FConfianza de la marca</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo_de_Perdida_de_Oportunidad__c</picklist>
+        <values>
+            <fullName>Compro usada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compró otra marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compró otro concesionario %2F Distribuidor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diseño</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El competidor es más barato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El competidor ofrece mejor calidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Especificaciones técnicas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incidente técnico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Localizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multa tránsito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Realizó otra inversión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reportado OFAC %28Clinton%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requisitos financiación</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Otra_Marca_Considero_Opcion_1__c</picklist>
+        <values>
+            <fullName>AUDI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Otra_Marca_Considero_Opcion_2__c</picklist>
+        <values>
+            <fullName>AUDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BMW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHEVROLET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITROEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DODGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FORD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOTON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HYUNDAI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JEEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAND ROVER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAZDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MERCEDES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MINICOOPER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MITSUBISHI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NISSAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PEUGEOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RENAULT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SKODA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSANGYONG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUBARU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUZUKI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOYOTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VOLKSWAGEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VOLVO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Para_comprar_un_automovil_usted_primero__c</picklist>
+        <values>
+            <fullName>Algo que me facilita la vida%2E Es practico y necesario</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Perfil_de_cliente_datos_completos__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Posee_vehiculo_de_otra_marca__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Producto_de_Interes__c</picklist>
+        <values>
+            <fullName>CB 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 125F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F DLX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F DLX MAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F DLX SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F STD MAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F STD SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 190R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 190R RACING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 190R REPSOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 250 TWISTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB125F MAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIO DLX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIO STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DREAM NEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DREAM NEO ACTIVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAVI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAVI ADVENTURE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAVI ADVENTURE BLANCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAVI MIX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCX 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAVE 110S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAVE 110S RACING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAVE 110S SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XR 150L</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE 190 DLX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE 300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE 300 RALLY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE190 STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE300 ABS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Proteccin_y_seguridad__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prueba_de_Manejo__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prueba_funcional_estatica__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Qu_hizo_con_su_anterior_motocicleta__c</picklist>
+        <values>
+            <fullName>La conserva y NO la utiliza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La conserva y la utiliza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ninguna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendida%2FRegalada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Raz_n_de_compra_de_la_moto__c</picklist>
+        <values>
+            <fullName>Características técnicas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crédito asequible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cómoda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diseño</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economía en combustible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facilidad de pago %28Cuota de crédito%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fácil manejo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precios%2FCostos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Respaldo%2FTrayectoria%2FConfianza de la marca</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Razon_de_no_compra__c</picklist>
+        <values>
+            <fullName>Amplio portafolio de Accesorios otra marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Año modelo otra marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cambio de ciudad o país de residencia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cambio de forma de pago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capacidad de Pago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente no es contactable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compra a través de Renting Total</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compro Honda a un tercero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compró por distribuidor Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotización Errada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demora en el peritaje</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disponibilidad de inventario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disponibilidad de producto en exhibición</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disponibilidad de test drive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de disponibilidad de inventario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de disponibilidad de producto en exhibición</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incumplimiento de Cita o envío de cotización</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejor Garantía otra Marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejor atención otra marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejor diseño otra marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejor equipamento - Desempeño - otra marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejor equipamento otra marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejor equipamiento - Comodidad - otra marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejor equipamiento - Conectividad - otra marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejor equipamiento - Seguridad - otra marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejor experiencia en Prueba de Manejo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejor servicio postventa otra marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejores opciones de Póliza todo riesgo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejores opciones de financiación otra marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejores tiempos de entrega del vehículo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Menor precio otra marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No desea seguir siendo contactado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Política de reserva 10%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precio de retoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Realizó otra inversión</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Realizo_Best_Drive__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Referencia_Modelo__c</picklist>
+        <values>
+            <fullName>ACCESS 125 FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACTIV 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADDRESS FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADVANCE 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADVANCE R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADVANCE R 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY 125 RS NAKED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY ALL NEW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY ALL NEW PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY DIGITAL 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY DIGITAL 125 2%2E0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY DIGITAL 125 3%2E0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY DIGITAL 125 3%2E0 PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY DIGITAL 3%2E0 NEON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY DIGITAL 3%2E0 SKYBLUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY GO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY GO NEON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY XTREME 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 110 SPECIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 125 FLEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 125 FLEX EIII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 125 NKD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 125 TT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 180 XM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 200 SM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 250 TT ADVENTOUR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK E3000W</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK125NKD EIII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK125TTR EIII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK150 EVO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK150AC EIII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK150T28</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK169SC-R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK180TTX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK200TTR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK200TTR EIII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK200TTX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK300AC6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK300DS6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK300LX EFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK500DS7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK650DS8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AN100T</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>APACHE RTR 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AVENGER 220</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AX 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AX4 EVOLUTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BEST 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOMBER 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CARGO CT 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CARGO CT 100 ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CLASSIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CT 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CT 100 ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CT 100 ES TITANNIUM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CT 100 KS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CT 100 TITANNIUM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CT 125 ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BULLET CLASSIC 500 EFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BURGMAN 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BWS 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BWS 125 FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BWS 125 X</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C 100 WAVE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 110 DLX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 125 POWER SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 125F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 125F E3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F DLX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 190R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 250 TWISTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB1 PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBF 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBF-125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CBR 250RG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLASSIC 350 EFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLASSIC350</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLASSIC500</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLICK 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLOUD 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONTINENTAL GT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONTINENTAL GT 650</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR3 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR4 125 UNISHOCK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR4 162 UNISHOCK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR5 180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR5 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CROX R 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CROX R 180i</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRYPTON T110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRYPTON T115</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRYPTON T115 FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Citycom S 300i</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DASH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DASH 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DASH 125 FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIO 110 DLX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIO 110 STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 100 SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 125 SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 125 ST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 125 ST-R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 125 ST-R PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 125 UG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 125 UG CBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 135</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 150 F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 150 ST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 150 ST COMPETIZIONE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DL650XT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DOMINAR 400</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DOMINAR 400 UG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DOWNTOWN 300i</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DR 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DR 650</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DR X</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DREAM NEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DYNAMIC PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DYNAMIC PRO EIII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DYNAMIC R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECO 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECO DELUXE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECO DELUXE I3S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELITE%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER400</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EVO R3 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EX300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EX400</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAZER 16</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLOW 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLY 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLY 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRIDDLE III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FX 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FZ 2%2E0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FZ-25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FZN250-A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fino 115</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GIXXER 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GIXXER 150 DOBLE FRENO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GIXXER 250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GIXXER SF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GIXXER SF 250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GIXXER SF FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GLAMOUR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GN 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GPS 180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS 150 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX-R1000R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX-R1000RA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX-R1000RZA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX-R150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX-S1000A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX-S1000ZA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX-S150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GZ 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HAYATE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIMALAYAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HUNK 160R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HUNK 190 FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IGNITOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IGNITOR SS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTERCEPTOR INT 650</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTRUDER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVICTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JET 14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JETIX 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KAF620RLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KAF820BLF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KLX 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KLX250S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KLZ1000CLF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KOMFORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KRF1000ALF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KRT800GLFA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KRT800HLF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KYMCO TRACK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE300C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE650F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LETS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIBERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIBERO 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIFE 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIKE 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MACH 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MF12B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MRX 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MRX 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT-03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT-09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT09SP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MTT850D %28MT09TRAGT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MW125 TRICITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MXT850 %28NIKEN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAVI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NHX 170</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NHX 190i</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NITRO 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NITRO 151 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NMAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NMAX-A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ONE ST 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ONE ST 100 SILVER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ONE ST 110 SILVER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orbit 125%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCX150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLATINO 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLATINO 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLATINO 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLATINO 125 DRL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 135</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 150 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 160 NS FI TWIN DISC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 180 GT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 180 GT PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 180 NEON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 180 NEON PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 200 NS PULSARMANIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR AS 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR AS 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 160</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 160 FI STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 160 PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 160 PRO 10M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 160 PULSARMANIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 ED COPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 FI PRO 10M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 FI PULSARMANIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 FI STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 PRO 10M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 PULSARMANIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR RS 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR SPEED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR SPEED ED COPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE 4S %28RE 205%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE 4S %28RE 205%29 CE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE 4S %28RE 205D%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE MAXIMA C PETROL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE4S PETROL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROCKET 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SE150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SG 100T</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SG 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SG150-ZH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPLENDOR ISMART</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPLENDOR ISMART 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPORT 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPORT 100 ELS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STRYKER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUPER SPLENDOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SWITCH 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SZRR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sport Bonus SR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Symphony SR 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TB-X 350</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TERYX LE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THRILLER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THRILLER 200R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THRILLER I3S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THRILLER PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TT DS 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS APACHE 180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS APACHE RTR 160</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS APACHE RTR 160 4V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS APACHE%C2%A0 RR 310</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS KING GS %2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS ROCKZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TWIST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TWIST CITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK ADDRESS 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNI-K 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>URBAN S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>URBAN S NEON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V-STROM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VERSYS 1000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VICTORY BLACK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VICTORY ONE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIVA R 115</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIVA R 115 COOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIVA R 115 STYLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIVAX 115</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VN900BLF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VSTROM 650</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wave 110S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X-TOWN 300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XMAX 300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XPULSE 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XPULSE 200 FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XPULSE 200T</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XR 125  BRIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XR 150L</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XR 250 TORNADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE 190</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE 300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XT 660 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XTZ125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XTZ150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XTZ250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YB125ZR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YBR-125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YC-Z</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YFM700P</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YFM90R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YZ65</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YZF-R15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR1000KLF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR1000KLFA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR1000KLFB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR900CKFB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR900CLF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR900CLFA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR900CLFB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR900EKF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR900FLF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZS 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZX-6R ABS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZX1002EKF%2FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZX1002EKFA%2FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZX1002ELF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZX1002ELFA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZX636GLFA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Referencia_que_averiguo_motos__c</picklist>
+        <values>
+            <fullName>ACCESS 125 FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACTIV 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADDRESS FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADVANCE 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADVANCE R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADVANCE R 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY 125 RS NAKED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY ALL NEW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY ALL NEW PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY DIGITAL 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY DIGITAL 125 2%2E0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY DIGITAL 125 3%2E0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY DIGITAL 125 3%2E0 PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY DIGITAL 3%2E0 NEON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY DIGITAL 3%2E0 SKYBLUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY GO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY GO NEON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGILITY XTREME 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 110 SPECIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 125 FLEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 125 FLEX EIII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 125 NKD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 125 TT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 180 XM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 200 SM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK 250 TT ADVENTOUR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK E3000W</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK125NKD EIII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK125TTR EIII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK150 EVO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK150AC EIII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK150T28</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK169SC-R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK180TTX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK200TTR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK200TTR EIII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK200TTX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK300AC6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK300DS6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK300LX EFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK500DS7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK650DS8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AN100T</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>APACHE RTR 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AVENGER 220</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AX 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AX4 EVOLUTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BEST 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOMBER 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CARGO CT 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CARGO CT 100 ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CLASSIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CT 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CT 100 ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CT 100 ES TITANNIUM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CT 100 KS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CT 100 TITANNIUM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER CT 125 ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOXER S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BULLET CLASSIC 500 EFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BURGMAN 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BWS 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BWS 125 FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BWS 125 X</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLASSIC 350 EFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLASSIC350</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLASSIC500</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLOUD 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONTINENTAL GT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONTINENTAL GT 650</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR3 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR4 125 UNISHOCK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR4 162 UNISHOCK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR5 180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR5 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CROX R 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CROX R 180i</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRYPTON T110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRYPTON T115</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRYPTON T115 FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Citycom S 300i</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DASH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DASH 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DASH 125 FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 100 SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 125 SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 125 ST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 125 ST-R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 125 ST-R PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 125 UG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 125 UG CBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 135</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 150 F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 150 ST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISCOVER 150 ST COMPETIZIONE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DL650XT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DOMINAR 400</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DOMINAR 400 UG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DOWNTOWN 300i</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DR 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DR 650</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DR X</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DYNAMIC PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DYNAMIC PRO EIII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DYNAMIC R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECO 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECO DELUXE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECO DELUXE I3S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER400</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EVO R3 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EX300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EX400</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAZER 16</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLOW 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLY 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLY 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRIDDLE III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FX 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FZ 2%2E0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FZ-25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FZN250-A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fino 115</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GIXXER 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GIXXER 150 DOBLE FRENO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GIXXER 250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GIXXER SF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GIXXER SF 250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GIXXER SF FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GLAMOUR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GN 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GPS 180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS 150 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX-R1000R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX-R1000RA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX-R1000RZA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX-R150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX-S1000A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX-S1000ZA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSX-S150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GZ 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HAYATE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIMALAYAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HUNK 160R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HUNK 190 FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IGNITOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IGNITOR SS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTERCEPTOR INT 650</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTRUDER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JET 14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JETIX 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KAF620RLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KAF820BLF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KLX 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KLX250S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KLZ1000CLF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KOMFORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KRF1000ALF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KRT800GLFA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KRT800HLF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KYMCO TRACK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE300C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE650F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LETS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIBERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIBERO 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIFE 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIKE 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MACH 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MF12B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MRX 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MRX 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT-03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT-09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT09SP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MTT850D %28MT09TRAGT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MW125 TRICITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MXT850 %28NIKEN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NHX 170</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NHX 190i</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NITRO 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NITRO 151 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NMAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NMAX-A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ONE ST 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ONE ST 100 SILVER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ONE ST 110 SILVER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orbit 125%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLATINO 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLATINO 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLATINO 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLATINO 125 DRL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 135</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 150 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 160 NS FI TWIN DISC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 180 GT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 180 GT PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 180 NEON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 180 NEON PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR 200 NS PULSARMANIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR AS 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR AS 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 160</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 160 FI STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 160 PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 160 PRO 10M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 160 PULSARMANIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 ED COPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 FI PRO 10M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 FI PULSARMANIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 FI STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 PRO 10M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR NS 200 PULSARMANIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR RS 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR SPEED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PULSAR SPEED ED COPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE 4S %28RE 205%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE 4S %28RE 205%29 CE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE 4S %28RE 205D%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE MAXIMA C PETROL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE4S PETROL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROCKET 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SE150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SG 100T</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SG 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SG150-ZH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPLENDOR ISMART</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPLENDOR ISMART 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPORT 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPORT 100 ELS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STRYKER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUPER SPLENDOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SWITCH 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SZRR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sport Bonus SR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Symphony SR 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TB-X 350</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TERYX LE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THRILLER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THRILLER 200R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THRILLER I3S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THRILLER PRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TT DS 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS APACHE 180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS APACHE RTR 160</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS APACHE RTR 160 4V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS APACHE%C2%A0 RR 310</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS KING GS %2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS ROCKZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TWIST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TWIST CITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK ADDRESS 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNI-K 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>URBAN S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>URBAN S NEON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V-STROM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VERSYS 1000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VICTORY BLACK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VICTORY ONE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIVA R 115</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIVA R 115 COOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIVA R 115 STYLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIVAX 115</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VN900BLF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VSTROM 650</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X-TOWN 300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XMAX 300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XPULSE 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XPULSE 200 FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XPULSE 200T</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XT 660 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XTZ125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XTZ150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XTZ250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YB125ZR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YBR-125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YC-Z</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YFM700P</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YFM90R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YZ65</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YZF-R15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR1000KLF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR1000KLFA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR1000KLFB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR900CKFB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR900CLF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR900CLFA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR900CLFB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR900EKF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZR900FLF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZS 125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZX-6R ABS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZX1002EKF%2FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZX1002EKFA%2FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZX1002ELF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZX1002ELFA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZX636GLFA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subcategoria_fuente_de_prospecci_n__c</picklist>
+        <values>
+            <fullName>Aliados Financieros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colegios%2FUniversidades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comercial de TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuña de Radio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ferias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financieros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Honda Motos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Línea 470</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Playas de Ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portales Externos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prensa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Página Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Redes Sociales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relacionamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valla</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sus_intereses_giran_en_torno_a__c</picklist>
+        <values>
+            <fullName>Artículos para el hogar%2C Belleza%2C Supermercados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cocina gourmet%2C Farándula%2C Moda y estilo%2C Compras online%2C Vida nocturna%2C Agencia de viajes%2C Tecnología%2C Tendencias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decoración %2F Hogar %2F Remodelación%2C Mayoristas %2F Más por menos%2C Viajes%2C Ropa y zapatos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salud y bienestar%2C Causas sociales%2C Tecnología como estilo de vida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tecnología funcional%2C Cocina práctica%2C Licores %28Whisky%29%2C Descuentos online%2C Ropa de mujer%2C Joyería %2F Relojería</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tema_mas_importante_RespaldoServicio__c</picklist>
+        <values>
+            <fullName>Garantía y Mantenimiento Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Póliza Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recibimos su usado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicio de taller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicio del asesor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tema_mas_importante_marca__c</picklist>
+        <values>
+            <fullName>Calidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Condiciones de financiación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duración de los repuestos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecológico %2F Medio Ambiente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prestigio de la marca</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tema_mas_importante_producto__c</picklist>
+        <values>
+            <fullName>Comodidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conectividad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diseño %2F Estilo Exterior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diseño %2F Estilo interior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economía de combustible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Espacio Interior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maniobrabilidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Potencia %2F Caballaje</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguridad</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Temperatura__c</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Temperatura_de_la_Compra__c</picklist>
+        <values>
+            <fullName>Alta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tiempo_q_tuvo_moto_ant__c</picklist>
+        <values>
+            <fullName>%3C 1 año</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%3E 4 años</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1-2 años</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-3 años</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-4 años</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ninguna</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_Impo_Utilidad__c</picklist>
+        <values>
+            <fullName>151645</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>73282</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_Blindaje__c</picklist>
+        <values>
+            <fullName>Antiatraco %2F Antivandalismo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nivel 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nivel 2 Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nivel 3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_Oportunidad__c</picklist>
+        <values>
+            <fullName>Nuevos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_Pago__c</picklist>
+        <values>
+            <fullName>101</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>102</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>103</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>104</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>105</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>107</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_cliente__c</picklist>
+        <values>
+            <fullName>Cliente Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente Otra Marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente Primera Moto</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Usted_prefiere_un_automovil__c</picklist>
+        <values>
+            <fullName>Que funcione bien%2C me lleve de un lugar a otro y tenga un precio justo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Usted_ve_su_automovil_como__c</picklist>
+        <values>
+            <fullName>Estar con la familia y pasarla bien juntos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hacer actividades en la naturaleza como caminatas ecológicas%2C visitas a parques naturales%2C etc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Me gusta la aventura%2C las experiencias innovadoras que muestren mi estilo de vida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Me gusta pasarla bien sin salirme de mi zona de confort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Me gustan los planes sencillos%2C que no requieran mucha logística ni mucho dinero</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vehiculo_con_blindaje__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vehiculo_de_interes__c</picklist>
+        <values>
+            <fullName>ACCORD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIVIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIVIC SI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIVIC TYPE R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR-V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HR-V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ODYSSEY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PILOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WR-V</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>uso_Principal_Moto__c</picklist>
+        <values>
+            <fullName>Recreación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabajo %28Generación de ingresos%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transporte Personal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Contacto_Oportunidad_Autos</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( RecordType.Name ==&apos;oportunidad autos&apos; , Contacto__r.Owner.Id &lt;&gt; $User.Id)</errorConditionFormula>
+    <errorMessage>No cuenta con permisos para cotizar con este contacto, contactese con el administrador.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Anexo</fullName>
+    <active>true</active>
+    <description>Verifica si se intenta convertir un lead sin añadir un anexo.</description>
+    <errorConditionFormula>AND( TEXT(Status)=&quot;Convertido&quot;, TEXT(  Permiso_de_contacto__c  )=&quot;Autorizado&quot;, Adjuntos__c  &lt;= 0  )</errorConditionFormula>
+    <errorMessage>Usted seleccionó autorizado en el campo permiso de contacto pero no ha agregado un adjunto, por favor antes de convertir este lead diríjase al apartado &quot;Cargar archivos&quot; y cargue el archivo correspondiente.</errorMessage>
+</ValidationRule>

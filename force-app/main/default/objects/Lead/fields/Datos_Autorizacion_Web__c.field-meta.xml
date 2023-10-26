@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Datos_Autorizacion_Web__c</fullName>
+    <description>Para guardar la evidendia de la respuesta del ciente y que desde Fanalca se pueda visualizar la respuesta del cliente</description>
+    <externalId>false</externalId>
+    <label>Evidencia Autorización Habeas Data</label>
+    <length>1000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

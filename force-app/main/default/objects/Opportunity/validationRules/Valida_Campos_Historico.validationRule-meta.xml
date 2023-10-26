@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Campos_Historico</fullName>
+    <active>true</active>
+    <description>Se encarga de validar los campos de la sección Histórico de la oportunidad</description>
+    <errorConditionFormula>!Registro_Migrado__c &amp;&amp;
+AND( TEXT(StageName)=&quot;PU&quot;,OR(
+ISBLANK(Vehiculo_Anterior_MarcaLineaModelo__c),
+ISBLANK(TEXT(Posee_vehiculo_de_otra_marca__c)),
+ISBLANK(TEXT(Es_un_HONDA_adicional__c)),
+ISBLANK(MarcaLineaModelo__c),
+ISBLANK(MarcaLineaModelo1__c),
+ISBLANK(Linea_Modelo__c),
+ISBLANK(TEXT(Otra_Marca_Considero_Opcion_1__c)),
+ISBLANK(TEXT(Otra_Marca_Considero_Opcion_2__c)),
+ISBLANK(Linea_Modelo_Marca_Considero_1__c),
+ISBLANK(Linea_Modelo_Marca_Considero_2__c)         
+)
+)</errorConditionFormula>
+    <errorMessage>Favor validar los campos de la sección Histórico, todos deben ser rellenados, en caso de no aplicar alguno favor escribir N/A o escoger la opción N/A.</errorMessage>
+</ValidationRule>

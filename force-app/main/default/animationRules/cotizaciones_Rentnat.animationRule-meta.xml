@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>always</animationFrequency>
+    <developerName>cotizaciones_Rentnat</developerName>
+    <isActive>true</isActive>
+    <masterLabel>cotizaciones Rentnat</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>Cotizacion_P_Natural_Renting</recordTypeName>
+    <sobjectType>AM_Oportunidad__c</sobjectType>
+    <targetField>AM_Etapa__c</targetField>
+    <targetFieldChangeToValues>P4,P5,PU</targetFieldChangeToValues>
+</AnimationRule>

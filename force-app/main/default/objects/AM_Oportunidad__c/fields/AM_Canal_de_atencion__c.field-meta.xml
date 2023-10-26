@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Canal_de_atencion__c</fullName>
+    <externalId>false</externalId>
+    <label>Como se entero de la marca</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aviso de prensa</fullName>
+                <default>false</default>
+                <label>Aviso de prensa</label>
+            </value>
+            <value>
+                <fullName>Cuña Radio</fullName>
+                <default>false</default>
+                <label>Cuña Radio</label>
+            </value>
+            <value>
+                <fullName>Comercial de T.V.</fullName>
+                <default>false</default>
+                <label>Comercial de T.V.</label>
+            </value>
+            <value>
+                <fullName>Línea Honda</fullName>
+                <default>false</default>
+                <label>Línea Honda #470</label>
+            </value>
+            <value>
+                <fullName>Aviso de revista</fullName>
+                <default>false</default>
+                <label>Aviso de revista</label>
+            </value>
+            <value>
+                <fullName>Correo directo</fullName>
+                <default>false</default>
+                <label>Correo directo</label>
+            </value>
+            <value>
+                <fullName>Pagina Web</fullName>
+                <default>false</default>
+                <label>Pagina Web</label>
+            </value>
+            <value>
+                <fullName>Evento en Vitrina</fullName>
+                <default>false</default>
+                <label>Evento en Vitrina</label>
+            </value>
+            <value>
+                <fullName>Evento Fuera de Vitrina</fullName>
+                <default>false</default>
+                <label>Evento Fuera de Vitrina</label>
+            </value>
+            <value>
+                <fullName>Taller de servicio</fullName>
+                <default>false</default>
+                <label>Taller de servicio</label>
+            </value>
+            <value>
+                <fullName>E-mail</fullName>
+                <default>false</default>
+                <label>E-mail</label>
+            </value>
+            <value>
+                <fullName>Referido</fullName>
+                <default>false</default>
+                <label>Referido</label>
+            </value>
+            <value>
+                <fullName>Volantes</fullName>
+                <default>false</default>
+                <label>Volantes</label>
+            </value>
+            <value>
+                <fullName>Valla o pasacalle</fullName>
+                <default>false</default>
+                <label>Valla o pasacalle</label>
+            </value>
+            <value>
+                <fullName>Pauta digital</fullName>
+                <default>false</default>
+                <label>Pauta digital</label>
+            </value>
+            <value>
+                <fullName>Trabajo Bases de Datos CH</fullName>
+                <default>false</default>
+                <label>Trabajo Bases de Datos CH</label>
+            </value>
+            <value>
+                <fullName>Trabajo Bases de Datos CNHC</fullName>
+                <default>false</default>
+                <label>Trabajo Bases de Datos CNHC</label>
+            </value>
+            <value>
+                <fullName>Publicidad de vitrina</fullName>
+                <default>false</default>
+                <label>Publicidad de vitrina</label>
+            </value>
+            <value>
+                <fullName>Vehículo rodando en la calle</fullName>
+                <default>false</default>
+                <label>Vehículo rodando en la calle</label>
+            </value>
+            <value>
+                <fullName>Registro histórico</fullName>
+                <default>false</default>
+                <label>Registro histórico</label>
+            </value>
+            <value>
+                <fullName>Best Drive</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Best Drive</label>
+            </value>
+            <value>
+                <fullName>Cliente Honda</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cliente Honda</label>
+            </value>
+            <value>
+                <fullName>Contac Center</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contac Center</label>
+            </value>
+            <value>
+                <fullName>Directorio telefonico</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Directorio telefonico</label>
+            </value>
+            <value>
+                <fullName>Gerenciamiento de clientes</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Gerenciamiento de clientes</label>
+            </value>
+            <value>
+                <fullName>Otro</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Otro</label>
+            </value>
+            <value>
+                <fullName>Paso por el concesionario</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Paso por el concesionario</label>
+            </value>
+            <value>
+                <fullName>Redes sociales</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Redes sociales</label>
+            </value>
+            <value>
+                <fullName>Telemercadeo</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Telemercadeo</label>
+            </value>
+            <value>
+                <fullName>Venta corporativa</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Venta corporativa</label>
+            </value>
+            <value>
+                <fullName>Virtual</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Virtual</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

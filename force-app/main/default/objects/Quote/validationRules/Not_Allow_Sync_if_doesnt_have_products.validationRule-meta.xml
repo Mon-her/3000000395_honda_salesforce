@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Allow_Sync_if_doesnt_have_products</fullName>
+    <active>true</active>
+    <errorConditionFormula>IsSyncing == true &amp;&amp;  ISCHANGED(IsSyncing ) &amp;&amp;  LineItemCount == 0</errorConditionFormula>
+    <errorMessage>No puede sincronizar una cotización sin productos</errorMessage>
+</ValidationRule>

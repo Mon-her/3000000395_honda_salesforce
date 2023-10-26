@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_AutosP3P4_Quote</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(PRIORVALUE(StageName))=&quot;P3&quot;,TEXT(StageName)=&quot;P4&quot; ,  ISNULL(SyncedQuote.Id) )</errorConditionFormula>
+    <errorMessage>Antes de pasar de la etapa P3 a P4 debe tener una cotización sincronizada a la oportunidad.</errorMessage>
+</ValidationRule>

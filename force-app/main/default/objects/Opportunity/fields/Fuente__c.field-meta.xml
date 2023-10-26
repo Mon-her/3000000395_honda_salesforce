@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fuente__c</fullName>
+    <externalId>false</externalId>
+    <label>Fuente de Oportunidad</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sala de Ventas</fullName>
+                <default>false</default>
+                <label>Sala de Ventas</label>
+            </value>
+            <value>
+                <fullName>Digital</fullName>
+                <default>false</default>
+                <label>Digital</label>
+            </value>
+            <value>
+                <fullName>BTL</fullName>
+                <default>false</default>
+                <label>BTL</label>
+            </value>
+            <value>
+                <fullName>Posventa</fullName>
+                <default>false</default>
+                <label>Posventa</label>
+            </value>
+            <value>
+                <fullName>Progreser</fullName>
+                <default>false</default>
+                <label>Progreser</label>
+            </value>
+            <value>
+                <fullName>Canal Empresarial</fullName>
+                <default>false</default>
+                <label>Canal Empresarial</label>
+            </value>
+            <value>
+                <fullName>Referidos</fullName>
+                <default>false</default>
+                <label>Referidos</label>
+            </value>
+            <value>
+                <fullName>Actividades externas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Actividades externas</label>
+            </value>
+            <value>
+                <fullName>BTL Canal Empresarial</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BTL Canal Empresarial</label>
+            </value>
+            <value>
+                <fullName>Ecommerce</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ecommerce</label>
+            </value>
+            <value>
+                <fullName>Posventa/Taller/Almacén</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Posventa/Taller/Almacén</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Campos_PNSegumiento_Autos</fullName>
+    <active>true</active>
+    <description>Se encarga de validar campos obligatorios de Persona Natural en la etapa En Seguimiento, impidiendo la conversión si faltase algún campo.</description>
+    <errorConditionFormula>/*
+AND( RecordType.Name == &quot;Persona Natural Autos&quot;,  TEXT(Status)==&quot;Convertido a Cuenta&quot;,OR(  TEXT(Tipo_de_documento__c)==null,   Nmero_de_documento__c == null,  TEXT(Desea_recibir_correo_electronico__c)==null,  Fecha_estimada_de_compra__c == null  ))
+*/
+AND( RecordType.Name == &quot;Persona Natural Autos&quot;,  TEXT(Status)==&quot;Convertido a Cuenta&quot;,OR(  TEXT(Tipo_de_documento__c)==null,   Nmero_de_documento__c == null ))</errorConditionFormula>
+    <errorMessage>Favor verificar que los siguientes campos estén diligenciados: Tipo de documento y Número de documento.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pendiente_Aprobar_Descuento_Motos</fullName>
+    <active>true</active>
+    <description>Definido para trabajar descuentos de motos.</description>
+    <errorConditionFormula>/*
+AND(
+     RecordType.Name = &quot;Cotizaciones Motos&quot;,  
+     Discount &gt; 0,
+     IsSyncing=TRUE,
+     DescuentoApro__c=FALSE,
+     OR(
+         AND(
+             OR(CONTAINS($Profile.Name, &quot;Asesores motos&quot;),CONTAINS($UserRole.Name , &quot;Líder&quot;) = TRUE),
+Text(Opportunity.Convenio__c)=&quot;Ningún Convenio&quot;
+             ),
+        AND(
+             CONTAINS($UserRole.Name , &quot;Gerente Concesionario&quot;) = TRUE,
+Text(Opportunity.Convenio__c)=&quot;Empresarial&quot;,
+Opportunity.Account.RecordType.Name =&quot;Persona Jurídica&quot;
+             ),
+        AND(
+             OR(CONTAINS($Profile.Name, &quot;Asesores motos&quot;),CONTAINS($UserRole.Name , &quot;Líder&quot;) = TRUE),
+OR(Text(Opportunity.Convenio__c)=&quot;Bavaria&quot;, Text(Opportunity.Convenio__c)=&quot;Nutresa&quot;),
+Opportunity.Account.RecordType.Name =&quot;Persona Natural&quot;
+             ),
+        AND(
+             CONTAINS($UserRole.Name , &quot;Gerente Concesionario&quot;) = TRUE,
+Text(Opportunity.Convenio__c)=&quot;Ningún Convenio&quot;,
+Text(Tipo_de_Pago__c )=&quot;104 - Negocios Especiales&quot; 
+             )
+        )
+    )
+*/
+AND(
+     RecordType.Name = &quot;Cotizaciones Motos&quot;,  
+     Discount &gt; 0,
+     IsSyncing=TRUE,
+     DescuentoApro__c=FALSE,
+     OR(
+         AND(
+             OR(CONTAINS($Profile.Name, &quot;Asesores motos&quot;),CONTAINS($UserRole.Name , &quot;Líder&quot;) = TRUE),
+Text(Opportunity.Convenio__c)=&quot;Sin Convenio&quot;
+             ),
+        AND(
+             CONTAINS($UserRole.Name , &quot;Gerente Concesionario&quot;) = TRUE,
+Text(Opportunity.Convenio__c)=&quot;Empresarial&quot;,
+Opportunity.Account.RecordType.Name =&quot;Persona Jurídica&quot;
+             ),
+        AND(
+             OR(CONTAINS($Profile.Name, &quot;Asesores motos&quot;),CONTAINS($UserRole.Name , &quot;Líder&quot;) = TRUE),
+OR(Text(Opportunity.Convenio__c)=&quot;Bavaria&quot;, Text(Opportunity.Convenio__c)=&quot;Nutresa&quot;),
+Opportunity.Account.RecordType.Name =&quot;Persona Natural&quot;
+             ),
+        AND(
+             CONTAINS($UserRole.Name , &quot;Gerente Concesionario&quot;) = TRUE,
+Text(Opportunity.Convenio__c)=&quot;Sin Convenio&quot;,
+Text(Tipo_de_Pago__c )=&quot;104 - Negocios Especiales&quot; 
+             )
+        )
+    )</errorConditionFormula>
+    <errorDisplayField>Discount</errorDisplayField>
+    <errorMessage>Debe solicitar aprobación para el descuento seleccionado.</errorMessage>
+</ValidationRule>

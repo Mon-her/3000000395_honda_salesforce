@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Cambio_Propietario</fullName>
+    <active>false</active>
+    <description>Si no ha recibido aprobación, el propietario no puede ser alterado.</description>
+    <errorConditionFormula>AND( ISCHANGED( OwnerId ),  Aprobado_para_reasignacion__c == False )</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>Debe solicitar aprobación antes de cambiar el propietario de la cuenta, favor utilice el botón para enviar a aprobar su solicitud.</errorMessage>
+</ValidationRule>

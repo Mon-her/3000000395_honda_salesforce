@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Tipo_de_documento_Contacto__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de documento</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cédula de ciudadanía</fullName>
+                <default>false</default>
+                <label>Cédula de ciudadanía</label>
+            </value>
+            <value>
+                <fullName>Tarjeta de Identidad</fullName>
+                <default>false</default>
+                <label>Tarjeta de Identidad</label>
+            </value>
+            <value>
+                <fullName>Tarjeta de extranjería</fullName>
+                <default>false</default>
+                <label>Tarjeta de extranjería</label>
+            </value>
+            <value>
+                <fullName>Cédula de extranjería</fullName>
+                <default>false</default>
+                <label>Cédula de extranjería</label>
+            </value>
+            <value>
+                <fullName>Identificación de Extranjeros</fullName>
+                <default>false</default>
+                <label>Identificación de Extranjeros</label>
+            </value>
+            <value>
+                <fullName>Pasaporte</fullName>
+                <default>false</default>
+                <label>Pasaporte</label>
+            </value>
+            <value>
+                <fullName>Tipo de documento extranjero</fullName>
+                <default>false</default>
+                <label>Tipo de documento extranjero</label>
+            </value>
+            <value>
+                <fullName>Sin identificación del exterior</fullName>
+                <default>false</default>
+                <label>Sin identificación del exterior</label>
+            </value>
+            <value>
+                <fullName>Carné Diplomático</fullName>
+                <default>false</default>
+                <label>Carné Diplomático</label>
+            </value>
+            <value>
+                <fullName>Certificado para sucesiones</fullName>
+                <default>false</default>
+                <label>Certificado para sucesiones</label>
+            </value>
+            <value>
+                <fullName>Tipo de Dcto. sucesión ilíquida</fullName>
+                <default>false</default>
+                <label>Tipo de Dcto. sucesión ilíquida</label>
+            </value>
+            <value>
+                <fullName>NIT</fullName>
+                <default>false</default>
+                <label>NIT</label>
+            </value>
+            <value>
+                <fullName>Dcto Identidad de Extranjero</fullName>
+                <default>false</default>
+                <label>Dcto Identidad de Extranjero</label>
+            </value>
+            <value>
+                <fullName>Código de NIT de extranjería</fullName>
+                <default>false</default>
+                <label>Código de NIT de extranjería</label>
+            </value>
+            <value>
+                <fullName>Sociedad extranjera sin NIT</fullName>
+                <default>false</default>
+                <label>Sociedad extranjera sin NIT</label>
+            </value>
+            <value>
+                <fullName>Dcto Ident Extranjero</fullName>
+                <default>false</default>
+                <label>Dcto Ident Extranjero</label>
+            </value>
+            <value>
+                <fullName>NUIP</fullName>
+                <default>false</default>
+                <label>NUIP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

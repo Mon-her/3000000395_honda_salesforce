@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Autos</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Productos_Autos</compactLayoutAssignment>
+    <label>Autos</label>
+    <picklistValues>
+        <picklist>Family</picklist>
+        <values>
+            <fullName>ACCORD EXL-T</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIVIC EX CVT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIVIC SI MT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIVIC TYPE R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR-V CITY PLUS 2WD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR-V EXL 1%2E5T 4WD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR-V PRESTIGE 2WD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FIT EX CVT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HR-V EX 2WD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HR-V EXL PRESTIGE 2WD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HR-V LX 2WD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HR-V LX 2WD X-TYLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ODYSSEY EXLN-REST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PILOT EXL 4WD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PILOT EXL PRESTIGE 2WD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WR-V EX 2WD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WR-V LX CVT 2WD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WR-V LX MT 2WD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QuantityUnitOfMeasure</picklist>
+        <values>
+            <fullName>Each</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SO_Garantia_motocicleta__c</picklist>
+        <values>
+            <fullName>Garantia1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garantia2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garantia3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garantia4</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_Producto__c</picklist>
+        <values>
+            <fullName>Nuevos %2F Renting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Usados</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

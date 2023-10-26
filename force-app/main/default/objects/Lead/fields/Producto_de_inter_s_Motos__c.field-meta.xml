@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Producto_de_inter_s_Motos__c</fullName>
+    <externalId>false</externalId>
+    <label>Producto de interes</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Producto_de_Interes</valueSetName>
+    </valueSet>
+</CustomField>

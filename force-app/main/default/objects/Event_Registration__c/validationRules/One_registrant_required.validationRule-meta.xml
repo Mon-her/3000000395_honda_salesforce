@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>One_registrant_required</fullName>
+    <active>true</active>
+    <description>One registrant (Contact or Lead) is required to make an event registration</description>
+    <errorConditionFormula>IF( Contact__c != null, 1, 0) + IF( Lead__c != null, 1, 0) &lt; 1</errorConditionFormula>
+    <errorMessage>Select either a Contact or a Lead for this registration.</errorMessage>
+</ValidationRule>

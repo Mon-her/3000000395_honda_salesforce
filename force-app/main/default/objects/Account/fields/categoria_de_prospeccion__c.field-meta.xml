@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>categoria_de_prospeccion__c</fullName>
+    <externalId>false</externalId>
+    <label>Subcategoria fuente de prospección</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>AccountSource</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Playas de Ventas</fullName>
+                <default>false</default>
+                <label>Playas de Ventas</label>
+            </value>
+            <value>
+                <fullName>Colegios/Universidades</fullName>
+                <default>false</default>
+                <label>Colegios/Universidades</label>
+            </value>
+            <value>
+                <fullName>Relacionamiento</fullName>
+                <default>false</default>
+                <label>Relacionamiento</label>
+            </value>
+            <value>
+                <fullName>Aliados Financieros</fullName>
+                <default>false</default>
+                <label>Aliados Financieros</label>
+            </value>
+            <value>
+                <fullName>Ferias</fullName>
+                <default>false</default>
+                <label>Ferias</label>
+            </value>
+            <value>
+                <fullName>Salud</fullName>
+                <default>false</default>
+                <label>Salud</label>
+            </value>
+            <value>
+                <fullName>Página Web</fullName>
+                <default>false</default>
+                <label>Página Web</label>
+            </value>
+            <value>
+                <fullName>Redes Sociales</fullName>
+                <default>false</default>
+                <label>Redes Sociales</label>
+            </value>
+            <value>
+                <fullName>Portales Externos</fullName>
+                <default>false</default>
+                <label>Portales Externos</label>
+            </value>
+            <value>
+                <fullName>Cuña de Radio</fullName>
+                <default>false</default>
+                <label>Cuña de Radio</label>
+            </value>
+            <value>
+                <fullName>Comercial de TV</fullName>
+                <default>false</default>
+                <label>Comercial de TV</label>
+            </value>
+            <value>
+                <fullName>Valla</fullName>
+                <default>false</default>
+                <label>Valla</label>
+            </value>
+            <value>
+                <fullName>Revista</fullName>
+                <default>false</default>
+                <label>Revista</label>
+            </value>
+            <value>
+                <fullName>Prensa</fullName>
+                <default>false</default>
+                <label>Prensa</label>
+            </value>
+            <value>
+                <fullName>Línea 470</fullName>
+                <default>false</default>
+                <label>Línea 470</label>
+            </value>
+            <value>
+                <fullName>Financieros</fullName>
+                <default>false</default>
+                <label>Financieros</label>
+            </value>
+            <value>
+                <fullName>Seguros</fullName>
+                <default>false</default>
+                <label>Seguros</label>
+            </value>
+            <value>
+                <fullName>Honda Motos</fullName>
+                <default>false</default>
+                <label>Honda Motos</label>
+            </value>
+            <value>
+                <fullName>Otro</fullName>
+                <default>false</default>
+                <label>Otro</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Actividades comerciales</controllingFieldValue>
+            <valueName>Playas de Ventas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Actividades comerciales</controllingFieldValue>
+            <valueName>Colegios/Universidades</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Actividades comerciales</controllingFieldValue>
+            <valueName>Relacionamiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Actividades comerciales</controllingFieldValue>
+            <valueName>Aliados Financieros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Actividades comerciales</controllingFieldValue>
+            <valueName>Ferias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Actividades comerciales</controllingFieldValue>
+            <valueName>Salud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios digitales</controllingFieldValue>
+            <valueName>Página Web</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios digitales</controllingFieldValue>
+            <valueName>Redes Sociales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios digitales</controllingFieldValue>
+            <valueName>Portales Externos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios tradicionales</controllingFieldValue>
+            <valueName>Cuña de Radio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios tradicionales</controllingFieldValue>
+            <valueName>Comercial de TV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios tradicionales</controllingFieldValue>
+            <valueName>Valla</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios tradicionales</controllingFieldValue>
+            <valueName>Revista</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios tradicionales</controllingFieldValue>
+            <valueName>Prensa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios tradicionales</controllingFieldValue>
+            <valueName>Línea 470</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Base de datos aliados</controllingFieldValue>
+            <valueName>Financieros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Base de datos aliados</controllingFieldValue>
+            <valueName>Seguros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Base de datos aliados</controllingFieldValue>
+            <valueName>Honda Motos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Base de datos aliados</controllingFieldValue>
+            <valueName>Otro</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

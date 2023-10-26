@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_039</fullName>
+    <active>false</active>
+    <description>AM_RV_COT_039 No se puede cambiar el descuento del Plan Empleado Fanalca</description>
+    <errorConditionFormula>AND 
+( 
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;, 
+
+( 
+AND 
+( 
+TEXT( AM_Plan_de_financiacion__r.AM_Plan_financiacion__c ) = &quot;Plan Empleados Organización Fanalca&quot;, 
+ISCHANGED(AM_Valor_descuento_S1__c ) 
+
+) 
+) 
+)</errorConditionFormula>
+    <errorDisplayField>AM_Valor_descuento_S1__c</errorDisplayField>
+    <errorMessage>AM_RV_COT_039 No se puede cambiar el descuento del Plan Empleado Fanalca</errorMessage>
+</ValidationRule>

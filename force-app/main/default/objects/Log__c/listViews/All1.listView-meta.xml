@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All1</fullName>
+    <columns>NAME</columns>
+    <columns>Hora_Inicio_Reasignacion__c</columns>
+    <columns>Objeto_a_Reasignar__c</columns>
+    <columns>Cuenta__c</columns>
+    <columns>Contacto__c</columns>
+    <columns>Oportunidad__c</columns>
+    <columns>Error_Reasignacion__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Today Reassignment Errors</label>
+</ListView>

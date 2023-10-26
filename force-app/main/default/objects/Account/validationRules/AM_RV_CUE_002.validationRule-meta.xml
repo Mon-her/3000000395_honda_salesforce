@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_CUE_002</fullName>
+    <active>false</active>
+    <description>AM-RV-Cue-002:</description>
+    <errorConditionFormula>AND
+(
+$User.AO_BypassApex__c = false,
+IF(
+    AND(
+            NOT(CONTAINS( RecordType.Name ,&quot;Jurídica&quot;)),
+            TEXT(AM_Tipo_de_documento__c ) &lt;&gt; &quot;Cédula de extranjería&quot;,
+            NOT(ISBLANK(Phone))
+           
+        ),
+    OR(
+            AND(NOT(ISBLANK(Phone)),
+NOT(REGEX( Phone , &quot;[0-9]{7}&quot;)),
+NOT(REGEX( Phone , &quot;[0-9]{8}&quot;)),
+NOT(REGEX( Phone , &quot;[0-9]{9}&quot;))
+)
+        ),
+AND(
+NOT(CONTAINS( RecordType.Name ,&quot;Jurídica&quot;)),
+NOT(ISBLANK(Phone)),
+TEXT(AM_Tipo_de_documento__c ) &lt;&gt; &quot;Cédula de extranjería&quot;,
+OR(
+AM_No_recibir_SMS__pc &lt;&gt; TRUE)
+
+)
+))</errorConditionFormula>
+    <errorDisplayField>AM_Numero_de_documento__c</errorDisplayField>
+    <errorMessage>Solo puede registrar 10 caracteres numéricos, no consecutivos
+AM-RV-CUE-002</errorMessage>
+</ValidationRule>

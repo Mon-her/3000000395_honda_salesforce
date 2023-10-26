@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Esta_suscrito_a_alguna_revista__c</fullName>
+    <externalId>false</externalId>
+    <label>¿Esta suscrito a alguna revista?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ninguna</fullName>
+                <default>false</default>
+                <label>Ninguna</label>
+            </value>
+            <value>
+                <fullName>Dinero</fullName>
+                <default>false</default>
+                <label>Dinero</label>
+            </value>
+            <value>
+                <fullName>Semana</fullName>
+                <default>false</default>
+                <label>Semana</label>
+            </value>
+            <value>
+                <fullName>Cromos</fullName>
+                <default>false</default>
+                <label>Cromos</label>
+            </value>
+            <value>
+                <fullName>Arcadia</fullName>
+                <default>false</default>
+                <label>Arcadia</label>
+            </value>
+            <value>
+                <fullName>Axxis</fullName>
+                <default>false</default>
+                <label>Axxis</label>
+            </value>
+            <value>
+                <fullName>Jet set</fullName>
+                <default>false</default>
+                <label>Jet set</label>
+            </value>
+            <value>
+                <fullName>Cambio</fullName>
+                <default>false</default>
+                <label>Cambio</label>
+            </value>
+            <value>
+                <fullName>Soho</fullName>
+                <default>false</default>
+                <label>Soho</label>
+            </value>
+            <value>
+                <fullName>TV y Novelas</fullName>
+                <default>false</default>
+                <label>TV y Novelas</label>
+            </value>
+            <value>
+                <fullName>Caras</fullName>
+                <default>false</default>
+                <label>Caras</label>
+            </value>
+            <value>
+                <fullName>Vanidades</fullName>
+                <default>false</default>
+                <label>Vanidades</label>
+            </value>
+            <value>
+                <fullName>AUTOS Y MOTOS</fullName>
+                <default>false</default>
+                <label>AUTOS Y MOTOS</label>
+            </value>
+            <value>
+                <fullName>BONSAI FOCUS</fullName>
+                <default>false</default>
+                <label>BONSAI FOCUS</label>
+            </value>
+            <value>
+                <fullName>BUENHOGAR</fullName>
+                <default>false</default>
+                <label>BUENHOGAR</label>
+            </value>
+            <value>
+                <fullName>CAMBIO 16</fullName>
+                <default>false</default>
+                <label>CAMBIO 16</label>
+            </value>
+            <value>
+                <fullName>CIENTIFICA</fullName>
+                <default>false</default>
+                <label>CIENTIFICA</label>
+            </value>
+            <value>
+                <fullName>CIRCULO DE LECTORES</fullName>
+                <default>false</default>
+                <label>CIRCULO DE LECTORES</label>
+            </value>
+            <value>
+                <fullName>COSMOPOLITAN</fullName>
+                <default>false</default>
+                <label>COSMOPOLITAN</label>
+            </value>
+            <value>
+                <fullName>CREDENCIAL</fullName>
+                <default>false</default>
+                <label>CREDENCIAL</label>
+            </value>
+            <value>
+                <fullName>CREMIL</fullName>
+                <default>false</default>
+                <label>CREMIL</label>
+            </value>
+            <value>
+                <fullName>DINNERS</fullName>
+                <default>false</default>
+                <label>DINNERS</label>
+            </value>
+            <value>
+                <fullName>ENTER</fullName>
+                <default>false</default>
+                <label>ENTER</label>
+            </value>
+            <value>
+                <fullName>INNOVACION Y CIENCIA</fullName>
+                <default>false</default>
+                <label>INNOVACION Y CIENCIA</label>
+            </value>
+            <value>
+                <fullName>JOVENAL</fullName>
+                <default>false</default>
+                <label>JOVENAL</label>
+            </value>
+            <value>
+                <fullName>LA ECONOMIA</fullName>
+                <default>false</default>
+                <label>LA ECONOMIA</label>
+            </value>
+            <value>
+                <fullName>LEGIS</fullName>
+                <default>false</default>
+                <label>LEGIS</label>
+            </value>
+            <value>
+                <fullName>MECANICA POPULAR</fullName>
+                <default>false</default>
+                <label>MECANICA POPULAR</label>
+            </value>
+            <value>
+                <fullName>MEDICINA</fullName>
+                <default>false</default>
+                <label>MEDICINA</label>
+            </value>
+            <value>
+                <fullName>NATIONAL GEOGRAPHIC</fullName>
+                <default>false</default>
+                <label>NATIONAL GEOGRAPHIC</label>
+            </value>
+            <value>
+                <fullName>NOTA ECONOMICA</fullName>
+                <default>false</default>
+                <label>NOTA ECONOMICA</label>
+            </value>
+            <value>
+                <fullName>NUMERO</fullName>
+                <default>false</default>
+                <label>NUMERO</label>
+            </value>
+            <value>
+                <fullName>OTRA</fullName>
+                <default>false</default>
+                <label>OTRA</label>
+            </value>
+            <value>
+                <fullName>PORTAFOLIO</fullName>
+                <default>false</default>
+                <label>PORTAFOLIO</label>
+            </value>
+            <value>
+                <fullName>REVISTA COLOMBIANA DE ORTOPEDIA</fullName>
+                <default>false</default>
+                <label>REVISTA COLOMBIANA DE ORTOPEDIA</label>
+            </value>
+            <value>
+                <fullName>THE UNDERSEA JOURNAL</fullName>
+                <default>false</default>
+                <label>THE UNDERSEA JOURNAL</label>
+            </value>
+            <value>
+                <fullName>VIDA</fullName>
+                <default>false</default>
+                <label>VIDA</label>
+            </value>
+            <value>
+                <fullName>ABC DEL BEBE</fullName>
+                <default>false</default>
+                <label>ABC DEL BEBE</label>
+            </value>
+            <value>
+                <fullName>ACOPAFLOR</fullName>
+                <default>false</default>
+                <label>ACOPAFLOR</label>
+            </value>
+            <value>
+                <fullName>ACORE</fullName>
+                <default>false</default>
+                <label>ACORE</label>
+            </value>
+            <value>
+                <fullName>AGRICULTURA AL DIA</fullName>
+                <default>false</default>
+                <label>AGRICULTURA AL DIA</label>
+            </value>
+            <value>
+                <fullName>AGRICULTURA ANDINA</fullName>
+                <default>false</default>
+                <label>AGRICULTURA ANDINA</label>
+            </value>
+            <value>
+                <fullName>ALO</fullName>
+                <default>false</default>
+                <label>ALO</label>
+            </value>
+            <value>
+                <fullName>AMBITO JURIDICO</fullName>
+                <default>false</default>
+                <label>AMBITO JURIDICO</label>
+            </value>
+            <value>
+                <fullName>ARQUITECTURA</fullName>
+                <default>false</default>
+                <label>ARQUITECTURA</label>
+            </value>
+            <value>
+                <fullName>ASOCRETO</fullName>
+                <default>false</default>
+                <label>ASOCRETO</label>
+            </value>
+            <value>
+                <fullName>ASORRETO</fullName>
+                <default>false</default>
+                <label>ASORRETO</label>
+            </value>
+            <value>
+                <fullName>BLOOD HOUSE</fullName>
+                <default>false</default>
+                <label>BLOOD HOUSE</label>
+            </value>
+            <value>
+                <fullName>CATERING</fullName>
+                <default>false</default>
+                <label>CATERING</label>
+            </value>
+            <value>
+                <fullName>CHEMICAL ENGINEERING</fullName>
+                <default>false</default>
+                <label>CHEMICAL ENGINEERING</label>
+            </value>
+            <value>
+                <fullName>COMAGISTERIO</fullName>
+                <default>false</default>
+                <label>COMAGISTERIO</label>
+            </value>
+            <value>
+                <fullName>DE CIRUGIA PLASTICA</fullName>
+                <default>false</default>
+                <label>DE CIRUGIA PLASTICA</label>
+            </value>
+            <value>
+                <fullName>ECONOMIST</fullName>
+                <default>false</default>
+                <label>ECONOMIST</label>
+            </value>
+            <value>
+                <fullName>EDUCACION Y CULTURA</fullName>
+                <default>false</default>
+                <label>EDUCACION Y CULTURA</label>
+            </value>
+            <value>
+                <fullName>GATO PARDO</fullName>
+                <default>false</default>
+                <label>GATO PARDO</label>
+            </value>
+            <value>
+                <fullName>MEDICA</fullName>
+                <default>false</default>
+                <label>MEDICA</label>
+            </value>
+            <value>
+                <fullName>MOTOR</fullName>
+                <default>false</default>
+                <label>MOTOR</label>
+            </value>
+            <value>
+                <fullName>MUY INTERESANTE</fullName>
+                <default>false</default>
+                <label>MUY INTERESANTE</label>
+            </value>
+            <value>
+                <fullName>NATIONAL GEGRAFIC</fullName>
+                <default>false</default>
+                <label>NATIONAL GEGRAFIC</label>
+            </value>
+            <value>
+                <fullName>NATURA REVIWS</fullName>
+                <default>false</default>
+                <label>NATURA REVIWS</label>
+            </value>
+            <value>
+                <fullName>PLUMAZOS</fullName>
+                <default>false</default>
+                <label>PLUMAZOS</label>
+            </value>
+            <value>
+                <fullName>PODER</fullName>
+                <default>false</default>
+                <label>PODER</label>
+            </value>
+            <value>
+                <fullName>REPUBLICA</fullName>
+                <default>false</default>
+                <label>REPUBLICA</label>
+            </value>
+            <value>
+                <fullName>SUMMA</fullName>
+                <default>false</default>
+                <label>SUMMA</label>
+            </value>
+            <value>
+                <fullName>THE ECONOMIST</fullName>
+                <default>false</default>
+                <label>THE ECONOMIST</label>
+            </value>
+            <value>
+                <fullName>TRABAJO Y DERECHO</fullName>
+                <default>false</default>
+                <label>TRABAJO Y DERECHO</label>
+            </value>
+            <value>
+                <fullName>URULUGY</fullName>
+                <default>false</default>
+                <label>URULUGY</label>
+            </value>
+            <value>
+                <fullName>15 MINUTOS</fullName>
+                <default>false</default>
+                <label>15 MINUTOS</label>
+            </value>
+            <value>
+                <fullName>BON APETIT</fullName>
+                <default>false</default>
+                <label>BON APETIT</label>
+            </value>
+            <value>
+                <fullName>CASAVIVA</fullName>
+                <default>false</default>
+                <label>CASAVIVA</label>
+            </value>
+            <value>
+                <fullName>ECONOMIA COLOMBIANA ACRP</fullName>
+                <default>false</default>
+                <label>ECONOMIA COLOMBIANA ACRP</label>
+            </value>
+            <value>
+                <fullName>FENA AUTOMOVIL</fullName>
+                <default>false</default>
+                <label>FENA AUTOMOVIL</label>
+            </value>
+            <value>
+                <fullName>FUTBOL</fullName>
+                <default>false</default>
+                <label>FUTBOL</label>
+            </value>
+            <value>
+                <fullName>GESTION</fullName>
+                <default>false</default>
+                <label>GESTION</label>
+            </value>
+            <value>
+                <fullName>GESTION HOSPITALARIA</fullName>
+                <default>false</default>
+                <label>GESTION HOSPITALARIA</label>
+            </value>
+            <value>
+                <fullName>HARVARD BUSSINESS REVIEW</fullName>
+                <default>false</default>
+                <label>HARVARD BUSSINESS REVIEW</label>
+            </value>
+            <value>
+                <fullName>HECHOS Y CRONICAS</fullName>
+                <default>false</default>
+                <label>HECHOS Y CRONICAS</label>
+            </value>
+            <value>
+                <fullName>HOLA</fullName>
+                <default>false</default>
+                <label>HOLA</label>
+            </value>
+            <value>
+                <fullName>INFASHION</fullName>
+                <default>false</default>
+                <label>INFASHION</label>
+            </value>
+            <value>
+                <fullName>JURISPRUDENCIA Y DOCTRINA</fullName>
+                <default>false</default>
+                <label>JURISPRUDENCIA Y DOCTRINA</label>
+            </value>
+            <value>
+                <fullName>MANUALIDADES</fullName>
+                <default>false</default>
+                <label>MANUALIDADES</label>
+            </value>
+            <value>
+                <fullName>OPTAMOLOGIA</fullName>
+                <default>false</default>
+                <label>OPTAMOLOGIA</label>
+            </value>
+            <value>
+                <fullName>PREVENTION</fullName>
+                <default>false</default>
+                <label>PREVENTION</label>
+            </value>
+            <value>
+                <fullName>SCIENCE</fullName>
+                <default>false</default>
+                <label>SCIENCE</label>
+            </value>
+            <value>
+                <fullName>TIME</fullName>
+                <default>false</default>
+                <label>TIME</label>
+            </value>
+            <value>
+                <fullName>VARIEDADES</fullName>
+                <default>false</default>
+                <label>VARIEDADES</label>
+            </value>
+            <value>
+                <fullName>Fucsia</fullName>
+                <default>false</default>
+                <label>Fucsia</label>
+            </value>
+            <value>
+                <fullName>AMERICA ECONOMIA</fullName>
+                <default>false</default>
+                <label>AMERICA ECONOMIA</label>
+            </value>
+            <value>
+                <fullName>AUTO Y ESTILO AUTOMOVIL</fullName>
+                <default>false</default>
+                <label>AUTO Y ESTILO AUTOMOVIL</label>
+            </value>
+            <value>
+                <fullName>AUTOMOVIL</fullName>
+                <default>false</default>
+                <label>AUTOMOVIL</label>
+            </value>
+            <value>
+                <fullName>AVIACION</fullName>
+                <default>false</default>
+                <label>AVIACION</label>
+            </value>
+            <value>
+                <fullName>COCINA SEMANA</fullName>
+                <default>false</default>
+                <label>COCINA SEMANA</label>
+            </value>
+            <value>
+                <fullName>DON JUAN</fullName>
+                <default>false</default>
+                <label>DON JUAN</label>
+            </value>
+            <value>
+                <fullName>ECONOMISTA</fullName>
+                <default>false</default>
+                <label>ECONOMISTA</label>
+            </value>
+            <value>
+                <fullName>GANADERIA</fullName>
+                <default>false</default>
+                <label>GANADERIA</label>
+            </value>
+            <value>
+                <fullName>GENTE</fullName>
+                <default>false</default>
+                <label>GENTE</label>
+            </value>
+            <value>
+                <fullName>GERENTE</fullName>
+                <default>false</default>
+                <label>GERENTE</label>
+            </value>
+            <value>
+                <fullName>GOLF</fullName>
+                <default>false</default>
+                <label>GOLF</label>
+            </value>
+            <value>
+                <fullName>HARLEY</fullName>
+                <default>false</default>
+                <label>HARLEY</label>
+            </value>
+            <value>
+                <fullName>IDEAS</fullName>
+                <default>false</default>
+                <label>IDEAS</label>
+            </value>
+            <value>
+                <fullName>JURIDICA</fullName>
+                <default>false</default>
+                <label>JURIDICA</label>
+            </value>
+            <value>
+                <fullName>MEDICINA LEGAL</fullName>
+                <default>false</default>
+                <label>MEDICINA LEGAL</label>
+            </value>
+            <value>
+                <fullName>MEDICO LEGAL</fullName>
+                <default>false</default>
+                <label>MEDICO LEGAL</label>
+            </value>
+            <value>
+                <fullName>MOBILIARI</fullName>
+                <default>false</default>
+                <label>MOBILIARI</label>
+            </value>
+            <value>
+                <fullName>NOTICRETO</fullName>
+                <default>false</default>
+                <label>NOTICRETO</label>
+            </value>
+            <value>
+                <fullName>ORTODONTICA</fullName>
+                <default>false</default>
+                <label>ORTODONTICA</label>
+            </value>
+            <value>
+                <fullName>P &amp; M</fullName>
+                <default>false</default>
+                <label>P &amp; M</label>
+            </value>
+            <value>
+                <fullName>PAPARASI</fullName>
+                <default>false</default>
+                <label>PAPARASI</label>
+            </value>
+            <value>
+                <fullName>PETROLEUM INGENIER</fullName>
+                <default>false</default>
+                <label>PETROLEUM INGENIER</label>
+            </value>
+            <value>
+                <fullName>PLANETA SOCIETY</fullName>
+                <default>false</default>
+                <label>PLANETA SOCIETY</label>
+            </value>
+            <value>
+                <fullName>POKERHISPANO</fullName>
+                <default>false</default>
+                <label>POKERHISPANO</label>
+            </value>
+            <value>
+                <fullName>REVISTA COLOMBIANA DE ANESTESIOLOGIA</fullName>
+                <default>false</default>
+                <label>REVISTA COLOMBIANA DE ANESTESIOLOGIA</label>
+            </value>
+            <value>
+                <fullName>REVISTA DE INGENIERIA</fullName>
+                <default>false</default>
+                <label>REVISTA DE INGENIERIA</label>
+            </value>
+            <value>
+                <fullName>REVISTA DE ORTOPEDIA</fullName>
+                <default>false</default>
+                <label>REVISTA DE ORTOPEDIA</label>
+            </value>
+            <value>
+                <fullName>SALUD</fullName>
+                <default>false</default>
+                <label>SALUD</label>
+            </value>
+            <value>
+                <fullName>SCIENTIFIC AMERICAN</fullName>
+                <default>false</default>
+                <label>SCIENTIFIC AMERICAN</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

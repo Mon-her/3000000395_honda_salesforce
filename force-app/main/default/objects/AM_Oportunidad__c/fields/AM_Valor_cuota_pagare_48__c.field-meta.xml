@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Valor_cuota_pagare_48__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ISPICKVAL( AM_Plan_de_financiacion__r.AM_Plan_financiacion__c , &quot;Gracia&quot;) ,
+
+AM_Saldo_a_financiar_Pagare__c * ( 1 * ( ( AM_Tasa_de_interes__c * ((1 + AM_Tasa_de_interes__c) ^ 47) ) / ( ( ( 1 + AM_Tasa_de_interes__c ) ^ 47 ) - 1 ) ) ),
+
+AM_Saldo_a_financiar_Pagare__c * ( 1 * ( ( AM_Tasa_de_interes__c * ((1 + AM_Tasa_de_interes__c) ^ 48) ) / ( ( ( 1 + AM_Tasa_de_interes__c ) ^ 48 ) - 1 ) ) )
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Valor cuota pagaré 48 meses</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

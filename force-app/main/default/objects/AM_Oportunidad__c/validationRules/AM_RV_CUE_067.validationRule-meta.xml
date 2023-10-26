@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_CUE_067</fullName>
+    <active>false</active>
+    <description>No puede crear cotizaciónes a un contacto o cuenta que no es de su responsabilidad.
+AM_RV_CUE_067</description>
+    <errorConditionFormula>AND(
+AND(
+ TEXT(AM_Tipo_Renting__c)  &lt;&gt; &quot;Renting&quot;,
+NOT(BEGINS($Profile.Name, &quot;Administrador del sistema&quot;)), 
+NOT(BEGINS($Profile.Name, &quot;Analistas&quot;)), 
+OR( 
+Owner:User.Username &lt;&gt; AM_Propietario_contacto_principal__c, 
+AND 
+( 
+AM_Propietario_motocicleta__r.RecordType.Name &lt;&gt; &quot;Persona Juridica&quot;, 
+Owner:User.Username &lt;&gt; Prueba__c )
+)))</errorConditionFormula>
+    <errorMessage>No puede crear cotizaciónes a un contacto o cuenta que no es de su responsabilidad.
+AM_RV_CUE_067</errorMessage>
+</ValidationRule>

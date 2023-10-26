@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Contacto_Cuenta_Juridica</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Account.RecordType.Name = &quot;Persona Juridica&quot;,  ISNULL( Contacto__c ),NOT(ISNEW()), RecordType.Name = &quot;Oportunidad Autos&quot; )</errorConditionFormula>
+    <errorDisplayField>Contacto__c</errorDisplayField>
+    <errorMessage>La cuenta asociada a esta oportunidad es de tipo jurídica, por lo que debe indicar un contacto de dicha cuenta.</errorMessage>
+</ValidationRule>

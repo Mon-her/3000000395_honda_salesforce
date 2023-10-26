@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Placa</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISBLANK( Placas__c )),NOT( REGEX( Placas__c , &quot;\\b[a-zA-Z]{3}\\d{3}\\b&quot;) ))</errorConditionFormula>
+    <errorMessage>Formato incorrecto para la placa, debe ser 3 letras seguidas de 3 dígitos.</errorMessage>
+</ValidationRule>

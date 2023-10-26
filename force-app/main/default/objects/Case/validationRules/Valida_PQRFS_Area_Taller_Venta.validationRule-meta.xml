@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_PQRFS_Area_Taller_Venta</fullName>
+    <active>true</active>
+    <errorConditionFormula>/*OR(
+AND(TEXT(Area_involucrada__c)=&quot;Ventas&quot;,    
+    OR(
+        TEXT(Reason)&lt;&gt; &quot;Radicar PQRSF - Ticket Externos&quot;,
+        NOT(CONTAINS(TEXT(Subcategoria__c), &quot;Ventas&quot;)), 
+        TEXT(Subcategoria__c)&lt;&gt;&quot;Trabaje con Nosotros&quot;
+        )
+    ),
+AND(TEXT(Area_involucrada__c)=&quot;Taller&quot;,
+    OR(
+        TEXT(Reason)&lt;&gt; &quot;Radicar PQRSF - Tickets Internos&quot;,    
+        NOT(CONTAINS(TEXT(Subcategoria__c),&quot;Taller&quot;))
+      )
+   )
+)
+*/
+!ISBLANK(TEXT(Area_involucrada__c))  &amp;&amp; 
+  ((TEXT(Area_involucrada__c) = &apos;Taller&apos; &amp;&amp; Text( Reason ) != &apos;Radicar PQRSF - Tickets Internos&apos;) || 
+   (TEXT(Area_involucrada__c) = &apos;Ventas&apos; &amp;&amp; Text( Reason ) = &apos;Radicar PQRSF - Tickets Internos&apos;)
+  )</errorConditionFormula>
+    <errorMessage>Revise la selección de Motivo del caso y Subcategorías, estas deben pertenecer al área escogida del caso.</errorMessage>
+</ValidationRule>

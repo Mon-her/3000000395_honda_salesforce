@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_CUE_005</fullName>
+    <active>false</active>
+    <description>No permitir números consecutivos como Otro telefóno, deben ser 7 numeros</description>
+    <errorConditionFormula>AND
+(
+       $User.AO_BypassApex__c = false, 
+ 
+OR
+(
+
+
+REGEX(PersonOtherPhone, &quot;^[0]{7}$*&quot;), 
+REGEX(PersonOtherPhone, &quot;^[1]{7}$*&quot;), 
+REGEX(PersonOtherPhone, &quot;^[2]{7}$*&quot;), 
+REGEX(PersonOtherPhone, &quot;^[3]{7}$*&quot;), 
+REGEX(PersonOtherPhone, &quot;^[4]{7}$*&quot;), 
+REGEX(PersonOtherPhone, &quot;^[5]{7}$*&quot;), 
+REGEX(PersonOtherPhone, &quot;^[6]{7}$*&quot;), 
+REGEX(PersonOtherPhone, &quot;^[7]{7}$*&quot;), 
+REGEX(PersonOtherPhone, &quot;^[8]{7}$*&quot;), 
+REGEX(PersonOtherPhone, &quot;^[9]{7}$*&quot;), 
+PersonOtherPhone = &quot;1234567&quot;,
+PersonOtherPhone = &quot;7654321&quot;,
+BEGINS(PersonOtherPhone,&quot;0&quot;)
+
+
+)
+)</errorConditionFormula>
+    <errorDisplayField>PersonOtherPhone</errorDisplayField>
+    <errorMessage>El número registrado para Otro Teléfono no es válido. No se permiten números consecutivos como 1111111 o 1234567. Deben ser 7 Numeros
+AM-RV-CUE-005</errorMessage>
+</ValidationRule>

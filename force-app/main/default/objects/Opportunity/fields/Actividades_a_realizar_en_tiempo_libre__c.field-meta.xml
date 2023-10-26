@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actividades_a_realizar_en_tiempo_libre__c</fullName>
+    <externalId>false</externalId>
+    <label>Frase que describe su estilo de vida</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Soltero y practico</fullName>
+                <default>false</default>
+                <label>Soltero y practico</label>
+            </value>
+            <value>
+                <fullName>Familia con hijos y/o mascotas, centrado en su bienestar y estabilidad</fullName>
+                <default>false</default>
+                <label>Familia con hijos y/o mascotas, centrado en su bienestar y estabilidad</label>
+            </value>
+            <value>
+                <fullName>Me gusta disfrutar la vida, viajar y mostrar mi personalidad por medio de mi estilo único</fullName>
+                <default>false</default>
+                <label>Me gusta disfrutar la vida, viajar y mostrar mi personalidad por medio de mi estilo único</label>
+            </value>
+            <value>
+                <fullName>Planifico y son balanceado entre el disfrute y la personalidad</fullName>
+                <default>false</default>
+                <label>Planifico y son balanceado entre el disfrute y la personalidad</label>
+            </value>
+            <value>
+                <fullName>Sé que mis decisiones repercuten en mi entorno, por eso trato de disfrutar la vida mientras no afecte a otros</fullName>
+                <default>false</default>
+                <label>Sé que mis decisiones repercuten en mi entorno, por eso trato de disfrutar la vida mientras no afecte a otros</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

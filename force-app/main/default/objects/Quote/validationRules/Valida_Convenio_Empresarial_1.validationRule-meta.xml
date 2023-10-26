@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Convenio_Empresarial_1</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(Opportunity.Convenio__c)=&quot;Empresarial&quot;, Unidades__c = 1, Discount &gt; 0.02 )</errorConditionFormula>
+    <errorMessage>No se puede dar más de 2 % de descuento en un convenio empresarial, con solo 1 unidad.</errorMessage>
+</ValidationRule>

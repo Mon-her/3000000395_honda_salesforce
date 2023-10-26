@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GarantiaMotoAprobadaSubcategoriaErronea</fullName>
+    <active>true</active>
+    <description>El campo Garantia motos aprobada sólo debe ser digitado cuando la subcategoría es Garantía o Garantía del concesionario, que son las subcategorías de garantías de motos.</description>
+    <errorConditionFormula>Text(Subcategoria__c) != &apos;Garantia&apos; &amp;&amp; Text(Subcategoria__c) != &apos;Garantia del concesionario&apos; &amp;&amp;   !ISBLANK(text(Garantia_motos_aprobada__c))</errorConditionFormula>
+    <errorDisplayField>Garantia_motos_aprobada__c</errorDisplayField>
+    <errorMessage>El campo Garantía de motos aprobada sólo debe ser suministrada cuando la subcategoría es de Garantía de motos</errorMessage>
+</ValidationRule>

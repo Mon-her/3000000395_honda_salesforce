@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Usted_prefiere_un_automovil__c</fullName>
+    <externalId>false</externalId>
+    <label>Lo más importante en la compra del vehíc</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Que funcione bien, me lleve de un lugar a otro y tenga un precio justo</fullName>
+                <default>false</default>
+                <label>Que funcione bien, me lleve de un lugar a otro y tenga un precio justo</label>
+            </value>
+            <value>
+                <fullName>Que tenga espacio y sea seguro para mi familia</fullName>
+                <default>false</default>
+                <label>Que tenga espacio y sea seguro para mi familia</label>
+            </value>
+            <value>
+                <fullName>Que se vea bien, no sea muy comun y se pueda personalizar segun lo que quiero</fullName>
+                <default>false</default>
+                <label>Que se vea bien, no sea muy comun y se pueda personalizar segun lo que quiero</label>
+            </value>
+            <value>
+                <fullName>Que tenga armonia y balance entre funcionamiento y diseño</fullName>
+                <default>false</default>
+                <label>Que tenga armonia y balance entre funcionamiento y diseño</label>
+            </value>
+            <value>
+                <fullName>Que tenga menor huella de carbono y sea lo menos dañino posible para el medio ambiente</fullName>
+                <default>false</default>
+                <label>Que tenga menor huella de carbono y sea lo menos dañino posible para el medio ambiente</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

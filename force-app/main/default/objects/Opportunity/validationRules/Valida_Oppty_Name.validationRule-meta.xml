@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Oppty_Name</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISNEW()), ISCHANGED( Name ),  NOT(BEGINS(Name, &quot;Venta para vehículo por Renting&quot;)) )</errorConditionFormula>
+    <errorMessage>No se permite modificar el nombre de la oportunidad.</errorMessage>
+</ValidationRule>

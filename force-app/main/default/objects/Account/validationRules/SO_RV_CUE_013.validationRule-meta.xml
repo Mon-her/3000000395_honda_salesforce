@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SO_RV_CUE_013</fullName>
+    <active>true</active>
+    <description>El nombre de la cuenta debe contener letras, número y ser mayor a 2 en cantidad de caracteres.
+SO_RV_CUE_013</description>
+    <errorConditionFormula>AND(
+$User.AO_BypassApex__c = false, 
+LEN( FirstName )&lt;3,
+OR( LEN( Name )&lt;3 ,
+ISNUMBER(Name))
+)</errorConditionFormula>
+    <errorMessage>El nombre de la cuenta debe contener letras, número y ser mayor a 2 en cantidad de caracteres.</errorMessage>
+</ValidationRule>

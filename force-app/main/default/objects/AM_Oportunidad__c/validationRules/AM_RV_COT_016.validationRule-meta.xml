@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_016</fullName>
+    <active>true</active>
+    <description>Se valida si la suma del Valor cuota inicial y Valor descuento es mayor al precio de lista del producto.
+AM_RV_COT_016</description>
+    <errorConditionFormula>AND
+(  $User.AO_BypassApex__c = false, 
+	RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+	AM_Precio_de_lista__c &gt; 0,
+	(AM_Valor_cuota_inicial__c + AM_Valor_descuento__c) &gt; AM_Modelo_de_interes__r.AM_Precio_de_lista__c
+)</errorConditionFormula>
+    <errorMessage>AM-RV-COT-016: La suma de la cuota Inicial y descuento no puede ser mayor al precio de lista.</errorMessage>
+</ValidationRule>

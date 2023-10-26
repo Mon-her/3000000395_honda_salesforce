@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Vitrina_2_Renting__c</fullName>
+    <externalId>false</externalId>
+    <label>Vitrina.</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AUTOCORAL</fullName>
+                <default>false</default>
+                <label>AUTOCORAL</label>
+            </value>
+            <value>
+                <fullName>AUTOLAUREL</fullName>
+                <default>false</default>
+                <label>AUTOLAUREL</label>
+            </value>
+            <value>
+                <fullName>AUTOCIPRES USAQUEN</fullName>
+                <default>false</default>
+                <label>AUTOCIPRES USAQUEN</label>
+            </value>
+            <value>
+                <fullName>AUTOCEIBA NORTE</fullName>
+                <default>false</default>
+                <label>AUTOCEIBA NORTE</label>
+            </value>
+            <value>
+                <fullName>AUTOPALMA</fullName>
+                <default>false</default>
+                <label>AUTOPALMA</label>
+            </value>
+            <value>
+                <fullName>AUTOGUAYACAN</fullName>
+                <default>false</default>
+                <label>AUTOGUAYACAN</label>
+            </value>
+            <value>
+                <fullName>DISTRIBUIDORES</fullName>
+                <default>false</default>
+                <label>DISTRIBUIDORES</label>
+            </value>
+            <value>
+                <fullName>AUTOCEIBA SUR</fullName>
+                <default>false</default>
+                <label>AUTOCEIBA SUR</label>
+            </value>
+            <value>
+                <fullName>AUTOCEIBA CHIPICHAPE</fullName>
+                <default>false</default>
+                <label>AUTOCEIBA CHIPICHAPE</label>
+            </value>
+            <value>
+                <fullName>AUTOCIPRES 101</fullName>
+                <default>false</default>
+                <label>AUTOCIPRES 101</label>
+            </value>
+            <value>
+                <fullName>AUTOLAUREL CIRCUNVALAR</fullName>
+                <default>false</default>
+                <label>AUTOLAUREL CIRCUNVALAR</label>
+            </value>
+            <value>
+                <fullName>DIST AUTOSAUCE</fullName>
+                <default>false</default>
+                <label>DIST AUTOSAUCE</label>
+            </value>
+            <value>
+                <fullName>DIST LOS COCHES</fullName>
+                <default>false</default>
+                <label>DIST LOS COCHES</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

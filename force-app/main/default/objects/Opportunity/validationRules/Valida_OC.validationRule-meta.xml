@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_OC</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT(ISBLANK( N_mero_O_C__c)), NOT(REGEX(TEXT(N_mero_O_C__c),&quot;\\b\\d{3,5}\\b&quot;)) )</errorConditionFormula>
+    <errorMessage>Los Números O.C deben tener entre 3 y 5 dígitos.</errorMessage>
+</ValidationRule>

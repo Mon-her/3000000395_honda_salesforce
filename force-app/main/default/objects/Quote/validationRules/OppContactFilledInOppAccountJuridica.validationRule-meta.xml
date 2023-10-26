@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OppContactFilledInOppAccountJuridica</fullName>
+    <active>true</active>
+    <errorConditionFormula>Opportunity.RecordType.Name ==&apos;Oportunidad Autos&apos; &amp;&amp; !Opportunity.Account.IsPersonAccount &amp;&amp; Opportunity.Contacto__c == null</errorConditionFormula>
+    <errorMessage>El Contacto en la Oportunidad debe ser ingresado antes de crear una nueva Cotización!</errorMessage>
+</ValidationRule>

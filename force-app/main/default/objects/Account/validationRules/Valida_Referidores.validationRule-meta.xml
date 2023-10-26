@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Referidores</fullName>
+    <active>true</active>
+    <description>Impide que se añada referidor lead y referidor cuenta al mismo tiempo.</description>
+    <errorConditionFormula>AND( Referidor_Cuenta__c &lt;&gt; null, Referidor_Lead__c &lt;&gt; null)</errorConditionFormula>
+    <errorMessage>Solo puede indicar un referidor, escoja entre Referidor Lead o Referidor Cuenta.</errorMessage>
+</ValidationRule>

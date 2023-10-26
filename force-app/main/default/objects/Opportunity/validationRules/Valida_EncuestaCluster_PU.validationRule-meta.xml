@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_EncuestaCluster_PU</fullName>
+    <active>true</active>
+    <description>Se encarga de validar los campos de la encuesta cluster antes de PU</description>
+    <errorConditionFormula>AND( TEXT(StageName)=&quot;PU&quot;,OR(
+ISBLANK(TEXT(Actividades_a_realizar_en_tiempo_libre__c)),
+ISBLANK(TEXT(Usted_prefiere_un_automovil__c)),
+ISBLANK(TEXT(Para_comprar_un_automovil_usted_primero__c)),
+ISBLANK(TEXT(Usted_ve_su_automovil_como__c)),
+Registro_Migrado__c == false
+))</errorConditionFormula>
+    <errorMessage>Verificar la sección de encuesta cluster, todos sus campos deben estar llenos antes de pasar a PU.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Cargo__c</fullName>
+    <externalId>false</externalId>
+    <label>Cargo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gerente administrativo y Financiero</fullName>
+                <default>false</default>
+                <label>Gerente administrativo y Financiero</label>
+            </value>
+            <value>
+                <fullName>Gerente de bienestar</fullName>
+                <default>false</default>
+                <label>Gerente de bienestar</label>
+            </value>
+            <value>
+                <fullName>Gerente de compras</fullName>
+                <default>false</default>
+                <label>Gerente de compras</label>
+            </value>
+            <value>
+                <fullName>Gerente de mercadeo</fullName>
+                <default>false</default>
+                <label>Gerente de mercadeo</label>
+            </value>
+            <value>
+                <fullName>Gerente de recursos humanos</fullName>
+                <default>false</default>
+                <label>Gerente de recursos humanos</label>
+            </value>
+            <value>
+                <fullName>Gerente de ventas</fullName>
+                <default>false</default>
+                <label>Gerente de ventas</label>
+            </value>
+            <value>
+                <fullName>Jefe de compras</fullName>
+                <default>false</default>
+                <label>Jefe de compras</label>
+            </value>
+            <value>
+                <fullName>Jefe de recursos humanos</fullName>
+                <default>false</default>
+                <label>Jefe de recursos humanos</label>
+            </value>
+            <value>
+                <fullName>Otro</fullName>
+                <default>false</default>
+                <label>Otro</label>
+            </value>
+            <value>
+                <fullName>Pagador</fullName>
+                <default>false</default>
+                <label>Pagador</label>
+            </value>
+            <value>
+                <fullName>Propietario dueño de empresa</fullName>
+                <default>false</default>
+                <label>Propietario dueño de empresa</label>
+            </value>
+            <value>
+                <fullName>Representante legal</fullName>
+                <default>true</default>
+                <label>Representante legal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pendiente_Aprobar_PC</fullName>
+    <active>true</active>
+    <description>Cuando el campo Pendiente por aprobar PC tiene un valor mayor a 0 se impedirá la sincronización de la Cotización con la Oportunidad</description>
+    <errorConditionFormula>AND( RecordType.Name = &quot;Cotizaciones Autos&quot;, Pendiente_por_aprobar_PC__c &gt; 0,  IsSyncing = TRUE)</errorConditionFormula>
+    <errorMessage>Se debe solicitar aprobación para poder sincronizar esta cotización</errorMessage>
+</ValidationRule>

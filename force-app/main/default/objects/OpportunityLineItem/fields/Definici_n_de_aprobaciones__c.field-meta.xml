@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Definici_n_de_aprobaciones__c</fullName>
+    <externalId>false</externalId>
+    <label>Definición de aprobaciones</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No necesita</fullName>
+                <default>false</default>
+                <label>No necesita</label>
+            </value>
+            <value>
+                <fullName>Aprobado</fullName>
+                <default>false</default>
+                <label>Aprobado</label>
+            </value>
+            <value>
+                <fullName>Lista de precios gerencial</fullName>
+                <default>false</default>
+                <label>Lista de precios gerencial</label>
+            </value>
+            <value>
+                <fullName>Hasta 10% LP gerencial</fullName>
+                <default>false</default>
+                <label>Hasta 10% LP gerencial</label>
+            </value>
+            <value>
+                <fullName>Mayor al 10% sobre precio de lista</fullName>
+                <default>false</default>
+                <label>Mayor al 10% sobre precio de lista</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

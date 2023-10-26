@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_TAR_005</fullName>
+    <active>false</active>
+    <description>Si la categoria de negocio es P3 la fecha de seguimiento no puede ser mayor a 10 dias.
+AM_RV_TAR_005</description>
+    <errorConditionFormula>AND
+( 
+ Categoria_Oportunidad_NegocioL__c  = &quot;P3&quot;,
+  ActivityDate &gt; DATEVALUE( CreatedDate ) +10 
+  
+)</errorConditionFormula>
+    <errorDisplayField>ActivityDate</errorDisplayField>
+    <errorMessage>Si la categoria de negocio es P3 la fecha de seguimiento no puede ser mayor a 10 dias.
+AM_RV_TAR_005</errorMessage>
+</ValidationRule>

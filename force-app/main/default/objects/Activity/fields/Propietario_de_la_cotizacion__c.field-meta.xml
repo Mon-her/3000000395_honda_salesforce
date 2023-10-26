@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Propietario_de_la_cotizacion__c</fullName>
+    <externalId>false</externalId>
+    <formula>AM_Traer_informacion_Cotizaci_n__r.Owner:User.Username</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Propietario de la cotizacion</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

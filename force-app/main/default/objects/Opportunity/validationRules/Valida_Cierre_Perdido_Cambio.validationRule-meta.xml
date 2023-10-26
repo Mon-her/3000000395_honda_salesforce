@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Cierre_Perdido_Cambio</fullName>
+    <active>true</active>
+    <description>Valida que una oportunidad marcada perdida no se le pueda modificar la etapa.</description>
+    <errorConditionFormula>/*
+AND(ISCHANGED( StageName ), TEXT(PRIORVALUE(StageName))=&quot;Perdida&quot;)
+*/
+AND(ISCHANGED( StageName ), TEXT(PRIORVALUE(StageName))=&quot;Perdida&quot;, 
+$Profile.Name &lt;&gt; &quot;Administrador del sistema&quot;, $Profile.Name &lt;&gt; &quot;Integraciones&quot;  )</errorConditionFormula>
+    <errorMessage>No se puede alterar la etapa de una oportunidad perdida.</errorMessage>
+</ValidationRule>

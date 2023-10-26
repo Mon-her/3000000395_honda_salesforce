@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_013</fullName>
+    <active>true</active>
+    <description>El valor del SOAT no puede ser mayor a $15,000,000.
+AM_RV_COT_013</description>
+    <errorConditionFormula>AND
+(  $User.AO_BypassApex__c = false, 
+	RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+	OR
+	(
+		AM_Valor_SOAT__c &gt; 15000000,
+		AM_Valor_SOAT__c &lt; 0
+	)
+)</errorConditionFormula>
+    <errorDisplayField>AM_Valor_SOAT__c</errorDisplayField>
+    <errorMessage>El valor del SOAT no puede ser mayor a $15,000,000.
+AM_RV_COT_013</errorMessage>
+</ValidationRule>

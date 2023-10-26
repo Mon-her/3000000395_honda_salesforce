@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Recibo_de_caja__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Debe registrar el recibo de caja RC#######, ejemplo RC000356, o la palabra CARTA100%.</inlineHelpText>
+    <label>Recibo de caja</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

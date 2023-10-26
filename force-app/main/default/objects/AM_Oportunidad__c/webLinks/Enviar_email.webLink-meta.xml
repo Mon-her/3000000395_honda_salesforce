@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enviar_email</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Enviar email</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>location.replace(&apos;/email/author/emailauthor.jsp?retURL=/{!AM_Oportunidad__c.Id}&amp;p3_lkid={!AM_Oportunidad__c.Id}&amp;rtype=003&amp;p2_lkid={!AM_Oportunidad__c.AM_Correo_electronico_enviar_cotizacion__c }&amp;template_id=00X1N000000kYdH&apos;);</url>
+</WebLink>

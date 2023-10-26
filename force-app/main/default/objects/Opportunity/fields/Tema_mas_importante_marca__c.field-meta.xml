@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tema_mas_importante_marca__c</fullName>
+    <externalId>false</externalId>
+    <label>Tema más importante marca</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Condiciones de financiación</fullName>
+                <default>false</default>
+                <label>Condiciones de financiación</label>
+            </value>
+            <value>
+                <fullName>Duración de los repuestos</fullName>
+                <default>false</default>
+                <label>Duración de los repuestos</label>
+            </value>
+            <value>
+                <fullName>Prestigio de la marca</fullName>
+                <default>false</default>
+                <label>Prestigio de la marca</label>
+            </value>
+            <value>
+                <fullName>Calidad</fullName>
+                <default>false</default>
+                <label>Calidad</label>
+            </value>
+            <value>
+                <fullName>Ecológico / Medio Ambiente</fullName>
+                <default>false</default>
+                <label>Ecológico / Medio Ambiente</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

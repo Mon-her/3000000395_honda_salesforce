@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MC_RV_COT_082</fullName>
+    <active>true</active>
+    <description>Debe seleccionar la razón de no compra PSP
+MC_RV_COT_082</description>
+    <errorConditionFormula>AND
+(
+ $User.AO_BypassApex__c = false, 
+NOT(BEGINS($Profile.Name, &quot;Administrador del sistema&quot;)),
+NOT(BEGINS($Profile.Name, &quot;Administrador de mercadeo&quot;)),
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+TEXT(AM_Etapa__c) = &quot;PSP&quot;,
+OR(
+ISBLANK(TEXT(AM_Razon_para_no_comprar__c))
+
+
+))</errorConditionFormula>
+    <errorDisplayField>AM_Razon_para_no_comprar__c</errorDisplayField>
+    <errorMessage>Debe seleccionar la razón de no compra.
+MC_RV_COT_082</errorMessage>
+</ValidationRule>

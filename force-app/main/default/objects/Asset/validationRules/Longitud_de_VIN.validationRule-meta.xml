@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Longitud_de_VIN</fullName>
+    <active>false</active>
+    <description>La longitud del campo VIN debe ser de 6 caracteres máximo.</description>
+    <errorConditionFormula>LEN( VIN__c ) &gt; 6</errorConditionFormula>
+    <errorDisplayField>VIN__c</errorDisplayField>
+    <errorMessage>La longitud del campo VIN debe ser de 6 caracteres máximo</errorMessage>
+</ValidationRule>

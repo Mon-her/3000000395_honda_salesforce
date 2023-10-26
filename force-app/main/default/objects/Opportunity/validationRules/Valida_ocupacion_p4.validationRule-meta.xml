@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_ocupacion_p4</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( TEXT(StageName)=&quot;P4&quot;, ISBLANK( TEXT(Account.AM_Ocupacion_pc__c )),   CONTAINS(Account.RecordType.Name, &quot;Natural&quot;)  )</errorConditionFormula>
+    <errorMessage>La cuenta relacionada a esta oportunidad no tiene diligenciado el campo ocupación, favor verificar antes de continuar.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RecallCerradosinEstadoCita</fullName>
+    <active>true</active>
+    <errorConditionFormula>RecordType.DeveloperName = &apos;Motos_Recall&apos; &amp;&amp;  IsClosed &amp;&amp;   ISBLANK(Text(Estado_cita_recall__c))</errorConditionFormula>
+    <errorDisplayField>Estado_cita_recall__c</errorDisplayField>
+    <errorMessage>Debe indicar si el cliente asistió a la cita o no</errorMessage>
+</ValidationRule>

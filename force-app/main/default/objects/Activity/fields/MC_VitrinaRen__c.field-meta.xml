@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MC_VitrinaRen__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(AM_Traer_informacion_Cotizaci_n__r.AM_Vitrina_2_Renting__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Vitrina.</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://login.windows.net/common/oauth2/authorize</authorizeUrl>
+    <consumerKey>112d60f9-09a9-45e1-9c62-8c2870f92238</consumerKey>
+    <consumerSecret>Placeholder_Value</consumerSecret>
+    <executionUser>saojeda2@fanalca.com.test2</executionUser>
+    <friendlyName>UsuarioOffice365</friendlyName>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>OpenIdConnect</providerType>
+    <registrationHandler>SocialRegHandler</registrationHandler>
+    <sendAccessTokenInHeader>true</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+    <tokenUrl>https://login.windows.net/common/oauth2/token</tokenUrl>
+    <userInfoUrl>https://login.windows.net/common/openid/userinfo</userInfoUrl>
+</AuthProvider>

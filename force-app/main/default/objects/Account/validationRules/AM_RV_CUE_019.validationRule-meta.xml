@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_CUE_019</fullName>
+    <active>false</active>
+    <description>El correo es obligatorio cuando se autoriza el contacto via correo electronico
+AM_RV_CUE_019</description>
+    <errorConditionFormula>AND(
+ RecordType.Name &lt;&gt; &quot;Persona Juridica&quot;, 
+ ISBLANK( PersonEmail ) ,
+ PersonHasOptedOutOfEmail  = False
+)</errorConditionFormula>
+    <errorMessage>El correo es obligatorio cuando se autoriza el contacto via correo electronico
+AM_RV_019</errorMessage>
+</ValidationRule>

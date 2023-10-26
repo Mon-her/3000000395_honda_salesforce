@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_005</fullName>
+    <active>true</active>
+    <description>Debe registrar la placa de retoma del automovil o el recibo de caja para fijar la cotización como P4.
+AM_RV_COT_005</description>
+    <errorConditionFormula>AND
+(   $User.AO_BypassApex__c = false, 
+    NOT(BEGINS($Profile.Name, &quot;Administrador del sistema&quot;)),
+ TEXT(AM_Tipo_de_cotizacion__c ) &lt;&gt; &quot;Renting&quot;,
+	RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+	TEXT(AM_Etapa__c) = &quot;P4&quot;,
+   AND( 	
+         ISBLANK(AM_Otro_Placa__c ),
+         ISBLANK( AM_Recibo_de_caja__c  )
+
+))</errorConditionFormula>
+    <errorDisplayField>AM_Etapa__c</errorDisplayField>
+    <errorMessage>Debe registrar la placa de retoma del automovil o el recibo de caja para fijar la cotización como P4.
+AM_RV_COT_005</errorMessage>
+</ValidationRule>

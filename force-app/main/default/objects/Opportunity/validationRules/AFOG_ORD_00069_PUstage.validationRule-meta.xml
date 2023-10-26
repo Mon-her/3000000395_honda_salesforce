@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AFOG_ORD_00069_PUstage</fullName>
+    <active>true</active>
+    <description>Regla de validación en el objeto de oportunidad que se encarga de validar que los campos VIN y Vehículo Nuevo/Renting, estén llenos cuando se quiera parar a la etapa PU.</description>
+    <errorConditionFormula>AND(  RecordType_Name__c =&apos;Oportunidad Autos&apos;, OR(  ISBLANK(Vehiculo__c ) ,  ISBLANK(VIN__c) ), OR(ISPICKVAL( StageName , &apos;PU&apos;),ISPICKVAL( StageName , &apos;P5&apos;))  )</errorConditionFormula>
+    <errorMessage>Es obligatorio llenar los campos  &quot;Vehículo Nuevo/Renting&quot; y &quot;Vin&quot; para pasar a la etapa PU</errorMessage>
+</ValidationRule>

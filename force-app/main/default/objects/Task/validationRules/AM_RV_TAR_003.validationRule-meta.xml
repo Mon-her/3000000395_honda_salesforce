@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_TAR_003</fullName>
+    <active>false</active>
+    <description>No Modificar</description>
+    <errorConditionFormula>ISCHANGED( WhatId )</errorConditionFormula>
+    <errorDisplayField>WhatId</errorDisplayField>
+    <errorMessage>No se debe modificar el numero de cotización, ni cambiar por cuenta.
+AM_RV_TAR_003</errorMessage>
+</ValidationRule>

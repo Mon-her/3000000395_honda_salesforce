@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Crear_Opp_con_Account_No_Validada</fullName>
+    <active>false</active>
+    <description>Valida que la cuenta tenga validado el correo y el celular si es person account.</description>
+    <errorConditionFormula>( Account.IsPersonAccount &amp;&amp; !ISBLANK(Account.PersonMobilePhone) &amp;&amp; !Account.Telefono_Validado__c) 
+|| (Account.IsPersonAccount &amp;&amp; !ISBLANK( Account.PersonEmail) &amp;&amp; !Account.Email_Validado__c)</errorConditionFormula>
+    <errorMessage>Debe Validar la Cuenta antes de crear la oportunidad</errorMessage>
+</ValidationRule>

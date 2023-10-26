@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SO_RV_COT_005c</fullName>
+    <active>true</active>
+    <description>Debe solicitar la creacion de cliente para facturar, en la cuenta seleccione SI en el campo CREACION CLIENTE PARA FACTURAR.</description>
+    <errorConditionFormula>AND
+(
+$User.AO_BypassApex__c = false, 
+RecordType.Name = &quot;Cotizacion Persona Natural&quot;,
+TEXT(AM_Propietario_motocicleta__r.Creacion_cliente_para_facturacion__c) &lt;&gt; &quot;SI&quot;,
+TEXT(AM_Etapa__c)=&quot;P4&quot;
+)</errorConditionFormula>
+    <errorDisplayField>AM_Etapa__c</errorDisplayField>
+    <errorMessage>Debe solicitar la creacion de cliente para facturar, en la cuenta seleccione SI en el campo CREACION CLIENTE PARA FACTURAR.
+
+SO_RV_COT_005c</errorMessage>
+</ValidationRule>

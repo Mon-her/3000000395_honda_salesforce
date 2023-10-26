@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Forma_de_pago__c</fullName>
+    <externalId>false</externalId>
+    <label>Forma de pago</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Tipo_de_Oportunidad__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contado</fullName>
+                <default>false</default>
+                <label>Contado</label>
+            </value>
+            <value>
+                <fullName>Credito / Leasing</fullName>
+                <default>false</default>
+                <label>Credito / Leasing</label>
+            </value>
+            <value>
+                <fullName>Credito/Leasing + Contado</fullName>
+                <default>false</default>
+                <label>Credito/Leasing + Contado</label>
+            </value>
+            <value>
+                <fullName>Contado + Retoma</fullName>
+                <default>false</default>
+                <label>Contado + Retoma</label>
+            </value>
+            <value>
+                <fullName>Crédito / Leasing + Retoma</fullName>
+                <default>false</default>
+                <label>Crédito / Leasing + Retoma</label>
+            </value>
+            <value>
+                <fullName>Contado + Crédito + Retoma</fullName>
+                <default>false</default>
+                <label>Contado + Crédito + Retoma</label>
+            </value>
+            <value>
+                <fullName>101 - Contado</fullName>
+                <default>false</default>
+                <label>101 - Contado</label>
+            </value>
+            <value>
+                <fullName>102 - Crédito Progreser (FORMATO TIPO CREDITO)</fullName>
+                <default>false</default>
+                <label>102 - Crédito Progreser (FORMATO TIPO CREDITO)</label>
+            </value>
+            <value>
+                <fullName>103 - Cartera Propia</fullName>
+                <default>false</default>
+                <label>103 - Cartera Propia</label>
+            </value>
+            <value>
+                <fullName>104 - Negocios Especiales</fullName>
+                <default>false</default>
+                <label>104 - Negocios Especiales</label>
+            </value>
+            <value>
+                <fullName>105 - Otras Financieras (FORMATO TIPO CRÉDITO)</fullName>
+                <default>false</default>
+                <label>105 - Otras Financieras (FORMATO TIPO CRÉDITO)</label>
+            </value>
+            <value>
+                <fullName>107 - E-commerce&quot;</fullName>
+                <default>false</default>
+                <label>107 - E-commerce&quot;</label>
+            </value>
+            <value>
+                <fullName>Renting</fullName>
+                <default>false</default>
+                <label>Renting</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Nuevos</controllingFieldValue>
+            <controllingFieldValue>Usados</controllingFieldValue>
+            <valueName>Contado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nuevos</controllingFieldValue>
+            <controllingFieldValue>Usados</controllingFieldValue>
+            <valueName>Credito / Leasing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nuevos</controllingFieldValue>
+            <controllingFieldValue>Usados</controllingFieldValue>
+            <valueName>Credito/Leasing + Contado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nuevos</controllingFieldValue>
+            <controllingFieldValue>Usados</controllingFieldValue>
+            <valueName>Contado + Retoma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nuevos</controllingFieldValue>
+            <controllingFieldValue>Usados</controllingFieldValue>
+            <valueName>Crédito / Leasing + Retoma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nuevos</controllingFieldValue>
+            <controllingFieldValue>Usados</controllingFieldValue>
+            <valueName>Contado + Crédito + Retoma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Renting</controllingFieldValue>
+            <valueName>Renting</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

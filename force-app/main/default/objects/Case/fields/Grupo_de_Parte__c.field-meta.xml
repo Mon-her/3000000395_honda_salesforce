@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grupo_de_Parte__c</fullName>
+    <externalId>false</externalId>
+    <label>Grupo de Parte</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CHASIS</fullName>
+                <default>false</default>
+                <label>CHASIS</label>
+            </value>
+            <value>
+                <fullName>MOTOR</fullName>
+                <default>false</default>
+                <label>MOTOR</label>
+            </value>
+            <value>
+                <fullName>CARBURADOR</fullName>
+                <default>false</default>
+                <label>CARBURADOR</label>
+            </value>
+            <value>
+                <fullName>ELECTRICO</fullName>
+                <default>false</default>
+                <label>ELECTRICO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

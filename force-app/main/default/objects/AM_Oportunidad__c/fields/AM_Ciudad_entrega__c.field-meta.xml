@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Ciudad_entrega__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Ciudad entrega</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Ciudad entrega</inlineHelpText>
+    <label>Ciudad entrega</label>
+    <referenceTo>AM_Municipio__c</referenceTo>
+    <relationshipLabel>Cotizaciones</relationshipLabel>
+    <relationshipName>Cotizaciones</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

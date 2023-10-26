@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_CUE_014</fullName>
+    <active>false</active>
+    <description>Si tiene 4 hijos debe diligenciar la información de primer hijo, segundo hijo, tercer hijo y cuarto hijo.
+AM_RV_CUE_014</description>
+    <errorConditionFormula>AND
+(
+	
+            TEXT(Tiene_hijos__pc )=&quot;4&quot;,
+OR (
+
+
+	ISBLANK ( AM_Primer_Nombre_Hijo_1__pc ),
+	ISBLANK( AM_Primer_Apellido_Hijo_1__pc) ,
+	ISBLANK ( TEXT (AM_Depende_economicamente_de_usted_Hijo1__pc )),
+        ISBLANK ( TEXT(AM_Genero_Hijo1__pc )),
+ISBLANK ( AM_Primer_Nombre_Hijo_2__pc ),
+	ISBLANK( AM_Primer_Apellido_Hijo_2__pc) ,
+	ISBLANK ( TEXT (AM_Depende_economicamente_de_usted_Hijo2__pc )),
+        ISBLANK ( TEXT(AM_Genero_Hijo2__pc )),
+ISBLANK ( AM_Primer_Nombre_Hijo_3__pc ),
+	ISBLANK( AM_Primer_Apellido_Hijo_3__pc) ,
+	ISBLANK ( TEXT (AM_Depende_economicamente_de_usted_Hijo3__pc )),
+        ISBLANK ( TEXT(AM_Genero_Hijo3__pc )),
+ISBLANK ( AM_Primer_Nombre_Hijo_4__pc ),
+	ISBLANK( AM_Primer_Apellido_Hijo_4__pc) ,
+	ISBLANK ( TEXT (AM_Depende_economicamente_de_usted_Hijo4__pc )),
+        ISBLANK ( TEXT(AM_Genero_Hijo4__pc ))
+))</errorConditionFormula>
+    <errorDisplayField>Tiene_hijos__pc</errorDisplayField>
+    <errorMessage>Si tiene 4 hijos debe diligenciar la información de primer hijo, segundo hijo, tercer hijo y cuarto hijo.
+AM_RV_CUE_014</errorMessage>
+</ValidationRule>

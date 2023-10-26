@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Rango_de_edad__c</fullName>
+    <externalId>false</externalId>
+    <label>Rango de edad</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Menor 31 años</fullName>
+                <default>false</default>
+                <label>Menor 31 años</label>
+            </value>
+            <value>
+                <fullName>Entre 31 y 40</fullName>
+                <default>false</default>
+                <label>Entre 31 y 40</label>
+            </value>
+            <value>
+                <fullName>Entre 41 y 50</fullName>
+                <default>false</default>
+                <label>Entre 41 y 50</label>
+            </value>
+            <value>
+                <fullName>Entre 51 y 60</fullName>
+                <default>false</default>
+                <label>Entre 51 y 60</label>
+            </value>
+            <value>
+                <fullName>Mayor de 60</fullName>
+                <default>false</default>
+                <label>Mayor de 60</label>
+            </value>
+            <value>
+                <fullName>Sin fecha nacimiento</fullName>
+                <default>false</default>
+                <label>Sin fecha nacimiento</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

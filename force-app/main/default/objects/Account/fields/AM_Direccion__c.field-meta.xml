@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Direccion__c</fullName>
+    <description>Req. ID AM-006. Concatenación de campos para obtener la dirección.</description>
+    <externalId>false</externalId>
+    <formula>/*
+TRIM(TEXT(AM_Via_principal__c) &amp;IF(ISNULL(AM_Numero_via_principal__c),&quot;&quot;,&quot; &quot;)&amp; TEXT(AM_Numero_via_principal__c) &amp; AM_Literal_via_principal__c &amp; IF(AM_BIS__c = true, &quot; BIS&quot;, &quot;&quot;) &amp; IF(ISNULL(TEXT(AM_Orientacion_via_principal__c)),&quot;&quot;,&quot; &quot;) &amp; TEXT(AM_Orientacion_via_principal__c) &amp; IF(ISNULL(AM_Numero_via_secundaria__c),&quot;&quot;,&quot; &quot;) &amp; TEXT(AM_Numero_via_secundaria__c) &amp; IF(ISNULL(AM_Literal_via_secundaria__c ),&quot;&quot;,&quot; &quot;) &amp; AM_Literal_via_secundaria__c &amp; IF(AM_BIS2__c = true, &quot; BIS&quot;, &quot;&quot;) &amp; IF(ISNULL(TEXT(AM_Orientacion_via_secundaria__c)),&quot;&quot;,&quot; &quot;) &amp; TEXT(AM_Orientacion_via_secundaria__c) &amp;IF(ISNULL(AM_ID_cuadra__c ),&quot;&quot;,&quot; &quot;)&amp; AM_ID_cuadra__c &amp; IF(ISNULL(TEXT(Prefijo_Complemento__c )),&quot;&quot;,&quot; &quot;)&amp;TEXT(Prefijo_Complemento__c)&amp;IF(ISNULL(AM_Complemento__c),&quot;&quot;,&quot; &quot;) &amp; AM_Complemento__c&amp;IF(ISNULL( AM_Barrio__c ),&quot;&quot;,&quot; &quot;) &amp;AM_Barrio__c)
+*/
+substitute( SUBSTITUTE( 
+TRIM(TEXT(AM_Via_principal__c) &amp; &quot; &quot; &amp; TEXT(AM_Numero_via_principal__c) &amp; AM_Literal_via_principal__c &amp; &quot; &quot; &amp; IF(AM_BIS__c = true, &quot;BIS&quot;, &quot;&quot;) &amp; &quot; &quot; &amp; TEXT(AM_Orientacion_via_principal__c) &amp; &quot; &quot; &amp; TEXT(AM_Numero_via_secundaria__c) &amp; &quot; &quot; &amp; AM_Literal_via_secundaria__c &amp; &quot; &quot; &amp; IF(AM_BIS2__c = true, &quot;BIS&quot;, &quot;&quot;) &amp; &quot; &quot; &amp; TEXT(AM_Orientacion_via_secundaria__c) &amp;&quot; &quot;&amp; AM_ID_cuadra__c &amp; &quot; &quot; &amp; AM_Complemento__c)
+,&apos;  &apos;,&apos; &apos;)
+,&apos;  &apos;,&apos; &apos;)</formula>
+    <label>Dirección</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

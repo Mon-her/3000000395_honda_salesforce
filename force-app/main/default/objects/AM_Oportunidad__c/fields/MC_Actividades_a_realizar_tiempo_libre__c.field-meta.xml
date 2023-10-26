@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MC_Actividades_a_realizar_tiempo_libre__c</fullName>
+    <externalId>false</externalId>
+    <label>¿Actividades a realizar en tiempo libre?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Salir con la familia</fullName>
+                <default>false</default>
+                <label>Salir con la familia</label>
+            </value>
+            <value>
+                <fullName>Salir con amigos</fullName>
+                <default>false</default>
+                <label>Salir con amigos</label>
+            </value>
+            <value>
+                <fullName>Salir y estar rodeado de naturaleza</fullName>
+                <default>false</default>
+                <label>Salir y estar rodeado de naturaleza</label>
+            </value>
+            <value>
+                <fullName>Ir a sitios VIP (restaurantes, bares, etc.)</fullName>
+                <default>false</default>
+                <label>Ir a sitios VIP (restaurantes, bares, etc.)</label>
+            </value>
+            <value>
+                <fullName>Estar en casa</fullName>
+                <default>false</default>
+                <label>Estar en casa</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

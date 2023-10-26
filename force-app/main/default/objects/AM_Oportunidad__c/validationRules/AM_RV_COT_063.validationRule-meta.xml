@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_063</fullName>
+    <active>true</active>
+    <description>La cotizacion debe estar en P4 o P5 antes de pasar a PU. 
+AM_RV_COT_063</description>
+    <errorConditionFormula>AND 
+( 
+  $User.AO_BypassApex__c = false, 
+NOT(BEGINS($Profile.Name, &quot;Administrador del sistema&quot;)),
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;, 
+ISCHANGED(AM_Etapa__c) , 
+AND( 
+ISPICKVAL(AM_Etapa__c , &quot;PU&quot;), 
+NOT(ISPICKVAL( PRIORVALUE( AM_Etapa__c ), &quot;P4&quot;)),
+NOT(ISPICKVAL( PRIORVALUE( AM_Etapa__c ), &quot;P5&quot;))
+
+))</errorConditionFormula>
+    <errorDisplayField>AM_Etapa__c</errorDisplayField>
+    <errorMessage>La cotizacion debe estar en P4 o P5 antes de pasar a PU. 
+AM_RV_COT_063</errorMessage>
+</ValidationRule>

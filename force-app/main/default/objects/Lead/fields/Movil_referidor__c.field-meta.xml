@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Movil_referidor__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Referidor_Cuenta__c &lt;&gt; null,   Referidor_Cuenta__r.Phone, IF( Referidor_Lead__c &lt;&gt; null,   Referidor_Lead__r.MobilePhone  , null))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Móvil referidor</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MC_sus_intereses_giran_en_t__c</fullName>
+    <externalId>false</externalId>
+    <label>¿Sus intereses giran en torno a?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Artículos para el hogar, Belleza, Supermercados</fullName>
+                <default>false</default>
+                <label>Artículos para el hogar, Belleza, Supermercados</label>
+            </value>
+            <value>
+                <fullName>Decoración / Hogar / Remodelación, Mayoristas / Más por menos, Viajes, Ropa y zapatos</fullName>
+                <default>false</default>
+                <label>Decoración / Hogar / Remodelación, Mayoristas / Más por menos, Viajes, Ropa y zapatos</label>
+            </value>
+            <value>
+                <fullName>Tecnología funcional, Cocina práctica, Licores (Whisky), Descuentos online, Ropa de mujer, Joyería / Relojería</fullName>
+                <default>false</default>
+                <label>Tecnología funcional, Cocina práctica, Licores (Whisky), Descuentos online, Ropa de mujer, Joyería / Relojería</label>
+            </value>
+            <value>
+                <fullName>Cocina gourmet, Farándula, Moda y estilo, Compras online, Vida nocturna, Agencia de viajes, Tecnología, Tendencias</fullName>
+                <default>false</default>
+                <label>Cocina gourmet, Farándula, Moda y estilo, Compras online, Vida nocturna, Agencia de viajes, Tecnología, Tendencias</label>
+            </value>
+            <value>
+                <fullName>Salud y bienestar, Causas sociales, Tecnología como estilo de vida</fullName>
+                <default>false</default>
+                <label>Salud y bienestar, Causas sociales, Tecnología como estilo de vida</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

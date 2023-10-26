@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_025</fullName>
+    <active>false</active>
+    <description>Si selecciona el modelo sugerido 1, debe registrar el valor del Soat</description>
+    <errorConditionFormula>AND( 
+    NOT ISBLANK(AM_Modelo_sugerido_1__c ),         
+    ISBLANK( AM_Valor_SOAT_S1__c )
+)</errorConditionFormula>
+    <errorDisplayField>AM_Valor_SOAT_S1__c</errorDisplayField>
+    <errorMessage>AM RV COT 025: Debe registrar el valor del Soat</errorMessage>
+</ValidationRule>

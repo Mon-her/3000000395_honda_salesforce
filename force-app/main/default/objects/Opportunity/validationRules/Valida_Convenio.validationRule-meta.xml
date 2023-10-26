@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Convenio</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( TEXT(Convenio__c )=&quot;Convenio Empresarial&quot;,  ISBLANK( TEXT(Empresa_de_Convenio__c) ) )</errorConditionFormula>
+    <errorDisplayField>Empresa_de_Convenio__c</errorDisplayField>
+    <errorMessage>Seleccionó convenio empresarial pero no determinó la empresa, favor de corregir.</errorMessage>
+</ValidationRule>

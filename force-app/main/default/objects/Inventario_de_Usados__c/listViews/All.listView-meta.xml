@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Agencia__c</columns>
+    <columns>Nombre_De_Producto__c</columns>
+    <columns>Estado_Del_Vehiculo__c</columns>
+    <columns>Precio_Venta__c</columns>
+    <columns>Kilometraje__c</columns>
+    <columns>Fotos_TucarroCom__c</columns>
+    <columns>Vin__c</columns>
+    <columns>Placas__c</columns>
+    <columns>Origen__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Placas__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Estado_Del_Vehiculo__c</field>
+        <operation>notEqual</operation>
+        <value>CONSIG. RETIRADO</value>
+    </filters>
+    <label>Todos</label>
+</ListView>

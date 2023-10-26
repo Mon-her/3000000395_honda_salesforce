@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SO_RV_COT_080</fullName>
+    <active>true</active>
+    <description>Debe llenar el campo PLACA de acuerdo a la cantidad de vehículos, si coloca cantidad 2, debe diligenciar dos placas separadas por un -
+SO_RV_COT_080</description>
+    <errorConditionFormula>AND
+(
+$User.AO_BypassApex__c = false, 
+	TEXT( AM_Tipo_de_cotizacion__c ) = &quot;Renting&quot;,
+	TEXT( AM_Etapa__c )= &quot;PU&quot;,
+	OR(
+		AND ( 	
+			TEXT(AM_Cantidad_de_vehiculos__c ) = &quot;5&quot;,  NOT(REGEX(  AM_Placa__c  , &apos;[A-Z]{3}[0-9]{3}-[A-Z]{3}[0-9]{3}-[A-Z]{3}[0-9]{3}-[A-Z]{3}[0-9]{3}-[A-Z]{3}[0-9]{3}&apos;))				
+			
+		),
+		AND ( 	
+			TEXT(AM_Cantidad_de_vehiculos__c ) = &quot;4&quot;,  NOT(REGEX( AM_Placa__c , &apos;[A-Z]{3}[0-9]{3}-[A-Z]{3}[0-9]{3}-[A-Z]{3}[0-9]{3}-[A-Z]{3}[0-9]{3}&apos;))				
+			
+		),
+        AND ( 	
+			 TEXT(AM_Cantidad_de_vehiculos__c ) = &quot;3&quot;,  NOT(REGEX( AM_Placa__c , &apos;[A-Z]{3}[0-9]{3}-[A-Z]{3}[0-9]{3}-[A-Z]{3}[0-9]{3}&apos;))	
+			
+		),
+		AND ( 	
+			TEXT(AM_Cantidad_de_vehiculos__c ) = &quot;2&quot;,  NOT(REGEX( AM_Placa__c , &apos;[A-Z]{3}[0-9]{3}-[A-Z]{3}[0-9]{3}&apos;))				
+			
+		),
+		AND ( 	
+			TEXT(AM_Cantidad_de_vehiculos__c ) = &quot;1&quot;,  NOT(REGEX( AM_Placa__c, &apos;[A-Z]{3}[0-9]{3}&apos;))				
+			
+		)
+
+	)
+
+)</errorConditionFormula>
+    <errorDisplayField>AM_Placa__c</errorDisplayField>
+    <errorMessage>Debe llenar el campo PLACA de acuerdo a la cantidad de vehículos, si coloca cantidad 2, debe diligenciar dos placas separadas por un -
+SO_RV_COT_080</errorMessage>
+</ValidationRule>

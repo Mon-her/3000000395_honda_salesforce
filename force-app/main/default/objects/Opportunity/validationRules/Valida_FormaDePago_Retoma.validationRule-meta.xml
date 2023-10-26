@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_FormaDePago_Retoma</fullName>
+    <active>true</active>
+    <description>Hacer obligatorio los siguientes campos: “Marca retoma”, “Versión retoma” y “Modelo retoma”.</description>
+    <errorConditionFormula>AND( RecordType.Name ==&quot;Oportunidad Autos&quot;, TEXT(StageName)=&quot;P4&quot;,
+CONTAINS(TEXT(Forma_de_pago__c), &quot;Retoma&quot;),
+ OR(Marca_retoma__c == null,  Version_retoma__c == null,  Modelo_retoma__c == null)
+)</errorConditionFormula>
+    <errorMessage>Recuerde indicar la Marca, Versión, Modelo Retoma.</errorMessage>
+</ValidationRule>

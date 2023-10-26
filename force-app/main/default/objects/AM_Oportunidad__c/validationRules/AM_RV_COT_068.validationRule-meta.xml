@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_068</fullName>
+    <active>true</active>
+    <description>Debe registrar la Factura en la sección cierre de negocio para fijar la cotización como P5.
+AM_RV_COT_068</description>
+    <errorConditionFormula>AND
+(
+       $User.AO_BypassApex__c = false, 
+IF(
+AND
+(
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+TEXT(AM_Etapa__c) = &quot;P5&quot;,
+MC_Marca_Honda__c =FALSE),
+OR(
+ISBLANK(AM_Numero_de_factura__c ),
+ISBLANK( AM_Fecha_de_factura__c ),
+ISBLANK( AM_Vin__c )
+),
+AND(
+
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+TEXT(AM_Etapa__c) = &quot;P5&quot;,
+MC_Marca_Honda__c &lt;&gt; FALSE,
+
+OR(
+ISBLANK(AM_Numero_de_factura__c ),
+ISBLANK( AM_Fecha_de_factura__c )
+
+))))</errorConditionFormula>
+    <errorDisplayField>AM_Etapa__c</errorDisplayField>
+    <errorMessage>Debe registrar la Factura en la sección cierre de negocio para fijar la cotización como P5.
+AM_RV_COT_068</errorMessage>
+</ValidationRule>

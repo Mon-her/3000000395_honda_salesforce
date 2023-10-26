@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Agencia_de_entrega__c</fullName>
+    <externalId>false</externalId>
+    <label>Agencia de entrega</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Autoalmendro</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Autoalmendro</label>
+            </value>
+            <value>
+                <fullName>Autoceiba</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Autoceiba</label>
+            </value>
+            <value>
+                <fullName>Autocipres 101</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Autocipres 101</label>
+            </value>
+            <value>
+                <fullName>Autocipres Usaquen</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Autocipres Usaquen</label>
+            </value>
+            <value>
+                <fullName>Autocoral</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Autocoral</label>
+            </value>
+            <value>
+                <fullName>Autoguayacan</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Autoguayacan</label>
+            </value>
+            <value>
+                <fullName>Autolaurel</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Autolaurel</label>
+            </value>
+            <value>
+                <fullName>Autolaurel Circunvalar</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Autolaurel Circunvalar</label>
+            </value>
+            <value>
+                <fullName>Autopalma</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Autopalma</label>
+            </value>
+            <value>
+                <fullName>DIST. ALCALA MOTOR BOGOTA</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST. ALCALA MOTOR BOGOTA</label>
+            </value>
+            <value>
+                <fullName>DIST. ALCALA MOTOR TUNJA</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST. ALCALA MOTOR TUNJA</label>
+            </value>
+            <value>
+                <fullName>DIST. ALCALA MOTOR VILLAVICENCIO</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST. ALCALA MOTOR VILLAVICENCIO</label>
+            </value>
+            <value>
+                <fullName>DIST. ARMOTOR ARMENIA</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST. ARMOTOR ARMENIA</label>
+            </value>
+            <value>
+                <fullName>DIST. ARMOTOR MANIZALES</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST. ARMOTOR MANIZALES</label>
+            </value>
+            <value>
+                <fullName>DIST. ARMOTOR PEREIRA</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST. ARMOTOR PEREIRA</label>
+            </value>
+            <value>
+                <fullName>DIST. AUTOACACIO STA. MARTA</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST. AUTOACACIO STA. MARTA</label>
+            </value>
+            <value>
+                <fullName>DIST. AUTOACACIO VALLEDUPAR</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST. AUTOACACIO VALLEDUPAR</label>
+            </value>
+            <value>
+                <fullName>DIST. AUTOARRAYAN</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST. AUTOARRAYAN</label>
+            </value>
+            <value>
+                <fullName>DIST. AUTOCAOBOS</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST. AUTOCAOBOS</label>
+            </value>
+            <value>
+                <fullName>DIST. AUTOCEDRO - COLWAGEN</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST. AUTOCEDRO - COLWAGEN</label>
+            </value>
+            <value>
+                <fullName>DIST. AUTOCHICALA</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST. AUTOCHICALA</label>
+            </value>
+            <value>
+                <fullName>DIST. AUTOSAMAN IBAGUÉ</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST. AUTOSAMAN IBAGUÉ</label>
+            </value>
+            <value>
+                <fullName>DIST. AUTOSAMAN NEIVA</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST. AUTOSAMAN NEIVA</label>
+            </value>
+            <value>
+                <fullName>DIST. AUTOSAMAN - NEIVA</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST. AUTOSAMAN - NEIVA</label>
+            </value>
+            <value>
+                <fullName>DIST AUTOSAKURA</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST AUTOSAKURA</label>
+            </value>
+            <value>
+                <fullName>DIST AUTOSAUCE</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST AUTOSAUCE</label>
+            </value>
+            <value>
+                <fullName>DIST LOS COCHES</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DIST LOS COCHES</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

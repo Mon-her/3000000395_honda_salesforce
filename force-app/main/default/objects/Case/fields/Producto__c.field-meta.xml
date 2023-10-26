@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Producto__c</fullName>
+    <externalId>false</externalId>
+    <label>Producto</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BIZ C 100</fullName>
+                <default>false</default>
+                <label>BIZ C 100</label>
+            </value>
+            <value>
+                <fullName>BIZ C 125</fullName>
+                <default>false</default>
+                <label>BIZ C 125</label>
+            </value>
+            <value>
+                <fullName>BROSS 125 ES</fullName>
+                <default>false</default>
+                <label>BROSS 125 ES</label>
+            </value>
+            <value>
+                <fullName>BROSS 125 KS</fullName>
+                <default>false</default>
+                <label>BROSS 125 KS</label>
+            </value>
+            <value>
+                <fullName>C 70</fullName>
+                <default>false</default>
+                <label>C 70</label>
+            </value>
+            <value>
+                <fullName>C 90</fullName>
+                <default>false</default>
+                <label>C 90</label>
+            </value>
+            <value>
+                <fullName>CB 110</fullName>
+                <default>false</default>
+                <label>CB 110</label>
+            </value>
+            <value>
+                <fullName>CB 125 E</fullName>
+                <default>false</default>
+                <label>CB 125 E</label>
+            </value>
+            <value>
+                <fullName>CBF 125</fullName>
+                <default>false</default>
+                <label>CBF 125</label>
+            </value>
+            <value>
+                <fullName>CBF 150</fullName>
+                <default>false</default>
+                <label>CBF 150</label>
+            </value>
+            <value>
+                <fullName>CBF GP</fullName>
+                <default>false</default>
+                <label>CBF GP</label>
+            </value>
+            <value>
+                <fullName>CBF PREMIUM</fullName>
+                <default>false</default>
+                <label>CBF PREMIUM</label>
+            </value>
+            <value>
+                <fullName>CBF SPORT</fullName>
+                <default>false</default>
+                <label>CBF SPORT</label>
+            </value>
+            <value>
+                <fullName>CBZ 160</fullName>
+                <default>false</default>
+                <label>CBZ 160</label>
+            </value>
+            <value>
+                <fullName>CD 100</fullName>
+                <default>false</default>
+                <label>CD 100</label>
+            </value>
+            <value>
+                <fullName>CD 101</fullName>
+                <default>false</default>
+                <label>CD 101</label>
+            </value>
+            <value>
+                <fullName>ECO 100</fullName>
+                <default>false</default>
+                <label>ECO 100</label>
+            </value>
+            <value>
+                <fullName>ECO100 +</fullName>
+                <default>false</default>
+                <label>ECO100 +</label>
+            </value>
+            <value>
+                <fullName>CD DELUXE</fullName>
+                <default>false</default>
+                <label>CD DELUXE</label>
+            </value>
+            <value>
+                <fullName>ELITE 125 ES</fullName>
+                <default>false</default>
+                <label>ELITE 125 ES</label>
+            </value>
+            <value>
+                <fullName>INVICTA CB 150</fullName>
+                <default>false</default>
+                <label>INVICTA CB 150</label>
+            </value>
+            <value>
+                <fullName>MB 100</fullName>
+                <default>false</default>
+                <label>MB 100</label>
+            </value>
+            <value>
+                <fullName>PASSION</fullName>
+                <default>false</default>
+                <label>PASSION</label>
+            </value>
+            <value>
+                <fullName>PASSION +</fullName>
+                <default>false</default>
+                <label>PASSION +</label>
+            </value>
+            <value>
+                <fullName>HERO HONDA MOTORS</fullName>
+                <default>false</default>
+                <label>HERO HONDA MOTORS</label>
+            </value>
+            <value>
+                <fullName>SPLENDOR +</fullName>
+                <default>false</default>
+                <label>SPLENDOR +</label>
+            </value>
+            <value>
+                <fullName>SPLENDOR FT</fullName>
+                <default>false</default>
+                <label>SPLENDOR FT</label>
+            </value>
+            <value>
+                <fullName>SPLENDOR NXG</fullName>
+                <default>false</default>
+                <label>SPLENDOR NXG</label>
+            </value>
+            <value>
+                <fullName>SPLENDOR NXG ES</fullName>
+                <default>false</default>
+                <label>SPLENDOR NXG ES</label>
+            </value>
+            <value>
+                <fullName>STORM 125</fullName>
+                <default>false</default>
+                <label>STORM 125</label>
+            </value>
+            <value>
+                <fullName>TITAN CG 125</fullName>
+                <default>false</default>
+                <label>TITAN CG 125</label>
+            </value>
+            <value>
+                <fullName>TITAN CG 150</fullName>
+                <default>false</default>
+                <label>TITAN CG 150</label>
+            </value>
+            <value>
+                <fullName>TORNADO XR 250</fullName>
+                <default>false</default>
+                <label>TORNADO XR 250</label>
+            </value>
+            <value>
+                <fullName>TWISTER CBX 250</fullName>
+                <default>false</default>
+                <label>TWISTER CBX 250</label>
+            </value>
+            <value>
+                <fullName>WAVE C 100</fullName>
+                <default>false</default>
+                <label>WAVE C 100</label>
+            </value>
+            <value>
+                <fullName>WAVE II</fullName>
+                <default>false</default>
+                <label>WAVE II</label>
+            </value>
+            <value>
+                <fullName>XL 125</fullName>
+                <default>false</default>
+                <label>XL 125</label>
+            </value>
+            <value>
+                <fullName>XL 185</fullName>
+                <default>false</default>
+                <label>XL 185</label>
+            </value>
+            <value>
+                <fullName>XL 200</fullName>
+                <default>false</default>
+                <label>XL 200</label>
+            </value>
+            <value>
+                <fullName>XLR 125</fullName>
+                <default>false</default>
+                <label>XLR 125</label>
+            </value>
+            <value>
+                <fullName>XR 125 L</fullName>
+                <default>false</default>
+                <label>XR 125 L</label>
+            </value>
+            <value>
+                <fullName>XR 200</fullName>
+                <default>false</default>
+                <label>XR 200</label>
+            </value>
+            <value>
+                <fullName>ECO DELUXE EURO II</fullName>
+                <default>false</default>
+                <label>ECO DELUXE EURO II</label>
+            </value>
+            <value>
+                <fullName>SPLENDOR NXG EURO II</fullName>
+                <default>false</default>
+                <label>SPLENDOR NXG EURO II</label>
+            </value>
+            <value>
+                <fullName>CBR 250</fullName>
+                <default>false</default>
+                <label>CBR 250</label>
+            </value>
+            <value>
+                <fullName>CB 1</fullName>
+                <default>false</default>
+                <label>CB 1</label>
+            </value>
+            <value>
+                <fullName>XR 125L BRIO</fullName>
+                <default>false</default>
+                <label>XR 125L BRIO</label>
+            </value>
+            <value>
+                <fullName>CB 125 E POWER SPORT</fullName>
+                <default>false</default>
+                <label>CB 125 E POWER SPORT</label>
+            </value>
+            <value>
+                <fullName>INVICTA CB 150 II</fullName>
+                <default>false</default>
+                <label>INVICTA CB 150 II</label>
+            </value>
+            <value>
+                <fullName>WAVE 110</fullName>
+                <default>false</default>
+                <label>WAVE 110</label>
+            </value>
+            <value>
+                <fullName>ELITE +</fullName>
+                <default>false</default>
+                <label>ELITE +</label>
+            </value>
+            <value>
+                <fullName>CLICK 125</fullName>
+                <default>false</default>
+                <label>CLICK 125</label>
+            </value>
+            <value>
+                <fullName>XR 150 L</fullName>
+                <default>false</default>
+                <label>XR 150 L</label>
+            </value>
+            <value>
+                <fullName>XRE 300</fullName>
+                <default>false</default>
+                <label>XRE 300</label>
+            </value>
+            <value>
+                <fullName>DREAM NEO</fullName>
+                <default>false</default>
+                <label>DREAM NEO</label>
+            </value>
+            <value>
+                <fullName>CB190R</fullName>
+                <default>false</default>
+                <label>CB190R</label>
+            </value>
+            <value>
+                <fullName>DIO110</fullName>
+                <default>false</default>
+                <label>DIO110</label>
+            </value>
+            <value>
+                <fullName>XR650L</fullName>
+                <default>false</default>
+                <label>XR650L</label>
+            </value>
+            <value>
+                <fullName>CB 160 DLX</fullName>
+                <default>false</default>
+                <label>CB 160 DLX</label>
+            </value>
+            <value>
+                <fullName>CB 160 STD</fullName>
+                <default>false</default>
+                <label>CB 160 STD</label>
+            </value>
+            <value>
+                <fullName>XRE 190</fullName>
+                <default>false</default>
+                <label>XRE 190</label>
+            </value>
+            <value>
+                <fullName>CB 250 TWISTER</fullName>
+                <default>false</default>
+                <label>CB 250 TWISTER</label>
+            </value>
+            <value>
+                <fullName>PCX 150</fullName>
+                <default>false</default>
+                <label>PCX 150</label>
+            </value>
+            <value>
+                <fullName>CB125F</fullName>
+                <default>false</default>
+                <label>CB125F</label>
+            </value>
+            <value>
+                <fullName>NAVI</fullName>
+                <default>false</default>
+                <label>NAVI</label>
+            </value>
+            <value>
+                <fullName>CRF 50FH</fullName>
+                <default>false</default>
+                <label>CRF 50FH</label>
+            </value>
+            <value>
+                <fullName>CRF 110FJ</fullName>
+                <default>false</default>
+                <label>CRF 110FJ</label>
+            </value>
+            <value>
+                <fullName>CRF 150F</fullName>
+                <default>false</default>
+                <label>CRF 150F</label>
+            </value>
+            <value>
+                <fullName>CB125 F</fullName>
+                <default>false</default>
+                <label>CB125 F</label>
+            </value>
+            <value>
+                <fullName>CRF250</fullName>
+                <default>false</default>
+                <label>CRF250</label>
+            </value>
+            <value>
+                <fullName>CBF300</fullName>
+                <default>false</default>
+                <label>CBF300</label>
+            </value>
+            <value>
+                <fullName>CRF 110</fullName>
+                <default>false</default>
+                <label>CRF 110</label>
+            </value>
+            <value>
+                <fullName>XBLADE.</fullName>
+                <default>false</default>
+                <label>XBLADE.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

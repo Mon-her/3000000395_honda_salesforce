@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_CON_004</fullName>
+    <active>true</active>
+    <description>El número registrado para Otro teléfono no es válido. No se permiten números consecutivos como 1111111 o 1234567.</description>
+    <errorConditionFormula>OR
+(
+	REGEX(OtherPhone, &quot;[0]{7}&quot;),
+	REGEX(OtherPhone, &quot;[0]{10}&quot;),
+	REGEX(OtherPhone, &quot;[1]{7}&quot;),
+	REGEX(OtherPhone, &quot;[1]{10}&quot;),
+	REGEX(OtherPhone, &quot;[2]{7}&quot;),
+	REGEX(OtherPhone, &quot;[2]{10}&quot;),
+	REGEX(OtherPhone, &quot;[3]{7}&quot;),
+	REGEX(OtherPhone, &quot;[3]{10}&quot;),
+	REGEX(OtherPhone, &quot;[4]{7}&quot;),
+	REGEX(OtherPhone, &quot;[4]{10}&quot;),
+	REGEX(OtherPhone, &quot;[5]{7}&quot;),
+	REGEX(OtherPhone, &quot;[5]{10}&quot;),
+	REGEX(OtherPhone, &quot;[6]{7}&quot;),
+	REGEX(OtherPhone, &quot;[6]{10}&quot;),
+	REGEX(OtherPhone, &quot;[7]{7}&quot;),
+	REGEX(OtherPhone, &quot;[7]{10}&quot;),
+	REGEX(OtherPhone, &quot;[8]{7}&quot;),
+	REGEX(OtherPhone, &quot;[8]{10}&quot;),
+	REGEX(OtherPhone, &quot;[9]{7}&quot;),
+	REGEX(OtherPhone, &quot;[9]{10}&quot;),
+	OtherPhone = &quot;1234567&quot;,
+	OtherPhone = &quot;7654321&quot;,
+	OtherPhone = &quot;1234567890&quot;,
+	OtherPhone = &quot;0987654321&quot;
+)</errorConditionFormula>
+    <errorDisplayField>OtherPhone</errorDisplayField>
+    <errorMessage>AM_RV_CON_003: El número registrado para Otro teléfono no es válido. No se permiten números consecutivos como 1111111 o 1234567.</errorMessage>
+</ValidationRule>

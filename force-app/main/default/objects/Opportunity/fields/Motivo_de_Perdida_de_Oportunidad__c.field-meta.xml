@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_de_Perdida_de_Oportunidad__c</fullName>
+    <externalId>false</externalId>
+    <label>Motivo de oportunidad perdida</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>El competidor es más barato</fullName>
+                <default>false</default>
+                <label>El competidor es más barato</label>
+            </value>
+            <value>
+                <fullName>El competidor ofrece mejor calidad</fullName>
+                <default>false</default>
+                <label>El competidor ofrece mejor calidad</label>
+            </value>
+            <value>
+                <fullName>Compró otra marca</fullName>
+                <default>false</default>
+                <label>Compró otra marca</label>
+            </value>
+            <value>
+                <fullName>Compró otro concesionario / Distribuidor</fullName>
+                <default>false</default>
+                <label>Compró otro concesionario / Distribuidor</label>
+            </value>
+            <value>
+                <fullName>Compro usada</fullName>
+                <default>false</default>
+                <label>Compro usada</label>
+            </value>
+            <value>
+                <fullName>Diseño</fullName>
+                <default>false</default>
+                <label>Diseño</label>
+            </value>
+            <value>
+                <fullName>Especificaciones técnicas</fullName>
+                <default>false</default>
+                <label>Especificaciones técnicas</label>
+            </value>
+            <value>
+                <fullName>Localizado</fullName>
+                <default>false</default>
+                <label>Localizado</label>
+            </value>
+            <value>
+                <fullName>Multa tránsito</fullName>
+                <default>false</default>
+                <label>Multa tránsito</label>
+            </value>
+            <value>
+                <fullName>Precio</fullName>
+                <default>false</default>
+                <label>Precio</label>
+            </value>
+            <value>
+                <fullName>Realizó otra inversión</fullName>
+                <default>false</default>
+                <label>Realizó otra inversión</label>
+            </value>
+            <value>
+                <fullName>Reportado OFAC (Clinton)</fullName>
+                <default>false</default>
+                <label>Reportado OFAC (Clinton)</label>
+            </value>
+            <value>
+                <fullName>Requisitos financiación</fullName>
+                <default>false</default>
+                <label>Requisitos financiación</label>
+            </value>
+            <value>
+                <fullName>Incidente técnico</fullName>
+                <default>false</default>
+                <label>Incidente técnico(fallas del sistema)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

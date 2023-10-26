@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cambio_de_Pedido__c</fullName>
+    <externalId>false</externalId>
+    <label>Cambio de Pedido</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Multa tránsito</fullName>
+                <default>false</default>
+                <label>Multa tránsito</label>
+            </value>
+            <value>
+                <fullName>Incidente técnico</fullName>
+                <default>false</default>
+                <label>Incidente técnico</label>
+            </value>
+            <value>
+                <fullName>Error en el color - ERP</fullName>
+                <default>false</default>
+                <label>Error en el color - ERP</label>
+            </value>
+            <value>
+                <fullName>Error en referencia - ERP</fullName>
+                <default>false</default>
+                <label>Error en referencia - ERP</label>
+            </value>
+            <value>
+                <fullName>Error en descuento - ERP</fullName>
+                <default>false</default>
+                <label>Error en descuento - ERP</label>
+            </value>
+            <value>
+                <fullName>Error toma de pedido - ERP</fullName>
+                <default>false</default>
+                <label>Error toma de pedido - ERP</label>
+            </value>
+            <value>
+                <fullName>Incumple política de recaudo ERP</fullName>
+                <default>false</default>
+                <label>Incumple política de recaudo ERP</label>
+            </value>
+            <value>
+                <fullName>Error en condición de pago ERP Cambio de fecha de factura - ERP</fullName>
+                <default>false</default>
+                <label>Error en condición de pago ERP Cambio de fecha de factura - ERP</label>
+            </value>
+            <value>
+                <fullName>Cambio de cliente en la factura - ERP</fullName>
+                <default>false</default>
+                <label>Cambio de cliente en la factura - ERP</label>
+            </value>
+            <value>
+                <fullName>Cambio de condición de pago - ERP</fullName>
+                <default>false</default>
+                <label>Cambio de condición de pago - ERP</label>
+            </value>
+            <value>
+                <fullName>Cambio de vehículo - ERP</fullName>
+                <default>false</default>
+                <label>Cambio de vehículo - ERP</label>
+            </value>
+            <value>
+                <fullName>Error en código del asesor - ERP</fullName>
+                <default>false</default>
+                <label>Error en código del asesor - ERP</label>
+            </value>
+            <value>
+                <fullName>Inconsistencia en manifiesto - ERP</fullName>
+                <default>false</default>
+                <label>Inconsistencia en manifiesto - ERP</label>
+            </value>
+            <value>
+                <fullName>Vehículo inhabilitado - ERP</fullName>
+                <default>false</default>
+                <label>Vehículo inhabilitado - ERP</label>
+            </value>
+            <value>
+                <fullName>2</fullName>
+                <default>false</default>
+                <label>Facturacion electronica</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

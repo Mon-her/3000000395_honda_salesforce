@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ID_UNOEE__c</fullName>
+    <description>Campo creado para guardar el id de Unoee para determinar el codigo de ciudad de Unoee</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Campo creado para guardar el id de Unoee para determinar el codigo de ciudad de Unoee</inlineHelpText>
+    <label>ID UNOEE</label>
+    <length>10</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

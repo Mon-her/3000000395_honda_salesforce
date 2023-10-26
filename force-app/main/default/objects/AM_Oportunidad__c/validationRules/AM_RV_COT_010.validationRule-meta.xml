@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_010</fullName>
+    <active>false</active>
+    <description>El descuento debe estar aprobado antes de facturar la oportunidad.
+AM_RV_COT_010</description>
+    <errorConditionFormula>AND
+(
+	RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+	TEXT(AM_Etapa__c) &lt;&gt; &quot;Facturación&quot;,
+	AM_Valor_descuento__c &lt;&gt; 0,
+	AM_Descuento_aprobado__c = FALSE
+)</errorConditionFormula>
+    <errorDisplayField>AM_Etapa__c</errorDisplayField>
+    <errorMessage>AM-RV-COT-010: No puede pasar de la etapa de cotización si el descuento no está aprobado.</errorMessage>
+</ValidationRule>

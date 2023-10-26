@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Municipio__c</columns>
+    <columns>Concesionario_Vitrina__c</columns>
+    <columns>Agencia__c</columns>
+    <columns>Ciudad__c</columns>
+    <columns>Concesionario_VitrinaTexto__c</columns>
+    <columns>Autos__c</columns>
+    <columns>Motos__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Concesionario_Vitrina__c</field>
+        <operation>contains</operation>
+        <value>Punto de</value>
+    </filters>
+    <label>All</label>
+</ListView>

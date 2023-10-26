@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subcategoria_3__c</fullName>
+    <externalId>false</externalId>
+    <label>Subcategoría 3</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Subcategoria_2__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Red Propia</fullName>
+                <default>false</default>
+                <label>Red Propia</label>
+            </value>
+            <value>
+                <fullName>Distribuidores</fullName>
+                <default>false</default>
+                <label>Distribuidores</label>
+            </value>
+            <value>
+                <fullName>Proveedor Externo</fullName>
+                <default>false</default>
+                <label>Proveedor Externo</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>SIHON</controllingFieldValue>
+            <controllingFieldValue>Códigos programación o cambio de computadoras</controllingFieldValue>
+            <controllingFieldValue>Creación de Referencias</controllingFieldValue>
+            <controllingFieldValue>Cotización de Repuesto</controllingFieldValue>
+            <valueName>Distribuidores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sin subcategoría 2</controllingFieldValue>
+            <valueName>Proveedor Externo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creación de Referencias</controllingFieldValue>
+            <controllingFieldValue>Cotización de Repuesto</controllingFieldValue>
+            <valueName>Red Propia</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

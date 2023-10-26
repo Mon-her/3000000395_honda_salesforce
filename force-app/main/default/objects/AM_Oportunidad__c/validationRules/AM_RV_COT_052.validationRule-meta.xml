@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_052</fullName>
+    <active>false</active>
+    <description>AM_RV_COT_052 El descuento se aplica después de grabar la cotización crédito. Debe asignar cero en el descuento cuando crea la cotización, después de creada puede asignar el descuento que desee aplicar.</description>
+    <errorConditionFormula>AND 
+( 
+RecordType.Name &lt;&gt; &quot;Contado&quot;,
+AM_Plan_de_financiacion__c  &lt;&gt; &quot;Progreser-Plan Empleado Hero&quot;,
+
+(
+AND
+( 
+ISNEW(),
+ AM_Valor_descuento__c &gt; 0
+)
+) 
+)</errorConditionFormula>
+    <errorDisplayField>AM_Valor_descuento__c</errorDisplayField>
+    <errorMessage>AM_RV_COT_052 El descuento se aplica después de grabar la cotización crédito. Debe asignar cero en el descuento cuando crea la cotización, después de creada puede asignar el descuento que desee aplicar.</errorMessage>
+</ValidationRule>

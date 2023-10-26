@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recurrence_End_Date_Required</fullName>
+    <active>true</active>
+    <description>When setting up recurring events, and end date is required</description>
+    <errorConditionFormula>OR(AND(ISBLANK(TEXT(Recurrence__c)),NOT(ISNULL( Recurrence_End_Date__c ))), AND(NOT(ISBLANK(TEXT(Recurrence__c))),ISNULL (( Recurrence_End_Date__c))), 
+
+AND((ISNULL( Event_Start_Date__c)),  NOT(ISNULL( Recurrence_End_Date__c))
+), Recurrence_End_Date__c &lt; Today())</errorConditionFormula>
+    <errorDisplayField>Recurrence__c</errorDisplayField>
+    <errorMessage>A recurring meeting requires a start date, recurring frequency as well as a recurring end date.  Recurrence end date needs to be greater than today.</errorMessage>
+</ValidationRule>

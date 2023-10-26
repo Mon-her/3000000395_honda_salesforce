@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copia_Tipo_de_Cliente__c</fullName>
+    <externalId>false</externalId>
+    <label>Copia Tipo de Cliente</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cliente Honda</fullName>
+                <default>false</default>
+                <label>Cliente Honda</label>
+            </value>
+            <value>
+                <fullName>Cliente no Honda</fullName>
+                <default>false</default>
+                <label>Cliente no Honda</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

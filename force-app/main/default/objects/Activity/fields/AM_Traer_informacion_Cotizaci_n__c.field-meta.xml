@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Traer_informacion_Cotizaci_n__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Traer informacion Cotización</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Traer informacion Cotización</inlineHelpText>
+    <label>Traer informacion Cotización</label>
+    <referenceTo>AM_Oportunidad__c</referenceTo>
+    <relationshipLabel>Actividades</relationshipLabel>
+    <relationshipName>Actividades</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

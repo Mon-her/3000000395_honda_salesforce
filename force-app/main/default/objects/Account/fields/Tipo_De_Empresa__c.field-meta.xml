@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_De_Empresa__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo De Empresa</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Privada</fullName>
+                <default>false</default>
+                <label>Privada</label>
+            </value>
+            <value>
+                <fullName>Pública</fullName>
+                <default>false</default>
+                <label>Pública</label>
+            </value>
+            <value>
+                <fullName>Mixta</fullName>
+                <default>false</default>
+                <label>Mixta</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

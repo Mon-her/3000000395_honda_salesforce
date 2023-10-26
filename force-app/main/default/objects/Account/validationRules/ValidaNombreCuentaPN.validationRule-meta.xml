@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidaNombreCuentaPN</fullName>
+    <active>true</active>
+    <description>Se encarga de validar que el primer nombre tenga mas de 2 digitos</description>
+    <errorConditionFormula>AND(CONTAINS(RecordType.Name,&quot;Natural&quot;)=TRUE, LEN( FirstName )&lt;3)</errorConditionFormula>
+    <errorDisplayField>FirstName</errorDisplayField>
+    <errorMessage>El nombre introducido debe ser mayor a 2 caracteres.</errorMessage>
+</ValidationRule>

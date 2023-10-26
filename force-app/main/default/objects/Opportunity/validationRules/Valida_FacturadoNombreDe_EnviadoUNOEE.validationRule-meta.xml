@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_FacturadoNombreDe_EnviadoUNOEE</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED(Facturar_a_nombre_de__c),PRIORVALUE(Facturar_a_nombre_de__c)&lt;&gt;null,  Fecha_de_envio_a_UNOEE__c &lt;&gt;null,  NOT(CONTAINS($Profile.Name,&quot;Admin&quot;)) )</errorConditionFormula>
+    <errorMessage>No se puede modificar a quien se le factura luego del envío a UNOEE.</errorMessage>
+</ValidationRule>

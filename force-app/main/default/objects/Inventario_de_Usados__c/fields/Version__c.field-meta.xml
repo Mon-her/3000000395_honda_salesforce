@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Version__c</fullName>
+    <externalId>false</externalId>
+    <label>Versión Honda</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Linea__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LX</fullName>
+                <default>false</default>
+                <label>LX</label>
+            </value>
+            <value>
+                <fullName>EX</fullName>
+                <default>false</default>
+                <label>EX</label>
+            </value>
+            <value>
+                <fullName>LX 5DR CVT</fullName>
+                <default>false</default>
+                <label>LX 5DR CVT</label>
+            </value>
+            <value>
+                <fullName>EX COUPE</fullName>
+                <default>false</default>
+                <label>EX COUPE</label>
+            </value>
+            <value>
+                <fullName>EXL</fullName>
+                <default>false</default>
+                <label>EXL</label>
+            </value>
+            <value>
+                <fullName>EXL TURBO</fullName>
+                <default>false</default>
+                <label>EXL TURBO</label>
+            </value>
+            <value>
+                <fullName>SI</fullName>
+                <default>false</default>
+                <label>SI</label>
+            </value>
+            <value>
+                <fullName>EXL T</fullName>
+                <default>false</default>
+                <label>EXL T</label>
+            </value>
+            <value>
+                <fullName>V6</fullName>
+                <default>false</default>
+                <label>V6</label>
+            </value>
+            <value>
+                <fullName>LX X-TYLE</fullName>
+                <default>false</default>
+                <label>LX X-TYLE</label>
+            </value>
+            <value>
+                <fullName>EXL PRESTIGE</fullName>
+                <default>false</default>
+                <label>EXL PRESTIGE</label>
+            </value>
+            <value>
+                <fullName>EXL 4WD</fullName>
+                <default>false</default>
+                <label>EXL 4WD</label>
+            </value>
+            <value>
+                <fullName>RVSI</fullName>
+                <default>false</default>
+                <label>RVSI</label>
+            </value>
+            <value>
+                <fullName>CITY</fullName>
+                <default>false</default>
+                <label>CITY</label>
+            </value>
+            <value>
+                <fullName>CITY PLUS</fullName>
+                <default>false</default>
+                <label>CITY PLUS</label>
+            </value>
+            <value>
+                <fullName>I LIMITED</fullName>
+                <default>false</default>
+                <label>I LIMITED</label>
+            </value>
+            <value>
+                <fullName>PRESTIGE 1,5 TURBO</fullName>
+                <default>false</default>
+                <label>PRESTIGE 1,5 TURBO</label>
+            </value>
+            <value>
+                <fullName>EXL 1,5 TURBO</fullName>
+                <default>false</default>
+                <label>EXL 1,5 TURBO</label>
+            </value>
+            <value>
+                <fullName>PRESTIGE EXL</fullName>
+                <default>false</default>
+                <label>PRESTIGE EXL</label>
+            </value>
+            <value>
+                <fullName>PRESTIGE LX</fullName>
+                <default>false</default>
+                <label>PRESTIGE LX</label>
+            </value>
+            <value>
+                <fullName>EXLN</fullName>
+                <default>false</default>
+                <label>EXLN</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>FIT</controllingFieldValue>
+            <controllingFieldValue>WR-V</controllingFieldValue>
+            <controllingFieldValue>CIVIC</controllingFieldValue>
+            <controllingFieldValue>HR-V</controllingFieldValue>
+            <controllingFieldValue>CR-V</controllingFieldValue>
+            <valueName>LX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIT</controllingFieldValue>
+            <controllingFieldValue>WR-V</controllingFieldValue>
+            <controllingFieldValue>ACCORD</controllingFieldValue>
+            <controllingFieldValue>HR-V</controllingFieldValue>
+            <valueName>EX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIT</controllingFieldValue>
+            <valueName>LX 5DR CVT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CIVIC</controllingFieldValue>
+            <valueName>EX COUPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CIVIC</controllingFieldValue>
+            <controllingFieldValue>CR-V</controllingFieldValue>
+            <controllingFieldValue>CROSSTOUR</controllingFieldValue>
+            <controllingFieldValue>PILOT</controllingFieldValue>
+            <controllingFieldValue>RIDGELINE</controllingFieldValue>
+            <controllingFieldValue>ODYSSEY</controllingFieldValue>
+            <valueName>EXL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CIVIC</controllingFieldValue>
+            <valueName>EXL TURBO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CIVIC</controllingFieldValue>
+            <valueName>SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ACCORD</controllingFieldValue>
+            <valueName>EXL T</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ACCORD</controllingFieldValue>
+            <valueName>V6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR-V</controllingFieldValue>
+            <valueName>LX X-TYLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR-V</controllingFieldValue>
+            <valueName>EXL PRESTIGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR-V</controllingFieldValue>
+            <valueName>EXL 4WD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CR-V</controllingFieldValue>
+            <valueName>RVSI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CR-V</controllingFieldValue>
+            <valueName>CITY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CR-V</controllingFieldValue>
+            <valueName>CITY PLUS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CR-V</controllingFieldValue>
+            <valueName>I LIMITED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CR-V</controllingFieldValue>
+            <valueName>PRESTIGE 1,5 TURBO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CR-V</controllingFieldValue>
+            <valueName>EXL 1,5 TURBO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PILOT</controllingFieldValue>
+            <valueName>PRESTIGE EXL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PILOT</controllingFieldValue>
+            <valueName>PRESTIGE LX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RIDGELINE</controllingFieldValue>
+            <valueName>EXLN</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

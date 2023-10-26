@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Entrega_Aprobada</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( RecordType.Name =&quot;Entrega Vehículo Nuevo, Usado y Renting&quot;,  TEXT(Status)=&quot;Cerrado&quot;, Entrega_de_Vehculo_aprobada__c = false,    NOT(CONTAINS(Description, &quot;Se cierra caso por perdida de oportunidad en etapa&quot;))  )</errorConditionFormula>
+    <errorMessage>No puede cerrar este caso sin una aprobación por parte del Jefe administrativo.</errorMessage>
+</ValidationRule>

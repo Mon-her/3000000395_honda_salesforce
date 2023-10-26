@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Usuario_actividad_tiempo_libre__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES(  AM_Usuario_motocicleta__r.PersonContact.Que_actividad_realiza_en_tiempo_libre__c  , &quot;T.V&quot;), &quot; T.V&quot; + BR(), NULL)   + 
+IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.Que_actividad_realiza_en_tiempo_libre__c , &quot;Teatro&quot;), &quot; Teatro&quot; + BR() , NULL)  + 
+IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.Que_actividad_realiza_en_tiempo_libre__c , &quot;Finca&quot;), &quot; Finca&quot;, NULL) +
+IF(INCLUDES(  AM_Usuario_motocicleta__r.PersonContact.Que_actividad_realiza_en_tiempo_libre__c  , &quot;Cocina&quot;), &quot; Cocina&quot; + BR(), NULL)   + 
+IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.Que_actividad_realiza_en_tiempo_libre__c , &quot;Jardineria&quot;), &quot; Jardineria&quot; + BR() , NULL)  + 
+IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.Que_actividad_realiza_en_tiempo_libre__c , &quot;Música&quot;), &quot; Música&quot;+ BR() , NULL) +
+IF(INCLUDES(  AM_Usuario_motocicleta__r.PersonContact.Que_actividad_realiza_en_tiempo_libre__c  , &quot;Cine&quot;), &quot; Cine&quot; + BR(), NULL)   + 
+IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.Que_actividad_realiza_en_tiempo_libre__c , &quot;Viajar&quot;), &quot; Viajar&quot; + BR() , NULL)  + 
+IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.Que_actividad_realiza_en_tiempo_libre__c , &quot;Lectura&quot;), &quot; Lectura&quot;+ BR(), NULL) + 
+IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.Que_actividad_realiza_en_tiempo_libre__c , &quot;Deporte&quot;), &quot; Deporte&quot; + BR() , NULL)  + 
+IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.Que_actividad_realiza_en_tiempo_libre__c , &quot;Otro&quot;), &quot; Otro&quot;, NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Usuario actividad tiempo libre</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Prueba_CustomSettingReasignacion</fullName>
+    <active>true</active>
+    <errorConditionFormula>/*
+(
+ ISBLANK($Setup.ReasignacionMasiva__c.Id_Usuario__c)||
+!contains($Setup.ReasignacionMasiva__c.Id_Usuario__c,$User.Id)
+)
+*/
+/*
+!contains($Setup.ReasignacionMasiva__c.Id_Usuario__c,$User.Id)
+*/
+!contains(BLANKVALUE($Setup.ReasignacionMasiva__c.Id_Usuario__c, &apos;HOLA&apos;),$User.Id) &amp;&amp;  Phone = &apos;9216142&apos;</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>No puede hacer reasignación masiva con  Phone = &apos;9216142&apos;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Maximo_agregar_dos_productos</fullName>
+    <active>true</active>
+    <errorConditionFormula>LineItemCount &gt; 2</errorConditionFormula>
+    <errorMessage>Solamente se permite agregar hasta 2 productos por cotización.</errorMessage>
+</ValidationRule>

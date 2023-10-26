@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Numero_de_Oportunidad__c</fullName>
+    <externalId>false</externalId>
+    <formula>/*CASE(LEN(MID( AutoNumber__c  , (FIND(&quot;- &quot; , AutoNumber__c)+2) ,  LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) )), 
+1, &quot;000000000&quot;&amp;MID( AutoNumber__c  , (FIND(&quot;- &quot; , AutoNumber__c)+2) ,  LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ), 
+2, &quot;00000000&quot;&amp;MID( AutoNumber__c  , (FIND(&quot;- &quot; , AutoNumber__c)+2) ,  LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+3, &quot;0000000&quot;&amp;MID( AutoNumber__c  , (FIND(&quot;- &quot; , AutoNumber__c)+2) ,  LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+4, &quot;000000&quot;&amp;MID( AutoNumber__c  , (FIND(&quot;- &quot; , AutoNumber__c)+2) ,  LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+5, &quot;00000&quot;&amp;MID( AutoNumber__c  , (FIND(&quot;- &quot; , AutoNumber__c)+2) ,  LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+6, &quot;0000&quot;&amp;MID( AutoNumber__c  , (FIND(&quot;- &quot; , AutoNumber__c)+2) ,  LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+7, &quot;000&quot;&amp;MID( AutoNumber__c  , (FIND(&quot;- &quot; , AutoNumber__c)+2) ,  LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+8, &quot;00&quot;&amp;MID( AutoNumber__c  , (FIND(&quot;- &quot; , AutoNumber__c)+2) ,  LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+9, &quot;0&quot;&amp;MID( AutoNumber__c  , (FIND(&quot;- &quot; , AutoNumber__c)+2) ,  LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+10, MID( AutoNumber__c  , (FIND(&quot;- &quot; , AutoNumber__c)+2) ,  LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+&quot;00000000&quot;)
+*/
+IF( NOT(ISBLANK(AutoNumber__c)),
+CASE(LEN(MID( AutoNumber__c , (FIND(&quot;- &quot; , AutoNumber__c)+2) , LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) )),
+1, &quot;000000000&quot;&amp;MID( AutoNumber__c , (FIND(&quot;- &quot; , AutoNumber__c)+2) , LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+2, &quot;00000000&quot;&amp;MID( AutoNumber__c , (FIND(&quot;- &quot; , AutoNumber__c)+2) , LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+3, &quot;0000000&quot;&amp;MID( AutoNumber__c , (FIND(&quot;- &quot; , AutoNumber__c)+2) , LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+4, &quot;000000&quot;&amp;MID( AutoNumber__c , (FIND(&quot;- &quot; , AutoNumber__c)+2) , LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+5, &quot;00000&quot;&amp;MID( AutoNumber__c , (FIND(&quot;- &quot; , AutoNumber__c)+2) , LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+6, &quot;0000&quot;&amp;MID( AutoNumber__c , (FIND(&quot;- &quot; , AutoNumber__c)+2) , LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+7, &quot;000&quot;&amp;MID( AutoNumber__c , (FIND(&quot;- &quot; , AutoNumber__c)+2) , LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+8, &quot;00&quot;&amp;MID( AutoNumber__c , (FIND(&quot;- &quot; , AutoNumber__c)+2) , LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+9, &quot;0&quot;&amp;MID( AutoNumber__c , (FIND(&quot;- &quot; , AutoNumber__c)+2) , LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+10, MID( AutoNumber__c , (FIND(&quot;- &quot; , AutoNumber__c)+2) , LEN(AutoNumber__c)-FIND(&quot;- &quot; , AutoNumber__c) ),
+&quot;No Definido&quot;), AutoNumber2__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Número de Oportunidad</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

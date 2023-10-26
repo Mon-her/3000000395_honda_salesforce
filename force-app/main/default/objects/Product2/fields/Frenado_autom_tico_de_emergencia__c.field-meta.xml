@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Frenado_autom_tico_de_emergencia__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <label>Frenado automático de emergencia</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

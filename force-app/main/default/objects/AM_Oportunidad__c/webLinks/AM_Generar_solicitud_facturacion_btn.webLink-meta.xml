@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Generar_solicitud_facturacion_btn</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Generar solicitud de facturación</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/16.0/connection.js&quot;)}; 
+{!REQUIRESCRIPT(&quot;/js/functions.js&quot;)}; 
+{!REQUIRESCRIPT(&quot;/soap/ajax/16.0/apex.js&quot;)}; 
+
+var identificadorOportunidad = &quot;{!AM_Oportunidad__c.Id}&quot;; 
+var valorDescuento = &quot;{!AM_Oportunidad__c.AM_Valor_descuento__c}&quot;; 
+var descuentoAprobado = &quot;{!AM_Oportunidad__c.AM_Descuento_aprobado__c}&quot;; 
+var etapa = &quot;{!AM_Oportunidad__c.AM_Etapa__c}&quot;;
+
+
+if (etapa == &quot;No compra&quot; || etapa == &quot;Negociacion&quot; || etapa == &quot;Cotización&quot;)
+{
+alert(&quot;La solicitud de facturación no puede ser impresa porqué el descuento no está aprobado o la etapa es diferente de prospectación o facturación&quot;); 
+
+} else {
+if ((valorDescuento == &quot;0&quot;) || (valorDescuento == &quot;$0&quot;) || (valorDescuento == &quot;$0,00&quot;) || (valorDescuento == &quot;&quot;) || (descuentoAprobado == 1)) 
+{ 
+window.open(&quot;/apex/AM_SolicitudFacturacion_pag?scontrolCaching=1&amp;id=&quot; + identificadorOportunidad, &quot;_blank&quot;, &quot;left=20,top=20,width=800,height=800,scrollbars=yes,toolbar=0,resizable=0,menubar=0&quot;);
+} 
+else 
+{ 
+alert(&quot;La solicitud de facturación no puede ser impresa porqué el descuento no está aprobado o la etapa es diferente de prospectación o facturación&quot;); 
+}
+}</url>
+</WebLink>

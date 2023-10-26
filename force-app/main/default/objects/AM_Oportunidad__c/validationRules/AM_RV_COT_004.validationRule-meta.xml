@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_004</fullName>
+    <active>true</active>
+    <description>Debe diligenciar la sección de Cierre de negocio, para fijar la cotización como PU. 
+AM_RV_COT_004</description>
+    <errorConditionFormula>AND
+(
+  $User.AO_BypassApex__c = false,         
+	RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+        NOT(BEGINS($Profile.Name, &quot;Administrador del sistema&quot;)),
+	TEXT(AM_Etapa__c) = &quot;PU&quot;,
+        TEXT( AM_Tipo_de_cotizacion__c)&lt;&gt; &quot;Usados&quot;, 
+         
+        
+AND(
+        NOT(BEGINS($Profile.Name, &quot;Administrador de mercadeo&quot;)),
+        NOT(BEGINS($Profile.Name, &quot;Analistas&quot;)),
+ MC_Registro_historico__c = FALSE,
+OR(
+	ISBLANK(AM_Numero_de_factura__c),
+        ISBLANK(AM_Placa__c),
+        ISBLANK( AM_Fecha_de_factura__c ),
+        ISBLANK (AM_Vin__c ),
+        ISBLANK (TEXT(AM_N_Propietario__c )),
+        ISBLANK (TEXT(AM_Fecha_de_entrega_vehiculo__c ))
+)
+)
+)</errorConditionFormula>
+    <errorDisplayField>AM_Etapa__c</errorDisplayField>
+    <errorMessage>Debe diligenciar la sección de Cierre de negocio, para fijar la cotización como PU. 
+AM_RV_COT_004</errorMessage>
+</ValidationRule>

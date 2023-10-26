@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Garantias_Aprobadas</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR( TEXT(Subcategoria_2__c)=&quot;Baterías&quot;, TEXT(Subcategoria_2__c)=&quot;Diferente a Baterías&quot;), TEXT(Status)=&quot;Cerrado&quot;,  Garantia_aprobada__c =false,  Garantia_bateria_aprobada__c =false)</errorConditionFormula>
+    <errorMessage>Debe recibir aprobación de la garantía solicitada sobre este caso en subcategoría 2.</errorMessage>
+</ValidationRule>

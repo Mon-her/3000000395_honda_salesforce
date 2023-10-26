@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_RazonNoCompra_OtraMarca</fullName>
+    <active>true</active>
+    <description>En caso de que alguno de los siguientes valores en el campo “Razón de no compra” sea seleccionado: cualquier valor con terminación otra marca, Precio Retoma, Mejor experiencia en Prueba de Manejo, Mejores opciones de Póliza todo riesgo, Mejores tiempos de</description>
+    <errorConditionFormula>AND( RecordType.Name ==&quot;Oportunidad Autos&quot;, 
+OR( 
+CONTAINS(TEXT( Razon_de_no_compra__c ), &quot;otra marca&quot;), 
+TEXT( Razon_de_no_compra__c )==&quot;Precio de retoma&quot;,
+TEXT( Razon_de_no_compra__c )==&quot;Mejor experiencia en Prueba de Manejo&quot;,
+TEXT( Razon_de_no_compra__c )==&quot;Mejores opciones de Póliza todo riesgo&quot;,
+TEXT( Razon_de_no_compra__c )==&quot;Mejores tiempos de entrega del vehículo&quot;,
+TEXT(  StageName )==&quot;PC&quot;
+),  OR(TEXT(Marca_competencia__c) == null, TEXT(Linea_competencia__c) == null)
+)</errorConditionFormula>
+    <errorMessage>Recuerde indicar la Marca y Línea de Competencia.</errorMessage>
+</ValidationRule>

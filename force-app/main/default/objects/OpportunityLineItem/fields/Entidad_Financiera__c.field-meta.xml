@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Entidad_Financiera__c</fullName>
+    <externalId>false</externalId>
+    <label>Entidad Financiera</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fondo nacional del ahorro</fullName>
+                <default>false</default>
+                <label>Fondo nacional del ahorro</label>
+            </value>
+            <value>
+                <fullName>Banco Agrario de Colombia S.A.</fullName>
+                <default>false</default>
+                <label>Banco Agrario de Colombia S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco AV Villas S.A.</fullName>
+                <default>false</default>
+                <label>Banco AV Villas S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco Bancamia S.A.</fullName>
+                <default>false</default>
+                <label>Banco Bancamia S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco BBVA Colombia S.A.</fullName>
+                <default>false</default>
+                <label>Banco BBVA Colombia S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco Caja Social BCSC S.A.</fullName>
+                <default>false</default>
+                <label>Banco Caja Social BCSC S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco Colpatria S.A.</fullName>
+                <default>false</default>
+                <label>Banco Colpatria S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco Cooperativo Coopcentral</fullName>
+                <default>false</default>
+                <label>Banco Cooperativo Coopcentral</label>
+            </value>
+            <value>
+                <fullName>Banco Davivienda S.A.</fullName>
+                <default>false</default>
+                <label>Banco Davivienda S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco de Bogotá S.A.</fullName>
+                <default>false</default>
+                <label>Banco de Bogotá S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco de Occidente S.A.</fullName>
+                <default>false</default>
+                <label>Banco de Occidente S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco GNB Sudameris S.A.</fullName>
+                <default>false</default>
+                <label>Banco GNB Sudameris S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco Popular S.A.</fullName>
+                <default>false</default>
+                <label>Banco Popular S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco ProCredit Colombia S.A.</fullName>
+                <default>false</default>
+                <label>Banco ProCredit Colombia S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco CorpBanca Colombia S.A.</fullName>
+                <default>false</default>
+                <label>Banco CorpBanca Colombia S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco Bancolombia S.A.</fullName>
+                <default>false</default>
+                <label>Banco Bancolombia S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco Citibank Colombia S.A.</fullName>
+                <default>false</default>
+                <label>Banco Citibank Colombia S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco WWB S.A.</fullName>
+                <default>false</default>
+                <label>Banco WWB S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco Coomeva S.A.</fullName>
+                <default>false</default>
+                <label>Banco Coomeva S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco Finandina S.A.</fullName>
+                <default>false</default>
+                <label>Banco Finandina S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco Falabella S.A.</fullName>
+                <default>false</default>
+                <label>Banco Falabella S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco Pichincha S.A.</fullName>
+                <default>false</default>
+                <label>Banco Pichincha S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco Santander de Negocios Colombia S.A.</fullName>
+                <default>false</default>
+                <label>Banco Santander de Negocios Colombia S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco Mundo Mujer S.A.</fullName>
+                <default>false</default>
+                <label>Banco Mundo Mujer S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco Multibank S.A.</fullName>
+                <default>false</default>
+                <label>Banco Multibank S.A.</label>
+            </value>
+            <value>
+                <fullName>Banco Compartir S.A.</fullName>
+                <default>false</default>
+                <label>Banco Compartir S.A.</label>
+            </value>
+            <value>
+                <fullName>Fenalco</fullName>
+                <default>false</default>
+                <label>Fenalco</label>
+            </value>
+            <value>
+                <fullName>Finamiga</fullName>
+                <default>false</default>
+                <label>Finamiga</label>
+            </value>
+            <value>
+                <fullName>Crediorbe</fullName>
+                <default>false</default>
+                <label>Crediorbe</label>
+            </value>
+            <value>
+                <fullName>Sufi</fullName>
+                <default>false</default>
+                <label>Sufi</label>
+            </value>
+            <value>
+                <fullName>Codensa</fullName>
+                <default>false</default>
+                <label>Codensa</label>
+            </value>
+            <value>
+                <fullName>Brilla</fullName>
+                <default>false</default>
+                <label>Brilla</label>
+            </value>
+            <value>
+                <fullName>Tu Cuota</fullName>
+                <default>false</default>
+                <label>Tu Cuota</label>
+            </value>
+            <value>
+                <fullName>Soluciones Integrales</fullName>
+                <default>false</default>
+                <label>Soluciones Integrales</label>
+            </value>
+            <value>
+                <fullName>Coofinacrecito</fullName>
+                <default>false</default>
+                <label>Coofinacrecito</label>
+            </value>
+            <value>
+                <fullName>Venfi</fullName>
+                <default>false</default>
+                <label>Venfi</label>
+            </value>
+            <value>
+                <fullName>Sistecredito</fullName>
+                <default>false</default>
+                <label>Sistecredito</label>
+            </value>
+            <value>
+                <fullName>Inversiones AMG</fullName>
+                <default>false</default>
+                <label>Inversiones AMG</label>
+            </value>
+            <value>
+                <fullName>Supremotos</fullName>
+                <default>false</default>
+                <label>Supremotos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

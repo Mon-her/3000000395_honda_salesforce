@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>saojeda2@fanalca.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>GERENTE_GENERAL_UNIDAD_DE_NEGOCIOS_HONDA_AUTOS</sharedTo>
+        <sharedToType>RoleAndSubordinates</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>VP_HONDA_AUTOS</sharedTo>
+        <sharedToType>RoleAndSubordinates</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>FABRICANACIONALDEAUTOPARTESSAFANALCASASocioUsuario</sharedTo>
+        <sharedToType>PortalRoleAndSubordinates</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>FabricaNacionaldeAutopartesSAFanalcaSASocioUsuario1</sharedTo>
+        <sharedToType>PortalRoleAndSubordinates</sharedToType>
+    </folderShares>
+    <name>Fanalca Autos</name>
+</DashboardFolder>

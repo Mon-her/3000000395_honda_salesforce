@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Usted_ve_su_automovil_como__c</fullName>
+    <externalId>false</externalId>
+    <label>Actividades con las que se relaciona</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Me gustan los planes sencillos, que no requieran mucha logística ni mucho dinero</fullName>
+                <default>false</default>
+                <label>Me gustan los planes sencillos, que no requieran mucha logística ni mucho dinero</label>
+            </value>
+            <value>
+                <fullName>Estar con la familia y pasarla bien juntos</fullName>
+                <default>false</default>
+                <label>Estar con la familia y pasarla bien juntos</label>
+            </value>
+            <value>
+                <fullName>Me gusta la aventura, las experiencias innovadoras que muestren mi estilo de vida</fullName>
+                <default>false</default>
+                <label>Me gusta la aventura, las experiencias innovadoras que muestren mi estilo de vida</label>
+            </value>
+            <value>
+                <fullName>Me gusta pasarla bien sin salirme de mi zona de confort</fullName>
+                <default>false</default>
+                <label>Me gusta pasarla bien sin salirme de mi zona de confort</label>
+            </value>
+            <value>
+                <fullName>Hacer actividades en la naturaleza como caminatas ecológicas, visitas a parques naturales, etc.</fullName>
+                <default>false</default>
+                <label>Hacer actividades en la naturaleza como caminatas ecológicas, visitas a parques naturales, etc.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

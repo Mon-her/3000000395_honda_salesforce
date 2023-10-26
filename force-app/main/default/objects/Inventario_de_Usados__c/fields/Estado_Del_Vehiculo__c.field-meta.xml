@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estado_Del_Vehiculo__c</fullName>
+    <externalId>false</externalId>
+    <label>Estado Del Vehículo</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DISPONIBLE</fullName>
+                <default>true</default>
+                <label>DISPONIBLE</label>
+            </value>
+            <value>
+                <fullName>FACTURADO</fullName>
+                <default>false</default>
+                <label>FACTURADO</label>
+            </value>
+            <value>
+                <fullName>INHABILITADO</fullName>
+                <default>false</default>
+                <label>INHABILITADO</label>
+            </value>
+            <value>
+                <fullName>PENDIENTE POR INGRESAR</fullName>
+                <default>false</default>
+                <label>PENDIENTE POR INGRESAR</label>
+            </value>
+            <value>
+                <fullName>SEPARADO</fullName>
+                <default>false</default>
+                <label>SEPARADO</label>
+            </value>
+            <value>
+                <fullName>REACONDICIONAMIENTO</fullName>
+                <default>false</default>
+                <label>REACONDICIONAMIENTO</label>
+            </value>
+            <value>
+                <fullName>CONSIG. RETIRADO</fullName>
+                <default>false</default>
+                <label>CONSIG. RETIRADO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

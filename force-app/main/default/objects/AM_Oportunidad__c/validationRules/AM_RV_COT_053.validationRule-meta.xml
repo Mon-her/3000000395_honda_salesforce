@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_053</fullName>
+    <active>false</active>
+    <description>AM_RV_COT_053: Debe ingresar la entidad financiera</description>
+    <errorConditionFormula>AND 
+( 
+ RecordType.Name = &quot;Contado&quot;, 
+TEXT(Origen_de_Recursos__c) = &quot;Recursos Financiados&quot;, 
+ ISBLANK(TEXT(Entidad_Financiera__c)) 
+)</errorConditionFormula>
+    <errorDisplayField>Entidad_Financiera__c</errorDisplayField>
+    <errorMessage>AM_RV_COT_053: Debe ingresar la entidad financiera</errorMessage>
+</ValidationRule>

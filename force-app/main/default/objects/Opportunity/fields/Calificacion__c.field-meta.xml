@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calificacion__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( prueba_algo__c  &gt; 0 &amp;&amp; prueba_algo__c   &lt;=  60, 
+
+IMAGE(&quot;https://hondaautos--test2--c.documentforce.com/servlet/servlet.ImageServer?id=01501000000Hlnt&amp;oid=00D010000008jgT&amp;lastMod=1641405549000&quot;, &quot;FRIO&quot;),
+
+IF( prueba_algo__c  = 0,
+IMAGE(&quot;https://hondaautos--test2--c.documentforce.com/servlet/servlet.ImageServer?id=01501000000Hmcc&amp;oid=00D010000008jgT&amp;lastMod=1642516239000&quot;, &quot;Sin calificacion&quot;),
+
+IF( prueba_algo__c &gt;  61  &amp;&amp; prueba_algo__c  &lt;=   79,
+IMAGE(&quot;https://hondaautos--test2--c.documentforce.com/servlet/servlet.ImageServer?id=01501000000HmYV&amp;oid=00D010000008jgT&amp;lastMod=1642441602000&quot;, &quot;TIBIO&quot;),
+
+IF( prueba_algo__c &gt;  79  &amp;&amp; prueba_algo__c  &lt;=   100,
+IMAGE(&quot;https://hondaautos--test2--c.documentforce.com/servlet/servlet.ImageServer?id=01501000000Hlny&amp;oid=00D010000008jgT&amp;lastMod=1641405638000&quot;, &quot;CALIENTE&quot;),&quot;0&quot;
+
+
+))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Calificacion</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

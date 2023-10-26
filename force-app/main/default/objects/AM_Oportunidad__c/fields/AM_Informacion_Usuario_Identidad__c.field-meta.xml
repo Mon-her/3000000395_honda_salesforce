@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Informacion_Usuario_Identidad__c</fullName>
+    <description>Informacion del usuario para informes</description>
+    <externalId>false</externalId>
+    <formula>AM_Usuario_motocicleta__r.AM_Numero_de_documento__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Informacion del usuario para informes</inlineHelpText>
+    <label>Usuario numero documento</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

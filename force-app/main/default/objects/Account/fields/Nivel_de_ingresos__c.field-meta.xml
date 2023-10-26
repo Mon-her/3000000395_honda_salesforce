@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nivel_de_ingresos__c</fullName>
+    <externalId>false</externalId>
+    <label>Nivel de ingresos</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Menor a 1 SMMLV</fullName>
+                <default>false</default>
+                <label>Menor a 1 SMMLV</label>
+            </value>
+            <value>
+                <fullName>Entre 1 - 2 SMMLV</fullName>
+                <default>false</default>
+                <label>Entre 1 - 2 SMMLV</label>
+            </value>
+            <value>
+                <fullName>Entre 2 - 3 SMMLV</fullName>
+                <default>false</default>
+                <label>Entre 2 - 3 SMMLV</label>
+            </value>
+            <value>
+                <fullName>Entre 3 - 4 SMMLV</fullName>
+                <default>false</default>
+                <label>Entre 3 - 4 SMMLV</label>
+            </value>
+            <value>
+                <fullName>Mayor a 4 SMMLV</fullName>
+                <default>false</default>
+                <label>Mayor a 4 SMMLV</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

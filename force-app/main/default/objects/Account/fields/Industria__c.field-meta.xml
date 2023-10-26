@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industria__c</fullName>
+    <externalId>false</externalId>
+    <label>Sector Empresarial</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agrícola</fullName>
+                <default>false</default>
+                <label>Agrícola</label>
+            </value>
+            <value>
+                <fullName>Industrial</fullName>
+                <default>false</default>
+                <label>Industrial</label>
+            </value>
+            <value>
+                <fullName>Prestación de Servicios</fullName>
+                <default>false</default>
+                <label>Prestación de Servicios</label>
+            </value>
+            <value>
+                <fullName>Transporte</fullName>
+                <default>false</default>
+                <label>Transporte</label>
+            </value>
+            <value>
+                <fullName>Financiero</fullName>
+                <default>false</default>
+                <label>Financiero</label>
+            </value>
+            <value>
+                <fullName>Comercio</fullName>
+                <default>false</default>
+                <label>Comercio</label>
+            </value>
+            <value>
+                <fullName>Construcción</fullName>
+                <default>false</default>
+                <label>Construcción</label>
+            </value>
+            <value>
+                <fullName>Minero y Energético</fullName>
+                <default>false</default>
+                <label>Minero y Energético</label>
+            </value>
+            <value>
+                <fullName>Comunicaciones</fullName>
+                <default>false</default>
+                <label>Comunicaciones</label>
+            </value>
+            <value>
+                <fullName>Gobierno</fullName>
+                <default>false</default>
+                <label>Gobierno</label>
+            </value>
+            <value>
+                <fullName>Salud</fullName>
+                <default>false</default>
+                <label>Salud</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

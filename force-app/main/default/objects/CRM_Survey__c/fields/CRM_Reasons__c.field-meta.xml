@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRM_Reasons__c</fullName>
+    <externalId>false</externalId>
+    <label>Por favor seleccione motivo de respuesta</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CRM_HowSatisfy__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Atención del asesor</fullName>
+                <default>false</default>
+                <label>Atención del asesor</label>
+            </value>
+            <value>
+                <fullName>Disponibilidad del vehículo</fullName>
+                <default>false</default>
+                <label>Disponibilidad del vehículo</label>
+            </value>
+            <value>
+                <fullName>Incumplimiento en la cita programada</fullName>
+                <default>false</default>
+                <label>Incumplimiento en la cita programada</label>
+            </value>
+            <value>
+                <fullName>Explicación del producto</fullName>
+                <default>false</default>
+                <label>Explicación del producto</label>
+            </value>
+            <value>
+                <fullName>Otras</fullName>
+                <default>false</default>
+                <label>Otras</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <valueName>Atención del asesor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <valueName>Disponibilidad del vehículo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <valueName>Incumplimiento en la cita programada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <valueName>Explicación del producto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <valueName>Otras</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

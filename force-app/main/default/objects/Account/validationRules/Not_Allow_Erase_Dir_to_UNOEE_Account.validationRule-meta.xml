@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Allow_Erase_Dir_to_UNOEE_Account</fullName>
+    <active>true</active>
+    <description>Evita que se blank la dirección si es una cuenta con Creado en UNOEE marcado (existente en UNOEE)</description>
+    <errorConditionFormula>Creado_en_UNOEE__c  &amp;&amp; ISBLANK(AM_Direccion__c  ) &amp;&amp; ! ISBLANK(priorValue(AM_Direccion__c  ))</errorConditionFormula>
+    <errorMessage>No puede eliminar la Dirección de una cuenta existente en UNOEE</errorMessage>
+</ValidationRule>

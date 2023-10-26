@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Valor_cuota_pagare_S1__c</fullName>
+    <externalId>false</externalId>
+    <formula>AM_Saldo_a_financiar_pagare_S1__c * ( 1 * ( ( AM_Tasa_de_interes__c * ((1 + AM_Tasa_de_interes__c) ^ AM_Plazo__c) ) / ( ( ( 1 + AM_Tasa_de_interes__c ) ^ AM_Plazo__c ) - 1 ) ) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Valor cuota pagaré sugerido 1</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

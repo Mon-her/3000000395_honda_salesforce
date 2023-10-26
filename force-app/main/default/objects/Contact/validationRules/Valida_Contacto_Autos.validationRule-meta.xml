@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Contacto_Autos</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( CONTAINS(CreatedBy.Profile.Name , &quot;Autos&quot;), CreatedById &lt;&gt; $User.Id, CONTAINS($Profile.Name, &quot;Motos&quot;)=FALSE, NOT(ISNEW()))</errorConditionFormula>
+    <errorMessage>No cuenta con permisos de edición sobre este contacto, contactese con el administrador.</errorMessage>
+</ValidationRule>

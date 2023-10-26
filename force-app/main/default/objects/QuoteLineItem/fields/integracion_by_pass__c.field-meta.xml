@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>integracion_by_pass__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>used only for development purposes</description>
+    <externalId>false</externalId>
+    <label>integracion by pass</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

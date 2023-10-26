@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Creado_Prolibu__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Esta casilla marcada indicada que fue creada en Prolibu system</description>
+    <externalId>false</externalId>
+    <label>Creado en Cotiza Tu Honda</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

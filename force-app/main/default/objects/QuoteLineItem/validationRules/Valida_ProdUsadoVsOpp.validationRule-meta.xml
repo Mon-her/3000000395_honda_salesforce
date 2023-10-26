@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_ProdUsadoVsOpp</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Quote.Opportunity.RecordType.Name =&quot;Oportunidad Autos&quot;,     NOT(ISBLANK(Product2.Inventario_de_Usados__c)),  TEXT(Quote.Opportunity.Tipo_de_Oportunidad__c) &lt;&gt; &quot;Usados&quot; )</errorConditionFormula>
+    <errorMessage>No se puede colocar un producto usado en una oportunidad de un tipo diferente a usados.</errorMessage>
+</ValidationRule>

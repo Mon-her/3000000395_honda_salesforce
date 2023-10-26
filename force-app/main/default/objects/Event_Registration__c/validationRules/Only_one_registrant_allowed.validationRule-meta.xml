@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_one_registrant_allowed</fullName>
+    <active>true</active>
+    <description>Only one registrant (Contact or Lead) is allowed per event registration record</description>
+    <errorConditionFormula>IF( Contact__c != null, 1, 0) + IF( Lead__c != null, 1, 0) &gt; 1</errorConditionFormula>
+    <errorMessage>You can only select one registrant (Contact or Lead) at a time.</errorMessage>
+</ValidationRule>

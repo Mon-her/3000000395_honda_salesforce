@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Autoceiba_Norte_Asesores_de_servios_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Asesores servicio Autoceiba Norte</label>
+    <queue>Asesores_servicio_Autoceiba_Norte</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Para_Etapas_Razon_de_no_compra_obligator</fullName>
+    <active>true</active>
+    <description>Razon de no compra obligatorio para etapas PC / PSI/ PSP</description>
+    <errorConditionFormula>AND( RecordType.Name ==&quot;Oportunidad Autos&quot;,
+OR(
+TEXT( StageName )==&quot;PC&quot;,
+TEXT( StageName )==&quot;PSI&quot;,
+TEXT( StageName )==&quot;PSP&quot;
+), OR(TEXT(Razon_de_no_compra__c) == null)
+)</errorConditionFormula>
+    <errorDisplayField>Razon_de_no_compra__c</errorDisplayField>
+    <errorMessage>Para la etapa seleccionada recuerda indicar la razon de no compra</errorMessage>
+</ValidationRule>

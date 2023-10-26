@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recurrence__c</fullName>
+    <description>Frequency of the event recurrence</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Frequency of the event recurrence.  Creation of recurring events only occurs on record creation.   Event Start Date and Recurrence End Date are required fields to create recurring events.</inlineHelpText>
+    <label>Recurrence</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Daily</fullName>
+                <default>false</default>
+                <label>Daily</label>
+            </value>
+            <value>
+                <fullName>Daily - Weekdays Only</fullName>
+                <default>false</default>
+                <label>Daily - Weekdays Only</label>
+            </value>
+            <value>
+                <fullName>Weekly</fullName>
+                <default>false</default>
+                <label>Weekly</label>
+            </value>
+            <value>
+                <fullName>Monthly (30 days)</fullName>
+                <default>false</default>
+                <label>Monthly (30 days)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

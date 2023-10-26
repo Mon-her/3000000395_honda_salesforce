@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_FechaDeEntrega_PU</fullName>
+    <active>true</active>
+    <description>No deberá dejar que el asesor coloque una fecha mayor a la del mismo día en el campo fecha de entrega cuando se pasa a PU.</description>
+    <errorConditionFormula>AND( RecordType.Name = &quot;Oportunidad Autos&quot;,    AM_Fecha_de_entrega_vehiculo__c   &gt; TODAY(), TEXT( StageName )=&quot;PU&quot;, Registro_Migrado__c == false )</errorConditionFormula>
+    <errorMessage>La fecha de entrega no puede ser mayor a hoy si la etapa de la oportunidad es PU</errorMessage>
+</ValidationRule>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Tipo_Renting__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Renting</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Renting Total</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Renting Total</label>
+            </value>
+            <value>
+                <fullName>Renting Básico</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Renting Básico</label>
+            </value>
+            <value>
+                <fullName>Rent Back Total</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Rent Back Total</label>
+            </value>
+            <value>
+                <fullName>Rent Back Básico</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Rent Back Básico</label>
+            </value>
+            <value>
+                <fullName>Renting Total sin llantas</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Renting Total sin llantas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

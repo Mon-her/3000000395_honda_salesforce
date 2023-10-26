@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_apoyo_concluido</fullName>
+    <active>true</active>
+    <description>Impide marcar el campo apoyo concluido en una etapa distinta a solicitud de apoyo y a su vez que no se marque por el propio responsable principal del caso.</description>
+    <errorConditionFormula>AND( ISCHANGED(apoyo_concluido__c) ,  apoyo_concluido__c=true,   OR(TEXT(Status)&lt;&gt;&apos;Apoyo Solicitado&apos;, Owner:User.Id = $User.Id ))</errorConditionFormula>
+    <errorMessage>No se permite marcar la casilla apoyo concluido si el estado del caso no es &quot;Apoyo solicitado&quot;  o si la marcación la efectúa el usuario responsable del caso.</errorMessage>
+</ValidationRule>

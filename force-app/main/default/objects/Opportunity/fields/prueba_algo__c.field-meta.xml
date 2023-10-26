@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>prueba_algo__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( TEXT( StageName ) &lt;&gt; &quot;Perdida&quot;  &amp;&amp;  TEXT( StageName ) &lt;&gt; &quot;Vendida&quot;,
+IF( Amount   &lt; 1  ||ISBLANK(Amount)  ,0,10) + 
+IF (text(StageName )=&quot;-P3&quot;,15, IF(text(StageName )=&quot;-P2&quot;,10,IF ( text(StageName )=&quot;-P1&quot;,5,0)))+ 
+IF  (CloseDate  &gt;=  TODAY() ,10,0) +
+IF ( Fecha_de_creacion_solo_fecha__c &lt;= TODAY() &amp;&amp; Fecha_de_creacion_solo_fecha__c &gt;= TODAY()-7,10,0)+
+IF ( Fecha_de_creacion_solo_fecha2__c &gt;= TODAY()-60 ,5,0)+
+IF (  AFOG_NoLlamadasSeguimientoCompletadas__c  &gt;= 3 ,20,0)+
+IF (   AFOG_NoLlamadasSeguimientoProgramadas__c   &gt; 0 ,15,0)+
+IF ( SyncedQuote.Realizo_consulta_de_precios__c =TRUE,10,0),0
+)</formula>
+    <label>Puntuacion</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

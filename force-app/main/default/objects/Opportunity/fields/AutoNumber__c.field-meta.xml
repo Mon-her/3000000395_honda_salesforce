@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutoNumber__c</fullName>
+    <description>Campo utilizado por la app de AutoNumber Helper NO BORRAR. Estaba en tamaño 10.</description>
+    <externalId>false</externalId>
+    <label>AutoNumber</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

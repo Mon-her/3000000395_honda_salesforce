@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PlacaAlfanumerica</fullName>
+    <active>true</active>
+    <errorConditionFormula>!ISBLANK(Placa__c ) &amp;&amp;
+!(
+REGEX( Placa__c , &quot;^[a-zA-Z0-9]*$&quot;)
+)
+ 
+
+
+/*
+NOT(
+   OR(
+
+       REGEX( Placa__c , &quot;(\\D)+(\\d)+&quot;),          
+       REGEX(Placa__c ,&quot;[^%$#@&amp;!*()^+_-]&quot;),
+       REGEX(Placa__c ,&quot;[^=,&lt;.&gt;/?~`]&quot;)
+   )
+)
+*/</errorConditionFormula>
+    <errorDisplayField>Placa__c</errorDisplayField>
+    <errorMessage>Debe ser alfanumérico, no caracteres especiales</errorMessage>
+</ValidationRule>

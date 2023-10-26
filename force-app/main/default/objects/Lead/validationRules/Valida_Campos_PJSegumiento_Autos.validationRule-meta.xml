@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Campos_PJSegumiento_Autos</fullName>
+    <active>true</active>
+    <description>Se encarga de validar campos obligatorios de Persona jurídica en la etapa En Seguimiento, impidiendo la conversión si faltase algún campo.</description>
+    <errorConditionFormula>AND( RecordType.Name == &quot;Persona Juridica Autos&quot;, TEXT(Status)==&quot;Convertido a Cuenta&quot;,OR(  TEXT(Tipo_de_documento__c)==null,  Ciudad__c == null,  Nmero_de_documento__c == null,  TEXT(Desea_recibir_correo_electronico__c)==null,  TEXT(Desea_recibir_informaci_n_al_movil__c)==null))</errorConditionFormula>
+    <errorMessage>Favor verificar que los siguientes campos estén diligenciados: Tipo de documento, Ciudad y Número de documento.</errorMessage>
+</ValidationRule>

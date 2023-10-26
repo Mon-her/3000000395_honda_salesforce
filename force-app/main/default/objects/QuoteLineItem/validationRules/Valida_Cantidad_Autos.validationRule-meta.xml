@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Cantidad_Autos</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Quote.RecordType.Name =&quot;Cotizaciones Autos&quot;,  Quantity &gt;1,  Quote.IsSyncing = true)</errorConditionFormula>
+    <errorMessage>No se puede poner más de 1 auto en cantidad al momento de sincronizar la cotización con la oportunidad, favor corrija la cantidad antes de continuar.</errorMessage>
+</ValidationRule>

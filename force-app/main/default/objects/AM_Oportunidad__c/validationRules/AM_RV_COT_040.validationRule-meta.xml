@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_040</fullName>
+    <active>false</active>
+    <description>AM-RV-COT-040: El descuento no puede ser mayor al precio de lista de la motocicleta.</description>
+    <errorConditionFormula>AND 
+( 
+AM_Precio_de_lista__c &gt; 0, 
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;, 
+AM_Valor_descuento_S2__c &gt; AM_Precio_de_lista_S2__c 
+)</errorConditionFormula>
+    <errorDisplayField>AM_Valor_descuento_S2__c</errorDisplayField>
+    <errorMessage>AM-RV-COT-040: El descuento no puede ser mayor al precio de lista de la motocicleta.</errorMessage>
+</ValidationRule>

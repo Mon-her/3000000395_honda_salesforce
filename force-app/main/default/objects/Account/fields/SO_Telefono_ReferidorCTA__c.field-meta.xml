@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SO_Telefono_ReferidorCTA__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (
+NOT(ISBLANK( SO_Referidor_Cuenta__r.Phone )), SO_Referidor_Cuenta__r.Phone, SO_Referidor_Cuenta__r.Fax
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Teléfono Referidor</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

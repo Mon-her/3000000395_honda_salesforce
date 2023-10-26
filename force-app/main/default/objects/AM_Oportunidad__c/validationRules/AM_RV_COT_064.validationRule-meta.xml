@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_064</fullName>
+    <active>false</active>
+    <description>La cotización en estado PC no puede ser modificada.
+AM_RV_COT_064</description>
+    <errorConditionFormula>AND 
+( 
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;, 
+NOT(BEGINS($Profile.Name, &quot;Administrador del sistema&quot;)),
+NOT(BEGINS($Profile.Name, &quot;Administrador de mercadeo&quot;)),
+NOT(BEGINS($Profile.Name, &quot;Gerente de ventas&quot;)),
+NOT (ISCHANGED( AM_Estado1__c )),
+NOT(ISCHANGED(RM_By_Pass_PU_Validatio_Rule__c)),
+ 
+OR 
+( 
+AND 
+( 
+ISCHANGED(AM_Etapa__c), 
+TEXT(AM_Etapa__c) &lt;&gt; &quot;PC&quot;, 
+TEXT(PRIORVALUE(AM_Etapa__c)) = &quot;PC&quot; 
+), 
+AND 
+( 
+NOT(ISCHANGED(AM_Etapa__c)), 
+TEXT(AM_Etapa__c) = &quot;PC&quot; 
+) 
+) 
+)</errorConditionFormula>
+    <errorMessage>La cotización en estado PC no puede ser modificada.
+AM_RV_COT_064</errorMessage>
+</ValidationRule>

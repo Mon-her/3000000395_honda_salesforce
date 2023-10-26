@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_036</fullName>
+    <active>false</active>
+    <description>AM_RV_COT_036: La cotizacion se debe grabar en etapa de Cotizacion</description>
+    <errorConditionFormula>AND
+(
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+ISNEW(),
+TEXT( AM_Etapa__c ) &lt;&gt; &quot;Cotización&quot;
+)</errorConditionFormula>
+    <errorDisplayField>AM_Etapa__c</errorDisplayField>
+    <errorMessage>AM_RV_COT_036: La cotizacion se debe grabar en etapa de Cotizacion</errorMessage>
+</ValidationRule>

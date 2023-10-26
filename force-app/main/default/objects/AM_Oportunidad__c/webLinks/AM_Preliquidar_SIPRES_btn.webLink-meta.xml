@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Preliquidar_SIPRES_btn</fullName>
+    <availability>online</availability>
+    <description>Botón que se despliega en la oportunidad tipo crédito.</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Preaprobacion ProgreSER</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/16.0/connection.js&quot;)};
+{!REQUIRESCRIPT(&quot;/js/functions.js&quot;)};
+{!REQUIRESCRIPT(&quot;/soap/ajax/16.0/apex.js&quot;)};
+
+var tipoRegistroOportunidad = &quot;{!AM_Oportunidad__c.RecordType}&quot;;
+var consultaSOQL = &quot;&quot;;
+var resultadoConsulta = new Array();
+var tipoDocumentoCliente = &quot;&quot;;
+var numeroDocumentoCliente = &quot;&quot;;
+var esCuentaPersonal = &quot;&quot;;
+
+if (tipoRegistroOportunidad == &quot;Crédito&quot;)
+{
+	consultaSOQL = &quot;SELECT &quot;;
+	consultaSOQL = consultaSOQL + &quot;Id, AM_Tipo_de_documento__c, AM_Numero_de_documento__c, IsPersonAccount &quot;;
+	consultaSOQL = consultaSOQL + &quot;FROM &quot;;
+	consultaSOQL = consultaSOQL + &quot;Account &quot;;
+	consultaSOQL = consultaSOQL + &quot;WHERE Id = \&apos;{!AM_Oportunidad__c.AM_Usuario_motocicletaId__c}\&apos; &quot;;
+	consultaSOQL = consultaSOQL + &quot;LIMIT 1&quot;;
+
+        var identificadorOportunidad = &quot;{!AM_Oportunidad__c.Id}&quot;; 
+	var ejecucionConsulta = sforce.connection.query(consultaSOQL);
+	resultadoConsulta = ejecucionConsulta.getArray(&apos;records&apos;);
+	var registroResultado = resultadoConsulta[0];
+
+	tipoDocumentoCliente = registroResultado.get(&quot;AM_Tipo_de_documento__c&quot;);
+	numeroDocumentoCliente = registroResultado.get(&quot;AM_Numero_de_documento__c&quot;);
+        esCuentaPersonal = registroResultado.get(&quot;IsPersonAccount&quot;);
+        
+        var valorDescuento = &quot;{!AM_Oportunidad__c.AM_Valor_descuento__c}&quot;; 
+        var descuentoAprobado = &quot;{!AM_Oportunidad__c.AM_Descuento_aprobado__c}&quot;;
+       
+        if(esCuentaPersonal == &quot;false&quot;)
+        {
+              alert(&quot;Error: la cuenta a la que esta relacionada la oportunidad debe ser de tipo personal y no empresarial&quot;);
+        }
+	if(esCuentaPersonal == &quot;true&quot;)
+        {
+                if(valorDescuento == &quot;0&quot; || valorDescuento == &quot;$0&quot; || valorDescuento == &quot;$0,00&quot; ||            valorDescuento == &quot;&quot; || descuentoAprobado == 1)
+                {    
+                          window.location=&apos;/apex/AM_PreliquidarSipres_pag?id={!AM_Oportunidad__c.Id}&apos;;      
+                          window.open(&quot;/apex/AM_CartaAutorizacion_pag?id=&quot;+ identificadorOportunidad , &quot;_blank&quot;, &quot;left=20,top=20,width=800,height=800,scrollbars=yes,toolbar=0,resizable=0,menubar=0&quot;); 
+                }
+                else 
+                { 
+                          alert(&quot;No se puede realizar la pre-liquidación porqué el descuento no está aprobado&quot;); 
+                }
+        }
+        
+                
+	
+}</url>
+</WebLink>

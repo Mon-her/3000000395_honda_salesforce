@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>CaseNumber</field>
+        <field>Owner</field>
+        <field>CreatedDate</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>Aprobada_garantia</name>
+                <type>Alert</type>
+            </action>
+            <action>
+                <name>Aprueba_Garantia</name>
+                <type>FieldUpdate</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <name>hlbarrero@autoceiba.com.co</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Step 1</label>
+        <name>Step_1</name>
+        <rejectionActions>
+            <action>
+                <name>Garantia_no_aprobada</name>
+                <type>Alert</type>
+            </action>
+        </rejectionActions>
+    </approvalStep>
+    <description>Este punto requiere una flujo de aprobación en donde sin la aprobación del Jefe de Servicio y Capacitación Posventa Automoviles no se pueda cerra el caso- (Solo de aquellas catalogadas con un cierre de aprobación de garantía, terminarían con Visto bueno final del Jede de Servicio.</description>
+    <emailTemplate>unfiled$public/solicitud_de_aprobacion</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Case.Reason</field>
+            <operation>equals</operation>
+            <value>Radicar Consultas - Tickets Internos</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subcategoria__c</field>
+            <operation>equals</operation>
+            <value>Garantías</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subcategoria_2__c</field>
+            <operation>equals</operation>
+            <value>Diferente a Baterías</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Aprueba Garantía</label>
+    <processOrder>2</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

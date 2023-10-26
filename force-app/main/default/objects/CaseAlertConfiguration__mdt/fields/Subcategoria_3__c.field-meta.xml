@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subcategoria_3__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Subcategoría 3</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Red Propia</fullName>
+                <default>true</default>
+                <label>Red Propia</label>
+            </value>
+            <value>
+                <fullName>Distribuidores</fullName>
+                <default>false</default>
+                <label>Distribuidores</label>
+            </value>
+            <value>
+                <fullName>Proveedor Externo</fullName>
+                <default>false</default>
+                <label>Proveedor Externo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

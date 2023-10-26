@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Usuario_deporte_que_prefiere__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.AM_Deporte_que_prefiere__c, &quot;Tenis&quot;), &quot; Tenis&quot; + BR(), NULL)   + 
+IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.AM_Deporte_que_prefiere__c, &quot;Ciclismo&quot;), &quot; Ciclismo&quot; + BR() , NULL)  + 
+IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.AM_Deporte_que_prefiere__c , &quot;Fútbol&quot;), &quot; Fútbol&quot;, NULL) +
+IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.AM_Deporte_que_prefiere__c, &quot;Gimnasio&quot;), &quot; Gimnasio&quot; + BR(), NULL)   + 
+IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.AM_Deporte_que_prefiere__c, &quot;Golf&quot;), &quot; Golf&quot; + BR() , NULL)  + 
+IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.AM_Deporte_que_prefiere__c , &quot;Motociclismo&quot;), &quot; Motociclismo&quot;, NULL) +
+IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.AM_Deporte_que_prefiere__c , &quot;Equitacion&quot;), &quot; Equitacion&quot;, NULL) +
+IF(INCLUDES( AM_Usuario_motocicleta__r.PersonContact.AM_Deporte_que_prefiere__c , &quot;Otro&quot;), &quot; Otro&quot;, NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Usuario deporte que prefiere</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Autos_RecordTypeDE__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipos de Registro para DigitalEngagement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PQRSFS Autos</fullName>
+                <default>false</default>
+                <label>PQRSFS Autos</label>
+            </value>
+            <value>
+                <fullName>Best Drive</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Best Drive</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

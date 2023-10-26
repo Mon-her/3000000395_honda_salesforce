@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Fecha_De_Cierre</fullName>
+    <active>true</active>
+    <errorConditionFormula>/*
+AND(CloseDate &lt; TODAY(), CloseDate&lt;&gt; TODAY(), $Profile.Name &lt;&gt; &quot;Integraciones&quot;,$Profile.Name &lt;&gt; &quot;Administrador del sistema&quot;, $Profile.Name &lt;&gt; &quot;Gerente de ventas (Motos)&quot; )
+*/
+AND(!isNEW(),isChanged(CloseDate ),CloseDate &lt; TODAY(), CloseDate&lt;&gt; TODAY(), $Profile.Name &lt;&gt; &quot;Integraciones&quot;,$Profile.Name &lt;&gt; &quot;Administrador del sistema&quot;, $Profile.Name &lt;&gt; &quot;Gerente de ventas (Motos)&quot; )</errorConditionFormula>
+    <errorMessage>No se puede marcar una fecha de cierre menor a hoy</errorMessage>
+</ValidationRule>

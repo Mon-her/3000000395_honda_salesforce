@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AO_EstadoConsigRetiradoVehiculosUsados</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(AND(NOT(ISNEW()),ISPICKVAL( Opportunity.Usado_Separado__r.Estado_Del_Vehiculo__c  , &quot;CONSIG. RETIRADO&quot;),
+ AND( NOT(ISPICKVAL( Opportunity.StageName ,&quot;PSI&quot;)),NOT( ISPICKVAL( Opportunity.StageName ,&quot;PC&quot;)),NOT(ISPICKVAL( Opportunity.StageName ,&quot;PSP&quot;)) )),
+
+AND(ISNEW(),ISPICKVAL( Opportunity.Usado_Separado__r.Estado_Del_Vehiculo__c  , &quot;CONSIG. RETIRADO&quot;))
+)</errorConditionFormula>
+    <errorMessage>El vehículo usado seleccionado no esta disponible.</errorMessage>
+</ValidationRule>

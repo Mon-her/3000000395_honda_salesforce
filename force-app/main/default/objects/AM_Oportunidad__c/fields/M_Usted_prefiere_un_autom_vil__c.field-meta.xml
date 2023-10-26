@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>M_Usted_prefiere_un_autom_vil__c</fullName>
+    <externalId>false</externalId>
+    <label>Usted prefiere un automóvil</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Amplio, donde quepa toda la familia</fullName>
+                <default>false</default>
+                <label>Amplio, donde quepa toda la familia</label>
+            </value>
+            <value>
+                <fullName>Con muchos accesorios</fullName>
+                <default>false</default>
+                <label>Con muchos accesorios</label>
+            </value>
+            <value>
+                <fullName>Todoterreno</fullName>
+                <default>false</default>
+                <label>Todoterreno</label>
+            </value>
+            <value>
+                <fullName>Bueno, a precio justo</fullName>
+                <default>false</default>
+                <label>Bueno, a precio justo</label>
+            </value>
+            <value>
+                <fullName>Que me sirva para movilizarme</fullName>
+                <default>false</default>
+                <label>Que me sirva para movilizarme</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_047</fullName>
+    <active>true</active>
+    <description>El Descuento no puede estar vacio
+AM_RV_COT_047</description>
+    <errorConditionFormula>AND
+(
+       $User.AO_BypassApex__c = false, 
+ISBLANK( AM_Valor_descuento__c )
+)</errorConditionFormula>
+    <errorDisplayField>AM_Valor_descuento__c</errorDisplayField>
+    <errorMessage>AM_RV_COT_047: El descuento no puede estar vació.</errorMessage>
+</ValidationRule>

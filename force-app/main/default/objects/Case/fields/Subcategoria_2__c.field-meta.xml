@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subcategoria_2__c</fullName>
+    <externalId>false</externalId>
+    <label>Subcategoría 2</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Subcategoria__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Consultas, Información o Documentación</fullName>
+                <default>false</default>
+                <label>Consultas, Información o Documentación</label>
+            </value>
+            <value>
+                <fullName>Inconveniente con la entrega del vehículo</fullName>
+                <default>false</default>
+                <label>Inconveniente con la entrega del vehículo</label>
+            </value>
+            <value>
+                <fullName>Inconveniente con producto</fullName>
+                <default>false</default>
+                <label>Inconveniente con producto</label>
+            </value>
+            <value>
+                <fullName>Inconveniente con Accesorios</fullName>
+                <default>false</default>
+                <label>Inconveniente con Accesorios</label>
+            </value>
+            <value>
+                <fullName>Garantía</fullName>
+                <default>false</default>
+                <label>Garantía</label>
+            </value>
+            <value>
+                <fullName>Habeas Data</fullName>
+                <default>false</default>
+                <label>Habeas Data</label>
+            </value>
+            <value>
+                <fullName>Trámites</fullName>
+                <default>false</default>
+                <label>Trámites</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+            <value>
+                <fullName>Garantía de Fábrica</fullName>
+                <default>false</default>
+                <label>Garantía de Fábrica</label>
+            </value>
+            <value>
+                <fullName>Garantía Total</fullName>
+                <default>false</default>
+                <label>Garantía Total</label>
+            </value>
+            <value>
+                <fullName>Disponibilidad de Repuestos</fullName>
+                <default>false</default>
+                <label>Disponibilidad de Repuestos</label>
+            </value>
+            <value>
+                <fullName>Comunicación</fullName>
+                <default>false</default>
+                <label>Comunicación</label>
+            </value>
+            <value>
+                <fullName>Accesorios (Radio, Start Stop, otros)</fullName>
+                <default>false</default>
+                <label>Accesorios (Radio, Start Stop, otros)</label>
+            </value>
+            <value>
+                <fullName>Diagnóstico</fullName>
+                <default>false</default>
+                <label>Diagnóstico</label>
+            </value>
+            <value>
+                <fullName>Reparación</fullName>
+                <default>false</default>
+                <label>Reparación</label>
+            </value>
+            <value>
+                <fullName>Creación de Referencias</fullName>
+                <default>false</default>
+                <label>Creación de Referencias</label>
+            </value>
+            <value>
+                <fullName>Nota Crédito</fullName>
+                <default>false</default>
+                <label>Nota Crédito</label>
+            </value>
+            <value>
+                <fullName>Actualización de Precios</fullName>
+                <default>false</default>
+                <label>Actualización de Precios</label>
+            </value>
+            <value>
+                <fullName>Ubicación del Repuesto</fullName>
+                <default>false</default>
+                <label>Ubicación del Repuesto</label>
+            </value>
+            <value>
+                <fullName>Cotización de Repuesto</fullName>
+                <default>false</default>
+                <label>Cotización de Repuesto</label>
+            </value>
+            <value>
+                <fullName>Consulta Referencia Sustituta</fullName>
+                <default>false</default>
+                <label>Consulta Referencia Sustituta</label>
+            </value>
+            <value>
+                <fullName>Consulta de Manual de Partes</fullName>
+                <default>false</default>
+                <label>Consulta de Manual de Partes</label>
+            </value>
+            <value>
+                <fullName>SIHON</fullName>
+                <default>false</default>
+                <label>SIHON</label>
+            </value>
+            <value>
+                <fullName>Creación y Desbloqueo Usuario Honda IN</fullName>
+                <default>false</default>
+                <label>Creación y Desbloqueo Usuario Honda IN</label>
+            </value>
+            <value>
+                <fullName>Consulta Fecha de llegada Repuesto</fullName>
+                <default>false</default>
+                <label>Consulta Fecha de llegada Repuesto</label>
+            </value>
+            <value>
+                <fullName>Desbloqueo de Referencias</fullName>
+                <default>false</default>
+                <label>Desbloqueo de Referencias</label>
+            </value>
+            <value>
+                <fullName>Solicitud Desarme de Vehículo</fullName>
+                <default>false</default>
+                <label>Solicitud Desarme de Vehículo</label>
+            </value>
+            <value>
+                <fullName>Baterías</fullName>
+                <default>false</default>
+                <label>Baterías</label>
+            </value>
+            <value>
+                <fullName>Diferente a Baterías</fullName>
+                <default>false</default>
+                <label>Diferente a Baterías</label>
+            </value>
+            <value>
+                <fullName>Eliminación o Modificación de usuario</fullName>
+                <default>false</default>
+                <label>Eliminación o Modificación de usuario</label>
+            </value>
+            <value>
+                <fullName>Creación de usuarios</fullName>
+                <default>false</default>
+                <label>Creación de usuarios</label>
+            </value>
+            <value>
+                <fullName>Bloqueo de la página</fullName>
+                <default>false</default>
+                <label>Bloqueo de la página</label>
+            </value>
+            <value>
+                <fullName>Códigos para desbloquear radios originales</fullName>
+                <default>false</default>
+                <label>Códigos para desbloquear radios originales</label>
+            </value>
+            <value>
+                <fullName>Diferente al Interactive</fullName>
+                <default>false</default>
+                <label>Diferente al Interactive</label>
+            </value>
+            <value>
+                <fullName>Códigos programación o cambio de computadoras</fullName>
+                <default>false</default>
+                <label>Códigos programación o cambio de computadoras</label>
+            </value>
+            <value>
+                <fullName>Sin subcategoría 2</fullName>
+                <default>false</default>
+                <label>Sin subcategoría 2</label>
+            </value>
+            <value>
+                <fullName>Solicitar Best Drive</fullName>
+                <default>false</default>
+                <label>Solicitar Best Drive</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Peticiones Ventas</controllingFieldValue>
+            <controllingFieldValue>Peticiones Taller</controllingFieldValue>
+            <valueName>Consultas, Información o Documentación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Peticiones Ventas</controllingFieldValue>
+            <valueName>Solicitar Best Drive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas y Reclamos Ventas</controllingFieldValue>
+            <valueName>Inconveniente con la entrega del vehículo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas y Reclamos Ventas</controllingFieldValue>
+            <valueName>Inconveniente con producto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas y Reclamos Ventas</controllingFieldValue>
+            <valueName>Inconveniente con Accesorios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas y Reclamos Ventas</controllingFieldValue>
+            <valueName>Garantía</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas y Reclamos Ventas</controllingFieldValue>
+            <valueName>Habeas Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas y Reclamos Ventas</controllingFieldValue>
+            <valueName>Trámites</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas y Reclamos Ventas</controllingFieldValue>
+            <controllingFieldValue>Quejas y Reclamos Taller</controllingFieldValue>
+            <valueName>Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas y Reclamos Ventas</controllingFieldValue>
+            <controllingFieldValue>Quejas y Reclamos Taller</controllingFieldValue>
+            <valueName>Garantía de Fábrica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas y Reclamos Ventas</controllingFieldValue>
+            <controllingFieldValue>Quejas y Reclamos Taller</controllingFieldValue>
+            <valueName>Garantía Total</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas y Reclamos Ventas</controllingFieldValue>
+            <controllingFieldValue>Quejas y Reclamos Taller</controllingFieldValue>
+            <valueName>Disponibilidad de Repuestos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas y Reclamos Ventas</controllingFieldValue>
+            <controllingFieldValue>Quejas y Reclamos Taller</controllingFieldValue>
+            <valueName>Comunicación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas y Reclamos Ventas</controllingFieldValue>
+            <controllingFieldValue>Quejas y Reclamos Taller</controllingFieldValue>
+            <valueName>Accesorios (Radio, Start Stop, otros)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas y Reclamos Ventas</controllingFieldValue>
+            <controllingFieldValue>Quejas y Reclamos Taller</controllingFieldValue>
+            <valueName>Diagnóstico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas y Reclamos Ventas</controllingFieldValue>
+            <controllingFieldValue>Quejas y Reclamos Taller</controllingFieldValue>
+            <valueName>Reparación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>Creación de Referencias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>Nota Crédito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>Actualización de Precios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>Ubicación del Repuesto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>Cotización de Repuesto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>Consulta Referencia Sustituta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>Consulta de Manual de Partes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>SIHON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>Creación y Desbloqueo Usuario Honda IN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>Consulta Fecha de llegada Repuesto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>Desbloqueo de Referencias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>Solicitud Desarme de Vehículo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Garantías</controllingFieldValue>
+            <valueName>Baterías</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Garantías</controllingFieldValue>
+            <valueName>Diferente a Baterías</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicio</controllingFieldValue>
+            <valueName>Eliminación o Modificación de usuario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicio</controllingFieldValue>
+            <valueName>Creación de usuarios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicio</controllingFieldValue>
+            <valueName>Bloqueo de la página</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicio</controllingFieldValue>
+            <valueName>Códigos para desbloquear radios originales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicio</controllingFieldValue>
+            <valueName>Diferente al Interactive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicio</controllingFieldValue>
+            <valueName>Códigos programación o cambio de computadoras</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Felicitaciones Taller</controllingFieldValue>
+            <controllingFieldValue>Sugerencias Taller</controllingFieldValue>
+            <valueName>Sin subcategoría 2</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

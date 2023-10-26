@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>AM_Activo__c</columns>
+    <columns>AM_Entidad_financiera__c</columns>
+    <columns>AM_Plan_financiacion__c</columns>
+    <columns>AM_Plazo_minimo__c</columns>
+    <columns>AM_Porcentaje_Fondo_de_Garantia__c</columns>
+    <columns>AM_Porcentaje_tasa_interes__c</columns>
+    <columns>AM_Plazo_maximo__c</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>AM_Identificador_registro__c</columns>
+    <columns>AM_Porcentage_de_descuento__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Todos</label>
+    <language>es</language>
+</ListView>

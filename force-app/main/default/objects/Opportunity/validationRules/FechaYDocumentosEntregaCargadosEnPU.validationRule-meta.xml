@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FechaYDocumentosEntregaCargadosEnPU</fullName>
+    <active>true</active>
+    <description>Validar que la fecha de entrega y que sea true el check de documentos de entrega cargados</description>
+    <errorConditionFormula>/*
+Text(StageName) == &apos;PU&apos; &amp;&amp; (ISBLANK(Fecha_de_entrega__c) || Documentos_Entrega_Cargados__c == false)
+*/
+ !ISNEW() &amp;&amp; isChanged(StageName) &amp;&amp; Text(StageName) == &apos;PU&apos; &amp;&amp; (ISBLANK(AM_Fecha_de_entrega_vehiculo__c) || Documentos_Entrega_Cargados__c == false) &amp;&amp; Registro_Migrado__c == false</errorConditionFormula>
+    <errorMessage>La Fecha de Entrega y los documentos de Entrega deben ser diligenciados cuando la etapa es PU</errorMessage>
+</ValidationRule>

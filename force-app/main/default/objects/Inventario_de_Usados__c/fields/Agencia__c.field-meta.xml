@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agencia__c</fullName>
+    <externalId>false</externalId>
+    <label>Agencia de recepción</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AUTOCEIBA</fullName>
+                <default>false</default>
+                <label>AUTOCEIBA</label>
+            </value>
+            <value>
+                <fullName>AUTOCIPRÉS</fullName>
+                <default>false</default>
+                <label>AUTOCIPRÉS</label>
+            </value>
+            <value>
+                <fullName>AUTOCORAL</fullName>
+                <default>false</default>
+                <label>AUTOCORAL</label>
+            </value>
+            <value>
+                <fullName>AUTOGUAYACÁN</fullName>
+                <default>false</default>
+                <label>AUTOGUAYACÁN</label>
+            </value>
+            <value>
+                <fullName>AUTOLAUREL</fullName>
+                <default>false</default>
+                <label>AUTOLAUREL</label>
+            </value>
+            <value>
+                <fullName>AUTOPALMA</fullName>
+                <default>false</default>
+                <label>AUTOPALMA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

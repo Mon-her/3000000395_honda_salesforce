@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rango_Dias_En_Inventario__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Dias_de_inventario__c  &lt; 30, &quot;&lt;30 DÍAS&quot;,
+    IF(AND(Dias_de_inventario__c  &gt; 30 , Dias_de_inventario__c  &lt; 61), &quot;31 Y 60 DÍAS&quot;,
+        IF(AND(Dias_de_inventario__c  &gt; 60, Dias_de_inventario__c  &lt; 91),&quot;61 Y 90 DÍAS&quot;,
+            IF(AND(Dias_de_inventario__c  &gt; 90, Dias_de_inventario__c  &lt; 121), &quot;91 Y 120 DÍAS&quot;,
+                IF(Dias_de_inventario__c  &gt; 120, &quot;&gt; A 120 DÍAS&quot;, &quot;Rango no Calculado&quot;)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Rango Días En Inventario</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

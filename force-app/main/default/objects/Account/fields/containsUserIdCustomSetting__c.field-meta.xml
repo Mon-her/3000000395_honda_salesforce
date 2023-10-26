@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>containsUserIdCustomSetting__c</fullName>
+    <externalId>false</externalId>
+    <formula>contains($Setup.ReasignacionMasiva__c.Id_Usuario__c,$User.Id)==false</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>!containsUserIdCustomSetting</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

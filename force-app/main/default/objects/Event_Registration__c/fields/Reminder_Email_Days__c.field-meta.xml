@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reminder_Email_Days__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of days a reminder email should be sent prior to the event start date.</inlineHelpText>
+    <label>Reminder Email Days</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

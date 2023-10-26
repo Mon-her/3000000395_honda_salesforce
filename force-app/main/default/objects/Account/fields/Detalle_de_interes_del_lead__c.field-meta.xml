@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Detalle_de_interes_del_lead__c</fullName>
+    <description>Se detalla el interés que tenía el cliente al momento de ser lead.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Este detalle proviene del lead y solo debe ser tomado en cuenta para la primera oportunidad.</inlineHelpText>
+    <label>Detalle de interés del lead</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

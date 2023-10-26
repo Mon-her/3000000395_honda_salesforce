@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-Chatter</defaultLandingTab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>AM_Municipio__c</tabs>
+    <tabs>AM_Plan_financiacion__c</tabs>
+    <tabs>AM_Oportunidad__c</tabs>
+    <tabs>AM_Producto__c</tabs>
+    <tabs>AM_Homologaciones_integracion__c</tabs>
+    <tabs>MC_Contactos__c</tabs>
+    <tabs>Log__c</tabs>
+    <tabs>Ingreso_a_taller__c</tabs>
+    <tabs>Meta_de_Venta__c</tabs>
+</CustomApplication>

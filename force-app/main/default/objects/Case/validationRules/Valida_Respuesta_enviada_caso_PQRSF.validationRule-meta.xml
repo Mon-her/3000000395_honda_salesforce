@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Respuesta_enviada_caso_PQRSF</fullName>
+    <active>true</active>
+    <description>Para los casos PQRSF si la casilla “Respuesta enviada” no ha sido marcada no se permitirá el cierre del caso</description>
+    <errorConditionFormula>AND( RecordType.Name =&apos;PQRSFS Autos&apos;, ISCHANGED(Status), ISPICKVAL(Status, &apos;Cerrado&apos;),  Respuesta_Enviada__c =false)</errorConditionFormula>
+    <errorMessage>Debe marcar la casilla “Respuesta enviada” para proceder a cerrar el caso.</errorMessage>
+</ValidationRule>

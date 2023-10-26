@@ -1,0 +1,2306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AFOG_ActividadesIlicidas</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_ActividadesIlicidas</shortDescription>
+        <value>Autorizo a FANALCA S.A. para cancelar el contrato y/o relación comercial que mantenga conmigo y/o la sociedad que represento en el caso de comprobarse cualquier infracción de las
+normas legales tendientes al control de lavado de activos, de acuerdo con la Legislación Colombiana vigente y eximo a FANALCA S.A. de toda responsabilidad que se derive por información
+errónea, falsa o inexacta que hubiera proporcionado en este documento.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_AnularPedidoUNOE</fullName>
+        <categories>Label on AFOG_AnualacionPedido_cmp</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_AnularPedidoUNOE</shortDescription>
+        <value>Recuerde anular primero pedido en UNOE</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_BodyVehiculoRetiradoInventario</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_BodyVehiculoRetiradoInventario</shortDescription>
+        <value>Buen día estimado usuario,
+
+El vehiculo con placas {placas} , se ha retirado del inventario.
+link {link}
+
+Un saludo,
+Fanalca</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_ClausulaPrecios</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_ClausulaPrecios</shortDescription>
+        <value>Este valor está sujeto a cambios de acuerdo a circunstancias de fuerza mayor como
+                fluctuaciones de la tasa representativa del mercado, incremento de precios del
+                fabricante, incremento de fletes internos y externos, incremento de costos de trámites
+                portuarios y de importación, entre otros.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_ConfirmarAnulacion</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_ConfirmarAnulacion</shortDescription>
+        <value>Por favor pulsa el botón Confirmar para anular el pedido.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_DatosPersonales1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_DatosPersonales1</shortDescription>
+        <value>&quot;Autorizo de manera libre, previa, expresa, voluntaria y debidamente informada a FANALCA S.A., como representante exclusivo de la marca HONDA en Colombia, o a los terceros que
+contrate como encargados del tratamiento de mis datos personales, para que sus dependencias comerciales y/o administrativas puedan: recolectar, almacenar, tratar, usar, circular,
+custodiar, archivar, recopilar, procesar, consultar, compilar, analizar, actualizar, verificar, intercambiar, reportar, suministrar, suprimir, disponer, compartir, transmitir y transferir. Esta
+información es y será utilizada en el desarrollo de las funciones propias de FANALCA, entre ellas, para fines estadísticos, comerciales, publicitarios, de mercadeo, manejo financiero,
+contable, gestión de cobranza, así como para contactarme a través de cualquier medio suministrado por mí, para el ofrecimiento de productos y servicios, promociones y campañas de
+servicio, de acuerdo con la política de tratamiento de datos personales</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_DatosPersonales2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_DatosPersonales2</shortDescription>
+        <value>disponible en la página web https://autos.honda.com.co/politicas-de-privacidad. Manifiesto que la información
+proporcionada es completa, veraz, exacta, comprobable y que en cualquier momento tengo el derecho a actualizarla, rectificarla, conocerla o solicitar su supresión, revocar la presente
+autorización o abstenerme de responder las preguntas sobre datos sensibles (excepto con los datos requeridos en cumplimiento de las normas de emergencia sanitaria) o de menores de
+edad, de conformidad con la Ley 1581 de 2012 y demás normas vigentes. Para ejercer mis derechos puedo realizar las solicitudes, quejas o reclamos a través del correo electrónico
+lpdp@fanalca.com o en las vitrinas a nivel nacional.&quot;</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_FacturarNombreDe</fullName>
+        <categories>Label on AutosCrearPedidoEnUNOEE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_FacturarNombreDe</shortDescription>
+        <value>Error, Falta llenar el campo &quot;Facturar a nombre de:&quot;</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_Gatantia2023_A</fullName>
+        <categories>Label on quoteAutoNuevoTemplate</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_Gatantia2023_A</shortDescription>
+        <value>Está orientada en satisfacer tus necesidades y las de tú vehículo durante 2 años sin límite de kilometraje, generando un ahorro del 100% en los costos de mantenimiento preventivo y repuestos.  Su cobertura inicia a partir de la fecha de factura del vehículo. La garantía incluye: Mano de obra, filtros, lubricantes, fluidos, pastillas de frenos, diagnóstico (mantenimiento preventivo, correctivo y predictivo), partes eléctricas como: Bombillería, batería, bujías fusibles, computadores de abordo, motores eléctricos, arneses, alternador y motor de arranque. Esta garantía es adicional a la garantía de fábrica, la cual aplica para todas las referencias Honda y cubre el mantenimiento realizado de acuerdo a las instrucciones dadas por el fabricante, por 3 años o 100.000 KM, lo primero que ocurra. La cobertura se encuentra especificada en el manual de garantía del vehículo. Inicia a partir de la fecha de entrega del vehículo. No incluye piezas de desgast
+
+Lo anterior no aplica cuando el daño d</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_Hola</fullName>
+        <categories>Label on AFOG_AnualacionPedido</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_Hola</shortDescription>
+        <value>Hola, &lt;br/&gt;&lt;br/&gt;El pedido No</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_PEDIDO_CANCELADO</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_PEDIDO CANCELADO</shortDescription>
+        <value>El pedido se ha cancelado correctamente</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_Pedido</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_Pedido</shortDescription>
+        <value>Pedido</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_TextoPeticionesQuejas</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_TextoPeticionesQuejas</shortDescription>
+        <value>En el evento de encontrar alguna inconformidad con este producto o con la garantía del mismo, usted tiene derecho a presentar peticiones, quejas y reclamos, los cuales serán resueltos en
+este establecimiento de acuerdo con el procedimiento establecido, de conformidad con la normatividad aplicable en materia de efectividad de garantía contenida, en especial, en la circular
+única de la Superintendencia de Industria y Comercio, los artículos 7,8,9,10 y 11 de la ley 1480 de 2022, el capítulo 32 del título 2 de la parte 2 del libro 2 del decreto 1074 de 2015 o las
+disposiciones que los modifiquen o adicionen.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_TituloActividades</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_TituloActividades</shortDescription>
+        <value>PREVENCIÓN DE ACTIVIDADES ILICITAS</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_TituloPeticiones</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_TituloPeticiones</shortDescription>
+        <value>PETICIONES, QUEJAS Y RECLAMOS</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_clausula_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_clausula_1</shortDescription>
+        <value>1. El vehículo a adquirir por el COMPRADOR tienen las características generales que se encuentran registradas en la parte delantera de este pedido.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_clausula_10</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_clausula_10</shortDescription>
+        <value>10. La matrícula del vehículo será diligenciada directamente por EL VENDEDOR, y los gastos que ésta ocasione incluyendo los honorarios del tramitador, serán
+por cuenta de EL COMPRADOR.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_clausula_11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_clausula_11</shortDescription>
+        <value>11. Si se reciben pagos por mayor valor del vehículo, FANALCA S.A. cobrará el 4 x 1000 AL COMPRADOR al momento de proceder a reintegrar dichos
+excedentes del dinero.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_clausula_12</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_clausula_12</shortDescription>
+        <value>12. Si la venta no se efectúa por razones imputables al comprador, FANALCA S.A. cobrará el 4 x 1000 AL COMPRADOR para proceder a reintegrar el
+dinero que haya pagado por el vehículo nuevo o usado.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_clausula_13</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_clausula_13</shortDescription>
+        <value>13. Si la venta no se efectúa por razones imputables al comprador, EL VENDEDOR deberá retener a título de indemnización por incumplimiento el 5% del
+valor total del vehículo que quedará de propiedad de EL VENDEDOR. Este valor compensará los gastos financieros y trámites en que ha incurrido EL
+VENDEDOR, al efectuar el pedido al proveedor y aumentar su inventario de vehículos.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_clausula_14</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_clausula_14</shortDescription>
+        <value>14. El pedido tendrá vigencia hasta el último día calendario del mes en que haya sido firmado.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_clausula_15</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_clausula_15</shortDescription>
+        <value>15. Este pedido se entiende como aceptado tanto por el VENDEDOR como por el COMPRADOR en el momento de la firma del mismo.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_clausula_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_clausula_2</shortDescription>
+        <value>2. El vehículo Honda HR-V X-tyle corresponde a la versión LX accesorizada en Colombia, por lo tanto, su identificación para todos los efectos es HR-V LX</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_clausula_3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_clausula_3</shortDescription>
+        <value>3. El comprador conoce y acepta que tratándose de vehículos usados, se otorga una garantía por 12 meses o 20.000 Kilómetros más a partir de la fecha de
+entrega del mismo, únicamente sobre el motor del vehículo, el cual consta de: Bloque, cigüeñal, bielas, pistones, y el conjunto mecánico de la culata, sobre
+las demás partes del vehículo, no se otorga garantía. Esta garantía no tiene cobertura para vehículos usados vendidos bajo la figura de consignación.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_clausula_4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_clausula_4</shortDescription>
+        <value>4. En caso de entrega de un vehículo usado como parte de pago de un vehículo nuevo o usado, El COMPRADOR se compromete a entregar el vehículo usado
+a paz y salvo por concepto de impuestos, multas, sanciones e infracciones, embargos, pignoraciones, gravámenes y en general libre de toda limitación a la
+propiedad y cualquier circunstancia que afecte el libre comercio del bien. Además, se obliga a asumir el 50% de los gastos de traspaso y el valor de la
+retención en la fuente que genera la venta del vehículo usado.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_clausula_5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_clausula_5</shortDescription>
+        <value>5. Si la compra corresponde a un vehículo usado, EL COMPRADOR asumirá el 50% de los gastos de traspaso y el valor a prorrata de los Impuestos y el
+SOAT que se encuentren vigentes.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_clausula_6</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_clausula_6</shortDescription>
+        <value>6. La entrega del vehículo está sujeta a disponibilidad de inventario. Si el vehículo no se encuentra disponible en el país, queda sujeto a las próximas llegadas
+de vehículos al país, de acuerdo con la disponibilidad de la fábrica de origen.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_clausula_7</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_clausula_7</shortDescription>
+        <value>7. EL VENDEDOR por motivos de fuerza mayor o caso fortuito, podrá variar la fecha de entrega del vehículo.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_clausula_8</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_clausula_8</shortDescription>
+        <value>8. Todos los pagos deben ser girados a favor de EL VENDEDOR (Fanalca S.A) a la cuenta corriente única nacional de Bancolombia número 821-
+165895-68 y EL COMPRADOR debe exigir su respectivo recibo oficial de caja. Únicamente la caja general está autorizada para expedir los recibos de
+caja correspondientes. EL VENDEDOR no se hace responsable por efectivo, cheque o fondos que no estén respaldados por el recibo de caja oficial.
+Fanalca S.A. no efectuará reintegros de dineros que no hayan sido consignados en las cuentas de la cual es titular.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_clausula_9</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_clausula_9</shortDescription>
+        <value>9. El vehículo se entregará una vez esté pagado en su totalidad y matriculado o traspasado ante la respectiva oficina de tránsito.</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_msm_Title</fullName>
+        <categories>Label on AFOG_AnualacionPedido</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_msm_Title</shortDescription>
+        <value>Anulación de pedido</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_msm_anulacionOpp</fullName>
+        <categories>Label on AFOG_AnualacionPedido</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_msm_anulacionOpp</shortDescription>
+        <value>Se anuló el pedido relacionado a la oportunidad</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_msm_anulo</fullName>
+        <categories>Label on AFOG_AnualacionPedido</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_msm_anulo</shortDescription>
+        <value>se anuló correctamente. &lt;br/&gt;&lt;br/&gt;Gracias&lt;br/&gt; Fanalca &lt;br/&gt; &lt;br/&gt;  https://hondaautos--test2.lightning.force.com/lightning/r/Opportunity/</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_msm_relacionado</fullName>
+        <categories>Label on AFOG_AnualacionPedido</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_msm_relacionado</shortDescription>
+        <value>relacionado a la oportunidad</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_referenciaComercial</fullName>
+        <categories>Label on invoiceRequestAutoTemplate</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_referenciaComercial</shortDescription>
+        <value>Referencia Comercial</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_subject</fullName>
+        <categories>Label on AFOG_AnualacionPedido</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_subject</shortDescription>
+        <value>Pedido cancelado</value>
+    </labels>
+    <labels>
+        <fullName>AFOG_title_VehiculoRetiradoInventario</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AFOG_title_VehiculoRetiradoInventario</shortDescription>
+        <value>Vehículo retirado del inventario</value>
+    </labels>
+    <labels>
+        <fullName>AM_AgradecimientoPreliquidarLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_AgradecimientoPreliquidarLBL</shortDescription>
+        <value>Gracias por escoger a Hero, le reiteramos nuestro compromiso de ofrecerle los mejores productos y servicios, pues es nuestra filosofía compañar a nuestros clientes, 
+    satisfacer sus necesidades, expectativas y convertirlo en nuestro &lt;b&gt;CLIENTE PREFERENCIAL&lt;/b&gt;</value>
+    </labels>
+    <labels>
+        <fullName>AM_AnioLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_AnioLBL</shortDescription>
+        <value>Modelo</value>
+    </labels>
+    <labels>
+        <fullName>AM_AprobadoLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_AprobadoLBL</shortDescription>
+        <value>Viabilidad</value>
+    </labels>
+    <labels>
+        <fullName>AM_AsesorComercialLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_AsesorComercialLBL</shortDescription>
+        <value>Asesor Comercial</value>
+    </labels>
+    <labels>
+        <fullName>AM_AutorizacionConsultaLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_AutorizacionConsultaLBL</shortDescription>
+        <value>AUTORIZACIÓN CONSULTA CENTRALES DE RIESGO.</value>
+    </labels>
+    <labels>
+        <fullName>AM_AutorizacionDatosCrediticiosLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_AutorizacionDatosCrediticiosLBL</shortDescription>
+        <value>AUTORIZACIÓN PARA LA CONSULTA, REPORTE Y PROCESAMIENTO DE DATOS CREDITICIOS, FINANCIEROS,
+COMERCIALES, DE SERVICIOS Y DE TERCEROS EN PAISES DE LA CENTRAL DE INFORMACION CIFIN, Y A CUALQUIER
+OTRA ENTIDAD PÚBLICA O PRIVADA DE CENTRALES DE RIESGO</value>
+    </labels>
+    <labels>
+        <fullName>AM_AutorizacionRecepcionLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_AutorizacionRecepcionLBL</shortDescription>
+        <value>AUTORIZACIÓN DE RECEPCIÓN DE INFORMACIÓN.</value>
+    </labels>
+    <labels>
+        <fullName>AM_Autorizacion_manejo_datos_personales</fullName>
+        <categories>Texto, Autorización, Datos personales</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Autorización manejo datos personales</shortDescription>
+        <value>“Autorizo a enviar y recibir información vía telefónica, celular, mail, mensaje de texto o cualquier otro medio electrónico para informar de nuevos productos, servicios, comunicaciones comerciales, publicitarias o promocionales de terceros noticias/ofertas especiales por correo electrónico y otro medio de comunicación electrónica y que mi información personal puede ser objeto de tratamiento, recolectada, almacenada, usada, procesada y/o compartida con un tercero de acuerdo  a los términos: y condiciones de su política de privacidad. Manifiesto que conozco he leído, comprendido el alcance de la presente autorización y acepto y autorizo de manera expresa”</value>
+    </labels>
+    <labels>
+        <fullName>AM_BienvenidaPreliquidacionLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_BienvenidaPreliquidacionLBL</shortDescription>
+        <value>Para Honda es un privilegio darle la bienvenida a su concesionario &lt;font style=&quot;text-transform: uppercase;&quot;&gt;&lt;b&gt;</value>
+    </labels>
+    <labels>
+        <fullName>AM_CancelarLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_CancelarLBL</shortDescription>
+        <value>Cancelar</value>
+    </labels>
+    <labels>
+        <fullName>AM_CargandoLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_CargandoLBL</shortDescription>
+        <value>Cargando</value>
+    </labels>
+    <labels>
+        <fullName>AM_CiudadExpedicionLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_CiudadExpedicionLBL</shortDescription>
+        <value>Ciudad de expedición</value>
+    </labels>
+    <labels>
+        <fullName>AM_CiudadResidenciaLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_CiudadResidenciaLBL</shortDescription>
+        <value>Ciudad de residencia</value>
+    </labels>
+    <labels>
+        <fullName>AM_ClaseLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_ClaseLBL</shortDescription>
+        <value>Clase</value>
+    </labels>
+    <labels>
+        <fullName>AM_ClienteHondaLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_ClienteLBL</shortDescription>
+        <value>Cliente Hero</value>
+    </labels>
+    <labels>
+        <fullName>AM_ColorLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_ColorLBL</shortDescription>
+        <value>Color</value>
+    </labels>
+    <labels>
+        <fullName>AM_ConsultaDataLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_ConsultaDataLBL</shortDescription>
+        <value>Consulta Data</value>
+    </labels>
+    <labels>
+        <fullName>AM_CreditoPreAprobadoLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_CreditoPreAprobadoLBL</shortDescription>
+        <value>TU CRÉDITO HA SIDO PREAPROBADO*</value>
+    </labels>
+    <labels>
+        <fullName>AM_Cuerpo2AutorizaConcesionarioLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_Cuerpo2AutorizaConcesionarioLBL</shortDescription>
+        <value>En caso de que, en el futuro en este documento efectué,a favor de un tercero, una venta de cartera o una cesión a cualquier título
+de las obligaciones a mi cargo, los efectos de la presenta autorizacion se extenderán a éste en los mismo términos y condiciones,
+Así mismo, autorizo a la central de información a que, en su calidad de operador, ponga mi información a disposición de otros
+operadores nacionales o extranjeros, en los términos que establece la Ley.</value>
+    </labels>
+    <labels>
+        <fullName>AM_Cuerpo3AutorizaConcesionarioLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_Cuerpo3AutorizaConcesionarioLBL</shortDescription>
+        <value>Si__ No__ Autorizo el envío de correspondencia, estados de cuenta, extractos, avisos de cobro, mensajes y demás información que
+el concesionario</value>
+    </labels>
+    <labels>
+        <fullName>AM_Cuerpo4AutorizaConcesionarioLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_Cuerpo4AutorizaConcesionarioLBL</shortDescription>
+        <value>estime conveniente a través de correo eléctronico, via celular y cualquier otro medio de
+comunicación.</value>
+    </labels>
+    <labels>
+        <fullName>AM_Cuerpo5AutorizaConcesionarioLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_Cuerpo5AutorizaConcesionarioLBL</shortDescription>
+        <value>Manifiesto que conozco, he leído, comprendido el alcance de la presente autorización y acepto y la autorizo de manera expresa.</value>
+    </labels>
+    <labels>
+        <fullName>AM_CuerpoAutorizaConcesionarioLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_CuerpoAutorizaConcesionarioLBL</shortDescription>
+        <value>para que obtengan de cualquier central de riesgos información
+relacionada con mi nombre, comportamiento comercial, hábitos de pago, manejos de crédito y de cuentas, saldo de mis
+obligaciones crediticias, tiempo en mora en el pago de dichas obligaciones, y en general el manejo de mis obligaciones
+pecuniarias, lo mismo que el suministro de esta información a quienes tuvieran interés legítimo en ella.</value>
+    </labels>
+    <labels>
+        <fullName>AM_CuerpoAutorizaRecepcionLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_CuerpoAutorizaRecepcionLBL</shortDescription>
+        <value>Si__ No__ Autorizo expresamente enviar y recibir información vía telefónica, celular, mail, mensajes de texto, o cualquier otro
+medio electrónico para informar de nuevos productos, servicios, comunicaciones comerciales, publicitarias o promocionales de
+terceros, recibir noticias/ofertas especiales por correo electrónico u otro medio de comunicación electrónica y que mi información
+personal pueda ser objeto de tratamiento, recolectada, almacenada, usada, procesada y/o compartida con sus concesionarios
+filiales, subordinados vinculados, responsables o encargadas de conformidad con la ley &lt;br/&gt;
+Manifiesto que conozco, he leído, comprendido el alcance de la presente autorización de recepción de información de datos
+personales y acepto y la autoriza de manera expresa.</value>
+    </labels>
+    <labels>
+        <fullName>AM_CuotaInicialLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_CuotaInicialLBL</shortDescription>
+        <value>Cuota Inicial</value>
+    </labels>
+    <labels>
+        <fullName>AM_CuotaMensualLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_CuotaMensualLBL</shortDescription>
+        <value>Cuota mensual</value>
+    </labels>
+    <labels>
+        <fullName>AM_DatosComplementariosLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_DatosComplementariosLBL</shortDescription>
+        <value>Datos Complementarios</value>
+    </labels>
+    <labels>
+        <fullName>AM_DatosSolicitudLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_DatosSolicitudLBL</shortDescription>
+        <value>Datos de la solicitud</value>
+    </labels>
+    <labels>
+        <fullName>AM_DebeEscribirValorLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_DebeEscribirValorLBL</shortDescription>
+        <value>Debe escribir un valor</value>
+    </labels>
+    <labels>
+        <fullName>AM_DepartamentoResidenciaLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_DepartamentoResidenciaLBL</shortDescription>
+        <value>Departamento de residencia</value>
+    </labels>
+    <labels>
+        <fullName>AM_DocumentosLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_DocumentosLBL</shortDescription>
+        <value>Documentos</value>
+    </labels>
+    <labels>
+        <fullName>AM_DocumentosPreliquidacionLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_DocumentosPreliquidacionLBL</shortDescription>
+        <value>SOLICITUD DE FACTURACION /HOJA DE NEGOCIACION.&lt;br/&gt;CARTA AUTORIZACION CONSULTA CENTRALES DE RIESGO.&lt;br/&gt;SOLICITUD DE CREDITO DE LA ENTIDAD FINANCIERA. COMPLETAMENTE DILIGENCIADA(CON FIRMA Y HUELLA) SIN NUNGUN TIPO DE ENMENDADURA.&lt;br/&gt;FOTOCOPIA DE LA CEDULA DE CIUDADANIA. AMPLIADA A 150% ZOOM Y LEGIBLE EN TODOS SUS CAMPOS.&lt;br/&gt;CARTA LABORAL ORIGINAL, CON MAXIMO UN MES DE VIGENCIA. ESPECIFICAR (CARGO,SALARIO, ANTIGÜEDAD Y TIPO DE CONTRATO).&lt;br/&gt;COMPROBANTE DE NOMINA DOS ULTIMOS MESES COMPLETO.&lt;br/&gt;FOTOCOPIA CARNET EPS.&lt;br/&gt;CERTIFICADO DE INGRESOS Y RETENCIONES DIAN. ULTIMO AÑO GRAVABLE FIRMADO POR EL EMPLEADO.&lt;br/&gt;FOTOCOPIA DE ULTIMO RECIBO DE SERVICIOS PUBLICOS (AGUA Y ENERGIA).</value>
+    </labels>
+    <labels>
+        <fullName>AM_Documentos_credito_Agricultor_Ganadero</fullName>
+        <categories>Documentos, Crédito, Agricultor, Ganadero</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Documentos crédito Agricultor/Ganadero</shortDescription>
+        <value>- Solicitud de Crédito completamente diligenciada (Con Firma Y Huella), sin ningún tipo de enmendadura.&lt;br/&gt;
+- Fotocopia de la cedula de ciudadanía al 150% y legible en todos sus campos.&lt;br/&gt;
+- Fotocopia de último recibo de servicios públicos (Agua Y Energía)&lt;br/&gt;
+- Certificado de Cámara y Comercio original con vigencia máxima de 30 días, o el RUT donde especifique la actividad y el tiempo.&lt;br/&gt;
+- Declaración de Renta o Certificado de Ingresos con la fotocopia de la tarjeta profesional del  contador.&lt;br/&gt;
+- Referencia Comercial de proveedores o clientes de acuerdo a la actividad, donde se  especifique el valor de cupo o compra promedio mensual y el tiempo de antigüedad.&lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>AM_Documentos_credito_Comerciante</fullName>
+        <categories>Documentos, Crédito, Comerciante</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Documentos crédito Comerciante</shortDescription>
+        <value>- Solicitud de Crédito completamente diligenciada (Con Firma Y Huella), sin ningún tipo de enmendadura.&lt;br/&gt;
+- Fotocopia de la cedula de ciudadanía al 150% y legible en todos sus campos.&lt;br/&gt;
+- Fotocopia de último recibo de servicios públicos (Agua Y Energía)&lt;br/&gt;
+- Certificado de Cámara y Comercio original con vigencia máxima de 30 días, o el RUT donde especifique la actividad y el tiempo.&lt;br/&gt;
+- Declaración de Renta o Certificado de Ingresos con la fotocopia de la tarjeta profesional del  contador.&lt;br/&gt;
+- Referencia Comercial de proveedores o clientes de acuerdo a la actividad, donde se  especifique el valor de cupo o compra promedio mensual y el tiempo de antigüedad.&lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>AM_Documentos_credito_Empleado</fullName>
+        <categories>Documentos, Crédito, Empleado</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Documentos crédito Empleado</shortDescription>
+        <value>- Solicitud de Crédito completamente diligenciada (Con Firma Y Huella), sin ningún tipo de enmendadura.&lt;br/&gt;
+- Fotocopia de la cedula de ciudadanía al 150% y legible en todos sus campos.&lt;br/&gt;
+- Fotocopia de último recibo de servicios públicos (Agua Y Energía).&lt;br/&gt;
+- Carta Laboral original con vigencia de 45 días, especificando (Cargo, Salario, Antigüedad y Tipo de Contrato).&lt;br/&gt;
+- Comprobante de nómina de los últimos dos meses.&lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>AM_Documentos_credito_Independiente</fullName>
+        <categories>Documentos, Crédito, Independiente</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Documentos crédito Independiente</shortDescription>
+        <value>- Solicitud de Crédito completamente diligenciada (Con Firma Y Huella), sin ningún tipo de enmendadura.&lt;br/&gt;
+- Fotocopia de la cedula de ciudadanía al 150% y legible en todos sus campos.&lt;br/&gt;
+- Fotocopia de último recibo de servicios públicos (Agua Y Energía)&lt;br/&gt;
+- Certificado de Cámara y Comercio original con vigencia máxima de 30 días, o el RUT donde especifique la actividad y el tiempo.&lt;br/&gt;
+- Declaración de Renta o Certificado de Ingresos con la fotocopia de la tarjeta profesional del  contador.&lt;br/&gt;
+- Referencia Comercial de proveedores o clientes de acuerdo a la actividad, donde se  especifique el valor de cupo o compra promedio mensual y el tiempo de antigüedad.&lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>AM_Documentos_credito_Jubilado_Pensionado</fullName>
+        <categories>Documentos, Crédito, Jubilado, Pensionado</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Documentos crédito Jubilado/Pensionado</shortDescription>
+        <value>- Solicitud de Crédito completamente diligenciada (Con Firma Y Huella), sin ningún tipo de enmendadura.&lt;br/&gt;
+- Fotocopia de la cedula de ciudadanía al 150% y legible en todos sus campos.&lt;br/&gt;
+- Fotocopia de último recibo de servicios públicos (Agua Y Energía)&lt;br/&gt;
+- Comprobantes de pago de pensión últimos dos  meses.&lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>AM_Documentos_credito_Rentista_capital</fullName>
+        <categories>Documentos, Crédito, Rentista capital</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Documentos crédito Rentista capital</shortDescription>
+        <value>- Solicitud de Crédito completamente diligenciada (Con Firma Y Huella), sin ningún tipo de enmendadura.&lt;br/&gt;
+- Fotocopia de la cedula de ciudadanía al 150% y legible en todos sus campos.&lt;br/&gt;
+- Fotocopia de último recibo de servicios públicos (Agua Y Energía)&lt;br/&gt;
+- Certificado de Cámara y Comercio original con vigencia máxima de 30 días, o el RUT donde especifique la actividad y el tiempo.&lt;br/&gt;
+- Declaración de Renta o Certificado de Ingresos con la fotocopia de la tarjeta profesional del  contador.&lt;br/&gt;
+- Referencia Comercial de proveedores o clientes de acuerdo a la actividad, donde se  especifique el valor de cupo o compra promedio mensual y el tiempo de antigüedad &lt;br/&gt;
+- Certificado de tradición de propiedad raíz original, con vigencia máxima de 30 días, y contratos de arrendamiento o certificación de inmobiliaria.&lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>AM_Documentos_credito_Transportador</fullName>
+        <categories>Documentos, Crédito, Independiente, Transportador</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Documentos crédito Transportador</shortDescription>
+        <value>- Solicitud de Crédito completamente diligenciada (Con Firma Y Huella), sin ningún tipo de enmendadura.&lt;br/&gt;
+- Fotocopia de la cedula de ciudadanía al 150% y legible en todos sus campos.&lt;br/&gt;
+- Fotocopia de último recibo de servicios públicos (Agua Y Energía)&lt;br/&gt;
+- Certificado de Cámara y Comercio original con vigencia máxima de 30 días, o el RUT donde especifique la actividad y el tiempo.&lt;br/&gt;
+- Declaración de Renta o Certificado de Ingresos con la fotocopia de la tarjeta profesional del  contador.&lt;br/&gt;
+- Referencia Comercial de proveedores o clientes de acuerdo a la actividad, donde se  especifique el valor de cupo o compra promedio mensual y el tiempo de antigüedad.&lt;br/&gt;
+- Carta de afiliación de la empresa transportadora o certificado de prestación de  servicio original con vigencia máxima de 30 días y Fotocopia Tarjeta de Propiedad del vehículo que genera ingresos.  &lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>AM_EntidadFinancieraLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_EntidadFinancieraLBL</shortDescription>
+        <value>Entidad financiera</value>
+    </labels>
+    <labels>
+        <fullName>AM_ErrorLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_ErrorLBL</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>AM_EstabilidadLaboralLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_EstabilidadLaboralLBL</shortDescription>
+        <value>Estabilidad laboral</value>
+    </labels>
+    <labels>
+        <fullName>AM_EstaremosDispuestosLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_EstaremosDispuestosLBL</shortDescription>
+        <value>Estaremos dispuestos a ofrecerle la mejor asesoría en este proceso,</value>
+    </labels>
+    <labels>
+        <fullName>AM_FavorDiligenciarCamposObligatoriosLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_FavorDiligenciarCamposObligatoriosLBL</shortDescription>
+        <value>Favor diligenciar todos los campos obligatorios</value>
+    </labels>
+    <labels>
+        <fullName>AM_FechaExpedicionLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_FechaExpedicionLBL</shortDescription>
+        <value>Fecha de expedición</value>
+    </labels>
+    <labels>
+        <fullName>AM_FormatoPreliquidacionLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_FormatoPreliquidacionLBL</shortDescription>
+        <value>Formato de Preliquidación</value>
+    </labels>
+    <labels>
+        <fullName>AM_IngresosMensualesLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_IngresosMensualesLBL</shortDescription>
+        <value>Ingresos mensuales</value>
+    </labels>
+    <labels>
+        <fullName>AM_LineaLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_LineaLBL</shortDescription>
+        <value>Línea</value>
+    </labels>
+    <labels>
+        <fullName>AM_ListaCumplimientoLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_ListaCumplimientoLBL</shortDescription>
+        <value>Lista de cumplimiento</value>
+    </labels>
+    <labels>
+        <fullName>AM_MarcaLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_MarcaLBL</shortDescription>
+        <value>Marca :</value>
+    </labels>
+    <labels>
+        <fullName>AM_ModeloLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_ModeloLBL</shortDescription>
+        <value>Modelo</value>
+    </labels>
+    <labels>
+        <fullName>AM_MotocicletaHondaModeloLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_MotocicletaHondaModeloLBL</shortDescription>
+        <value>Motocicleta</value>
+    </labels>
+    <labels>
+        <fullName>AM_NoEncontroHomologacionCampoAgenciaLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_NoEncontroHomologacionCampoAgenciaLBL</shortDescription>
+        <value>No se encontró homologación para el campo agencia</value>
+    </labels>
+    <labels>
+        <fullName>AM_NoEncontroHomologacionCampoColorLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_NoEncontroHomologacionCampoColorLBL</shortDescription>
+        <value>No se encontró homologación para el campo color</value>
+    </labels>
+    <labels>
+        <fullName>AM_NoEncontroHomologacionCampoEstadoCivilLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_NoEncontroHomologacionCampoEstadoCivilLBL</shortDescription>
+        <value>No se encontró homologación para el campo estado civil</value>
+    </labels>
+    <labels>
+        <fullName>AM_NoEncontroHomologacionCampoGeneroLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_NoEncontroHomologacionCampoGeneroLBL</shortDescription>
+        <value>No se encontró homologación para el campo genero</value>
+    </labels>
+    <labels>
+        <fullName>AM_NoEncontroHomologacionCampoNivelEstudioLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_NoEncontroHomologacionCampoNivelEstudioLBL</shortDescription>
+        <value>No se encontró homologación para el campo nivel de estudio</value>
+    </labels>
+    <labels>
+        <fullName>AM_NoEncontroHomologacionCampoOcupacionLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_NoEncontroHomologacionCampoOcupacionLBL</shortDescription>
+        <value>No se encontró homologación para el campo ocupación</value>
+    </labels>
+    <labels>
+        <fullName>AM_NoEncontroHomologacionCampoPlanFinanciacionLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_NoEncontroHomologacionCampoPlanFinanciacionLBL</shortDescription>
+        <value>No se encontró homologación para el campo plan financiación</value>
+    </labels>
+    <labels>
+        <fullName>AM_NoEncontroHomologacionCampoTipoDocumentoLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_NoEncontroHomologacionCampoTipoDocumentoLBL</shortDescription>
+        <value>No se encontró homologación para el campo tipo de documento</value>
+    </labels>
+    <labels>
+        <fullName>AM_Nota_Aclaratoria_Cotizacion_Credito</fullName>
+        <categories>Texto, Notas, Creditos</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Nota Aclaratoria Cotización Credito</shortDescription>
+        <value>&quot;Los valores que arroja el simulador son aproximados y de carácter informativo; Todos los montos son calculados con base en la tasa de interés vigente para el producto. La tasa de interés cambia cada mes dependiendo de las condiciones del mercado y las cuotas incluyen los productos cotizados por parte del Cliente, por lo tanto esta proyección no compromete a la entidad frente a los cambios que estos factores originen sobre las cuotas proyectadas. Esta proyección presupone que el crédito será mantenido a día, por lo tanto no incluye cuotas vencidas, intereses de mora, honorarios y gastos legales que hubiesen causado a la fecha de la proyección o que se llegare a causar con posterioridad a ella.&quot;</value>
+    </labels>
+    <labels>
+        <fullName>AM_NumeroCuotasLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_NumeroCuotasLBL</shortDescription>
+        <value>Número de cuotas</value>
+    </labels>
+    <labels>
+        <fullName>AM_NumeroPersonasCargoLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_NumeroPersonasCargoLBL</shortDescription>
+        <value>Número de personas a cargo</value>
+    </labels>
+    <labels>
+        <fullName>AM_PlazoLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_PlazoLBL</shortDescription>
+        <value>Plazo</value>
+    </labels>
+    <labels>
+        <fullName>AM_PrecioVentaLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_PrecioVentaLBL</shortDescription>
+        <value>Precio Motocicleta de Contado con IVA</value>
+    </labels>
+    <labels>
+        <fullName>AM_PrimerApellidoLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_PrimerApellidoLBL</shortDescription>
+        <value>Primer apellido</value>
+    </labels>
+    <labels>
+        <fullName>AM_PrimerNombreLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_PrimerNombreLBL</shortDescription>
+        <value>Primer nombre</value>
+    </labels>
+    <labels>
+        <fullName>AM_ProximoContactoLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_ProximoContactoLBL</shortDescription>
+        <value>Próximo contacto</value>
+    </labels>
+    <labels>
+        <fullName>AM_RegresarLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_RegresarLBL</shortDescription>
+        <value>Regresar</value>
+    </labels>
+    <labels>
+        <fullName>AM_RequisitosLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_RequisitosLBL</shortDescription>
+        <value>Requisitos</value>
+    </labels>
+    <labels>
+        <fullName>AM_RespaldoPatrimonialLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_RespaldoPatrimonialLBL</shortDescription>
+        <value>Respaldo patrimonial</value>
+    </labels>
+    <labels>
+        <fullName>AM_RespuestaDataLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_RespuestaDataLBL</shortDescription>
+        <value>Respuesta Data</value>
+    </labels>
+    <labels>
+        <fullName>AM_RespuestaLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_RespuestaLBL</shortDescription>
+        <value>Respuesta</value>
+    </labels>
+    <labels>
+        <fullName>AM_RespuestaPreliquidacionCreditoLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_RespuestaPreliquidacionCreditoLBL</shortDescription>
+        <value>Respuesta para pre-liquidación de crédito</value>
+    </labels>
+    <labels>
+        <fullName>AM_SegundoApellidoLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_SegundoApellidoLBL</shortDescription>
+        <value>Segundo apellido</value>
+    </labels>
+    <labels>
+        <fullName>AM_SegundoNombreLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_SegundoNombreLBL</shortDescription>
+        <value>Segundo nombre</value>
+    </labels>
+    <labels>
+        <fullName>AM_SolicitarPreliquidacionLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_SolicitarPreliquidacionLBL</shortDescription>
+        <value>Solicitar pre-liquidación</value>
+    </labels>
+    <labels>
+        <fullName>AM_SolicitudFacturacionMotocicletasNuevasLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_SolicitudFacturacionMotocicletasNuevasLBL</shortDescription>
+        <value>SOLICITUD DE FACTURACIÓN MOTOCICLETAS NUEVAS</value>
+    </labels>
+    <labels>
+        <fullName>AM_SolicitudPreliquidacionCreditoLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_SolicitudPreliquidacionCreditoLBL</shortDescription>
+        <value>Solicitud de pre-liquidación de crédito</value>
+    </labels>
+    <labels>
+        <fullName>AM_SuCuotaMensualSeriaLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_SuCuotaMensualSeriaLBL</shortDescription>
+        <value>**Valor de Cuota Mensual</value>
+    </labels>
+    <labels>
+        <fullName>AM_TelefonoOficinaLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_TelefonoOficinaLBL</shortDescription>
+        <value>Teléfono oficina</value>
+    </labels>
+    <labels>
+        <fullName>AM_TipoContratoLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_TipoContratoLBL</shortDescription>
+        <value>Tipo de contrato</value>
+    </labels>
+    <labels>
+        <fullName>AM_TipoViviendaLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_TipoViviendaLBL</shortDescription>
+        <value>Tipo de vivienda</value>
+    </labels>
+    <labels>
+        <fullName>AM_UltimaInformacionPreliquidacionLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_UltimaInformacionPreliquidacionLBL</shortDescription>
+        <value>&lt;b&gt;Queremos pedirle que lea atentamente la siguiente información:&lt;/b&gt;
+    &lt;br/&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;1. Este documento corresponde a una pre-aprobación de su crédito con la entidad financiera.
+    &lt;br/&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;2. La aprobación definitiva de su crédito estará sujeta a la presentación y verificación de todos los documentos soporte requeridos a &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cargo de la Entidad Financiera
+    &lt;br/&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;3. Las diferencias entre la información suministrada para realizar la pre-aprobación y los soportes requeridos, puede significar el &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cumplimiento de mayores requisitos.
+    &lt;br/&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;4. La vigencia máxima de la presente pre-aprobación es de 30 días a partir de la fecha.</value>
+    </labels>
+    <labels>
+        <fullName>AM_ValorLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AM_ValorLBL</shortDescription>
+        <value>Valor</value>
+    </labels>
+    <labels>
+        <fullName>AO_descripcionTareaSeguimiento_lbl</fullName>
+        <categories>Descripción de la tarea de seguimiento de la cotización</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AO_descripcionTareaSeguimiento_lbl</shortDescription>
+        <value>Comunicarse con el cliente para continuar con el proceso de venta y aclarar inquietudes sobre el automóvil.</value>
+    </labels>
+    <labels>
+        <fullName>AO_msmFollowingTask</fullName>
+        <categories>Label on AO_FollowingTaskAlerController.js</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AO_msmFollowingTask</shortDescription>
+        <value>TIENES MÁS DE 10 TAREAS DE SEGUIMIENTO</value>
+    </labels>
+    <labels>
+        <fullName>AO_priorityNormal_lbl</fullName>
+        <categories>Prioridad normal de la tarea de seguimiento</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AO_priorityNormal_lbl</shortDescription>
+        <value>Normal</value>
+    </labels>
+    <labels>
+        <fullName>AO_sr_sistemaSeguridad_lbl</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AO_sr_sistemaSeguridad_lbl</shortDescription>
+        <value>La existencia o ausencia de los sistemas de seguridad se señalan incluyendo una “ X” en caso de ausencia o un “✓” en caso de existencia. En el caso del sistema de bolsas de aire se indica adicional el número de bolsas que posee.</value>
+    </labels>
+    <labels>
+        <fullName>AO_statusProgramada_lbl</fullName>
+        <categories>Estado programada</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AO_statusProgramada_lbl</shortDescription>
+        <value>Programada</value>
+    </labels>
+    <labels>
+        <fullName>AO_subjectActividadSeguimt_lbl</fullName>
+        <categories>Tema de la tarea de seguimiento</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AO_subjectActividadSeguimt_lbl</shortDescription>
+        <value>Realizar actividad de seguimiento</value>
+    </labels>
+    <labels>
+        <fullName>AO_titleFollowingTask</fullName>
+        <categories>Label on AO_FollowingTaskAlerController.js</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AO_titleFollowingTask</shortDescription>
+        <value>TAREAS DE SEGUIMIENTO</value>
+    </labels>
+    <labels>
+        <fullName>AR_ValOpp_Func</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AR_ValOpp_Func</shortDescription>
+        <value>ASESOR COMERCIAL RENTING</value>
+    </labels>
+    <labels>
+        <fullName>AR_ValOpp_Role</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AR_ValOpp_Role</shortDescription>
+        <value>Asesor de ventas</value>
+    </labels>
+    <labels>
+        <fullName>AssetVehiculoRecordType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AssetVehiculoRecordType</shortDescription>
+        <value>01201000000GyMEAA0</value>
+    </labels>
+    <labels>
+        <fullName>AsuntoDeEvento</fullName>
+        <categories>fanalca</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Asunto para eventos en asignacion de OPORTUNIDADES</shortDescription>
+        <value>Seguimiento a Oportunidad</value>
+    </labels>
+    <labels>
+        <fullName>AsuntoDeTareaLead</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Asunto para Tareas en asignacion de Lead</shortDescription>
+        <value>Seguimiento a Lead</value>
+    </labels>
+    <labels>
+        <fullName>AuthConsultarInventario</fullName>
+        <categories>endpoints</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AuthConsultarInventario</shortDescription>
+        <value>Basic d3N1c2VyOmJldGExMjM0</value>
+    </labels>
+    <labels>
+        <fullName>AutosRecordTypeDevNameAccountJuridica</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AutosRecordTypeDevNameAccountJuridica</shortDescription>
+        <value>AM_CUE_Cuenta_empresarial</value>
+    </labels>
+    <labels>
+        <fullName>AutosRecordTypeDevNameAccountNatural</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>AutosRecordTypeDevNameAccountNatural</shortDescription>
+        <value>AM_CUE_Persona_natural</value>
+    </labels>
+    <labels>
+        <fullName>AutosRecordTypeDevNameAsset</fullName>
+        <categories>Record Type</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AutosRecordTypeDevNameAsset</shortDescription>
+        <value>Vehiculo</value>
+    </labels>
+    <labels>
+        <fullName>AutosRecordTypeDevNameProduct</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AutosRecordTypeDevNameProduct</shortDescription>
+        <value>Autos</value>
+    </labels>
+    <labels>
+        <fullName>Autos_Community_Path</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Autos Community Path</shortDescription>
+        <value>/hondaautos</value>
+    </labels>
+    <labels>
+        <fullName>Autos_Nombre_Perfil_Asesores_Autos</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Asesores autos</shortDescription>
+        <value>Asesores autos</value>
+    </labels>
+    <labels>
+        <fullName>Autos_Nombre_Perfil_Asesores_Autos_Renting</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Asesores autos renting</shortDescription>
+        <value>Asesores autos</value>
+    </labels>
+    <labels>
+        <fullName>Autos_Nombre_Perfil_Gerentes_Autos</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Gerencias autos</shortDescription>
+        <value>Gerencias Autos</value>
+    </labels>
+    <labels>
+        <fullName>Autos_Reporte_Cumplimiento_Asesor</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Autos Reporte Cumplimiento Asesor</shortDescription>
+        <value>00O01000000VWgEEAW</value>
+    </labels>
+    <labels>
+        <fullName>Autos_Reporte_Cumplimiento_Asesor_Renting</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Autos Reporte Cumplimiento Asesor Renting</shortDescription>
+        <value>00O01000000VWwlEAG</value>
+    </labels>
+    <labels>
+        <fullName>Autos_Reporte_Cumplimiento_Asesor_Usados</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Autos Reporte Cumplimiento Asesor (Usados)</shortDescription>
+        <value>00O01000000VWkfEAG</value>
+    </labels>
+    <labels>
+        <fullName>Autos_Reporte_Cumplimiento_Gerente</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Autos Reporte Cumplimiento Gerente</shortDescription>
+        <value>00O01000000VWg4EAG</value>
+    </labels>
+    <labels>
+        <fullName>Autos_Reporte_Cumplimiento_GerenteRenting</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Autos Reporte Cumplimiento GerenteRenting</shortDescription>
+        <value>00O01000000VWwgEAG</value>
+    </labels>
+    <labels>
+        <fullName>Autos_Reporte_Cumplimiento_Gerente_General</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Autos Reporte Cumplimiento Gerente General</shortDescription>
+        <value>00O01000000VWfzEAG</value>
+    </labels>
+    <labels>
+        <fullName>Autos_Reporte_Cumplimiento_Gerente_General_Usados</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Autos Reporte Cumplimiento Gerente General (Usados)</shortDescription>
+        <value>00O01000000VWk6EAG</value>
+    </labels>
+    <labels>
+        <fullName>Autos_Reporte_Cumplimiento_Gerente_Usados</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Autos Reporte Cumplimiento Gerente (Usados)</shortDescription>
+        <value>00O01000000VWk6EAG</value>
+    </labels>
+    <labels>
+        <fullName>BatchEliminarQuotePdfNDays</fullName>
+        <categories>Batch</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>valor de N, en Last N Days. Para eliminar Quote Pdfs</shortDescription>
+        <value>2</value>
+    </labels>
+    <labels>
+        <fullName>Canal</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Canal</shortDescription>
+        <value>10</value>
+    </labels>
+    <labels>
+        <fullName>Cannot_register_individuals_for_the_event_that_has_already_ended</fullName>
+        <categories>Error Message, Event Registration</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Cannot register individuals for the event that has already ended.</shortDescription>
+        <value>You cannot register individuals for the event that has already ended.</value>
+    </labels>
+    <labels>
+        <fullName>Cantidad_de_Tareas_Diarias</fullName>
+        <categories>TaskCount</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cantidad de Tareas Diarias</shortDescription>
+        <value>15</value>
+    </labels>
+    <labels>
+        <fullName>Clase_de_documento</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Clase de documento</shortDescription>
+        <value>ZP01</value>
+    </labels>
+    <labels>
+        <fullName>Condicion_1_preliquidacion</fullName>
+        <categories>Documentos, Credito, Empleado</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Condicion 1 preliquidacion</shortDescription>
+        <value>*La pre-aprobación no implica la aprobación definitiva del crédito; queda sujeta a la presentación de la documentación del cliente y el estudio del crédito. La vigencia máxima de la presente preaprobación
+es de 30 días a partir de la fecha .</value>
+    </labels>
+    <labels>
+        <fullName>Condicion_2_preliquidacion</fullName>
+        <categories>Documentos, Credito, Empleado</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Condicion 2 preliquidacion</shortDescription>
+        <value>**NO INCLUYE: seguro de deuda, desempleo, y accidentes. El SOAT, matrícula y seguro de robo, estarán incluidos en la cuota en caso de haberlo solicitado al momento de la preaprobación.</value>
+    </labels>
+    <labels>
+        <fullName>Condicion_3_preliquidacion</fullName>
+        <categories>Documentos, Credito, Empleado</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Condicion 3 preliquidacion</shortDescription>
+        <value>.</value>
+    </labels>
+    <labels>
+        <fullName>Correo_HabeasData</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Correo HabeasData</shortDescription>
+        <value>aherrera@fastcloudconsulting.com</value>
+    </labels>
+    <labels>
+        <fullName>Cotizacion_Motos</fullName>
+        <categories>RecordType</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Cotizacion Motos</shortDescription>
+        <value>Cotizaciones_Motos</value>
+    </labels>
+    <labels>
+        <fullName>CupoCreditoPorcentajeUnoE</fullName>
+        <categories>Web Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CupoCreditoPorcentajeUnoE</shortDescription>
+        <value>10</value>
+    </labels>
+    <labels>
+        <fullName>DBAEXPERTSAPI</fullName>
+        <categories>Web Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DBAEXPERTSAPI</shortDescription>
+        <value>QYVWWZZ-88B4AKZ-G7T71GC-AKSR74F</value>
+    </labels>
+    <labels>
+        <fullName>DBAEXPERTSCliente</fullName>
+        <categories>Web Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DBAEXPERTSCliente</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>DBAEXPERTSUsuario</fullName>
+        <categories>Web Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DBAEXPERTSUsuario</shortDescription>
+        <value>FANALCA</value>
+    </labels>
+    <labels>
+        <fullName>DescripcionDeEvento</fullName>
+        <categories>fanalca</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Descripcion para eventos en asignacion de OPORTUNIDADES</shortDescription>
+        <value>Tiene que darle seguimiento a la Oportunidad dentro del tiempo definido</value>
+    </labels>
+    <labels>
+        <fullName>DescripcionDeTareaLead</fullName>
+        <categories>fanalca</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Descripcion para eventos en asignacion de Lead</shortDescription>
+        <value>Tiene que darle seguimiento al Lead dentro del tiempo definido</value>
+    </labels>
+    <labels>
+        <fullName>EndpointConsultarInventario</fullName>
+        <categories>endpoints</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EndpointConsultarInventario</shortDescription>
+        <value>https://fnwdpro01.fanalca.com.co:44300/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BC_SALESFORCE&amp;receiverParty=&amp;receiverService=&amp;interface=SI_MATERIAL_STOCK_OUT&amp;interfaceNamespace=http%3A%2F%2Ffanalca.com%2FSalesForceMaterialStock2SapEcc</value>
+    </labels>
+    <labels>
+        <fullName>EndpointConsultarInventarioAutos</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>EndpointConsultarInventarioAutos</shortDescription>
+        <value>https://fnwddev01.fanalca.com.co:44300/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BC_SALESFORCE&amp;receiverParty=&amp;receiverService=&amp;interface=SI_MATERIAL_STOCK_OUT&amp;interfaceNamespace=http://fanalca.com/SalesForceMaterialStock2SapEcc</value>
+    </labels>
+    <labels>
+        <fullName>Endpoint_Consulta_de_Precios</fullName>
+        <categories>Web Service</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Endpoint Consulta de Precios</shortDescription>
+        <value>https://fnwdpro01.fanalca.com.co:44300/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BC_SALESFORCE&amp;receiverParty=&amp;receiverService=&amp;interface=SI_PRICES_DISCOUNTS_OUT&amp;interfaceNamespace=http%3A%2F%2Ffanalca.com%2FSalesForcePricesAndDiscount2SapEcc</value>
+    </labels>
+    <labels>
+        <fullName>Endpoint_Creacion_de_Pedido</fullName>
+        <categories>Web Service</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Endpoint Creacion de Pedido</shortDescription>
+        <value>https://fnwdpro01.fanalca.com.co:44300/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BC_SALESFORCE&amp;receiverParty=&amp;receiverService=&amp;interface=SI_SALES_ORDER_SFC_OUT&amp;interfaceNamespace=http%3A%2F%2Ffanalca.com%2FSalesForceSalesOrderr2SapEcc</value>
+    </labels>
+    <labels>
+        <fullName>Etiqueta1_13</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Etiqueta1.13</shortDescription>
+        <value>1.13</value>
+    </labels>
+    <labels>
+        <fullName>Etiqueta1_19</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Etiqueta1.19</shortDescription>
+        <value>1.19</value>
+    </labels>
+    <labels>
+        <fullName>Etiqueta1_27</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Etiqueta1.27</shortDescription>
+        <value>1.27</value>
+    </labels>
+    <labels>
+        <fullName>Etiqueta1_35</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Etiqueta1.35</shortDescription>
+        <value>1.35</value>
+    </labels>
+    <labels>
+        <fullName>Event_Registration_Fail</fullName>
+        <categories>Event Registration</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Event_Registration_Fail</shortDescription>
+        <value>There has been an error while creating the event registration. 
+
+Administrator of your org has been has been notified.</value>
+    </labels>
+    <labels>
+        <fullName>Event_Registration_Reminder_Error</fullName>
+        <categories>Error Message, Event Registration</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Event_Registration_Reminder_Error</shortDescription>
+        <value>Reminder date cannot be in the past</value>
+    </labels>
+    <labels>
+        <fullName>Event_Registration_Success</fullName>
+        <categories>Event Registration</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Event_Registration_Success</shortDescription>
+        <value>Event Registration has been successfully created.</value>
+    </labels>
+    <labels>
+        <fullName>FanalcaWSEndPointCustomer</fullName>
+        <categories>Web Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FanalcaWSEndPointCustomer</shortDescription>
+        <value>https://fnwdpro01.fanalca.com.co:44300/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BC_SALESFORCE&amp;receiverParty=&amp;receiverService=&amp;interface=SI_CUSTOMERS_SFC_OUT&amp;interfaceNamespace=http%3A%2F%2Ffanalca.com%2FSalesForceCustomer2SapEcc</value>
+    </labels>
+    <labels>
+        <fullName>FanalcaWSEndPointCustomerUNOEE</fullName>
+        <categories>Web Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FanalcaWSEndPointCustomerUNOEE</shortDescription>
+        <value>https://fnwddev01.fanalca.com.co:44300/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BC_SALESFORCE&amp;receiverParty=&amp;receiverService=&amp;interface=SI_CR_CUSTOMER_SQL_OUT&amp;interfaceNamespace=http%3A%2F%2Ffanalca.com%2FSalesForceCustomer2Unoe</value>
+    </labels>
+    <labels>
+        <fullName>FanalcaWSEndPointOrderUNOEE</fullName>
+        <categories>Web Service</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>FanalcaWSEndPointOrderUNOEE</shortDescription>
+        <value>https://fnwddev01.fanalca.com.co:44300/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BC_SALESFORCE&amp;receiverParty=&amp;receiverService=&amp;interface=SI_CR_SALES_ORDER_SQL_OUT&amp;interfaceNamespace=http://fanalca.com/SFCSalesOrder2Unoe</value>
+    </labels>
+    <labels>
+        <fullName>FanalcaWSPassword</fullName>
+        <categories>Web Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FanalcaWSPassword</shortDescription>
+        <value>beta1234</value>
+    </labels>
+    <labels>
+        <fullName>FanalcaWSPasswordHojaVidaMoto</fullName>
+        <categories>Web Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FanalcaWSPasswordHojaVidaMoto</shortDescription>
+        <value>F4n41C4*2022</value>
+    </labels>
+    <labels>
+        <fullName>FanalcaWSUser</fullName>
+        <categories>Web Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FanalcaWSUser</shortDescription>
+        <value>WSUSER</value>
+    </labels>
+    <labels>
+        <fullName>FanalcaWSUserHojaVidaMoto</fullName>
+        <categories>Web Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FanalcaWSUserHojaVidaMoto</shortDescription>
+        <value>CRM_FANALCA</value>
+    </labels>
+    <labels>
+        <fullName>GarantiaHondaUsados</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>GarantiaHondaUsados</shortDescription>
+        <value>La garantía de usados se otorga únicamente sobre el motor del vehículo y aplica a partir de la fecha de entrega de acuerdo al kilometraje registrado en el certificado de garantía, por un periodo de doce meses o 20.000 km lo que primero se cumpla. Esta garantía no tiene cobertura para vehículos usados vendidos bajo la figura de consignación. Para conservar la validez de esta garantía, el vehículo debe recibir en la red de puntos de servicio HONDA autorizados por Fanalca S.A. cuatro revisiones obligatorias de mantenimiento preventivo.</value>
+    </labels>
+    <labels>
+        <fullName>GraphGaugeTitle</fullName>
+        <categories>Grafico</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Etiqueta del Grafico de Tacometro</shortDescription>
+        <value>Rango de Ventas</value>
+    </labels>
+    <labels>
+        <fullName>GraphPieTitle</fullName>
+        <categories>Grafico</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Titulo del grafico de queque</shortDescription>
+        <value>Rango de Ventas</value>
+    </labels>
+    <labels>
+        <fullName>GraphSegmentosBGDataLablesOpsVendidos</fullName>
+        <categories>Grafico</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Background de los data labels</shortDescription>
+        <value>transparent</value>
+    </labels>
+    <labels>
+        <fullName>GraphSegmentosColorDataLablesOpsVendidos</fullName>
+        <categories>Grafico</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Color de font de los labels de los segmentos en el Gauge</shortDescription>
+        <value>rgba(0, 0, 0, 1.0)</value>
+    </labels>
+    <labels>
+        <fullName>GraphSegmentosOpsVendidos</fullName>
+        <categories>Grafico</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Segmentos para Grafico de Ops Vendidos</shortDescription>
+        <value>4;9;14;19;24;29</value>
+    </labels>
+    <labels>
+        <fullName>GraphSegmentosOpsVendidosColores</fullName>
+        <categories>Grafico</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GraphSegmentosOpsVendidos</shortDescription>
+        <value>#f72039;#cc5425;#E9BD15;yellow;#A6D608;green</value>
+    </labels>
+    <labels>
+        <fullName>Hipoconsumo</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Hipoconsumo %</shortDescription>
+        <value>8</value>
+    </labels>
+    <labels>
+        <fullName>HoraInicioAlmuerzo</fullName>
+        <categories>fanalca</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Se almacena el numero de la hora de inicio del Almuerzo</shortDescription>
+        <value>12</value>
+    </labels>
+    <labels>
+        <fullName>HorasParaEvento</fullName>
+        <categories>fanalca</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Se establece la cantidad de horas para atender la OPORTUNIDAD luego de asignado</shortDescription>
+        <value>12</value>
+    </labels>
+    <labels>
+        <fullName>IVA</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>IVA %</shortDescription>
+        <value>19</value>
+    </labels>
+    <labels>
+        <fullName>LabelVINduplicado</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>LabelVINduplicado</shortDescription>
+        <value>Error, Este VIN/ Vehículo ya se envió en otra oportunidad y se encuentra en estado P4</value>
+    </labels>
+    <labels>
+        <fullName>MandatoryFieldsToMovePUstage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MandatoryFieldsToMovePUstage</shortDescription>
+        <value>Los siguientes campos son obligatorios para pasar a PU:cantidad de hijos, nivel socioeconómico, fecha de nacimiento, estado civil, ¿Qué actividad realiza en tiempo libre?, grado de escolaridad y Deporte que prefiere, sean obligatorios al pasar a PU.</value>
+    </labels>
+    <labels>
+        <fullName>MotoSeEntregaCon</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MotoSeEntregaCon</shortDescription>
+        <value>Certificado ambiental por 2 años, Kit básico de herramientas para Motocicleta, Manual de garantia y mantenimiento, Manual del propietario</value>
+    </labels>
+    <labels>
+        <fullName>MotosRecordTypeDevNameAccountJuridica</fullName>
+        <categories>Record Type</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>MotosRecordTypeDevNameAccountJuridica</shortDescription>
+        <value>AM_CUE_Cuenta_empresarial</value>
+    </labels>
+    <labels>
+        <fullName>MotosRecordTypeDevNameAccountNatural</fullName>
+        <categories>Record Type</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>MotosRecordTypeDevNameAccountNatural</shortDescription>
+        <value>AM_CUE_Persona_natural</value>
+    </labels>
+    <labels>
+        <fullName>MotosRecordTypeDevNameProduct</fullName>
+        <categories>Record Type</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MotosRecordTypeDevNameProduct</shortDescription>
+        <value>Motos</value>
+    </labels>
+    <labels>
+        <fullName>Nodriza_Send_Quote_Endpoint</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Nodriza Send Quote Endpoint</shortDescription>
+        <value>https://oa28may2021.free.beeceptor.com/my/api/path</value>
+    </labels>
+    <labels>
+        <fullName>OppEmailNewOwnerBody</fullName>
+        <categories>Notifications</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>OppEmailNewOwnerBody</shortDescription>
+        <value>Estimado usuario, se le ha asignado una nueva oportunidad.</value>
+    </labels>
+    <labels>
+        <fullName>OppNotificationNewOwnerBody</fullName>
+        <categories>Notifications</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>OppNotificationNewOwnerBody</shortDescription>
+        <value>Estimado usuario, se le ha asignado una nueva oportunidad, dar click a esta notificación para acceder.</value>
+    </labels>
+    <labels>
+        <fullName>OppNotificationNewOwnerTitle</fullName>
+        <categories>Notifications</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>OppNotificationNewOwnerTitle</shortDescription>
+        <value>Nueva oportunidad asignada</value>
+    </labels>
+    <labels>
+        <fullName>OpportunityRTAutosAutoNumberInicial</fullName>
+        <categories>Record Type</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Valor Inicial para el Auto number de la oportunidad de RT Autos</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>OpportunityRTMotosAutoNumberInicial</fullName>
+        <categories>Record Type</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Valor Inicial para el Auto number de la oportunidad de RT Motos</shortDescription>
+        <value>50000</value>
+    </labels>
+    <labels>
+        <fullName>Procedimiento_de_determinaci_n_de_precios</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Procedimiento de determinación de precios</shortDescription>
+        <value>Z00001</value>
+    </labels>
+    <labels>
+        <fullName>ProfileAsesoresAutos</fullName>
+        <categories>Profiles</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ProfileAsesoresAutos</shortDescription>
+        <value>Asesores autos</value>
+    </labels>
+    <labels>
+        <fullName>RM_AccountLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>RM_AccountLBL</shortDescription>
+        <value>Account</value>
+    </labels>
+    <labels>
+        <fullName>RM_AgradecimientoCotizacionLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>RM_AgradecimientoCotizacionLBL</shortDescription>
+        <value>Agradecemos tu confianza e interés en ser parte de nuestra gran Familia Honda, donde podrás disfrutar de beneficios y contar con el respaldo de esta gran marca.</value>
+    </labels>
+    <labels>
+        <fullName>RM_AutorizaDatos2LBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>RM_AutorizaDatos2LBL</shortDescription>
+        <value>Manifiesto que he sido informado del uso que se le dará a mis datos personales, y que es de carácter facultativo responder preguntas que versen sobre Datos Sensibles o sobre menores de edad. Que esta información podrá ser transmitida a terceros encargados o responsables del manejo de datos personales o transferida a terceros países que cumplan los requisitos mínimos sobre protección de datos establecidos por la ley para su tratamiento y que así lo he aceptado libre y espontáneamente. Igualmente, manifiesto que la información proporcionada es completa, veraz, exacta, comprobable y que en cualquier momento podré actualizarla, rectificarla, conocerla o solicitar su supresión con arreglo a la normatividad vigente aplicable. Para conocer la Política para la administración de datos personales de Fanalca S.A., ingrese al siguiente link: http://autos.honda.com.co/politicas-de-privacidad</value>
+    </labels>
+    <labels>
+        <fullName>RM_AutorizaDatosLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>RM_AutorizaDatosLBL</shortDescription>
+        <value>Autorizo de manera previa y expresa, a FANALCA S.A. (como ensamblador y distribuidor exclusivo de motocicletas HONDA en Colombia, e importador y distribuidor exclusivo de automóviles HONDA en Colombia) o a los terceros que esta contrate, quienes actuaran en condición de encargados de los datos personales a: tratar, usar, custodiar, archivar, recopilar, consultar, analizar, verificar, reportar, suministrar, suprimir, compartir, transmitir y transferir mis datos personales con fines estadísticos, comerciales, publicitarios, de mercadeo, manejo financiero, contable, gestión de cobranza pre-jurídica y jurídica, así como para contactarme a través de cualquier medio de contacto proporcionado por mí, para el ofrecimiento de productos y servicios, promociones y campañas de servicio, todo de conformidad con lo dispuesto en la ley 1581 de 2012 y demás normas vigentes.</value>
+    </labels>
+    <labels>
+        <fullName>RM_FotoReferenciaLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>RM_FotoReferenciaLBL</shortDescription>
+        <value>Fotografía a modo de referencia</value>
+    </labels>
+    <labels>
+        <fullName>RM_GarantiaHondaLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>RM_GarantiaHondaLBL</shortDescription>
+        <value>Mantenimiento, repuestos y mano de obra sin costo por 2 años sin límite de kilometraje a partir de la fecha de factura del vehículo. Garantía de fábrica por 3 años o 100.000 km lo que primero ocurra a partir de la fecha de entrega del vehículo. La HR-V LX cuenta con mantenimiento sin costo por 1 año sin límite de kilometraje a partir de la fecha de factura del vehículo y Garantía de fábrica por 3 años o 100.000 km lo que primero ocurra a partir de la fecha de entrega del vehículo. La Honda WR-V cuenta con mantenimiento preventivo (cambio de aceite, filtro de aceite, tapón, arandela y revisión de 21 puntos) sin costo cada 10.000 km o 6 meses por 2 años a partir de la fecha de factura del vehículo y Garantía de fábrica por 3 años o 100.000 KM, lo primero que ocurra a partir de la fecha de entrega del vehículo.</value>
+    </labels>
+    <labels>
+        <fullName>RM_GarantiaHondaUsadosLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>RM_GarantiaHondaUsadosLBL</shortDescription>
+        <value>Aplica a partir de la fecha de entrega el kilometraje registrado en la venta por un periodo de 12 meses o 20,000 km, lo primero que se cumpla. Para conservar la validez de esta garantía, el vehículo debe recibir en la red de puntos de servicio HONDA, autorizados por Fanalca S.A., cuatro (4) revisiones obligatorias de mantenimiento preventivo.</value>
+    </labels>
+    <labels>
+        <fullName>RM_OppNameLabelLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>RM_OppNameLabelLBL</shortDescription>
+        <value>AM_Oportunidad__c</value>
+    </labels>
+    <labels>
+        <fullName>RM_UltimoTextoCotizacionLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>RM_UltimoTextoCotizacionLBL</shortDescription>
+        <value>Cotización válida hasta el último día hábil del mes en que fue realizada.  Nota: Los precios, descuentos, especificaciones y condiciones están sujetos a cambio sin previo aviso. El tiempo y kilometraje de la garantía Total Honda podrá variar a la referencia de vehículo. Para mayor información consulte libro de garantía del vehículo. El vehículo Honda HR-V X-tyle corresponde a la versión LX accesorizada en Colombia, por lo tanto, su identificación para todos los efectos es HR-V LX. Todo pago debe hacerse directamente a favor de Fanalca S.A a la cuenta corriente única nacional de Bancolombia número 821-165895-68, por lo tanto, cualquier pago efectuado por el CLIENTE de otra manera, lo hace bajo su responsabilidad. Fanalca S.A no efectuará reintegros de dineros que no hayan sido consignados en las cuentas de la cual es titular.</value>
+    </labels>
+    <labels>
+        <fullName>RM_UltimoTextoCotizacionUsadosLBL</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>RM_UltimoTextoCotizacionUsadosLBL</shortDescription>
+        <value>Cotización válida hasta el último día hábil del mes en que fue realizada. Nota: Los precios, descuentos, disponibilidad y condiciones están sujetos a cambio sin previo aviso. Para que la validación sea efectiva, se debe abonar el 10% del valor total del vehículo usado. El vehículo Honda HR-V X-tyle corresponde a la versión LX accesorizada en Colombia, por lo tanto, su identificación para todos los efectos es HR-V LX. Todo pago debe hacerse directamente a favor de Fanalca S.A a la cuenta corriente única nacional de Bancolombia número 821-165895-68, por lo tanto, cualquier pago efectuado por el CLIENTE de otra manera, lo hace bajo su responsabilidad. Fanalca S.A no efectuará reintegros de dineros que no hayan sido consignados en las cuentas de la cual es titular.</value>
+    </labels>
+    <labels>
+        <fullName>RTLeadMotosJuridico</fullName>
+        <categories>Record Type</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dev Name del Record Type de Lead para Motos Juridico</shortDescription>
+        <value>Persona_Juridica_Motos</value>
+    </labels>
+    <labels>
+        <fullName>RTLeadMotosNatural</fullName>
+        <categories>Record Type</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dev Name del Record Type de Lead para Motos Natural</shortDescription>
+        <value>Persona_Natural_Motos</value>
+    </labels>
+    <labels>
+        <fullName>RTOportunidadAutos</fullName>
+        <categories>Record Type</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RTOportunidadAutos</shortDescription>
+        <value>Oportunidad_Autos</value>
+    </labels>
+    <labels>
+        <fullName>RTOportunidadMotos</fullName>
+        <categories>Record Type</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RTOportunidadMotos</shortDescription>
+        <value>Motos_Opportunity_Layout</value>
+    </labels>
+    <labels>
+        <fullName>RTQuoteAutos</fullName>
+        <categories>Record Type</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RTQuoteAutos</shortDescription>
+        <value>Cotizaciones_Autos</value>
+    </labels>
+    <labels>
+        <fullName>RTQuoteMotos</fullName>
+        <categories>Record Type</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RTQuoteMotos</shortDescription>
+        <value>Cotizaciones_Motos</value>
+    </labels>
+    <labels>
+        <fullName>RecordTypeAutos</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>RecordTypeAutos</shortDescription>
+        <value>Autos</value>
+    </labels>
+    <labels>
+        <fullName>ReporteMetaOpportunidades</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ReporteMetaOpportunidades</shortDescription>
+        <value>Meta_oportunidades_productos</value>
+    </labels>
+    <labels>
+        <fullName>ReporteMetaOpportunidadesProductos</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ReporteMetaOpportunidadesProductos</shortDescription>
+        <value>Meta_oportunidades_productos</value>
+    </labels>
+    <labels>
+        <fullName>ReporteOpsVendidasVistaJefe</fullName>
+        <categories>Reporte</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Id del Reporte de las Oportunidades Vendidas vista como Jefe</shortDescription>
+        <value>00O3l0000095J2hEAE</value>
+    </labels>
+    <labels>
+        <fullName>ReporteOpsVendidasVistaUsuario</fullName>
+        <categories>Reporte</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Id del Reporte de Opps Vendidas del Usuario</shortDescription>
+        <value>00O1F000001BsAcUAK</value>
+    </labels>
+    <labels>
+        <fullName>Sector</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Sector</shortDescription>
+        <value>10</value>
+    </labels>
+    <labels>
+        <fullName>URLNavegacionLightning</fullName>
+        <categories>Navegación</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>URLNavegacionLightning</shortDescription>
+        <value>https://hondaautos--test2.lightning.force.com</value>
+    </labels>
+    <labels>
+        <fullName>URL_Habeas_Data</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>URL Habeas Data</shortDescription>
+        <value>https://autos.honda.com.co/habeas-data</value>
+    </labels>
+    <labels>
+        <fullName>URL_Hoja_Vida</fullName>
+        <categories>Web Service</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>URL Hoja Vida</shortDescription>
+        <value>https://fnwdpro01.fanalca.com.co:44300/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BC_SALESFORCE&amp;receiverParty=&amp;receiverService=&amp;interface=SI_Vehicle_detail_OB&amp;interfaceNamespace=http://fanalca.com/SalesForceGetVehiculoSFC2SapEcc</value>
+    </labels>
+    <labels>
+        <fullName>UserNameGGAutos</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>UserNameGGAutos</shortDescription>
+        <value>jawilson@fanalca.com.test2</value>
+    </labels>
+    <labels>
+        <fullName>ValidarEmailEndPoint</fullName>
+        <categories>Web Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ValidarEmailEndPoint</shortDescription>
+        <value>https://fnwddev01.fanalca.com.co:44300/RESTAdapter/api/email</value>
+    </labels>
+    <labels>
+        <fullName>ValidarTelefonoEndPoint</fullName>
+        <categories>Web Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ValidarTelefonoEndPoint</shortDescription>
+        <value>https://fnwddev01.fanalca.com.co:44300/RESTAdapter/api/sms</value>
+    </labels>
+    <labels>
+        <fullName>changeAccountOwnerCSVSeparator</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>changeAccountOwnerCSVSeparator</shortDescription>
+        <value>,</value>
+    </labels>
+    <labels>
+        <fullName>consultarInventarioEditores</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>perfiles que pueden editar el Concesionario en Consulta de Inventario</shortDescription>
+        <value>System Administrator;Administrador del sistema;Gerente de ventas;Gerente de ventas (Motos);Gerencias Autos;Gerencia General Autos;</value>
+    </labels>
+    <labels>
+        <fullName>fsc_AccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccessLevel</shortDescription>
+        <value>Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Back</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ButtonIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ButtonIsNotSupportedMessage</shortDescription>
+        <value>Following buttons are note supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ConditionLogicHelpText</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ConditionLogicHelpText</shortDescription>
+        <value>Use parentheses, AND, OR, and NOT to customize the logic. For example, if you enter “(1 AND 2 AND 3) OR 4”, the flow evaluates whether the first three conditions are true or only the fourth condition is true.</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Delete</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FieldIsNotSupportedMessage</shortDescription>
+        <value>Following fields are not supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldTypeNotSuportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fsc_FieldTypeNotSuportedMessage</shortDescription>
+        <value>You provided an unsupported value for the DataTypeFilter input on Object and Field Picker. Currently the only supported value is ’picklist’</value>
+    </labels>
+    <labels>
+        <fullName>fsc_For</fullName>
+        <categories>Buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>For</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_LackingPermissions</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LackingPermissions</shortDescription>
+        <value>You don\&apos;t have the proper permissions for ths action</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ManagerEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ManagerEmptyMessage</shortDescription>
+        <value>&quot;Manager APEX Class&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_MultipleGroupsForRole</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MultipleGroupsForRole</shortDescription>
+        <value>There are multiple groups for that role</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Name</fullName>
+        <categories>quicklinks, Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>fsc_NonePicklistValueLabel</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NonePicklistValueLabel</shortDescription>
+        <value>-- None --</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OWDReadWrite</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OWDReadWrite</shortDescription>
+        <value>Sharing Settings must be private or public read/write to enable manual sharing</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OwnerAdminModify</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OwnerAdminModify</shortDescription>
+        <value>Only the record owner or administrators can modify permissions</value>
+    </labels>
+    <labels>
+        <fullName>fsc_PublicGroups</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PublicGroups</shortDescription>
+        <value>Public Groups</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Queues</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queues</shortDescription>
+        <value>Queues</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Read</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Read</shortDescription>
+        <value>Read</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ReadWrite</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReadWrite</shortDescription>
+        <value>Read / Write</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Reason</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reason</shortDescription>
+        <value>Reason</value>
+    </labels>
+    <labels>
+        <fullName>fsc_RelatedUsers</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RelatedUsers</shortDescription>
+        <value>Related Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Roles</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Roles</shortDescription>
+        <value>Roles</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Search</fullName>
+        <categories>Actions,Buttons,quicklinks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search in</shortDescription>
+        <value>Search in</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SearchFor</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchFor</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SetAccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetAccessLevel</shortDescription>
+        <value>Set Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedAddCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedAddCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Add Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedButtonsEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedButtonsEmptyMessage</shortDescription>
+        <value>&quot;Supported Buttons&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedEditCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedEditCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Edit Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_TooManyResultsMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TooManyResultsMessage</shortDescription>
+        <value>Your search found more than 200 results.  Keep typing to make it more specific</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Type</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>fsc_UserOrGroup</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserOrGroup</shortDescription>
+        <value>User Or Group</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Users</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Users</shortDescription>
+        <value>Users</value>
+    </labels>
+    <labels>
+        <fullName>lwc_CAOCSV_Boton</fullName>
+        <categories>LWC</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Etiqueta del botón del LWC Change account owner CSV</shortDescription>
+        <value>Cambio de Propietario</value>
+    </labels>
+    <labels>
+        <fullName>lwc_CAOCSV_Subtitulo</fullName>
+        <categories>LWC</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Etiqueta del subtitulo del LWC Change account owner CSV</shortDescription>
+        <value>Reasignación Masiva con Archivo CSV</value>
+    </labels>
+    <labels>
+        <fullName>lwc_CAOCSV_Titulo</fullName>
+        <categories>LWC</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Etiqueta del Titulo del LWC Change account owner CSV</shortDescription>
+        <value>Reasignación Masiva de Cuentas y Registros Relacionados</value>
+    </labels>
+    <labels>
+        <fullName>maxDiasEmailCuenta</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>número de días que el email de cuentas pueden permanecer sin actualizarse</shortDescription>
+        <value>365</value>
+    </labels>
+    <labels>
+        <fullName>maxDiasTelefonoCuenta</fullName>
+        <categories>Label</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>número de días que el teléfono de cuentas pueden permanecer sin actualizarse</shortDescription>
+        <value>90</value>
+    </labels>
+    <labels>
+        <fullName>motoCommunityVPFbaseURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>motoCommunityVPFbaseURL</shortDescription>
+        <value>/apex/</value>
+    </labels>
+    <labels>
+        <fullName>msmCambiarUsuaios</fullName>
+        <categories>Label on readCSVFileInLWC</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>msmCambiarUsuaios</shortDescription>
+        <value>Cambiar usuarios</value>
+    </labels>
+    <labels>
+        <fullName>msmEtiqueta</fullName>
+        <categories>label on lwc reasignaciones</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>msmEtiqueta</shortDescription>
+        <value>Módulo para reasignaciones  ( Mercadeo )</value>
+    </labels>
+    <labels>
+        <fullName>msmReasignacion</fullName>
+        <categories>Label on readCSVFileInLWC</categories>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>msmReasignacion</shortDescription>
+        <value>Reasignación individual</value>
+    </labels>
+    <labels>
+        <fullName>perfilesComunidadAutos</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>perfilesComunidadAutos</shortDescription>
+        <value>Asesores autos,Asesores autos renting,Asesores autos Test,Partner Community Agent Autos</value>
+    </labels>
+    <labels>
+        <fullName>perfilesComunidadMotos</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>perfilesComunidadMotos</shortDescription>
+        <value>Asesores motos,Partner Community Agent Motos</value>
+    </labels>
+    <labels>
+        <fullName>saveNodrizaDebugInQuote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save Nodriza Debug In Quote</shortDescription>
+        <value>true</value>
+    </labels>
+    <labels>
+        <fullName>usuariosIntegracionesIds</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>usuariosIntegracionesIds</shortDescription>
+        <value>0053l00000ATRKEAA5, 0053l00000GR0fvAAD, 0051N000007Eu0ZQAS, 0053l00000ATRKFAA5</value>
+    </labels>
+</CustomLabels>

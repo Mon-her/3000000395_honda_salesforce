@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Usuario_depende_economicamente_hijo4__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(AM_Usuario_motocicleta__r.PersonContact.AM_Depende_economicamente_de_usted_Hijo4__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Usuario depende economicamente hijo4</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

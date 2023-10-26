@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Campos_PNConversion_Motos</fullName>
+    <active>true</active>
+    <description>Se encarga de validar campos obligatorios de Persona Natural, impidiendo la conversión si faltase algún campo.</description>
+    <errorConditionFormula>AND( RecordType.Name == &quot;Persona Natural Motos&quot;, TEXT(Status)==&quot;Convertido&quot;,OR(  AND(TEXT(Permiso_de_contacto__c)== null,Autorizacion_Digital__c==False), MobilePhone == null,  Text(Producto_de_inter_s_Motos__c) == null,  TEXT(Tipo_de_documento__c)==null,  Nmero_de_documento__c ==null ))</errorConditionFormula>
+    <errorMessage>Favor verificar que los siguientes campos estén diligenciados: Permiso de Contacto, Tipo de documento, Número de documento, Celular y Producto de interés.</errorMessage>
+</ValidationRule>

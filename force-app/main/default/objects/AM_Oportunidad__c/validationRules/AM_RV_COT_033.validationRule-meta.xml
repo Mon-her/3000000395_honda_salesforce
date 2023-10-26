@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_033</fullName>
+    <active>false</active>
+    <description>Debe registrar el campo &quot;Uso de la Motocicleta&quot; para las etapas de negociación, prospectación y facturación.</description>
+    <errorConditionFormula>AND
+(
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+TEXT( AM_Etapa__c ) =   &quot;Facturación&quot;,
+ISBLANK( TEXT( Uso_de_Motocicleta__c )) 
+)</errorConditionFormula>
+    <errorMessage>Debe registrar el campo &quot;Uso de la Motocicleta&quot; para las etapas de negociación, prospectación y facturación.</errorMessage>
+</ValidationRule>

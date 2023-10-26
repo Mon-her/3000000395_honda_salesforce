@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MC_RV_COT_088</fullName>
+    <active>false</active>
+    <description>Debe completar el campo &quot;Best Drive&quot;, campo obligatorio.
+MC_RV_COT_088</description>
+    <errorConditionFormula>AND
+(
+RecordType.Name &lt;&gt; &quot;Presupuesto&quot;,
+NOT(BEGINS($Profile.Name, &quot;Gerente de ventas&quot;)),
+TEXT(AM_Etapa__c)&lt;&gt; &quot;PU&quot;,
+OR(
+ISBLANK(TEXT( AM_Test_Drive__c ))
+
+))</errorConditionFormula>
+    <errorDisplayField>AM_Test_Drive__c</errorDisplayField>
+    <errorMessage>Debe completar el campo &quot;Best Drive&quot;, campo obligatorio.
+MC_RV_COT_088</errorMessage>
+</ValidationRule>

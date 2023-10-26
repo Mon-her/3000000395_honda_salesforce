@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_NivelSocioE_PU</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( TEXT(StageName)=&quot;PU&quot;, ISBLANK( TEXT( Account.AM_Nivel_Socioeconomico__c  )), CONTAINS(Account.RecordType.Name, &quot;Natural&quot;), Registro_Migrado__c == false )</errorConditionFormula>
+    <errorMessage>La cuenta relacionada a esta oportunidad no tiene diligenciado el campo Nivel Socio Económico, favor verificar antes de continuar.</errorMessage>
+</ValidationRule>

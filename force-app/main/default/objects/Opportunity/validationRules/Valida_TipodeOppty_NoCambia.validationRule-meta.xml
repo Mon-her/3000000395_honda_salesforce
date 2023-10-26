@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_TipodeOppty_NoCambia</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISBLANK(TEXT( Tipo_de_Oportunidad__c ))), ISCHANGED(Tipo_de_Oportunidad__c), TEXT(PRIORVALUE(Tipo_de_Oportunidad__c))&lt;&gt;&quot;&quot;,TEXT(Tipo_de_Oportunidad__c)&lt;&gt;TEXT(PRIORVALUE(Tipo_de_Oportunidad__c)))</errorConditionFormula>
+    <errorMessage>No se puede cambiar el tipo de oportunidad.</errorMessage>
+</ValidationRule>

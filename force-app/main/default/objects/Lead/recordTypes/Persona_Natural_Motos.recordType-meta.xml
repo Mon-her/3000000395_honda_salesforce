@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Persona_Natural_Motos</fullName>
+    <active>true</active>
+    <businessProcess>Persona Natural Motos</businessProcess>
+    <compactLayoutAssignment>Leads_Motos_Persona_Natural</compactLayoutAssignment>
+    <description>Record Type Persona Natural Motos</description>
+    <label>Persona Natural Motos</label>
+    <picklistValues>
+        <picklist>Anexo__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Autoriza_tratamiento_de_datos_personales__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cargo__c</picklist>
+        <values>
+            <fullName>Gerente administrativo y Financiero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gerente de bienestar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gerente de compras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gerente de mercadeo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gerente de recursos humanos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gerente de ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jefe de compras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jefe de recursos humanos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pagador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Propietario dueño de empresa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Representante legal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Categoria_Fuente_de_prospeccion__c</picklist>
+        <values>
+            <fullName>Colegios%2FUniversidades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comercial de T%2EV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correo directo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuña radio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Directorio telefónico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inserto prensa o revista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuevos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Playa de ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Página web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Redes Sociales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relacionamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sector económico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sitios externos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Usados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volantes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Desea_recibir_correo_electronico__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Desea_recibir_informaci_n_al_movil__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Estado_de_Cuenta__c</picklist>
+        <values>
+            <fullName>Activo</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Inactivo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Forma_de_pago__c</picklist>
+        <values>
+            <fullName>Contado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contado %2B Crédito %2B Retoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contado %2B Retoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credito %2F Leasing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crédito %2F Leasing %2B Contado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crédito %2F Leasing %2B Retoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Administrativa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agricultura %2F Ganadería</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comercializadora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construcción</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consultoria y Asesoria Empresarial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Educación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Empresa de servicios publicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entretenimiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financiera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingeniería</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jurídica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mantenimiento %2F Reparación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mercadeo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otros servicios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Producción industrial %2F Fábrica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguridad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicios generales%28aseo%2C vigilancia%2C mensajería%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tecnología</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecomunicacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Textil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transporte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turismo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Referidos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Sr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sra%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Nivel_de_interes__c</picklist>
+        <values>
+            <fullName>Alto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bajo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Permiso_de_contacto__c</picklist>
+        <values>
+            <fullName>Autorizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No autorizado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Producto_de_inter_s_Motos__c</picklist>
+        <values>
+            <fullName>CB 110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 125F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F DLX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F DLX MAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F DLX SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F STD MAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 160F STD SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 190R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 190R RACING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 190R REPSOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB 250 TWISTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB125F MAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIO DLX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIO STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DREAM NEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DREAM NEO ACTIVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAVI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAVI ADVENTURE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAVI ADVENTURE BLANCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAVI MIX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCX 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAVE 110S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAVE 110S RACING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAVE 110S SPORT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XR 150L</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE 190 DLX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE 300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE 300 RALLY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE190 STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XRE300 ABS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Quiero_Financiar__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Razon_de_no_Interes__c</picklist>
+        <values>
+            <fullName>Desea comprar en otro momento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No contactable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No interesado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Número equivocado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Registro_activo__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo__c</picklist>
+        <values>
+            <fullName>Cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecto</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_cuenta__c</picklist>
+        <values>
+            <fullName>Prospecto</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_documento__c</picklist>
+        <values>
+            <fullName>Carné Diplomático</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cédula de ciudadanía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cédula de extranjería</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Identificación de Extranjeros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pasaporte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin identificación del exterior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarjeta de Identidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarjeta de extranjería</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tipo de documento extranjero</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_oportunidad__c</picklist>
+        <values>
+            <fullName>Nuevos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Usados</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

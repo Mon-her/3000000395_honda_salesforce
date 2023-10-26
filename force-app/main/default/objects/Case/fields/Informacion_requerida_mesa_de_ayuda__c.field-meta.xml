@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Informacion_requerida_mesa_de_ayuda__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Subcategoria_2__c , 
+&quot;Creación de Referencias&quot;, &quot;Adjuntar el formato (F-MD-0013 - Solicitud de creación de referencia) el cual debe ir con todos los campos debidamente diligenciados.&quot;, 
+&quot;Nota Crédito&quot;, &quot;Adjuntar el formato (PA-RE-001 - Formato de solicitud de notas crédito) el cual debe ir con todos los campos debidamente diligenciados.&quot;,
+&quot;Actualización de Precios&quot;,&quot;Adjuntar el formato (PA-RE-002 - Formato solicitud actualización precios o desbloqueos referencias) el cual debe ir con todos los campos debidamente diligenciados.&quot;,
+&quot;Ubicación del Repuesto&quot;,&quot;Se requiere identificar en el campo de descripción el # de los pedidos y las referencias a consultar.&quot;,
+&quot;Cotización de Repuesto&quot;,&quot;Se requiere identificar en el campo de descripción las referencias y la lista de precio correspondiente a consultar.&quot;,
+&quot;Consulta Referencia Sustituta&quot;,&quot;Se requiere identificar en el campo de descripción las referencias correspondientes a consultar.&quot;,
+&quot;Consulta de Manual de Partes&quot;,&quot;Se requiere una información clara de la consulta en el campo de descripción y en lo posible imágenes por medio del adjunto.&quot;,
+&quot;SIHON&quot;,&quot;Se requiere una información clara de la consulta en el campo de descripción y en lo posible imágenes por medio del adjunto.&quot;,
+&quot;Creación y Desbloqueo Usuario Honda IN&quot;,&quot;Adjuntar el formato (Formato solicitud Creación y desbloqueo de usuario Honda In) el cual debe ir con todos los campos debidamente diligenciados.&quot;,
+&quot;Consulta Fecha de llegada Repuesto&quot;,&quot;Se requiere identificar en el campo de descripción el # de los pedidos y las referencias a consultar.&quot;,
+&quot;Desbloqueo de Referencias&quot;,&quot;Adjuntar el formato (PA-RE-002 - Formato solicitud actualización precios o desbloqueos referencias) el cual debe ir con todos los campos debidamente diligenciados.&quot;,
+&quot;Solicitud Desarme de Vehículo&quot;,&quot;Se requiere identificar en el campo de descripción el # de los pedidos y las referencias a consultar.&quot;,
+&quot;Baterías&quot;,&quot;Adjuntar la tirilla de la última medición&quot;,
+&quot;Diferente a Baterías&quot;,&quot;Adjuntar las evidencias del inconveniente&quot;,
+&quot;Enviar evidencias, información de usuarios o códigos&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Información requerida mesa de ayuda</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

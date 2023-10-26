@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Movil</fullName>
+    <active>true</active>
+    <description>Debe ser igual a 10 caracteres numéricos e iniciar con un 3, No debe contener una serie de números consecutivos ascendente y/o descendente, por ejemplo: 1234567, 7654321, 2345678, 9876543. (Hasta 7 caracteres)</description>
+    <errorConditionFormula>AND
+(
+$User.AO_BypassApex__c = false,
+IF(
+AND(
+TEXT(AM_Tipo_de_documento__c ) &lt;&gt; &quot;Cédula de extranjería&quot;,
+NOT(ISBLANK( PersonMobilePhone ))),
+OR(
+REGEX(PersonMobilePhone, &quot;^[0]{10}$*&quot;),
+REGEX(PersonMobilePhone, &quot;^[1]{10}$*&quot;),
+REGEX(PersonMobilePhone, &quot;^[2]{10}$*&quot;),
+REGEX(PersonMobilePhone, &quot;^[3]{10}$*&quot;),
+REGEX(PersonMobilePhone, &quot;^[4]{10}$*&quot;),
+REGEX(PersonMobilePhone, &quot;^[5]{10}$*&quot;),
+REGEX(PersonMobilePhone, &quot;^[6]{10}$*&quot;),
+REGEX(PersonMobilePhone, &quot;^[7]{10}$*&quot;),
+REGEX(PersonMobilePhone, &quot;^[8]{10}$*&quot;),
+REGEX(PersonMobilePhone, &quot;^[9]{10}$*&quot;),
+NOT(REGEX( PersonMobilePhone , &quot;[0-9]{10}&quot;)),
+NOT(BEGINS( PersonMobilePhone, &quot;3&quot;)),
+REGEX(PersonMobilePhone, &quot;.*(\\d)\\1{6}.*&quot;),
+PersonMobilePhone = AM_Numero_de_documento__c,
+PersonMobilePhone = &quot;3123456789&quot;,
+PersonMobilePhone = &quot;3987654321&quot;,
+PersonMobilePhone = &quot;3012345678&quot;),FALSE
+))</errorConditionFormula>
+    <errorDisplayField>PersonMobilePhone</errorDisplayField>
+    <errorMessage>Debe ser igual a 10 caracteres numéricos e iniciar con un 3, No debe contener una serie de números consecutivos ascendente y/o descendente</errorMessage>
+</ValidationRule>

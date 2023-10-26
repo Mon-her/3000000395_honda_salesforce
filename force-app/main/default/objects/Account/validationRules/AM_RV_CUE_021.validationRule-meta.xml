@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_CUE_021</fullName>
+    <active>true</active>
+    <description>Debe diligenciar el campo Correo electrónico o marque la casilla No recibir correos electrónicos para continuar.
+AM_RV_CUE_021</description>
+    <errorConditionFormula>AND 
+(
+	NOT(REGEX(  PersonEmail  ,&apos;([a-zA-Z0-9_\\-\\.]+){2,40}@((\\[a-z]{1,3}\\.[a-z]{1,3}\\.[a-z]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})&apos;)),
+	RecordType.DeveloperName = &apos;AM_CUE_Persona_natural&apos;,
+ TEXT( Desea_recibir_Correo_Electronico__c )==&quot;Si&quot;
+)</errorConditionFormula>
+    <errorDisplayField>PersonEmail</errorDisplayField>
+    <errorMessage>Debe diligenciar el campo Correo electrónico si seleccionó si en el campo Desea recibir correo electrónico para continuar.
+AM_RV_CUE_021</errorMessage>
+</ValidationRule>

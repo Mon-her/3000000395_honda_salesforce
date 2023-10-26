@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Formato_compacto_Cotizacion</fullName>
+    <fields>Name</fields>
+    <fields>AM_Tipo_de_cotizacion__c</fields>
+    <fields>AM_Propietario_motocicleta__c</fields>
+    <fields>AM_Placa__c</fields>
+    <fields>AM_Estado1__c</fields>
+    <fields>AM_Modelo_de_interes__c</fields>
+    <fields>AM_Fecha_de_cierre__c</fields>
+    <fields>AM_Etapa__c</fields>
+    <fields>RecordTypeId</fields>
+    <label>Formato compacto Cotizacion</label>
+</CompactLayout>

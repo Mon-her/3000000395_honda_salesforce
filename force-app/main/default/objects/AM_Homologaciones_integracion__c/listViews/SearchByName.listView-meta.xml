@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SearchByName</fullName>
+    <columns>NAME</columns>
+    <columns>AM_Objeto__c</columns>
+    <columns>AM_Nombre_Campo__c</columns>
+    <columns>AM_Sistema__c</columns>
+    <columns>AM_Codigo_que_se_envia__c</columns>
+    <columns>AM_Codigo_que_se_recibe__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>AM_Nombre_Campo__c</field>
+        <operation>contains</operation>
+        <value>Plan</value>
+    </filters>
+    <label>Buscar por nombre</label>
+    <language>es</language>
+</ListView>

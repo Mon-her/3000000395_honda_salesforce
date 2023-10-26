@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_cambio_de_etapa_manualmente_P4_P5</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+AND( !contains(BLANKVALUE($Setup.ReasignacionMasiva__c.Id_Usuario__c, &apos;HOLA&apos;),$User.Id), RecordType.Name == &quot;Oportunidad Autos&quot;, $User.AO_BypassApex__c = false, $Profile.Name &lt;&gt; &apos;Integraciones&apos;, $Profile.Name &lt;&gt; &apos;Administrador del sistema&apos;, $Profile.Name &lt;&gt; &apos;Administrador del sistema autos&apos;,ISCHANGED(StageName),
+TEXT( StageName )==&quot;P5&quot;
+),
+AND( !contains(BLANKVALUE($Setup.ReasignacionMasiva__c.Id_Usuario__c, &apos;HOLA&apos;),$User.Id), RecordType.Name == &quot;Oportunidad Autos&quot;, $User.AO_BypassApex__c = false, $Profile.Name &lt;&gt; &apos;Integraciones&apos;, $Profile.Name &lt;&gt; &apos;Administrador del sistema&apos;,$Profile.Name &lt;&gt; &apos;Administrador del sistema autos&apos;,$Profile.Name &lt;&gt; &apos;Administrativo autos&apos;, ISCHANGED(StageName),
+TEXT( StageName )==&quot;P4&quot;)
+)
+&amp;&amp; $User.Username&lt;&gt;&quot;admin@fanalca.com&quot;</errorConditionFormula>
+    <errorMessage>No se puede cambiar la etapa de la Oportunidad manualmente a las etapas P4 o P5.</errorMessage>
+</ValidationRule>

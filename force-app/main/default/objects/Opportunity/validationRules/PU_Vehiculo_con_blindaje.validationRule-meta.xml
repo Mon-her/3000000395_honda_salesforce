@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PU_Vehiculo_con_blindaje</fullName>
+    <active>true</active>
+    <description>Etapa PU Vehiculos con blindaje, al seleccionar SI, los campos Blindadora y Tipo de blindaje deben registrarse.</description>
+    <errorConditionFormula>AND(
+TEXT( StageName ) = &quot;PU&quot;,
+ISBLANK(TEXT( Vehiculo_con_blindaje__c ))
+)</errorConditionFormula>
+    <errorDisplayField>Vehiculo_con_blindaje__c</errorDisplayField>
+    <errorMessage>Etapa PU Vehiculos con blindaje, al seleccionar SI, los campos Blindadora y Tipo de blindaje deben registrarse.</errorMessage>
+</ValidationRule>

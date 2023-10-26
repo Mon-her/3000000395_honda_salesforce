@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Start_Date_In_Past</fullName>
+    <active>true</active>
+    <description>Start date for newly created events can&apos;t be in the past.</description>
+    <errorConditionFormula>AND( ISNEW(),  Event_Start_Date__c &lt; NOW())</errorConditionFormula>
+    <errorDisplayField>Event_Start_Date__c</errorDisplayField>
+    <errorMessage>The start date/time for an event can&apos;t be in the past.</errorMessage>
+</ValidationRule>

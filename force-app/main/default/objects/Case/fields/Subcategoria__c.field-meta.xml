@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subcategoria__c</fullName>
+    <externalId>false</externalId>
+    <label>Subcategoria</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Reason</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Actividades Prentrega del Vehículo</fullName>
+                <default>false</default>
+                <label>Actividades Prentrega del Vehículo</label>
+            </value>
+            <value>
+                <fullName>Agendamiento de taller</fullName>
+                <default>false</default>
+                <label>Agendamiento de taller</label>
+            </value>
+            <value>
+                <fullName>Agendar Cita de Taller</fullName>
+                <default>false</default>
+                <label>Agendar Cita de Taller</label>
+            </value>
+            <value>
+                <fullName>Atencion de recall en taller</fullName>
+                <default>false</default>
+                <label>Atencion de recall en taller</label>
+            </value>
+            <value>
+                <fullName>Certificacion de importacion</fullName>
+                <default>false</default>
+                <label>Certificacion de importacion</label>
+            </value>
+            <value>
+                <fullName>Cobro del servicio</fullName>
+                <default>false</default>
+                <label>Cobro del servicio</label>
+            </value>
+            <value>
+                <fullName>Consulta de datos de contactabilidad</fullName>
+                <default>false</default>
+                <label>Consulta de datos de contactabilidad</label>
+            </value>
+            <value>
+                <fullName>Consulta entrega de moto</fullName>
+                <default>false</default>
+                <label>Consulta entrega de moto</label>
+            </value>
+            <value>
+                <fullName>Consulta entrega de repuesto</fullName>
+                <default>false</default>
+                <label>Consulta entrega de repuesto</label>
+            </value>
+            <value>
+                <fullName>Consulta normal</fullName>
+                <default>false</default>
+                <label>Consulta normal</label>
+            </value>
+            <value>
+                <fullName>Consulta sobre pagos y creditos</fullName>
+                <default>false</default>
+                <label>Consulta sobre pagos y creditos</label>
+            </value>
+            <value>
+                <fullName>Copia de factura</fullName>
+                <default>false</default>
+                <label>Copia de factura</label>
+            </value>
+            <value>
+                <fullName>Cotizacion de accesorio (Casco, chaqueta, etc)</fullName>
+                <default>false</default>
+                <label>Cotizacion de accesorio (Casco, chaqueta, etc)</label>
+            </value>
+            <value>
+                <fullName>Cotizacion de repuesto</fullName>
+                <default>false</default>
+                <label>Cotizacion de repuesto</label>
+            </value>
+            <value>
+                <fullName>Cotizacion de servicio</fullName>
+                <default>false</default>
+                <label>Cotizacion de servicio</label>
+            </value>
+            <value>
+                <fullName>Cotizar un Repuesto</fullName>
+                <default>false</default>
+                <label>Cotizar un Repuesto</label>
+            </value>
+            <value>
+                <fullName>Cotizar un Servicio</fullName>
+                <default>false</default>
+                <label>Cotizar un Servicio</label>
+            </value>
+            <value>
+                <fullName>Demanda</fullName>
+                <default>false</default>
+                <label>Demanda</label>
+            </value>
+            <value>
+                <fullName>Demora entrega motocicleta</fullName>
+                <default>false</default>
+                <label>Demora entrega motocicleta</label>
+            </value>
+            <value>
+                <fullName>Demora entrega motocicleta tienda virtual</fullName>
+                <default>false</default>
+                <label>Demora entrega motocicleta tienda virtual</label>
+            </value>
+            <value>
+                <fullName>Devolucion de dinero</fullName>
+                <default>false</default>
+                <label>Devolucion de dinero</label>
+            </value>
+            <value>
+                <fullName>Exclusión de Habeas Data</fullName>
+                <default>false</default>
+                <label>Exclusión de Habeas Data</label>
+            </value>
+            <value>
+                <fullName>Falla tecnica</fullName>
+                <default>false</default>
+                <label>Falla tecnica</label>
+            </value>
+            <value>
+                <fullName>Felicitacion</fullName>
+                <default>false</default>
+                <label>Felicitacion</label>
+            </value>
+            <value>
+                <fullName>Felicitaciones Taller</fullName>
+                <default>false</default>
+                <label>Felicitaciones Taller</label>
+            </value>
+            <value>
+                <fullName>Felicitaciones Ventas</fullName>
+                <default>false</default>
+                <label>Felicitaciones Ventas</label>
+            </value>
+            <value>
+                <fullName>Garantia</fullName>
+                <default>false</default>
+                <label>Garantia</label>
+            </value>
+            <value>
+                <fullName>Garantia del concesionario</fullName>
+                <default>false</default>
+                <label>Garantia del concesionario</label>
+            </value>
+            <value>
+                <fullName>Garantías</fullName>
+                <default>false</default>
+                <label>Garantías</label>
+            </value>
+            <value>
+                <fullName>Incumplimiento de acuerdos</fullName>
+                <default>false</default>
+                <label>Incumplimiento de acuerdos</label>
+            </value>
+            <value>
+                <fullName>Informacion tienda virtual</fullName>
+                <default>false</default>
+                <label>Informacion tienda virtual</label>
+            </value>
+            <value>
+                <fullName>Levantamiento prenda</fullName>
+                <default>false</default>
+                <label>Levantamiento prenda</label>
+            </value>
+            <value>
+                <fullName>Mala calidad reparación</fullName>
+                <default>false</default>
+                <label>Mala calidad reparación</label>
+            </value>
+            <value>
+                <fullName>Peticiones Taller</fullName>
+                <default>false</default>
+                <label>Peticiones Taller</label>
+            </value>
+            <value>
+                <fullName>Peticiones Ventas</fullName>
+                <default>false</default>
+                <label>Peticiones Ventas</label>
+            </value>
+            <value>
+                <fullName>PQR Documentada</fullName>
+                <default>false</default>
+                <label>PQR Documentada</label>
+            </value>
+            <value>
+                <fullName>Procedimiento no autorizado por el cliente</fullName>
+                <default>false</default>
+                <label>Procedimiento no autorizado por el cliente</label>
+            </value>
+            <value>
+                <fullName>Procedimiento taller</fullName>
+                <default>false</default>
+                <label>Procedimiento taller</label>
+            </value>
+            <value>
+                <fullName>Queja</fullName>
+                <default>false</default>
+                <label>Queja</label>
+            </value>
+            <value>
+                <fullName>Queja por agendamiento</fullName>
+                <default>false</default>
+                <label>Queja por agendamiento</label>
+            </value>
+            <value>
+                <fullName>Queja por cobro de servicio</fullName>
+                <default>false</default>
+                <label>Queja por cobro de servicio</label>
+            </value>
+            <value>
+                <fullName>Queja por servicio al cliente</fullName>
+                <default>false</default>
+                <label>Queja por servicio al cliente</label>
+            </value>
+            <value>
+                <fullName>Queja publicidad e informacion engañosa</fullName>
+                <default>false</default>
+                <label>Queja publicidad e informacion engañosa</label>
+            </value>
+            <value>
+                <fullName>Quejas y Reclamos Taller</fullName>
+                <default>false</default>
+                <label>Quejas y Reclamos Taller</label>
+            </value>
+            <value>
+                <fullName>Quejas y Reclamos Ventas</fullName>
+                <default>false</default>
+                <label>Quejas y Reclamos Ventas</label>
+            </value>
+            <value>
+                <fullName>Quiero ser distribuidor</fullName>
+                <default>false</default>
+                <label>Quiero ser distribuidor</label>
+            </value>
+            <value>
+                <fullName>Quiero ser distribuidor/almacen</fullName>
+                <default>false</default>
+                <label>Quiero ser distribuidor/almacen</label>
+            </value>
+            <value>
+                <fullName>Quiero ser taller autorizado</fullName>
+                <default>false</default>
+                <label>Quiero ser taller autorizado</label>
+            </value>
+            <value>
+                <fullName>Recepcion de urgencia</fullName>
+                <default>false</default>
+                <label>Recepcion de urgencia</label>
+            </value>
+            <value>
+                <fullName>Rechazo de garantia</fullName>
+                <default>false</default>
+                <label>Rechazo de garantia</label>
+            </value>
+            <value>
+                <fullName>Rentadiario</fullName>
+                <default>false</default>
+                <label>Rentadiario</label>
+            </value>
+            <value>
+                <fullName>Renting</fullName>
+                <default>false</default>
+                <label>Renting</label>
+            </value>
+            <value>
+                <fullName>Repuestos</fullName>
+                <default>false</default>
+                <label>Repuestos</label>
+            </value>
+            <value>
+                <fullName>Servicio</fullName>
+                <default>false</default>
+                <label>Servicio</label>
+            </value>
+            <value>
+                <fullName>Solicitar Best Drive</fullName>
+                <default>false</default>
+                <label>Solicitar Best Drive</label>
+            </value>
+            <value>
+                <fullName>Solicitud mal resuelta</fullName>
+                <default>false</default>
+                <label>Solicitud mal resuelta</label>
+            </value>
+            <value>
+                <fullName>Solicitud o procedimiento mal resuelto</fullName>
+                <default>false</default>
+                <label>Solicitud o procedimiento mal resuelto</label>
+            </value>
+            <value>
+                <fullName>Sugerencias Taller</fullName>
+                <default>false</default>
+                <label>Sugerencias Taller</label>
+            </value>
+            <value>
+                <fullName>Sugerencias Ventas</fullName>
+                <default>false</default>
+                <label>Sugerencias Ventas</label>
+            </value>
+            <value>
+                <fullName>Trabaje con Nosotros</fullName>
+                <default>false</default>
+                <label>Trabaje con Nosotros</label>
+            </value>
+            <value>
+                <fullName>Felicitaciones</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Felicitaciones</label>
+            </value>
+            <value>
+                <fullName>Peticiones</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Peticiones</label>
+            </value>
+            <value>
+                <fullName>Posventa</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Posventa</label>
+            </value>
+            <value>
+                <fullName>Quejas y Reclamos</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Quejas y Reclamos</label>
+            </value>
+            <value>
+                <fullName>Ventas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ventas</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>PQR documentada</controllingFieldValue>
+            <controllingFieldValue>Consulta jurídica</controllingFieldValue>
+            <controllingFieldValue>Consulta técnica</controllingFieldValue>
+            <valueName>Demanda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Progresser</controllingFieldValue>
+            <valueName>Levantamiento prenda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recall</controllingFieldValue>
+            <valueName>Atencion de recall en taller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <controllingFieldValue>Motos</controllingFieldValue>
+            <valueName>Consulta de datos de contactabilidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>Consulta entrega de repuesto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <controllingFieldValue>Motos</controllingFieldValue>
+            <valueName>Copia de factura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>Cotizacion de accesorio (Casco, chaqueta, etc)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>Cotizacion de repuesto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <controllingFieldValue>Motos</controllingFieldValue>
+            <valueName>Devolucion de dinero</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <controllingFieldValue>Motos</controllingFieldValue>
+            <valueName>Incumplimiento de acuerdos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <controllingFieldValue>Motos</controllingFieldValue>
+            <valueName>Queja</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <controllingFieldValue>Motos</controllingFieldValue>
+            <valueName>Queja por servicio al cliente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <controllingFieldValue>Motos</controllingFieldValue>
+            <valueName>Queja publicidad e informacion engañosa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <valueName>Quiero ser distribuidor/almacen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Repuestos</controllingFieldValue>
+            <controllingFieldValue>Motos</controllingFieldValue>
+            <valueName>Solicitud o procedimiento mal resuelto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <valueName>Agendamiento de taller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <valueName>Cobro del servicio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <valueName>Cotizacion de servicio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <valueName>Demora entrega motocicleta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <valueName>Falla tecnica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <valueName>Mala calidad reparación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <valueName>Procedimiento no autorizado por el cliente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <valueName>Queja por agendamiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <valueName>Queja por cobro de servicio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <valueName>Quiero ser taller autorizado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <valueName>Recepcion de urgencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <valueName>Rechazo de garantia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Taller</controllingFieldValue>
+            <valueName>Solicitud mal resuelta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quiero un Auto - Tickets Internos</controllingFieldValue>
+            <valueName>Actividades Prentrega del Vehículo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quiero un Auto - Tickets Internos</controllingFieldValue>
+            <valueName>Rentadiario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quiero un Auto - Tickets Internos</controllingFieldValue>
+            <valueName>Renting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quiero un Auto - Tickets Internos</controllingFieldValue>
+            <valueName>Solicitar Best Drive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radicar PQRSF - Ticket Externos</controllingFieldValue>
+            <valueName>Felicitaciones Ventas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radicar PQRSF - Ticket Externos</controllingFieldValue>
+            <valueName>Peticiones Ventas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radicar PQRSF - Ticket Externos</controllingFieldValue>
+            <valueName>Quejas y Reclamos Ventas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radicar PQRSF - Ticket Externos</controllingFieldValue>
+            <valueName>Sugerencias Ventas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radicar PQRSF - Ticket Externos</controllingFieldValue>
+            <valueName>Trabaje con Nosotros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicio Posventa - Tickets Externos</controllingFieldValue>
+            <valueName>Agendar Cita de Taller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicio Posventa - Tickets Externos</controllingFieldValue>
+            <valueName>Cotizar un Repuesto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicio Posventa - Tickets Externos</controllingFieldValue>
+            <valueName>Cotizar un Servicio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radicar PQRSF - Tickets Internos</controllingFieldValue>
+            <valueName>Felicitaciones Taller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radicar PQRSF - Tickets Internos</controllingFieldValue>
+            <valueName>Peticiones Taller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radicar PQRSF - Tickets Internos</controllingFieldValue>
+            <valueName>Quejas y Reclamos Taller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radicar PQRSF - Tickets Internos</controllingFieldValue>
+            <valueName>Sugerencias Taller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consulta técnica</controllingFieldValue>
+            <valueName>Consulta normal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consulta técnica</controllingFieldValue>
+            <valueName>Garantia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consulta técnica</controllingFieldValue>
+            <valueName>PQR Documentada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consulta técnica</controllingFieldValue>
+            <valueName>Procedimiento taller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Motos</controllingFieldValue>
+            <valueName>Certificacion de importacion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Motos</controllingFieldValue>
+            <valueName>Consulta entrega de moto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Motos</controllingFieldValue>
+            <valueName>Consulta sobre pagos y creditos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Motos</controllingFieldValue>
+            <valueName>Demora entrega motocicleta tienda virtual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Motos</controllingFieldValue>
+            <valueName>Felicitacion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Motos</controllingFieldValue>
+            <valueName>Informacion tienda virtual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Motos</controllingFieldValue>
+            <valueName>Quiero ser distribuidor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Garantia</controllingFieldValue>
+            <valueName>Garantia del concesionario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radicar Consultas - Tickets Internos</controllingFieldValue>
+            <valueName>Garantías</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radicar Consultas - Tickets Internos</controllingFieldValue>
+            <valueName>Repuestos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radicar Consultas - Tickets Internos</controllingFieldValue>
+            <valueName>Servicio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data</controllingFieldValue>
+            <valueName>Exclusión de Habeas Data</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

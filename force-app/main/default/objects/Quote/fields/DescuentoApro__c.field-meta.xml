@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DescuentoApro__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Campo utilizado por el proceso de aprobación para determinar si el descuento solicitado fue aprobado!</description>
+    <externalId>false</externalId>
+    <label>DescuentoApro</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

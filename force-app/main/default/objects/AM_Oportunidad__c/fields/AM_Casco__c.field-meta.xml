@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_Casco__c</fullName>
+    <description>En este campo se debe registrar el valor de los accesorio en caso de aplicar.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>En este campo se debe registrar el valor de los accesorio en caso de aplicar. &quot;Este valor es unicamente informativo&quot;</inlineHelpText>
+    <label>Casco</label>
+    <precision>6</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

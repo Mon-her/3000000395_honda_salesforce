@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM_RV_COT_073</fullName>
+    <active>true</active>
+    <description>Analista debe diligenciar información en estado PU:
+Informacion de Recompra
+AM_RV_COT_073</description>
+    <errorConditionFormula>AND
+(  $User.AO_BypassApex__c = false,      
+   RecordType.Name   = &quot;Cotizacion Persona Natural&quot;,
+         $Profile.Name = &quot;XXX&quot;,
+         TEXT ( AM_Etapa__c ) =  &quot;PU&quot;,
+NOT (ISCHANGED( AM_Estado1__c )), 
+OR(
+         TEXT ( Forma_de_pago__c ) = &quot;Contado + Retoma&quot;,
+         TEXT ( Forma_de_pago__c ) = &quot;Credito/Leasing + Retoma&quot;,
+         TEXT ( Forma_de_pago__c ) = &quot;Contado + Credito + Retoma&quot;,
+
+
+         OR
+         (
+
+
+ISBLANK(  AM_Otra_Marca__c ),  
+ISBLANK( Version__c), 
+ISBLANK( Linea__c )
+
+
+)
+))</errorConditionFormula>
+    <errorMessage>Analista debe diligenciar información en estado PU:
+Informacion de Recompra
+AM_RV_COT_073</errorMessage>
+</ValidationRule>

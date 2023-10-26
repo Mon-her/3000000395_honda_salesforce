@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cotizaciones_Autos</fullName>
+    <active>true</active>
+    <label>Cotizaciones Autos</label>
+    <picklistValues>
+        <picklist>AM_Cantidad_de_vehiculos__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AM_Plazo_Renting1__c</picklist>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>24</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>48</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AM_Plazo_Renting2__c</picklist>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>24</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>48</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AM_Plazo_Renting3__c</picklist>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>24</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>48</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AM_Servicios_adicionales__c</picklist>
+        <values>
+            <fullName>Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impermeabilización</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kit de seguridad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sustituto</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AM_Tipo_Renting__c</picklist>
+        <values>
+            <fullName>Rent Back Básico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rent Back Total</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renting Básico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renting Total</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renting Total sin llantas</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Averiguo_sobre_otras_marcas__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Como_se_entero_de_la_motocicleta__c</picklist>
+        <values>
+            <fullName>Agendamiento Posventa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BTL Fanalca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente Buena Paga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente Cancelado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente Posventa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comunicación Empresarial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exhibición Centro Comercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feria Local</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Facebook Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Facebook Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Financiación Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Financiación Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Motos Sitio Web Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Motos Sitio Web Inbound Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Reweb Facebook Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Reweb Facebook Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Reweb Financiación Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Reweb Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Reweb Teléfono Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Reweb Teléfono Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario Reweb Whatsapp Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbox Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbox Facebook Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Línea SAC Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Línea telefónica Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Playa de ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Publicidad exterior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Publicidad impresa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Televisión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teléfono Concesionario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toma Empresarial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vitrina Virtual Mercado Libre</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cual_marca_averiguo_durante_la_compra__c</picklist>
+        <values>
+            <fullName>AKT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bajaj</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kawasaki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kymco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Royal Enfield</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sigma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suzuki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sym</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Victory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yamaha</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Entidad_Financiera__c</picklist>
+        <values>
+            <fullName>Banco AV Villas S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Agrario de Colombia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco BBVA Colombia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Bancamia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Bancolombia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Caja Social BCSC S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Citibank Colombia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Colpatria S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Compartir S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Coomeva S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Cooperativo Coopcentral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco CorpBanca Colombia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Davivienda S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Falabella S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Finandina S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco GNB Sudameris S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Multibank S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Mundo Mujer S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Pichincha S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Popular S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco ProCredit Colombia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Santander de Negocios Colombia S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco WWB S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco de Bogotá S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco de Occidente S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crediorbe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fenalco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fondo nacional del ahorro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Progreser</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fuentes_de_contacto__c</picklist>
+        <values>
+            <fullName>Actividades Externas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BTL Canal Empresarial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Postventa%2FTaller%2FAlmacén</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Progreser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sala de Ventas</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Marca_de_motocicleta_anterior__c</picklist>
+        <values>
+            <fullName>AKT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bajaj</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jialing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KTM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kawasaki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kymco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ninguna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pulsar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suzuki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yamaha</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prueba_de_Manejo__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Q_hizo_con_su_anterior_motocicleta__c</picklist>
+        <values>
+            <fullName>La conserva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La tiene un familiar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ninguna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendida</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creada</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Enviada al Cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finalizada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Aceptada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tarifa_soat__c</picklist>
+        <values>
+            <fullName>Cilindrajes 0-99</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cilindrajes 100-200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cilindrajes Costa 0-99</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cilindrajes Costa 100-200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cilindrajes Costa superior a 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cilindrajes superiores a 200</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Temperatura__c</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tiempo_q_tuvo_moto_ant__c</picklist>
+        <values>
+            <fullName>%3C 1 año</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%3E 5 años</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1-2 años</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-5 años</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ninguna</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_Pago__c</picklist>
+        <values>
+            <fullName>101</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>102</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>103</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>104</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>105</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>107</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>uso_Principal_Moto__c</picklist>
+        <values>
+            <fullName>Recreación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabajo %28Generación de ingresos%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transporte Personal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
